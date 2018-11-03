@@ -5,13 +5,13 @@ output:
     template: ~/cv/svm-latex-cv.tex
 geometry: margin=1in
 
-title: "CV"
+title: "Judge-LordCV"
 author: William Sealy Gosset
 
-jobtitle: "PhD Candidate"
-address: "Guinness Brewery · Park Royal · London NW10 7RR, UK"
+jobtitle: no
+address: "110 North Hall, 1059 Bascom Mall, Madison, WI 53706K"
 fontawesome: yes
-email: guinness@consumer-care.net
+email: "judgelord@wisc.edu"
 # github: svmiller
 # twitter: stevenvmiller
 phone: "715.204.4287"
@@ -23,67 +23,160 @@ keywords: no
 fontfamily: mathpazo
 fontfamilyoptions: sc, osf
 fontsize: 11pt
-linkcolor: blue
-urlcolor: blue
+linkcolor: black
+urlcolor: black
 ---
+---
+# EDUCATION
 
-# Employment
+University of Wisconsin-Madison, Ph.D. in Political Science (in progress)
 
-*Arthur Guinness & Son*
+Yale University, MESc in Environmental Politics and Law (2013)
 
-Chief Brewer (Park Royal) \hfill 1935-1937
+Reed College, B.A. in Political Science (2010)
 
-Researcher (Dublin) \hfill 1899-1935
+---
+# PEER REVIEWED PUBLICATIONS
 
-# Education
+"Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change." with Irine Scher and Benjamin Cashore." [Peer-reviewed book chapter] In Forests Under Pressure: Local Responses to Global Issues. Austria. IUFRO World Series.
 
-*New College, Oxford University*, B.A. Chemistry \hfill 1899
+# WORKING PAPERS
+
+"Do private regulations 'ratchet up?' A comparative classification framework" with Benjamin Cashore and Constance McDermott [R\&R at *Organization \& the Environment*]
+
+"Why do agencies (sometimes) get so much mail: Lobbying coalitions, mass comments, and political information in bureaucratic policymaking" (SPSA 2019)
+
+"How legislators actually spend their time: constituents, donors, or policy" with Justin Grimmer and Eleanor Powell (APSA 2018)
+
+"Measuring Change and Influence in Budget Texts" (APSA 2017)
+
+"Why Courts Defer to Administrative Agency Judgement" (MPSA 2016)
+
+# OTHER PUBLICATIONS
+
+"Institutional Changes Needed to Implement Ecosystem-based Plans.” *Oregon Planners Journal* 28(1): 7. with J.R. Cochran.
+
+---
+# TEACHING ASSISTANT/GRADER POSITIONS
+
+University of Wisconsin-Madison
+
+- Public Policy (Undergraduate, 2016, 2017, 2018)
+
+- Policing in the U.S. (Undergraduate, 2015)
+
+Yale University 
+
+- The Politics and Practice of Environmental Policy (Graduate, 2012)
+
+- The Economics of Ecosystems and Biodiversity (Graduate, 2011)
+
+---
+# RESEARCH POSITIONS
+
+Project Assistant, University of Wisconsin-Madison (2015-Present)
+
+Affiliated Researcher, Yale University, Governance, Environment, and Markets (GEM) Initiative (2013–Present)
+
+Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)
+
+Regulatory Affairs Specialist, Washington County, Oregon (2010–2011)
 
 
-# Publications
+---
+# SELECTED AWARDS
 
-## Books
+Finalist, Best Graduate Student Paper Award, Association of Environmental Studies and Sciences
+Annual Conference (2015)
 
-Pearson, E.S. and John Wishart (eds.). 1943. *"Student's" Collected Papers* London: Biometrika Office.
+Best Master’s Thesis Research Award (runner-up), selected by faculty among all social
+and natural science Masters Thesis Colloquia presentations (Yale University 2013)
 
-## Journal Articles
+Best Student Research Award, Association of Environmental Studies and Sciences Annual Conference (2012)
 
-Student. 1938. "Comparison between Balanced and Random Arrangements on Field Plots." *Biometrika* 29(3-4): 363--378.
+Jubitz Family Foundation Summer Research Fellowship (Yale University 2012)
 
-Student. 1936. "Co-operation in Large Scale Experiments." *Supplement to Journal of the Royal Statistical Society* 3(2): 115--136.
+Carpenter-Sperry Research Award (Yale University 2012)
 
-Student. 1931. "On the *z* Test." *Biometrika* 23(3-4): 407-408.
+H. Stuart Harrison Scholarship (Yale University 2011–2013)
 
-Student. 1931. "The Lanarkshire Milk Experiment." *Biometrika* 23(3-4): 398--406.
+Ducey Fellowship for Public Policy—one of two competitive summer fellowships awarded by the
+Department of Political Science (Reed College 2009)
 
-Student. 1929. "Statistics in Biological Research." *Nature* 124: 93
+---
+# SERVICE
 
-Student. 1927. "Errors of Routine Analysis." *Biometrika* 19(1-2): 151--164.
+Referee: *Reguation \& Governane*, *Journal of Forest Policy and Economics*
 
-Student. 1926. "Mathematics and Agronomy." *Journal of the American Society of Agronomy* 18.
+Social Media Editor, American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP) (2017-present)
 
-Student. 1925. "New Tables for Testing the Significance of Observations." *Metron* 5(3): 105--108.
+Program Committee (2014–2016), Nominations Committee (2016-present), Association of Environmental Studies and Sciences (AESS) 
 
-Student. 1923. "On Testing Varieties of Cereals." *Biometrika* 15(3-4): 271--293.
+Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017)
 
-Student. 1921. "An Experimental Determination of the Probable Error of Dr. Spearman's Correlation Co-efficient" *Biometrika* 13(2-3): 263--282.
+Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law
+annual conference at Yale Law School
 
-Student. 1917. "Tables for Estimating the Probability That the Given Mean of a Unique Sample of Observations Lies between $-\infty$ and Any Given Distance of the Mean of the Population from Which the Sample Is Drawn." *Biometrika* 11(4): 414--417.
+---
+# CERTIFICATIONS
 
-Student. 1909. "The Distribution of the Means of Samples Which Are Not Drawn at Random." *Biometrika* 7(1-2): 210--214.
+Teaching in the Social Sciences Certificate (Yale University, 2012)
 
-Student. 1908. "Probable Error of a Correlation Coefficient." *Biometrika* 6(2-3): 302--310.
 
-Student. 1908. "The Probable Error of a Mean." *Biometrika* 6(1): 1--25.
 
-Student. 1907. "On the Error of Counting with a Haemacytometer." *Biometrika* 5(3): 351--360.
 
-## Other Publications
 
-Student. 1905. "The Pearson Co-efficient of Correlation." Supplement to Report of 1904, Arthur Guinness Son & Company.
 
-Student. 1904. "The Application of the 'Law of Error' to the Work of the Brewery." Report, Arthur Guinness Son & Company.
 
-# References
 
-Available upon request, though likely would include Karl Pearson and Ronald A. Fisher. Please send corrections, feedback, or details of missed publications (of which there are probably a few) to svmille@clemson.edu.
+
+```{extra, include = FALSE}
+"The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public" with Susan Yackee
+
+---
+PRESENTATIONS
+
+American Political Science Association (2017, 2018)
+
+Midwest Political Science Association (2016)
+
+Association of Environmental Studies and Sciences Annual Conference (2012, 2018)
+
+New Directions in Environmental Law Conference, Yale Law School (2012, 2013)
+
+
+
+Travel Grant (Yale University 2011, 2012)
+
+
+
+
+President, Yale Environmental Law Association Student Interest Group (2012–2013)
+
+
+SKILLS AND LANGUAGES
+R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
+Conversational Russian; basic Spanish
+
+
+Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)
+
+
+Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics
+
+Best Master’s Thesis Research Presentation Award (runner-up)
+
+
+“Measuring Change in Forest Certification Policies
+2
+
+Research Assistant, Governance, Environment, and Markets (GEM) Initiative
+• Analyzed methods employed in 220 journal articles
+
+
+• Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
+on Clean Water Act compliance (now Oregon Deparrtment of Environmetnal Quality Guidance)
+• Drafted legal language for an Oregon State Senate bill
+• Conducted a feasibility analysis that led to \$10 million in private investment, $1 million
+in public investment, and praise for the project in a speech by President Barack Obama
+```
