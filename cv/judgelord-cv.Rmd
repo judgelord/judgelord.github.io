@@ -12,8 +12,8 @@ jobtitle: no
 address: "110 North Hall, 1059 Bascom Mall, Madison, WI 53706"
 fontawesome: yes
 email: "JudgeLord@Wisc.edu"
-# github: judgelord
-# twitter: @judgelord
+github: judgelord
+twitter: judgelord
 phone: "715.204.4287"
 web: no
 updated: yes
@@ -129,6 +129,8 @@ Teaching in the Social Sciences Certificate (Yale University, 2012)
 
 
 ```{extra, include = FALSE}
+- Committee: Susan Yackee (chair), Eleanor Powell, Alex Tahk, Dave Weimer, Miriam Seifter
+
 
 # OTHER PUBLICATIONS
 
