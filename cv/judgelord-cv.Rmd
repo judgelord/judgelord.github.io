@@ -2,18 +2,18 @@
 output: 
   pdf_document:
     latex_engine: pdflatex
-    template: ~/cv/svm-latex-cv.tex
+    template: ~/judgelord.github.io/cv/svm-latex-cv.tex
 geometry: margin=1in
 
-title: "Judge-LordCV"
-author: William Sealy Gosset
+title: "CV"
+author: Devin Judge-Lord
 
 jobtitle: no
-address: "110 North Hall, 1059 Bascom Mall, Madison, WI 53706K"
+address: "110 North Hall, 1059 Bascom Mall, Madison, WI 53706"
 fontawesome: yes
-email: "judgelord@wisc.edu"
-# github: svmiller
-# twitter: stevenvmiller
+email: "JudgeLord@Wisc.edu"
+# github: judgelord
+# twitter: @judgelord
 phone: "715.204.4287"
 web: no
 updated: yes
@@ -26,27 +26,28 @@ fontsize: 11pt
 linkcolor: black
 urlcolor: black
 ---
----
+
 # EDUCATION
 
-University of Wisconsin-Madison, Ph.D. in Political Science (in progress)
+University of Wisconsin-Madison, Ph.D. in Political Science (2015-present)
+
+- Dissertation: _Political Information in Bureaucratic Policymaking_
 
 Yale University, MESc in Environmental Politics and Law (2013)
 
 Reed College, B.A. in Political Science (2010)
 
----
-# PEER REVIEWED PUBLICATIONS
+# PEER-REVIEWED PUBLICATIONS
 
-"Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change." with Irine Scher and Benjamin Cashore." [Peer-reviewed book chapter] In Forests Under Pressure: Local Responses to Global Issues. Austria. IUFRO World Series.
+"Non-domestic Sources of Canadian Boreal Forest Policy: Integrating theories of internationalization and pathways of policy change." with Irene Scher and Benjamin Cashore. [Peer-reviewed book chapter] In *Forests Under Pressure: Local Responses to Global Issues.* 
 
 # WORKING PAPERS
 
-"Do private regulations 'ratchet up?' A comparative classification framework" with Benjamin Cashore and Constance McDermott [R\&R at *Organization \& the Environment*]
+"Do Private Regulations 'Ratchet Up?' A comparative classification framework" with Benjamin Cashore and Constance McDermott [R\&R at *Organization \& the Environment*]
 
-"Why do agencies (sometimes) get so much mail: Lobbying coalitions, mass comments, and political information in bureaucratic policymaking" (SPSA 2019)
+"Why Do Agencies (sometimes) Get So Much Mail" (SPSA 2019)
 
-"How legislators actually spend their time: constituents, donors, or policy" with Justin Grimmer and Eleanor Powell (APSA 2018)
+"How Legislators Actually Spend Their Time: Constituents, donors, or policy" with Justin Grimmer and Eleanor Powell (APSA 2018)
 
 "Measuring Change and Influence in Budget Texts" (APSA 2017)
 
@@ -54,61 +55,58 @@ Reed College, B.A. in Political Science (2010)
 
 # OTHER PUBLICATIONS
 
-"Institutional Changes Needed to Implement Ecosystem-based Plans.” *Oregon Planners Journal* 28(1): 7. with J.R. Cochran.
+"Institutional Changes Needed to Implement Ecosystem-based Plans." *Oregon Planners Journal* 28(1): 7. with John Robert Cochran
 
----
+
 # TEACHING ASSISTANT/GRADER POSITIONS
 
-University of Wisconsin-Madison
+University of Wisconsin-Madison, Grader
 
 - Public Policy (Undergraduate, 2016, 2017, 2018)
 
-- Policing in the U.S. (Undergraduate, 2015)
+- Policing in the United States (Undergraduate, 2015)
 
-Yale University 
+Yale University, Teaching Fellow
 
 - The Politics and Practice of Environmental Policy (Graduate, 2012)
 
 - The Economics of Ecosystems and Biodiversity (Graduate, 2011)
 
----
+
 # RESEARCH POSITIONS
 
 Project Assistant, University of Wisconsin-Madison (2015-Present)
 
-Affiliated Researcher, Yale University, Governance, Environment, and Markets (GEM) Initiative (2013–Present)
+Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–Present)
 
 Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)
 
 Regulatory Affairs Specialist, Washington County, Oregon (2010–2011)
 
 
----
 # SELECTED AWARDS
 
-Finalist, Best Graduate Student Paper Award, Association of Environmental Studies and Sciences
-Annual Conference (2015)
+Finalist, Best Graduate Student Paper, Association of Environmental Studies and Sciences (2015)
 
 Best Master’s Thesis Research Award (runner-up), selected by faculty among all social
-and natural science Masters Thesis Colloquia presentations (Yale University 2013)
+and natural science Masters Thesis Colloquia presentations (Yale University, 2013)
 
-Best Student Research Award, Association of Environmental Studies and Sciences Annual Conference (2012)
+Best Student Research Presentation, Association for Environmental Studies and Sciences (2012)
 
-Jubitz Family Foundation Summer Research Fellowship (Yale University 2012)
+Carpenter-Sperry Research Award (2012)
 
-Carpenter-Sperry Research Award (Yale University 2012)
+Jubitz Family Foundation Research Fellowship (2012)
 
 H. Stuart Harrison Scholarship (Yale University 2011–2013)
 
-Ducey Fellowship for Public Policy—one of two competitive summer fellowships awarded by the
-Department of Political Science (Reed College 2009)
+Ducey Fellowship for Public Policy (Reed College 2009)
 
----
+
 # SERVICE
 
-Referee: *Reguation \& Governane*, *Journal of Forest Policy and Economics*
+Referee: *Regulation \& Governance*, *Journal of Forest Policy and Economics*
 
-Social Media Editor, American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP) (2017-present)
+Social Media Editor (2017-present), American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP) 
 
 Program Committee (2014–2016), Nominations Committee (2016-present), Association of Environmental Studies and Sciences (AESS) 
 
@@ -117,7 +115,7 @@ Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017)
 Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law
 annual conference at Yale Law School
 
----
+
 # CERTIFICATIONS
 
 Teaching in the Social Sciences Certificate (Yale University, 2012)
@@ -131,6 +129,11 @@ Teaching in the Social Sciences Certificate (Yale University, 2012)
 
 
 ```{extra, include = FALSE}
+
+# OTHER PUBLICATIONS
+
+"Institutional Changes Needed to Implement Ecosystem-based Plans."*Oregon Planners Journal* 28(1): 7. with J.R. Cochran.
+
 "The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public" with Susan Yackee
 
 ---
@@ -145,10 +148,7 @@ Association of Environmental Studies and Sciences Annual Conference (2012, 2018)
 New Directions in Environmental Law Conference, Yale Law School (2012, 2013)
 
 
-
 Travel Grant (Yale University 2011, 2012)
-
-
 
 
 President, Yale Environmental Law Association Student Interest Group (2012–2013)
@@ -161,21 +161,16 @@ Conversational Russian; basic Spanish
 
 Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)
 
-
+- Thessis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
 Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics
 
-Best Master’s Thesis Research Presentation Award (runner-up)
-
-
-“Measuring Change in Forest Certification Policies
-2
 
 Research Assistant, Governance, Environment, and Markets (GEM) Initiative
 • Analyzed methods employed in 220 journal articles
 
 
 • Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
-on Clean Water Act compliance (now Oregon Deparrtment of Environmetnal Quality Guidance)
+on Clean Water Act compliance (now Oregon Department of Environmental Quality Guidance)
 • Drafted legal language for an Oregon State Senate bill
 • Conducted a feasibility analysis that led to \$10 million in private investment, $1 million
 in public investment, and praise for the project in a speech by President Barack Obama
