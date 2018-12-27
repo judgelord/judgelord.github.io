@@ -29,13 +29,14 @@ urlcolor: black
 
 # EDUCATION
 
-University of Wisconsin-Madison, Ph.D. in Political Science (2015-present)
+University of Wisconsin-Madison, Ph.D. Candidate in Political Science (2015-present), MA in Political Science (2017)
 
 - Dissertation: _Political Information in Bureaucratic Policymaking_
 
 Yale University, MESc in Environmental Politics and Law (2013)
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
 
-Reed College, B.A. in Political Science (2010)
+Reed College, B.A. in Political Science (2009)
 
 # PEER-REVIEWED PUBLICATIONS
 
@@ -45,11 +46,15 @@ Reed College, B.A. in Political Science (2010)
 
 "Do Private Regulations 'Ratchet Up?' A comparative classification framework" with Benjamin Cashore and Constance McDermott [R\&R at *Organization \& the Environment*]
 
-"Why Do Agencies (sometimes) Get So Much Mail" (SPSA 2019)
+"Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking" (SPSA 2019)
 
 "How Legislators Actually Spend Their Time: Constituents, donors, or policy" with Justin Grimmer and Eleanor Powell (APSA 2018)
 
-"Measuring Change and Influence in Budget Texts" (APSA 2017)
+"Social Movements, Science, Bureaucracy, and Democracy: How Mass Mobilization for Environmental Justice Influences Technocratic Policymaking" (AESS 2018)
+
+"Measuring Change and Influence in Budget Texts" (PolMeth 2017, APSA 2017)
+
+"U.S. Domestic Politics of Climate Engineering" (AESS 2016)
 
 "Why Courts Defer to Administrative Agency Judgement" (MPSA 2016)
 
@@ -57,31 +62,37 @@ Reed College, B.A. in Political Science (2010)
 
 "Institutional Changes Needed to Implement Ecosystem-based Plans." *Oregon Planners Journal* 28(1): 7. with John Robert Cochran
 
+# TEACHING
 
-# TEACHING ASSISTANT/GRADER POSITIONS
+University of Wisconsin-Madison, Instructor
 
-University of Wisconsin-Madison, Grader
+- Statistical Computing in Political Science (Graduate, 2019)
+
+# TEACHING ASSISTANT & GRADER POSITIONS
+
+University of Wisconsin-Madison
 
 - Public Policy (Undergraduate, 2016, 2017, 2018)
 
 - Policing in the United States (Undergraduate, 2015)
 
-Yale University, Teaching Fellow
+Yale University
 
 - The Politics and Practice of Environmental Policy (Graduate, 2012)
 
 - The Economics of Ecosystems and Biodiversity (Graduate, 2011)
 
 
-# RESEARCH POSITIONS
-
-Project Assistant, University of Wisconsin-Madison (2015-Present)
+# RESEARCH AND PUBLIC POLICY WORK
 
 Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–Present)
 
 Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)
 
-Regulatory Affairs Specialist, Washington County, Oregon (2010–2011)
+Regulatory Affairs Specialist, Willamette Partnership and Washington County, Oregon (2010–2011) 
+- Developed regulatory compliance strategies, convening state and federal agencies to draft Oregon Department of Environmental Quality Guidance 
+- Drafted legal language for an Oregon State Senate bill 
+- Conducted a feasibility analysis that led to \$10 million in private investment, $1 million in public investment, and praise for the project in a speech by President Barack Obama
 
 
 # SELECTED AWARDS
@@ -112,8 +123,7 @@ Program Committee (2014–2016), Nominations Committee (2016-present), Associati
 
 Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017)
 
-Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law
-annual conference at Yale Law School
+Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law conference at Yale Law School
 
 
 # CERTIFICATIONS
@@ -132,9 +142,8 @@ Teaching in the Social Sciences Certificate (Yale University, 2012)
 - Committee: Susan Yackee (chair), Eleanor Powell, Alex Tahk, Dave Weimer, Miriam Seifter
 
 
-# OTHER PUBLICATIONS
+Project Assistant, University of Wisconsin-Madison (2015-Present)
 
-"Institutional Changes Needed to Implement Ecosystem-based Plans."*Oregon Planners Journal* 28(1): 7. with J.R. Cochran.
 
 "The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public" with Susan Yackee
 
@@ -163,7 +172,7 @@ Conversational Russian; basic Spanish
 
 Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)
 
-- Thessis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
 Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics
 
 
