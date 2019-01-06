@@ -29,12 +29,11 @@ urlcolor: black
 
 # EDUCATION
 
-University of Wisconsin-Madison, Ph.D. Candidate in Political Science (2015-present), MA in Political Science (2017)
+University of Wisconsin-Madison, Ph.D. in Political Science (2015-present, M.A. recieved 2017)
 
 - Dissertation: _Political Information in Bureaucratic Policymaking_
 
-Yale University, MESc in Environmental Politics and Law (2013)
-- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+Yale University, M.E.Sc. in Environmental Politics and Law (2013)
 
 Reed College, B.A. in Political Science (2009)
 
@@ -50,11 +49,9 @@ Reed College, B.A. in Political Science (2009)
 
 "How Legislators Actually Spend Their Time: Constituents, donors, or policy" with Justin Grimmer and Eleanor Powell (APSA 2018)
 
-"Social Movements, Science, Bureaucracy, and Democracy: How Mass Mobilization for Environmental Justice Influences Technocratic Policymaking" (AESS 2018)
+"Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking" (AESS 2018)
 
 "Measuring Change and Influence in Budget Texts" (PolMeth 2017, APSA 2017)
-
-"U.S. Domestic Politics of Climate Engineering" (AESS 2016)
 
 "Why Courts Defer to Administrative Agency Judgement" (MPSA 2016)
 
@@ -83,16 +80,21 @@ Yale University
 - The Economics of Ecosystems and Biodiversity (Graduate, 2011)
 
 
-# RESEARCH AND PUBLIC POLICY WORK
+# RESEARCH AND PUBLIC POLICY
 
 Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–Present)
 
 Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)
 
 Regulatory Affairs Specialist, Willamette Partnership and Washington County, Oregon (2010–2011) 
-- Developed regulatory compliance strategies, convening state and federal agencies to draft Oregon Department of Environmental Quality Guidance 
-- Drafted legal language for an Oregon State Senate bill 
-- Conducted a feasibility analysis that led to \$10 million in private investment, $1 million in public investment, and praise for the project in a speech by President Barack Obama
+
+- Convening state and federal agency staff to draft Oregon Department of Environmental Quality Guidance 
+
+- Drafted text for an Oregon State Senate bill 
+
+- Conducted a feasibility analysis that led to \$10 million in private conservation investment, \$1 million in public investment, and praise for the project in a speech by President Barack Obama
+
+Ducey Fellow for Public Policy, Willamette Partnership (2009)
 
 
 # SELECTED AWARDS
@@ -109,8 +111,6 @@ Carpenter-Sperry Research Award (2012)
 Jubitz Family Foundation Research Fellowship (2012)
 
 H. Stuart Harrison Scholarship (Yale University 2011–2013)
-
-Ducey Fellowship for Public Policy (Reed College 2009)
 
 
 # SERVICE
@@ -147,6 +147,8 @@ Project Assistant, University of Wisconsin-Madison (2015-Present)
 
 "The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public" with Susan Yackee
 
+"U.S. Domestic Politics of Climate Engineering" (AESS 2016)
+
 ---
 PRESENTATIONS
 
@@ -165,6 +167,7 @@ Travel Grant (Yale University 2011, 2012)
 President, Yale Environmental Law Association Student Interest Group (2012–2013)
 
 
+
 SKILLS AND LANGUAGES
 R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
 Conversational Russian; basic Spanish
@@ -175,6 +178,7 @@ Discussant, Midwest Political Science Association (MPSA) annual conference (2015
 - Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
 Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics
 
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
 
 Research Assistant, Governance, Environment, and Markets (GEM) Initiative
 • Analyzed methods employed in 220 journal articles
