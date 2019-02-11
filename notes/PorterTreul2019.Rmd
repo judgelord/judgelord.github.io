@@ -142,8 +142,7 @@ Expectations for open seat vs. out-party
 - Out-party candidates are often party insiders. It's a stepping stone, right?
 - Open seat races likely to get more money, better candidates
 
-<a href="http://www.pewresearch.org/fact-tank/2018/04/11/near-record-number-of-house-members-not-seeking-re-election-in-2018/ft_18-02-22_congressionalretirement_party/"><img width="310" height="534" src="http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?w=310" class="attachment-large size-large" alt="More U.S. representatives are not seeking re-election than at any point since 1992" srcset="http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png 310w, http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?resize=174,300 174w, http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?resize=160,276 160w, http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?resize=235,405 235w, http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?resize=200,345 200w, http://www.pewresearch.org/wp-content/uploads/2018/03/FT_18.02.22_CongressionalRetirement_party.png?resize=260,448 260w" sizes="(max-width: 310px) 100vw, 310px" /></a>
-
+![](pew-open-seats.png)
 ---
 
 ### Alternative hypothesis: Winable general elections attract (A) more money and (B) better inexperienced candidates who sometimes win primaries.
@@ -270,9 +269,19 @@ Minor notes:
 
 - Experience coding was for all past positions mentioned, right? Not just current? "code indicating her highest level of political experience or her most relevant qualification for holding office"
 
-Relationship between professions and rhetoric: Does profession help your rhetoric?
+- What is the relationship between professions and outsider rhetoric? Do some professions help outsider rhetoric more than others?
 
-What kind of professions are good for each party? Differentiation of professions by party brands? This is probably super confounded by selection effects (a business woman running for a Dem seat is probably higher quality than the average GOP businesswoman candidate)
+- What kind of professions are good for each party? Differentiation of professions by party brands? This is probably super confounded by selection effects (a businesswoman running for a Dem seat is probably higher quality than the average GOP businesswoman candidate)
+
+- Alternative DV: Vote share. Candidates that got twice as much of the vote. 
+
+- If inexperienced candidates are also extreme, how do we know if voters are choosing based on experience or ideology? 
+
+- Can you separate primaries that were on the same day as the president do tease out president effects (e.g. Trump effect in 2016)?
+
+- How do you deal with candidates that run more than once? Cluster errors? 
+
+
 
 
 
