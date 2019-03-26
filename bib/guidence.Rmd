@@ -1,0 +1,7 @@
+---
+bibliography:  guidence.bib
+biblio-style: apsr
+citecolor: black
+output: html_document
+---
+@Yackee2006JOP

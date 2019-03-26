@@ -1,0 +1,210 @@
+---
+bibliography:  guidance.bib
+#csl: apsr.csl
+biblio-style: apsr
+output: html_document
+---
+
+```{r, include=FALSE}
+source(here::here("setup.R"))
+```
+
+
+```{r guidance}
+d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Main Results!A6:S56")
+
+d %<>% gather(key = "model", value = "value", -group, -term, -number)
+
+d$value %<>% as.numeric()
+
+d %<>% filter(!is.na(value), !is.na(number))
+
+d %<>% spread(key = number, value = value)
+
+d %<>% 
+  mutate(model = str_remove(model, "..[0-9].*")) %>% 
+  rename(std.error = se) 
+
+d %<>% rename(type = group)
+
+
+# install.packages("dotwhisker")
+library(dotwhisker)
+  
+guidplot <- function(d){  
+    dwplot(d, 
+           dodge_size = 0.8,
+           vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2), # plot line at zero _behind_ coefs
+       dot_args = list(aes(shape = model)) ) +
+    scale_color_viridis_d(option = "B", begin = 0, end = .8) +
+    labs(color = "Model", shape = "Model",
+         x = "Estimate",
+         title = "Perceived Influence and Lobbying Success
+(Observational Data)")
+         #caption = 
+#"Intervals for p<=.05 with two-tailed tests and 
+#robust standard errors clustered by rule")
+}
+```
+
+# Two options for core models:
+```{r guidance-figure1, fig.height=3.5}
+p <- d %>% 
+  filter(str_detect(model, "1|2|5|6")) %>% 
+  guidplot() 
+
+b <- list(c("Rule Characteristics", "Comments" , "Salience") 
+          )
+p%>%
+  add_brackets(b)
+
+p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
+
+```
+
+# Two options for expanded models:
+```{r guidance-figure2, fig.height=7.5}
+
+p <- d %>% 
+  filter(str_detect(model, "3|4|7|8")) %>% 
+  guidplot()
+
+
+b <- list(c("Org. Characteristics", "Health or Health Care" , "Size"),
+          c("Rule Characteristics", "Comments" , "Salience") 
+          )
+
+p %>%
+  add_brackets(b)
+
+p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
+```
+
+
+# Citations
+
+@Anthony1992
+
+@Baumgartner2009
+
+@Baumgartner1993
+
+@Baumgartner2001
+
+@Bentham1843
+
+@Browne1990
+
+@Carpenter2002
+
+@Carpenter2014a
+
+@Coglianese2009
+
+@Davis1971
+
+@Dur2007
+
+@Epstein1995
+
+@FoodandDrugAdministration2011
+
+@Franklin2010
+
+@Funk2001
+
+@Furlong1998
+
+@Furlong2005
+
+@Garrett2006
+
+@Gluck2015
+
+@Golden1998
+
+@Graham2015
+
+@Greve2014
+
+@Haeder2015
+
+@Hojnacki2012
+
+@Hickman2009
+
+@Hrebenar1996
+
+@Hwang2014
+
+@Kaufman1981
+
+@Kaufman2001
+
+@Kerwin2018
+
+@Kingdon1995
+
+@Kluver2013
+
+@Levin2018
+
+@Lewis2011
+
+@Magill2004
+
+@Mahoney2007JPP
+
+@Manning1996
+
+@Mantel2009
+
+<!--@Mashaw1997-->
+
+@McCubbins1987
+
+@McCubbins1987
+
+@Mendelson2007
+
+@Naughton2009
+
+@OfficeofManagementandBudget2007
+
+@Parrillo2019
+
+@Romano2014
+
+@Romano2018
+
+@Raso2010
+
+@Rourke1984
+
+@Rosenbloom2000
+
+@Sabatier1988
+
+@Schattschneider1975
+
+@Seidenfeld2011
+
+@Shapiro2014
+
+@Stack2016
+
+@Truman1951
+
+@Warren2011
+
+@West1995
+
+@West2004
+
+@Yackee2019
+
+@Yackee2006JOP
+
+@Young2017
+
+# Bibliography
