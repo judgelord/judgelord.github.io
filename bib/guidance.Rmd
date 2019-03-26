@@ -47,7 +47,9 @@ guidplot <- function(d){
 }
 ```
 
-# Two options for core models:
+# Options 1 and 2, presenting all results:
+
+## Two options for core models:
 ```{r guidance-figure1, fig.height=3.5}
 p <- d %>% 
   filter(str_detect(model, "1|2|5|6")) %>% 
@@ -62,7 +64,7 @@ p+ facet_grid(type ~., scales = "free_y", drop = TRUE)
 
 ```
 
-# Two options for expanded models:
+## Two options for expanded models:
 ```{r guidance-figure2, fig.height=7.5}
 
 p <- d %>% 
@@ -80,6 +82,20 @@ p %>%
 p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
 ```
 
+# Option 3, presenting only the Guidance coeficients
+
+```{r guidance-figure3}
+d %>% 
+  filter(term == "Guidance Document") %>% 
+  dwplot(dodge_size = 0.8,
+           vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2) ) +
+    scale_color_viridis_d(option = "B", begin = 0, end = .8) +
+    labs(color = "Model", shape = "Model",
+         x = "Estimate",
+         title = "Perceived Influence and Lobbying Success
+(Observational Data)")
+
+```
 
 # Citations
 
