@@ -12,7 +12,7 @@ output:
 source(here::here("setup.R"))
 ```
 
-
+cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex, and yeti
 ```{r guidance}
 d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Main Results!A6:S56")
 
@@ -164,7 +164,7 @@ d %<>%
 
 d <- d$estimate
 df <- tibble(group = c("Lobbied on Guidance", "Lobbied on Rule", "Lobbied on Rule", "Lobbied on Guidance"),
-       condition = c("Guiddance Vignette", "Rule Vignette", "Guiddance Vignette", "Rule Vignette"),
+       condition = c("Guidance Vignette", "Rule Vignette", "Guidance Vignette", "Rule Vignette"),
        estimate = c(d[1]+ d[2] + d[3], 0, d[1], d[2] ) ) 
 
 df %>% 
