@@ -2,7 +2,10 @@
 bibliography:  guidance.bib
 #csl: apsr.csl
 biblio-style: apsr
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r, include=FALSE}
@@ -29,9 +32,10 @@ d %<>% rename(type = group)
 
 
 # install.packages("dotwhisker")
-library(dotwhisker)
   
-guidplot <- function(d){  
+library(dotwhisker)
+data <- "(Observational Data)"
+guidplot <- function(d, data){  
     dwplot(d, 
            dodge_size = 0.8,
            vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2), # plot line at zero _behind_ coefs
@@ -39,37 +43,37 @@ guidplot <- function(d){
     scale_color_viridis_d(option = "B", begin = 0, end = .8) +
     labs(color = "Model", shape = "Model",
          x = "Estimate",
-         title = "Perceived Influence and Lobbying Success
-(Observational Data)")
+         title = paste("Perceived Influence and Lobbying Success
+", data))
          #caption = 
 #"Intervals for p<=.05 with two-tailed tests and 
 #robust standard errors clustered by rule")
 }
 ```
 
-# Options 1 and 2, presenting all results:
+# Observational results:
 
-## Two options for core models:
+## Core models:
 ```{r guidance-figure1, fig.height=3.5}
 p <- d %>% 
   filter(str_detect(model, "1|2|5|6")) %>% 
-  guidplot() 
+  guidplot(data) 
 
 b <- list(c("Rule Characteristics", "Comments" , "Salience") 
           )
 p%>%
   add_brackets(b)
 
-p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
+# p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
 
 ```
 
-## Two options for expanded models:
+## Expanded models:
 ```{r guidance-figure2, fig.height=7.5}
 
 p <- d %>% 
   filter(str_detect(model, "3|4|7|8")) %>% 
-  guidplot()
+  guidplot(data)
 
 
 b <- list(c("Org. Characteristics", "Health or Health Care" , "Size"),
@@ -79,10 +83,10 @@ b <- list(c("Org. Characteristics", "Health or Health Care" , "Size"),
 p %>%
   add_brackets(b)
 
-p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
+# p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
 ```
 
-# Option 3, presenting only the Guidance coeficients
+## Only the Guidance coeficients
 
 ```{r guidance-figure3}
 d %>% 
@@ -96,6 +100,88 @@ d %>%
 (Observational Data)")
 
 ```
+
+
+# Experimental Results
+```{r guidance-exp}
+data <- "(Experimental Data)"
+d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Experiment!A6:O41")
+
+d %<>% fill(term) %>% fill(type)
+
+d %<>% gather(key = "model", value = "value", -type, -term, -number)
+
+d$value %<>% as.numeric()
+
+d %<>% filter(!is.na(value), !is.na(number))
+
+d %<>% spread(key = number, value = value)
+
+d %<>% 
+  mutate(model = str_remove(model, "..[0-9].*")) %>% 
+  rename(std.error = se) 
+
+```
+
+
+## Core models:
+```{r guidance-exp-figure1, fig.height=3}
+d %>% 
+  filter(str_detect(model, " A|Model C| E")) %>% 
+  guidplot(data) 
+
+```
+
+## Expanded models:
+```{r guidance-exp-figure2, fig.height=6.5}
+
+p <- d %>% 
+  filter(str_detect(model, " B| D| E")) %>% 
+  guidplot(data)
+
+
+b <- list(c("Org. Characteristics", "Health or Health Care" , "Size")
+          )
+
+p %>%
+  add_brackets(b)
+
+# p+ facet_grid(type ~., scales = "free_y", drop = TRUE) 
+```
+
+## Interaction 
+In order to add errors to marinal effects, I need to covariance. 
+
+It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
+
+```{r guidance-exp-interaction, fig.height=2, fig.width =4}
+
+d %<>% 
+  filter(str_detect(model, "Model A"))
+
+d <- d$estimate
+df <- tibble(group = c("Lobbied on Guidance", "Lobbied on Rule", "Lobbied on Rule", "Lobbied on Guidance"),
+       condition = c("Guiddance Vignette", "Rule Vignette", "Guiddance Vignette", "Rule Vignette"),
+       estimate = c(d[1]+ d[2] + d[3], 0, d[1], d[2] ) ) 
+
+df %>% 
+  ggplot(aes(y = estimate, x= group, color = condition, label = condition)) + 
+  geom_label() + 
+  scale_color_viridis_d(option = "B", begin = 0, end = .8) +
+  labs(x = "", title = "Interaction (Model A)", 
+       subtitle = "Eestimates of Hypothetical Influence")+
+  theme(legend.position = "none")+
+  scale_y_continuous(limits = c(-1,1))
+
+  
+```
+
+
+
+
+
+
+
 
 # Citations
 
