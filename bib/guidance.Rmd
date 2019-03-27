@@ -30,11 +30,14 @@ d %<>%
 
 d %<>% rename(type = group)
 
+d %<>% filter(!str_detect(model, "Confidence"))
+
 
 # install.packages("dotwhisker")
   
 library(dotwhisker)
-data <- "(Observational Data)"
+data <- "Perceived Influence and Lobbying Success
+(Observational Data)"
 guidplot <- function(d, data){  
     dwplot(d, 
            dodge_size = 0.8,
@@ -43,8 +46,7 @@ guidplot <- function(d, data){
     scale_color_viridis_d(option = "B", begin = 0, end = .8) +
     labs(color = "Model", shape = "Model",
          x = "Estimate",
-         title = paste("Perceived Influence and Lobbying Success
-", data))
+         title = data)
          #caption = 
 #"Intervals for p<=.05 with two-tailed tests and 
 #robust standard errors clustered by rule")
@@ -103,8 +105,9 @@ d %>%
 
 
 # Experimental Results
-```{r guidance-exp}
-data <- "(Experimental Data)"
+```{r guidance-exp, fig.height=2.5}
+data <- "Estimates of Hypothetical Influence
+(Experimental Data)"
 d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Experiment!A6:O41")
 
 d %<>% fill(term) %>% fill(type)
@@ -125,7 +128,7 @@ d %<>%
 
 
 ## Core models:
-```{r guidance-exp-figure1, fig.height=3}
+```{r guidance-exp-figure1, fig.height=2.5}
 d %>% 
   filter(str_detect(model, " A|Model C| E")) %>% 
   guidplot(data) 
@@ -133,7 +136,7 @@ d %>%
 ```
 
 ## Expanded models:
-```{r guidance-exp-figure2, fig.height=6.5}
+```{r guidance-exp-figure2, fig.height=5.5}
 
 p <- d %>% 
   filter(str_detect(model, " B| D| E")) %>% 
@@ -154,7 +157,7 @@ In order to add errors to marinal effects, I need to covariance.
 
 It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
 
-```{r guidance-exp-interaction, fig.height=2, fig.width =4}
+```{r guidance-exp-interaction, fig.height=3, fig.width =4}
 
 d %<>% 
   filter(str_detect(model, "Model A"))
@@ -169,7 +172,9 @@ df %>%
   geom_label() + 
   scale_color_viridis_d(option = "B", begin = 0, end = .8) +
   labs(x = "", title = "Interaction (Model A)", 
-       subtitle = "Eestimates of Hypothetical Influence")+
+       caption = "Estimates of Hypothetical Influence
+1 = {\"somewhat,\" \"quite a bit,\" \"a great deal\"}
+0 = {\"none at all\",\"little\"}")+
   theme(legend.position = "none")+
   scale_y_continuous(limits = c(-1,1))
 
