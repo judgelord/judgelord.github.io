@@ -12,7 +12,6 @@ output:
 source(here::here("setup.R"))
 ```
 
-cerulean, journal, flatly, darkly, readable, spacelab, united, cosmo, lumen, paper, sandstone, simplex, and yeti
 ```{r guidance}
 d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Main Results!A6:S56")
 
@@ -30,7 +29,7 @@ d %<>%
 
 d %<>% rename(type = group)
 
-d %<>% filter(!str_detect(model, "Confidence"))
+d %<>% filter(!str_detect(model, "Confidence|Top Issue"))
 
 
 # install.packages("dotwhisker")
@@ -74,7 +73,7 @@ p%>%
 ```{r guidance-figure2, fig.height=7.5}
 
 p <- d %>% 
-  filter(str_detect(model, "3|4|7|8")) %>% 
+  #filter(str_detect(model, "3|4|7|8")) %>% 
   guidplot(data)
 
 
@@ -136,10 +135,10 @@ d %>%
 ```
 
 ## Expanded models:
-```{r guidance-exp-figure2, fig.height=5.5}
+```{r guidance-exp-figure2, fig.height=7.5}
 
 p <- d %>% 
-  filter(str_detect(model, " B| D| E")) %>% 
+  # filter(str_detect(model, " B| D| E")) %>% 
   guidplot(data)
 
 
@@ -153,7 +152,7 @@ p %>%
 ```
 
 ## Interaction 
-In order to add errors to marinal effects, I need to covariance. 
+In order to add errors to marginal effects, I need the covariance. 
 
 It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
 
@@ -161,11 +160,12 @@ It might be good to show the underlying data, which would look better (and be mo
 
 d %<>% 
   filter(str_detect(model, "Model A"))
-
+d %>% select(term, model, estimate, std.error)
 d <- d$estimate
 df <- tibble(group = c("Lobbied on Guidance", "Lobbied on Rule", "Lobbied on Rule", "Lobbied on Guidance"),
        condition = c("Guidance Vignette", "Rule Vignette", "Guidance Vignette", "Rule Vignette"),
        estimate = c(d[1]+ d[2] + d[3], 0, d[1], d[2] ) ) 
+df
 
 df %>% 
   ggplot(aes(y = estimate, x= group, color = condition, label = condition)) + 
@@ -180,7 +180,13 @@ df %>%
 
   
 ```
+The effect of the **guidance** condition for those that lobbied on **guidance** compared to: 
 
+The **rule** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[2]`
+
+The **guidance** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[3]`
+
+The **rule** condition for those that lobbied on **guidance**: `r df$estimate[1]-df$estimate[4]`
 
 
 
