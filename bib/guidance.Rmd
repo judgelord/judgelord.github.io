@@ -12,6 +12,7 @@ output:
 source(here::here("setup.R"))
 ```
 
+
 ```{r guidance}
 d <- readxl::read_excel(here("bib/Guidance Output.xlsx"), range = "Main Results!A6:S56")
 
@@ -29,26 +30,45 @@ d %<>%
 
 d %<>% rename(type = group)
 
-d %<>% filter(!str_detect(model, "Confidence|Top Issue"))
+d %<>% filter(str_detect(model, "[1-4]"))
 
+# Order models 
+d$model <- factor(d$model, 
+levels = unique(d$model), 
+labels = unique(d$model))
+
+
+
+# set up colors
+library(viridisLite)
+
+# 6 models paired shapes 
+shapes <- c(15,0,16,1)
+names(shapes) <- levels(d$model)
+colors <- viridis(length(levels(d$model)), option = "B", begin = 0, end = .8)
+names(colors) <- names(shapes)
 
 # install.packages("dotwhisker")
-  
 library(dotwhisker)
-data <- "Perceived Influence and Lobbying Success
-(Observational Data)"
+data <- "Perceived Influence and Lobbying Success\n(Observational Data)"
 guidplot <- function(d, data){  
-    dwplot(d, 
+    dwplot(d %>% arrange(desc(model)), 
            dodge_size = 0.8,
-           vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2), # plot line at zero _behind_ coefs
-       dot_args = list(aes(shape = model)) ) +
-    scale_color_viridis_d(option = "B", begin = 0, end = .8) +
+           vline = geom_vline(xintercept = 0, 
+                              colour = "grey60", 
+                              linetype = 2), # plot line at zero _behind_ coefs
+           dot_args = list(aes(shape = (model)) ) ) +
     labs(color = "Model", shape = "Model",
          x = "Estimate",
-         title = data)
-         #caption = 
-#"Intervals for p<=.05 with two-tailed tests and 
-#robust standard errors clustered by rule")
+         title = data)+
+         # caption = "Intervals for p<=.05,\ntwo-tailed tests,\nrobust standard errors clustered by rule")  +
+    #guides(colour = guide_legend(reverse=T),shape = guide_legend(reverse=T)) +
+    #ggplot2::annotate(ymin = seq(.5,length(unique(d$term)), 2), ymax = seq(1.5,length(unique(d$term))+1, 2), 
+    #         xmin = -Inf, xmax = Inf, 
+    #         geom = "rect", alpha = 0.1) +
+    scale_shape_manual(values=shapes, breaks = levels(d$model)) +
+    scale_color_manual(values=colors, breaks = levels(d$model)) + 
+    theme(panel.grid.major.y = element_blank())
 }
 ```
 
@@ -57,11 +77,10 @@ guidplot <- function(d, data){
 ## Core models:
 ```{r guidance-figure1, fig.height=3.5}
 p <- d %>% 
-  filter(str_detect(model, "1|2|5|6")) %>% 
+  filter(str_detect(model, "1|3")) %>% 
   guidplot(data) 
 
-b <- list(c("Rule Characteristics", "Comments" , "Salience") 
-          )
+b <- list(c("Rule Characteristics", "Comments" , "Salience") )
 p%>%
   add_brackets(b)
 
@@ -73,7 +92,7 @@ p%>%
 ```{r guidance-figure2, fig.height=7.5}
 
 p <- d %>% 
-  #filter(str_detect(model, "3|4|7|8")) %>% 
+  filter(str_detect(model, "1|2|3|4")) %>% 
   guidplot(data)
 
 
@@ -90,20 +109,16 @@ p %>%
 ## Only the Guidance coeficients
 
 ```{r guidance-figure3}
+data <- "Perceived Influence and Lobbying Success
+(Observational Data)"
 d %>% 
+  filter(str_detect(model, "1|2|3|4")) %>% 
   filter(term == "Guidance Document") %>% 
-  dwplot(dodge_size = 0.8,
-           vline = geom_vline(xintercept = 0, colour = "grey60", linetype = 2) ) +
-    scale_color_viridis_d(option = "B", begin = 0, end = .8) +
-    labs(color = "Model", shape = "Model",
-         x = "Estimate",
-         title = "Perceived Influence and Lobbying Success
-(Observational Data)")
-
+  guidplot(data)
 ```
 
 
-# Experimental Results
+# Experiment Results (dummy)
 ```{r guidance-exp, fig.height=2.5}
 data <- "Estimates of Hypothetical Influence
 (Experimental Data)"
@@ -123,6 +138,15 @@ d %<>%
   mutate(model = str_remove(model, "..[0-9].*")) %>% 
   rename(std.error = se) 
 
+# Order models 
+d$model <- factor(d$model, 
+levels = unique(d$model), 
+labels = unique(d$model))
+
+shapes <- c(15,0,16,1,17,2)
+names(shapes) <- levels(d$model)
+colors <- viridis(length(levels(d$model)), option = "B", begin = 0, end = .8)
+names(colors) <- names(shapes)
 ```
 
 
@@ -136,7 +160,6 @@ d %>%
 
 ## Expanded models:
 ```{r guidance-exp-figure2, fig.height=7.5}
-
 p <- d %>% 
   # filter(str_detect(model, " B| D| E")) %>% 
   guidplot(data)
@@ -157,10 +180,10 @@ In order to add errors to marginal effects, I need the covariance.
 It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
 
 ```{r guidance-exp-interaction, fig.height=3, fig.width =4}
-
 d %<>% 
   filter(str_detect(model, "Model A"))
-d %>% select(term, model, estimate, std.error)
+#d %>% select(term, model, estimate, std.error)
+
 d <- d$estimate
 df <- tibble(group = c("Lobbied on Guidance", "Lobbied on Rule", "Lobbied on Rule", "Lobbied on Guidance"),
        condition = c("Guidance Vignette", "Rule Vignette", "Guidance Vignette", "Rule Vignette"),
@@ -177,8 +200,6 @@ df %>%
 0 = {\"none at all\",\"little\"}")+
   theme(legend.position = "none")+
   scale_y_continuous(limits = c(-1,1))
-
-  
 ```
 The effect of the **guidance** condition for those that lobbied on **guidance** compared to: 
 
@@ -192,7 +213,88 @@ The **rule** condition for those that lobbied on **guidance**: `r df$estimate[1]
 
 
 
+# Experiment Results (5 point)
+```{r guidance-exp5, fig.height=2.5}
+data <- "Estimates of Hypothetical Influence
+(Experimental Data)"
+d <- readxl::read_excel(here("out/OutputA.xlsx"), 
+                        range = "Sheet1!A1:C4") %>% 
+  mutate(model = "Model A, General Influence",
+         term = B_1A) %>% 
+  full_join(readxl::read_excel(here("out/OutputC.xlsx"), 
+                               range = "Sheet1!A1:C4") %>% 
+              mutate(model = "Model C, Public Interest Group Influence",
+                     term = B_1B) ) %>% 
+  full_join(readxl::read_excel(here("out/OutputE.xlsx"), 
+                               range = "Sheet1!A1:C4") %>%
+              mutate(model = "Model E, Corporate Influence",
+                     term = B_1C) ) 
+  
+d %<>% rename(estimate = Coef.,
+              std.error = `Std. Err.`)
 
+d$term %<>% str_replace("RAND_B1", "Experimental Condition") %>%
+  str_replace("Rule_Guidance", "Guidance Document") %>% 
+  str_replace("inter", "Interaction Effect")
+
+# Order models 
+d$model <- factor(d$model, 
+levels = unique(d$model), 
+labels = unique(d$model))
+
+shapes <- c(15,0,16,1,17,2)
+shapes <- c(15,16,17) # FIXME 
+names(shapes) <- levels(d$model)
+colors <- viridis(length(levels(d$model)), option = "B", begin = 0, end = .8)
+names(colors) <- names(shapes)
+```
+
+
+## Core models:
+```{r guidance-exp-figure15, fig.height=2.5}
+d %>% 
+  #filter(str_detect(model, " A|Model C| E")) %>% 
+  guidplot(data) 
+```
+
+## Interaction
+```{r guidance-exp-interaction5, fig.height=3, fig.width =4}
+# d %>% select(term, model, estimate, std.error)
+
+df <- tibble(group = c("Lobbied on Guidance", 
+                       "Lobbied on Rule", 
+                       "Lobbied on Rule", 
+                       "Lobbied on Guidance"),
+       condition = c("Guidance Vignette", 
+                     "Rule Vignette", 
+                     "Guidance Vignette", 
+                     "Rule Vignette"),
+       estimate = c(d$estimate[1]+ d$estimate[2] + d$estimate[3], 
+                    0, 
+                    d$estimate[1],
+                    d$estimate[2] )#,
+       #std.error = 
+       ) 
+
+df
+
+df %>% 
+  ggplot(aes(y = estimate, 
+             x= group, 
+             color = condition, 
+             label = condition)) + 
+  geom_label() + 
+  scale_color_viridis_d(option = "B", begin = 0, end = .8) +
+  labs(x = "", title = "Interaction (Model A)", 
+       caption = "Estimates of Hypothetical Influence\n
+5 = \"a great deal\",\n0 = \"none at all\"")+
+  theme(legend.position = "none")+
+  scale_y_continuous(limits = c(-1,1))
+```
+
+For refrence:
+For 𝑌=𝑏0+𝑏1𝑋+𝑏2𝑍+𝑏3𝑋𝑍+𝑒
+, the marginal effect is 𝑏1+𝑏3⋅𝑍, a function of 𝑍. The variance of a weighted sum is 𝑉𝑎𝑟(𝑏1)+𝑉𝑎𝑟(𝑏3)⋅𝑍2+2⋅𝑍⋅𝐶𝑜𝑣(𝑏1,𝑏3), and the standard error is just the square root of that. You can get the covariance from the right off-diagonal element of the variance-covariance matrix of the coefficients. The variances will be found on the diagonal.
 
 # Citations
 
