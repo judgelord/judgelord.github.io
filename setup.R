@@ -65,6 +65,7 @@ knitr::opts_chunk$set(echo = FALSE, # echo = TRUE means that your code will show
                       fig.align = "center", 
                       fig.path= 'Figs/', ## where to save figures
                       fig.height = 3,
+                      fig.retina = 6,
                       fig.width = 8)
 
 # Xaringan

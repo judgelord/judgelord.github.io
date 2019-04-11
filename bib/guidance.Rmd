@@ -203,11 +203,15 @@ df %>%
 ```
 The effect of the **guidance** condition for those that lobbied on **guidance** compared to: 
 
-The **rule** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[2]`
+The **rule** condition for those that lobbied on **guidance**: `r df$estimate[1]-df$estimate[4]`
 
 The **guidance** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[3]`
 
-The **rule** condition for those that lobbied on **guidance**: `r df$estimate[1]-df$estimate[4]`
+The **rule** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[2]`
+
+
+
+
 
 
 
@@ -291,6 +295,18 @@ df %>%
   theme(legend.position = "none")+
   scale_y_continuous(limits = c(-1,1))
 ```
+
+The effect of the **guidance** condition for those that lobbied on **guidance** compared to: 
+
+The **rule** condition for those that lobbied on **guidance**: `r df$estimate[1]-df$estimate[4]`
+
+The **guidance** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[3]`
+
+The **rule** condition for those that lobbied on a **rule**: `r df$estimate[1]-df$estimate[2]`
+
+
+
+
 
 For refrence:
 For 𝑌=𝑏0+𝑏1𝑋+𝑏2𝑍+𝑏3𝑋𝑍+𝑒
