@@ -191,14 +191,21 @@ df <- tibble(group = c("Lobbied on Guidance", "Lobbied on Rule", "Lobbied on Rul
 df
 
 df %>% 
-  ggplot(aes(y = estimate, x= group, color = condition, label = condition)) + 
+  ggplot(aes(y = estimate, 
+             x= "", 
+             color = condition, 
+             label = condition)) + 
+  facet_grid(. ~ group) +
   geom_label() + 
   scale_color_viridis_d(option = "B", begin = 0, end = .8) +
-  labs(x = "", title = "Interaction (Model A)", 
+  labs(x = "", 
+       y = "Anticipated influence",
+       title = "Interaction (Model A)", 
        caption = "Estimates of Hypothetical Influence
 1 = {\"somewhat,\" \"quite a bit,\" \"a great deal\"}
 0 = {\"none at all\",\"little\"}")+
-  theme(legend.position = "none")+
+  theme(legend.position = "none",
+        axis.ticks =  element_blank() )+
   scale_y_continuous(limits = c(-1,1))
 ```
 The effect of the **guidance** condition for those that lobbied on **guidance** compared to: 
@@ -284,15 +291,19 @@ df
 
 df %>% 
   ggplot(aes(y = estimate, 
-             x= group, 
+             x= "", 
              color = condition, 
              label = condition)) + 
+  facet_grid(. ~group)+
   geom_label() + 
   scale_color_viridis_d(option = "B", begin = 0, end = .8) +
-  labs(x = "", title = "Interaction (Model A)", 
+  labs(x = "", 
+       y = "Anticipated influence",
+       title = "Interaction (Model A)", 
        caption = "Estimates of Hypothetical Influence\n
 5 = \"a great deal\",\n0 = \"none at all\"")+
-  theme(legend.position = "none")+
+  theme(legend.position = "none",
+        axis.ticks =  element_blank())+
   scale_y_continuous(limits = c(-1,1))
 ```
 
