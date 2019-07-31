@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Devin’s notes" />
@@ -70,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -103,8 +102,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -162,20 +159,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -185,13 +179,27 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">The Increasing Value of Inexperience in Congressional Primaries</h1>
-<h3 class="subtitle"><em>By Rachel A. Porter and Sarah Treul</em></h3>
-<h4 class="author"><em>Devin’s notes</em></h4>
-<h4 class="date"><em>2/11/2019</em></h4>
+<h3 class="subtitle">By Rachel A. Porter and Sarah Treul</h3>
+<h4 class="author">Devin’s notes</h4>
+<h4 class="date">2/11/2019</h4>
 
 </div>
 
 
+<!--
+output:
+  xaringan::moon_reader: 
+    lib_dir: libs
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    text_font_size: 2em
+editor_options: 
+  chunk_output_type: console
+-->
 <div id="does-experience-matter-in-primary-elections-without-incumbents" class="section level3">
 <h3>Does experience matter in primary elections? (without incumbents)</h3>
 </div>
@@ -335,11 +343,11 @@ $(document).ready(function () {
 <li><p>Pg. 11: “more restrictive measure” language not previously introduced. Maybe a pithy version of table A2</p></li>
 <li><p>Pg. 11: What is the N for figures 1 and 2?</p></li>
 <li><p>Figures 1 &amp; 2: It would be helpful to have this for non-open seat elections, as these are the bulk of the data in the model.</p></li>
-<li><p>Pg. 11: Would be interesting to see figures 1 and 2 with the 3-category definition.</p></li>
+<li><p>Pg. 11: It would be interesting to see figures 1 and 2 with the 3-category definition.</p></li>
 <li><p>Pg. 12 What are the “competing explanations”–general vs. conditional “inexperience advantage?”</p></li>
 <li><p>Table A.2 by party would be interesting.</p></li>
 <li><p>A figure instead of Table 1 would be nice.</p></li>
-<li><p>Pg. 14 How many are open seat?</p></li>
+<li><p>Pg. 14 How many are open seats?</p></li>
 <li><p>Pg. 14 Cor(logged total spending, open-seat)?</p></li>
 <li><p>Pg. 15 “Our analysis only includes those non-incumbent races where at least one experienced candidate ran in the primary.” And one inexperienced candidate, right?</p></li>
 <li><p>Pg. 16: These models use the restrictive definition?</p></li>
@@ -351,16 +359,16 @@ $(document).ready(function () {
 <li><p>Why are table 1 models only reported for 2012-2016 but table 2 also models earlier years?</p></li>
 <li><p>Footnote 15 seems to say that we expect most variables to be conditional on party because we observe differences in the DV by party. I don’t understand this. Is this not like saying that because we observe differences in height by gender, we expect all predictors of height to have differing effects by gender?</p></li>
 <li><p>Pg. 24: Party contributions/endorsement seems really interesting. I would love to see more descriptives using this.</p></li>
-<li><p>Pg. 25: I don’t see how Table 2 shows that “probability of winning a primary election for candidates who had previously held elected office was 83 percent”–a figure might be better. If these are just predicted probabilities, then holding fundraising at $0 seems odd. The mean or mode (as you do for the predicted effects of money) seems more standard.</p></li>
+<li><p>Pg. 25: I don’t see how Table 2 shows that the “probability of winning a primary election for candidates who had previously held elected office was 83 percent”–a figure might be better. If these are just predicted probabilities, then holding fundraising at $0 seems odd. The mean or mode (as you do for the predicted effects of money) seems more standard.</p></li>
 <li><p>Footnote 23: At what level is this difference in probabilities significant?</p></li>
 <li><p>Table 2: open seat vs. out party is omitted from these models. How do we know that money is not just picking up the effect of open seats?</p></li>
-<li><p>Table 2: I wonder if the interaction “inexpierence*pac fundrasing&quot; is actually the interaction you want to test. You find a weak negative effect for expierence x money, but the theory is more about inexpierence x money, and I am not sure that these two intereactions test the same thing.</p></li>
+<li><p>Table 2: I wonder if the interaction “inexpierence*pac fundraising&quot; is the interaction you want to test. You find a weak negative effect for experience x money, but the theory is more about inexperience x money, and I am not sure that these two interactions test the same thing.</p></li>
 <li><p>Page 27: I assume you are holding the two candidates with money constant at the mean for that party and time.</p></li>
 <li><p>Pg. 28: What portion of observations does this hypothetical describe. I might worry about the inference if most cases do not have two competitive candidates, one with experience, one without. (I’m still not clear if these data contain cases where only experienced candidates ran.)</p></li>
 <li><p>Figure 6: It might be simpler to just compare predicted probabilities for candidates with no money and one with the median.</p></li>
 <li><p>Figure 6: I honestly don’t quite understand how bootstrapping works for a conditional logit, but these confidence intervals seem very small given the number of observations and model standard errors.</p></li>
-<li><p>Figure 7a might be more striking if the later time periods were presented relative to the early baseline, drawing attention to the shift. Again, unlogged x-axis labels would be helpful.</p></li>
-<li><p>Figure 7a: It is not clear that dropping only poor performing inexperienced candidates is right; why not drop all poor performing candidates (should be roughly the same)? Or none to avoid suspicion. (It would just inflate the 0, right?)</p></li>
+<li><p>Figure 7a might be more striking if the later periods were presented relative to the early baseline, drawing attention to the shift. Again, unlogged x-axis labels would be helpful.</p></li>
+<li><p>Figure 7a: It is not clear that dropping only poor-performing inexperienced candidates is right; why not drop all poor performing candidates (should be roughly the same)? Or none to avoid suspicion. (It would just inflate the 0, right?)</p></li>
 <li><p>I found parenthetical notes about experience being a measure of “quality” distracting. I think experience is important enough that references to quality in the body of the text are unnecessary.</p></li>
 <li><p>Appendix A1: No CI for figures a and b</p></li>
 <li><p>Experience coding was for all past positions mentioned, right? Not just current? “code indicating her highest level of political experience or her most relevant qualification for holding office”</p></li>
@@ -391,6 +399,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
