@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Courses | Devin Judge-Lord</title>
+    <title>Courses | </title>
     <link>/teaching/</link>
       <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
@@ -11,6 +11,14 @@
       <title>Courses</title>
       <link>/teaching/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>/teaching/tutorials/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/teaching/tutorials/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devin Judge-Lord</title>
+    <title></title>
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Devin Judge-Lord</description>
+    <description></description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
-      <title>Devin Judge-Lord</title>
+      <title></title>
       <link>/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>/teaching/example/example1/</link>
+      <link>/teaching/tutorials/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/teaching/example/example1/</guid>
+      <guid>/teaching/tutorials/example1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -49,9 +49,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/teaching/example/example2/</link>
+      <link>/teaching/tutorials/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/teaching/example/example2/</guid>
+      <guid>/teaching/tutorials/example2/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -317,21 +317,6 @@ gantt
     </item>
     
     <item>
-      <title>An example preprint / working paper</title>
-      <link>/research/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/research/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Display Jupyter Notebooks with Academic</title>
       <link>/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
@@ -575,7 +560,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Privacy Policy</title>
+      <title></title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>/privacy/</guid>
@@ -584,7 +569,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Terms</title>
+      <title></title>
       <link>/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>/terms/</guid>
@@ -593,10 +578,10 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <title></title>
+      <link>/project/rulemaking/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/project/internal-project/</guid>
+      <guid>/project/rulemaking/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -840,27 +825,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>/research/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/research/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -907,27 +871,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An example conference paper</title>
-      <link>/research/conference-paper/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/research/conference-paper/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -1004,7 +947,7 @@ I then use my new measures of public engagement to assess the effects of mobiliz
 &lt;/div&gt;
 &lt;div id=&#34;peer-reviewed-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;“Do Private Regulations ‘Ratchet Up?’ A comparative classification framework” with Benjamin Cashore and Constance McDermott [&lt;em&gt;Organization &amp;amp; the Environment&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;“Do Private Regulations ‘Ratchet Up?’ A comparative classification framework” with Benjamin Cashore and Constance McDermott [&lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt;]&lt;/p&gt;
 &lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating theories of internationalization and pathways of policy change.” with Irene Scher and Benjamin Cashore. [Peer-reviewed book chapter] In &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
@@ -1055,8 +998,7 @@ I then use my new measures of public engagement to assess the effects of mobiliz
 &lt;div id=&#34;selected-awards&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
 &lt;p&gt;Finalist, Best Graduate Student Paper, Association of Environmental Studies and Sciences (2015)&lt;/p&gt;
-&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social
-and natural science Masters Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
+&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social and natural science Masters Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
 &lt;p&gt;Best Student Research Presentation, Association for Environmental Studies and Sciences (2012)&lt;/p&gt;
 &lt;p&gt;Carpenter-Sperry Research Award (2012)&lt;/p&gt;
 &lt;p&gt;Jubitz Family Foundation Research Fellowship (2012)&lt;/p&gt;
@@ -1171,10 +1113,82 @@ and natural science Masters Thesis Colloquia presentations (Yale University, 201
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>/project/external-project/</link>
+      <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
+      <link>/research/fsc-sfi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <guid>/research/fsc-sfi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Change and Influence in Budget Texts</title>
+      <link>/research/budgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/budgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
+      <link>/research/boreal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/boreal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Movements, Science, Bureaucracy, and Democracy</title>
+      <link>/research/ej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/ej/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Courts Defer to Administrative Agency Judgement</title>
+      <link>/research/defrence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/defrence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do agencies (sometimes) get so much mail?</title>
+      <link>/research/capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/capacity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do agencies (sometimes) get so much mail?</title>
+      <link>/research/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do agencies (sometimes) get so much mail?</title>
+      <link>/research/ferc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/ferc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do agencies (sometimes) get so much mail?</title>
+      <link>/research/whymail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/whymail/</guid>
       <description></description>
     </item>
     

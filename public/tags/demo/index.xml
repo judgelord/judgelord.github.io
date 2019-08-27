@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Demo | Devin Judge-Lord</title>
+    <title>Demo | </title>
     <link>/tags/demo/</link>
       <atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
@@ -14,9 +14,9 @@
     
     <item>
       <title>External Project</title>
-      <link>/project/external-project/</link>
+      <link>/project/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/external-project/</guid>
+      <guid>/project/correspondence/</guid>
       <description></description>
     </item>
     

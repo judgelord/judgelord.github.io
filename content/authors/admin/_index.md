@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I study the effects of public participation on public policy.
+bio: I study how public engagement affects policy.
 education:
   courses:
   - course: MESc in Environmental Politics and Law
@@ -16,7 +16,7 @@ interests:
 - Bureaucratic Politics and Administrative Law
 - Text analysis
 - Environmental Policy
-name: Devin Judge-Lord
+name: D
 organizations:
 - name: University of Wisconsin-Madison
   url: ""
