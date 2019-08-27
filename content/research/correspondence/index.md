@@ -1,5 +1,5 @@
 ---
-abstract: "Scholars of bureaucratic policymaking have focused on the sophisticated lobbying efforts of powerful interest groups. Yet agencies occasionally receive thousands or even millions of comments from ordinary people. Why? Why do individuals engage when they seemingly have no new information to offer and no power to influence decisions? Who inspires them and to what end? How, if at all, should scholars incorporate mass participation into models of bureaucratic policymaking? I argue that mass mobilizing is an attractive and potentially influential tactic because produces political information about the coalition that mobilized it. I measure the scale and intensity of public support for proposed policies and examine alternative explanations that mass mobilization is (1) a conflict expansion tactic, where coalitions with fewer resources leverage public support, or (2) a more conventional lobbying tactic, where groups with superior resources leverage these resources to create an impression of public support. To link individual comments to the more sophisticated lobbying efforts they support, I use text reuse and clustering methods to identify formal and informal coalitions. I also classify different types of supporters. Using these new measures of political mobilization and engagement in agency rulemaking, I find that, in contrast to conventional insider lobbying, the vast majority of mass engagement in bureaucratic policymaking is mobilized by public interest group coalitions."
+abstract: "Representation in Congress is based, in part, on legislators’ ability to assist their constituents with the federal bureaucracy. Constituency service is central to definitions of representation as well as empirical explanations for phenomena such a the incumbency advantage. And yet, too little is known about when and how elected officials contact the bureaucracy on behalf of their constituents. We assemble a massive new database of over 150,000 Congressional requests to agencies between 2007 and 2017 obtained through over 250 FOIA requests, approaching a census of all contacts with the bureaucracy. We examine when legislators contact agencies, which legislators contact those agencies, and the purpose of the contact, showing that as legislators gain power in Washington they often expand their constituency service work, even as they expand their policy work. This suggests that perceived trade-offs constituents may face between influential and attentive representatives is a false choice. Instead, what matters is picking representatives who efficiently use the resources of their office."
 authors:
 - admin
 doi: ""
@@ -10,23 +10,21 @@ image:
   preview_only: false
 links:
 projects:
-publication: "*Southern Political Science Association Annual Conference*"
-publication_short: "*SPSA*"
+publication: "*American Political Science Association Annual Conference*"
+publication_short: "*APSA*"
 publication_types:
 - "1"
 publishDate: 
-slides:
+slides: https://github.com/judgelord/correspondence/blob/master/APSA2018/APSA2018pres.pdf
 summary: 
 tags:
-title: Why do agencies (sometimes) get so much mail?
+title: "Unequal Representation: Constituency Service in Today’s Congress"
 url_code: 
 url_dataset: 
-url_pdf: https://judgelord.github.io/dissertation/whyMail.pdf
+url_pdf: https://github.com/judgelord/correspondence/blob/master/APSA2018/APSA2018.pdf
 url_poster:
 url_project:
-url_slides: https://judgelord.github.io/dissertation/present/whyMail-SPSA.html#1
+url_slides: 
 url_source:
 url_video:
 ---
-
-

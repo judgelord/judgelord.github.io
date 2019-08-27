@@ -32,7 +32,7 @@ title: Measuring Change and Influence in Budget Texts
 url_code: 
 url_dataset: 
 url_pdf:
-url_poster: 
+url_poster: "reserch/budgets/judgelord 2017 polmeth.pdf"
 url_project:
 url_slides:
 url_source:
