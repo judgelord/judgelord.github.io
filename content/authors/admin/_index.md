@@ -30,7 +30,7 @@ social:
   link: https://twitter.com/judgelord
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=EKPgTIMAAAAJ&hl=en
+  link: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C50&q=%22devin+judge-lord%22&btnG=
 - icon: github
   icon_pack: fab
   link: https://github.com/judgelord
