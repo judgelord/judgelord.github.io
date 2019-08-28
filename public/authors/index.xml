@@ -2,45 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | </title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/authors/</link>
+      <atom:link href="https://judgelord.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://judgelord.github.io/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <link>https://judgelord.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/admin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ben Cashore</title>
-      <link>/authors/ben-cashore/</link>
+      <link>https://judgelord.github.io/authors/ben-cashore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/ben-cashore/</guid>
+      <guid>https://judgelord.github.io/authors/ben-cashore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Constance McDermott</title>
-      <link>/authors/constance-mcdermott/</link>
+      <link>https://judgelord.github.io/authors/constance-mcdermott/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/constance-mcdermott/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Irene Scher</title>
-      <link>/authors/irene-scher/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/irene-scher/</guid>
+      <guid>https://judgelord.github.io/authors/constance-mcdermott/</guid>
       <description></description>
     </item>
     

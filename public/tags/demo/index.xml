@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo | </title>
-    <link>/tags/demo/</link>
-      <atom:link href="/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/tags/demo/</link>
+      <atom:link href="https://judgelord.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Demo</title>
-      <link>/tags/demo/</link>
+      <link>https://judgelord.github.io/tags/demo/</link>
     </image>
     
     <item>
       <title>External Project</title>
-      <link>/project/correspondence/</link>
+      <link>https://judgelord.github.io/project/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/correspondence/</guid>
+      <guid>https://judgelord.github.io/project/correspondence/</guid>
       <description></description>
     </item>
     
