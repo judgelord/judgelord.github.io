@@ -1,8 +1,6 @@
 ---
-abstract: "Environmental groups’ interest in, and attention to, Canadian boreal forest
-protection and management is a relatively new phenomenon vis-à-vis the longstanding focus on Canadian temperate forests. Nevertheless, policy development affecting
-the Canadian boreal forest has, in the past decade, been punctuated towards a new
-equilibrium in which both protection and forest management policies have increased
+draft: true
+abstract: "Environmental groups’ interest in, and attention to, Canadian boreal forest protection and management is a relatively new phenomenon vis-à-vis the longstanding focus on Canadian temperate forests. Nevertheless, policy development affecting the Canadian boreal forest has, in the past decade, been punctuated towards a new equilibrium in which both protection and forest management policies have increased
 dramatically. What explains this punctuation? This chapter addresses this question by exploring the role of non-domestic forces in shaping Canadian
 boreal forest policies. We examine the International Boreal Conservation Campaign
 (IBCC) initiated by the Philadelphia-based Pew Charitable Trusts and the Canadian
@@ -39,8 +37,6 @@ publishDate: "2014"
 slides: 
 summary: The role of US NGOs in shaping Canadian boreal forest policy
 tags:
-- private governance
-- forestry
 title: Non-domestic Sources of Canadian Boreal Forest Policy
 subtitle: Integrating theories of internationalization and pathways of policy change
 url_code: ""

@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I study how public engagement affects policy.
+bio: I study how organizations, politicians, and ordinary people affect policy.
 education:
   courses:
   - course: MESc in Environmental Politics and Law
@@ -12,11 +12,11 @@ education:
     year: 2010
 email: "Judge-Lord@wisc.edu"
 interests:
-- Social Movements
-- Bureaucratic Politics and Administrative Law
+- Social movements
+- Bureaucratic politics and administrative law
 - Text analysis
-- Environmental Policy
-name: D
+- Environmental policy
+name: Devin Judge-Lord
 organizations:
 - name: University of Wisconsin-Madison
   url: ""

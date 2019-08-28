@@ -146,7 +146,7 @@ sharing = true
   #   3: Card
   #   4: Citation (publications only)
   post_view = 2
-  publication_view = 2
+  publication_view = 3
   talk_view = 2
 
 # Comments.

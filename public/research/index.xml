@@ -5,7 +5,7 @@
     <link>/research/</link>
       <atom:link href="/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/img/icon-192.png</url>
       <title>Research</title>
@@ -13,23 +13,331 @@
     </image>
     
     <item>
-      <title>An example conference paper</title>
-      <link>/research/guidance/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/research/guidance/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
+      <title></title>
+      <link>/research/guidance/guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/guidance/guidance/</guid>
+      <description>
 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;observational-results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Observational results:&lt;/h1&gt;
+&lt;div id=&#34;core-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Core models:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-figure1-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expanded-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expanded models:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-figure2-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;only-the-guidance-coeficients&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Only the Guidance coeficients&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-figure3-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experiment-results-dummy&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Experiment Results (dummy)&lt;/h1&gt;
+&lt;div id=&#34;core-models-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Core models:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-exp-figure1-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expanded-models-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expanded models:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-exp-figure2-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interaction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Interaction&lt;/h2&gt;
+&lt;p&gt;In order to add errors to marginal effects, I need the covariance.&lt;/p&gt;
+&lt;p&gt;It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 4 x 3
+##   group               condition         estimate
+##   &amp;lt;chr&amp;gt;               &amp;lt;chr&amp;gt;                &amp;lt;dbl&amp;gt;
+## 1 Lobbied on Guidance Guidance Vignette    0.177
+## 2 Lobbied on Rule     Rule Vignette        0    
+## 3 Lobbied on Rule     Guidance Vignette   -0.612
+## 4 Lobbied on Guidance Rule Vignette       -0.827&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-exp-interaction-1.png&#34; width=&#34;384&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+The effect of the &lt;strong&gt;guidance&lt;/strong&gt; condition for those that lobbied on &lt;strong&gt;guidance&lt;/strong&gt; compared to:&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;rule&lt;/strong&gt; condition for those that lobbied on &lt;strong&gt;guidance&lt;/strong&gt;: 1.003293&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;guidance&lt;/strong&gt; condition for those that lobbied on a &lt;strong&gt;rule&lt;/strong&gt;: 0.78819&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;rule&lt;/strong&gt; condition for those that lobbied on a &lt;strong&gt;rule&lt;/strong&gt;: 0.176623&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experiment-results-5-point&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Experiment Results (5 point)&lt;/h1&gt;
+&lt;div id=&#34;core-models-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Core models:&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-exp-figure15-1.png&#34; width=&#34;768&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interaction-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Interaction&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 4 x 3
+##   group               condition         estimate
+##   &amp;lt;chr&amp;gt;               &amp;lt;chr&amp;gt;                &amp;lt;dbl&amp;gt;
+## 1 Lobbied on Guidance Guidance Vignette   0.0155
+## 2 Lobbied on Rule     Rule Vignette       0     
+## 3 Lobbied on Rule     Guidance Vignette  -0.494 
+## 4 Lobbied on Guidance Rule Vignette      -0.657&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Figs/guidance-exp-interaction5-1.png&#34; width=&#34;384&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The effect of the &lt;strong&gt;guidance&lt;/strong&gt; condition for those that lobbied on &lt;strong&gt;guidance&lt;/strong&gt; compared to:&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;rule&lt;/strong&gt; condition for those that lobbied on &lt;strong&gt;guidance&lt;/strong&gt;: 0.6721448&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;guidance&lt;/strong&gt; condition for those that lobbied on a &lt;strong&gt;rule&lt;/strong&gt;: 0.5092595&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;rule&lt;/strong&gt; condition for those that lobbied on a &lt;strong&gt;rule&lt;/strong&gt;: 0.0155363&lt;/p&gt;
+&lt;p&gt;For refrence:
+For 𝑌=𝑏0+𝑏1𝑋+𝑏2𝑍+𝑏3𝑋𝑍+𝑒
+, the marginal effect is 𝑏1+𝑏3⋅𝑍, a function of 𝑍. The variance of a weighted sum is 𝑉𝑎𝑟(𝑏1)+𝑉𝑎𝑟(𝑏3)⋅𝑍2+2⋅𝑍⋅𝐶𝑜𝑣(𝑏1,𝑏3), and the standard error is just the square root of that. You can get the covariance from the right off-diagonal element of the variance-covariance matrix of the coefficients. The variances will be found on the diagonal.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;citations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Citations&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Anthony (1992)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Baumgartner (2009)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Baumgartner and Jones (1993)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Baumgartner and Leech (2001)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Bentham (1843)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Browne (1990)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Carpenter (2002)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Carpenter and Moss (2014)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Coglianese, Kilmartin, and Mendelson (2009)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Davis (1971)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Dür and De Bièvre (2007)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Epstein and O’Halloran (1995)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Food and Drug Administration (2011)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Franklin (2010)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Funk (2001)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Furlong (1998)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Furlong and Kerwin (2005)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Garrett and Vermeule (2006)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Gluck, Po, and Joseph O’connell (2015)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Golden (1998)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Graham and Broughel (2015)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Greve and Parrish (2014)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Haeder and Yackee (2015)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Hojnacki et al. (2012)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Hickman (2009)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Hrebenar and Scott (1996)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Hwang et al. (2014)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Kaufman (1981)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Kaufman (2001)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Kerwin and Furlong (2018)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Kingdon (1995)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Klüver (2013)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Levin (2018)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Lewis (2011)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Magill (2004)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Mahoney (2007)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Manning (1996)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Mantel (2009)&lt;/span&gt;&lt;/p&gt;
+&lt;!--@Mashaw1997--&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;McCubbins, Noll, and Weingast (1987)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;McCubbins, Noll, and Weingast (1987)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Mendelson (2007)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Naughton et al. (2009)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Office of Management and Budget (2007)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Parrillo (2019)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Romano (2014)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Romano (2018)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Raso (2010)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Rourke (1984)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Rosenbloom (2000)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Sabatier (1988)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Schattschneider (1975)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Seidenfeld (2011)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Shapiro (2014)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Stack (2016)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Truman (1951)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Warren (2011)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;West (1995)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;West (2004)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Yackee (2019)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Yackee and Yackee (2006)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;citation&#34;&gt;Young, Marple, and Heilman (2017)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;bibliography&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;Bibliography&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-Anthony1992&#34;&gt;
+&lt;p&gt;Anthony, Robert A. 1992. “Interpretive Rules, Policy Statements, Guidances, Manuals, and the Like-Should Federal Agencies Use them to Bind the Public.” &lt;em&gt;Duke Law Journal&lt;/em&gt; 41 (6): 1311–84. &lt;a href=&#34;https://heinonline.org/HOL/Page?handle=hein.journals/duklr41%7B\&amp;amp;%7Ddiv=45%7B\&amp;amp;%7Dg%7B\_%7Dsent=1%7B\&amp;amp;%7Dcasa%7B\_%7Dtoken=%7B\&amp;amp;%7Dcollection=journals&#34;&gt;https://heinonline.org/HOL/Page?handle=hein.journals/duklr41{\&amp;amp;}div=45{\&amp;amp;}g{\_}sent=1{\&amp;amp;}casa{\_}token={\&amp;amp;}collection=journals&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Baumgartner2009&#34;&gt;
+&lt;p&gt;Baumgartner, Frank R. 2009. &lt;em&gt;Lobbying and Policy Change: Who Wins, Who Loses, and Why&lt;/em&gt;. University of Chicago Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Baumgartner1993&#34;&gt;
+&lt;p&gt;Baumgartner, Frank R., and Bryan D. Jones. 1993. &lt;em&gt;Agendas and Instability in American Politics&lt;/em&gt;. Vol. 56. 4. &lt;a href=&#34;https://doi.org/10.2307/2132088&#34;&gt;https://doi.org/10.2307/2132088&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Baumgartner2001&#34;&gt;
+&lt;p&gt;Baumgartner, Frank R., and Beth L. Leech. 2001. &lt;em&gt;Basic Interests: The Importance of Groups in Politics and in Political Science.&lt;/em&gt; Princeton University Press. &lt;a href=&#34;https://books.google.com/books?id=X7tkMfttEjoC%7B\&amp;amp;%7Ddq=baumgartner+and+leech%7B\&amp;amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds&#34;&gt;https://books.google.com/books?id=X7tkMfttEjoC{\&amp;amp;}dq=baumgartner+and+leech{\&amp;amp;}source=gbs{\_}navlinks{\_}s&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Bentham1843&#34;&gt;
+&lt;p&gt;Bentham, Jeremy. 1843. &lt;em&gt;The Works of Jeremy Bentham: Volume II Published on the Executor John Bowring.&lt;/em&gt; Edited by John Bowring. London, England: Simpkin, Marshall, &amp;amp; Co.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Browne1990&#34;&gt;
+&lt;p&gt;Browne, William P. 1990. “Organized Interests and Their Issue Niches: A Search for Pluralism in a Policy Domain.” &lt;em&gt;The Journal of Politics&lt;/em&gt; 52 (2): 477–509. &lt;a href=&#34;https://doi.org/10.2307/2131903&#34;&gt;https://doi.org/10.2307/2131903&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Carpenter2002&#34;&gt;
+&lt;p&gt;Carpenter, Daniel P. 2002. “Groups, the Media, Agency waiting Costs, and FDA Drug Approval.” &lt;em&gt;American Journal of Political Science&lt;/em&gt;, 490–505.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Carpenter2014a&#34;&gt;
+&lt;p&gt;Carpenter, Daniel P, and David A Moss. 2014. &lt;em&gt;Preventing Regulatory Capture: Special Interest Influence and How to Limit It&lt;/em&gt;. Cambridge University Press. &lt;a href=&#34;https://doi.org/10.1017/CBO9781139565875&#34;&gt;https://doi.org/10.1017/CBO9781139565875&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Coglianese2009&#34;&gt;
+&lt;p&gt;Coglianese, Cary, Heather Kilmartin, and Evan Mendelson. 2009. “Transparency and Public Participation in the Rulemaking Process.” &lt;em&gt;George Town Law Review&lt;/em&gt; 77 (June): 924. &lt;a href=&#34;https://scholarship.law.upenn.edu/faculty%7B\_%7Dscholarship/238&#34;&gt;https://scholarship.law.upenn.edu/faculty{\_}scholarship/238&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Davis1971&#34;&gt;
+&lt;p&gt;Davis, Kenneth Culp. 1971. “Administrative Law Treatise. 1970 Supplement.” In &lt;em&gt;Administrative Law Treatise. 1970 Supplement&lt;/em&gt;, 1st ed. St. Paul, MN: West. &lt;a href=&#34;https://trove.nla.gov.au/work/8849172?q%7B\&amp;amp;%7Dsort=holdings+desc%7B\&amp;amp;%7D%7B\_%7D=1553482169452%7B\&amp;amp;%7DversionId=18275053&#34;&gt;https://trove.nla.gov.au/work/8849172?q{\&amp;amp;}sort=holdings+desc{\&amp;amp;}{\_}=1553482169452{\&amp;amp;}versionId=18275053&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Dur2007&#34;&gt;
+&lt;p&gt;Dür, Andreas, and Dirk De Bièvre. 2007. “The Question of Interest Group Influence.” &lt;em&gt;Journal of Public Policy&lt;/em&gt; 27 (1): 1–12. &lt;a href=&#34;https://doi.org/10.1017/S0143814X07000591&#34;&gt;https://doi.org/10.1017/S0143814X07000591&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Epstein1995&#34;&gt;
+&lt;p&gt;Epstein, David, and Sharyn O’Halloran. 1995. “A Theory of Strategic Oversight: Congress, Lobbyists, and the Bureaucracy.” &lt;em&gt;The Journal of Law, Economics, and Organization&lt;/em&gt; 11 (2): 227–55. &lt;a href=&#34;https://doi.org/10.1093/oxfordjournals.jleo.a036871&#34;&gt;https://doi.org/10.1093/oxfordjournals.jleo.a036871&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-FoodandDrugAdministration2011&#34;&gt;
+&lt;p&gt;Food and Drug Administration. 2011. “Advancing Regulatory Science: Strategic Plan for Regulatory Science.” Food; Drug Administration. &lt;a href=&#34;http://www.fda.gov/ScienceResearch/SpecialTopics/RegulatoryScience/ucm267719.htm&#34;&gt;http://www.fda.gov/ScienceResearch/SpecialTopics/RegulatoryScience/ucm267719.htm&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Franklin2010&#34;&gt;
+&lt;p&gt;Franklin, David L. 2010. “Legislative Rules, Nonlegislative Rules, and the Perils of the Short Cut.” &lt;em&gt;Yale Law Journal&lt;/em&gt; 120 (2): 2010. &lt;a href=&#34;http://digitalcommons.law.yale.edu/ylj/vol120/iss2/2&#34;&gt;http://digitalcommons.law.yale.edu/ylj/vol120/iss2/2&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Funk2001&#34;&gt;
+&lt;p&gt;Funk, William F. 2001. “A Primer on Nonlegislative Rules.” &lt;em&gt;Administrative Law Review&lt;/em&gt; 53 (1321-1352). &lt;a href=&#34;https://doi.org/10.2139/ssrn.292269&#34;&gt;https://doi.org/10.2139/ssrn.292269&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Furlong1998&#34;&gt;
+&lt;p&gt;Furlong, Scott R. 1998. “Political Influence on the Bureaucracy: The Bureaucracy Speaks.” &lt;em&gt;Journal of Public Administration Research and Theory&lt;/em&gt; 8 (1): 39–65. &lt;a href=&#34;https://doi.org/10.1093/oxfordjournals.jpart.a024373&#34;&gt;https://doi.org/10.1093/oxfordjournals.jpart.a024373&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Furlong2005&#34;&gt;
+&lt;p&gt;Furlong, Scott. R., and Cornelius M. Kerwin. 2005. “Interest Group Participation in Rule Making: A Decade of Change.” &lt;em&gt;Journal of Public Administration Research and Theory&lt;/em&gt; 15 (3): 353–70. &lt;a href=&#34;https://doi.org/10.1093/jopart/mui022&#34;&gt;https://doi.org/10.1093/jopart/mui022&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Garrett2006&#34;&gt;
+&lt;p&gt;Garrett, Elizabeth, and Adrian Vermeule. 2006. “Transparency in the Budget Process.” University of Chicago Law &amp;amp; Economics, Olin Working Paper. &lt;a href=&#34;https://doi.org/10.2139/ssrn.877951&#34;&gt;https://doi.org/10.2139/ssrn.877951&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Gluck2015&#34;&gt;
+&lt;p&gt;Gluck, Abbe R., Rosa. Po, and Ann Joseph O’connell. 2015. “Yale Law School Yale Law School Legal Scholarship Repository Faculty Scholarship Series Yale Law School Faculty Scholarship.” &lt;em&gt;Columbia Law Review&lt;/em&gt; 115: 1789–1865. &lt;a href=&#34;http://digitalcommons.law.yale.edu/fss%7B\_%7Dpapers/5179&#34;&gt;http://digitalcommons.law.yale.edu/fss{\_}papers/5179&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Golden1998&#34;&gt;
+&lt;p&gt;Golden, Marissa Martino. 1998. “Interest Groups in the Rule-Making Process: Who Participates? Whose Voices Get Heard?” &lt;em&gt;Journal of Public Administration Research and Theory&lt;/em&gt; 8 (2): 245–70.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Graham2015&#34;&gt;
+&lt;p&gt;Graham, John D., and James Broughel. 2015. “Confronting the Problem of Stealth Regulation.” Mercatus Center. &lt;a href=&#34;https://www.mercatus.org/publication/confronting-problem-stealth-regulation&#34;&gt;https://www.mercatus.org/publication/confronting-problem-stealth-regulation&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Greve2014&#34;&gt;
+&lt;p&gt;Greve, Michael, and Ashley Parrish. 2014. “Administrative Law Without Congress.” &lt;em&gt;George Mason Law Review&lt;/em&gt; 22 (3). &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract%7B\_%7Did=2514484&#34;&gt;https://papers.ssrn.com/sol3/papers.cfm?abstract{\_}id=2514484&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Haeder2015&#34;&gt;
+&lt;p&gt;Haeder, Simon F., and Susan Webb Yackee. 2015. “Influence and the Administrative Process: Lobbying the U.S. President’s Office of Management and Budget.” &lt;em&gt;American Political Science Review&lt;/em&gt; 109 (03): 507–22. &lt;a href=&#34;https://doi.org/10.1017/S0003055415000246&#34;&gt;https://doi.org/10.1017/S0003055415000246&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Hickman2009&#34;&gt;
+&lt;p&gt;Hickman, Kristin E. 2009. “IRB Guidance: The No Man’s Land of Tax Code Interpretation.” &lt;em&gt;Michigan State Law Review&lt;/em&gt; 239. &lt;a href=&#34;http://scholarship.law.umn.edu/faculty%7B\_%7Darticleshttp://scholarship.law.umn.edu/faculty%7B\_%7Darticles/206.&#34;&gt;http://scholarship.law.umn.edu/faculty{\_}articleshttp://scholarship.law.umn.edu/faculty{\_}articles/206.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Hojnacki2012&#34;&gt;
+&lt;p&gt;Hojnacki, Marie, David C Kimball, Frank R Baumgartner, Jeffrey M Berry, and Beth L Leech. 2012. “Studying Organizational Advocacy and Influence: Reexamining Interest Group Research.” &lt;em&gt;Annual Review of Political Science&lt;/em&gt; 15 (1): 379–99. &lt;a href=&#34;https://doi.org/10.1146/annurev-polisci-070910-104051&#34;&gt;https://doi.org/10.1146/annurev-polisci-070910-104051&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Hrebenar1996&#34;&gt;
+&lt;p&gt;Hrebenar, Ronald J., and Ruth K. Scott. 1996. &lt;em&gt;Interest Group Politics in America&lt;/em&gt;. 3rd ed. New York, NY: Routledge. &lt;a href=&#34;https://doi.org/10.4324/9781315703381&#34;&gt;https://doi.org/10.4324/9781315703381&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Hwang2014&#34;&gt;
+&lt;p&gt;Hwang, Thomas J, Jerry Avorn, Daniel Carpenter, and Aaron S Kesselheim. 2014. “Quantifying The Food And Drug Administration’s Rulemaking Delays Highlights The Need For Transparency.” &lt;em&gt;Health Affairs&lt;/em&gt; 33: 309–15. &lt;a href=&#34;https://doi.org/10.1377/hlthaff.2013.0564&#34;&gt;https://doi.org/10.1377/hlthaff.2013.0564&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kaufman1981&#34;&gt;
+&lt;p&gt;Kaufman, Herbert. 1981. “The Confines of Leadership.” In &lt;em&gt;The Administrative Behavior of Federal Bureau Chiefs&lt;/em&gt;, 91–138. Washington, DC: Brookings Institution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kaufman2001&#34;&gt;
+&lt;p&gt;———. 2001. “Major Players: Bureaucracies in American Government.” &lt;em&gt;Public Administration Review&lt;/em&gt; 61 (1): 18–42. &lt;a href=&#34;https://doi.org/10.1111/0033-3352.00003&#34;&gt;https://doi.org/10.1111/0033-3352.00003&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kerwin2018&#34;&gt;
+&lt;p&gt;Kerwin, Cornelius M., and Scott R. Furlong. 2018. &lt;em&gt;Rulemaking: How Government Agencies Write Law and Make Policy&lt;/em&gt;. 5th ed. Washington, DC: CQ Press. &lt;a href=&#34;https://books.google.com/books?id=0O1bDwAAQBAJ%7B\&amp;amp;%7Ddq=Kerwin,+Cornelius+M.,+and+Scott+R.+Furlong.+2018.+Rulemaking:+How+Government+Agencies+Write+Law+and+Make+Policy,+5th+ed.+Washington,+DC:+CQ+Press.%7B\&amp;amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds&#34;&gt;https://books.google.com/books?id=0O1bDwAAQBAJ{\&amp;amp;}dq=Kerwin,+Cornelius+M.,+and+Scott+R.+Furlong.+2018.+Rulemaking:+How+Government+Agencies+Write+Law+and+Make+Policy,+5th+ed.+Washington,+DC:+CQ+Press.{\&amp;amp;}source=gbs{\_}navlinks{\_}s&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kingdon1995&#34;&gt;
+&lt;p&gt;Kingdon, John W. 1995. &lt;em&gt;Agendas, Alternatives, and Public Policies&lt;/em&gt;. 2nd ed. New York: HarperCollins College Publishers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Kluver2013&#34;&gt;
+&lt;p&gt;Klüver, Heike. 2013. &lt;em&gt;Lobbying in the European Union: Interest Groups, Lobbying Coalitions, and Policy Change&lt;/em&gt;. Oxford, England: Oxford University Press.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Levin2018&#34;&gt;
+&lt;p&gt;Levin, Ronald M. 2018. “Rulemaking and the Guidance Exemption.” &lt;em&gt;Administrative Law Review&lt;/em&gt; 70 (2): 263–356. &lt;a href=&#34;http://www.administrativelawreview.org/wp-content/uploads/2018/10/ALR-70.2%7B\_%7DLevin.pdf&#34;&gt;http://www.administrativelawreview.org/wp-content/uploads/2018/10/ALR-70.2{\_}Levin.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Lewis2011&#34;&gt;
+&lt;p&gt;Lewis, Kevin Michael. 2011. “Informal Guidance and the FDA.” &lt;em&gt;Food and Drug Law Journal&lt;/em&gt; 66 (4): 507–50, i. &lt;a href=&#34;http://www.ncbi.nlm.nih.gov/pubmed/24505827&#34;&gt;http://www.ncbi.nlm.nih.gov/pubmed/24505827&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Magill2004&#34;&gt;
+&lt;p&gt;Magill, Elizabeth M. 2004. “Agency Choice of Policymaking Form.” &lt;em&gt;University of Chicago Law Review&lt;/em&gt; 71 (4). &lt;a href=&#34;https://chicagounbound.uchicago.edu/uclrev/vol71/iss4/2&#34;&gt;https://chicagounbound.uchicago.edu/uclrev/vol71/iss4/2&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Mahoney2007JPP&#34;&gt;
+&lt;p&gt;Mahoney, Christine. 2007. “Lobbying Success in the United States and the European Union Author.” 1. Vol. 27. &lt;a href=&#34;https://www.jstor.org/stable/4007826&#34;&gt;https://www.jstor.org/stable/4007826&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Manning1996&#34;&gt;
+&lt;p&gt;Manning, John F. 1996. “Constitutional Structure and Judicial Deference to Agency Interpretations of Agency Rules.” &lt;em&gt;Columbia Law Review&lt;/em&gt; 96 (3): 612–96. &lt;a href=&#34;https://about.jstor.org/terms&#34;&gt;https://about.jstor.org/terms&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Mantel2009&#34;&gt;
+&lt;p&gt;Mantel, Jessica. 2009. “Procedural Safeguards for Agency Guidance.” &lt;em&gt;Administrative Law Review&lt;/em&gt;, 343–406. &lt;a href=&#34;http://www.administrativelawreview.org/wp-content/uploads/2014/04/Procedural-Safeguards-for-Agency-Guidance-A-Source-of-Legitimacy-for-the-Administrative-State.pdf&#34;&gt;http://www.administrativelawreview.org/wp-content/uploads/2014/04/Procedural-Safeguards-for-Agency-Guidance-A-Source-of-Legitimacy-for-the-Administrative-State.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-McCubbins1987&#34;&gt;
+&lt;p&gt;McCubbins, Mathew D., Roger G. Noll, and Barry R. Weingast. 1987. “Administrative Procedures as Instruments of Political Control.” &lt;em&gt;Journal of Law, Economics, &amp;amp; Organization&lt;/em&gt; 3 (2): 243–77. &lt;a href=&#34;https://doi.org/10.1093&#34;&gt;https://doi.org/10.1093&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Mendelson2007&#34;&gt;
+&lt;p&gt;Mendelson, Nina. 2007. “Regulatory Beneficiaries and Informal Agency Policymaking.” &lt;em&gt;Cornell Law Review&lt;/em&gt; 92 (3): 397–452. &lt;a href=&#34;https://www.researchgate.net/publication/6410686%7B\_%7DRegulatory%7B\_%7Dbeneficiaries%7B\_%7Dand%7B\_%7Dinformal%7B\_%7Dagency%7B\_%7Dpolicymaking&#34;&gt;https://www.researchgate.net/publication/6410686{\_}Regulatory{\_}beneficiaries{\_}and{\_}informal{\_}agency{\_}policymaking&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Naughton2009&#34;&gt;
+&lt;p&gt;Naughton, Keith, Celeste Schmid, Susan Webb Yackee, and Xueyong Zhan. 2009. “Understanding Commenter Influence during Agency Rule Development.” WileyAssociation for Public Policy Analysis; Management. &lt;a href=&#34;https://doi.org/10.2307/29739013&#34;&gt;https://doi.org/10.2307/29739013&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-OfficeofManagementandBudget2007&#34;&gt;
+&lt;p&gt;Office of Management and Budget. 2007. “Final Bulletin for Agency Good Guidance Practices, No. 07-02.” &lt;a href=&#34;http://www.whitehouse.gov/omb/inforeg/good%7B\_%7Dguid/c-index.html&#34;&gt;http://www.whitehouse.gov/omb/inforeg/good{\_}guid/c-index.html&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Parrillo2019&#34;&gt;
+&lt;p&gt;Parrillo, Nicholas R. 2019. “Federal Agency Guidance and the Power to Bind: An Empirical Study of Agencies and Industries.” &lt;em&gt;Yale Journal on Regulation&lt;/em&gt; 36: 165–271. &lt;a href=&#34;https://www.acus.gov/sites/default/files/documents/parrillo-agency-guidance-final-report.pdf&#34;&gt;https://www.acus.gov/sites/default/files/documents/parrillo-agency-guidance-final-report.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Raso2010&#34;&gt;
+&lt;p&gt;Raso, Connor N. 2010. “Strategic or Sincere? Analyzing Agency Use of Guidance Documents.” &lt;em&gt;Yale Law Journal&lt;/em&gt; 119 (4): 648–847. &lt;a href=&#34;https://www.yalelawjournal.org/note/agency-use-of-guidance-documents&#34;&gt;https://www.yalelawjournal.org/note/agency-use-of-guidance-documents&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Romano2014&#34;&gt;
+&lt;p&gt;Romano, Roberta. 2014. “Regulating in the Dark and a Postscript Assessment of the Iron Law of Financial Regulation.” &lt;em&gt;Hofstra Law Review&lt;/em&gt; 43 (1). &lt;a href=&#34;https://scholarlycommons.law.hofstra.edu/hlr/vol43/iss1/2&#34;&gt;https://scholarlycommons.law.hofstra.edu/hlr/vol43/iss1/2&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Romano2018&#34;&gt;
+&lt;p&gt;———. 2018. “Does Agency Structure Affect Agency Decisionmaking? Implications of the CFPB’s Design for Administrative Governance.” Yale Law &amp;amp; Economics Research Paper. &lt;a href=&#34;https://doi.org/10.2139/ssrn.3096356&#34;&gt;https://doi.org/10.2139/ssrn.3096356&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Rosenbloom2000&#34;&gt;
+&lt;p&gt;Rosenbloom, David H. 2000. &lt;em&gt;Framing Legislative Centered Public Administration: Congress ’s 1946 Response to the Administrative State.&lt;/em&gt; University of Alabama Press. &lt;a href=&#34;http://www.uapress.ua.edu/product/Building-a-Legislative-Centered-Public-Administrat,1271.aspx&#34;&gt;http://www.uapress.ua.edu/product/Building-a-Legislative-Centered-Public-Administrat,1271.aspx&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Rourke1984&#34;&gt;
+&lt;p&gt;Rourke, Francis E. 1984. &lt;em&gt;Bureaucracy, Politics, and Public Policy.&lt;/em&gt; 3nd ed. Boston, MA: Little, Brown. &lt;a href=&#34;https://doi.org/10.1177/000271626938500151&#34;&gt;https://doi.org/10.1177/000271626938500151&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Sabatier1988&#34;&gt;
+&lt;p&gt;Sabatier, Paul A. 1988. “An Advocacy Coalition Framework of Policy Change and the Role of Policy-Oriented Learning Therein.” Vol. 21. &lt;a href=&#34;https://about.jstor.org/terms&#34;&gt;https://about.jstor.org/terms&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Schattschneider1975&#34;&gt;
+&lt;p&gt;Schattschneider, Elmer E. 1975. &lt;em&gt;The Semisovereign People: A Realist’s Wiew of Democracy in America&lt;/em&gt;. Revised. Dryden Press. &lt;a href=&#34;http://wikisum.com/w/Schattschneider:%7B\_%7DThe%7B\_%7Dsemisovereign%7B\_%7Dpeople%20https://books.google.com/books/about/The%7B\_%7Dsemisovereign%7B\_%7Dpeople.html?id=GXdHAAAAMAAJ&#34;&gt;http://wikisum.com/w/Schattschneider:{\_}The{\_}semisovereign{\_}people https://books.google.com/books/about/The{\_}semisovereign{\_}people.html?id=GXdHAAAAMAAJ&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Seidenfeld2011&#34;&gt;
+&lt;p&gt;Seidenfeld, Mark B. 2011. “Substituting Substantive for Procedural Review of Guidance Documents.” &lt;em&gt;Texas Law Review&lt;/em&gt; 90: 331–94. &lt;a href=&#34;https://doi.org/10.2139/ssrn.1748731&#34;&gt;https://doi.org/10.2139/ssrn.1748731&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Shapiro2014&#34;&gt;
+&lt;p&gt;Shapiro, Stuart. 2014. “Agency Oversight as Whac-A-Mole: The Challenge of Restricting Agency Use of Nonlegislative Rules.” &lt;em&gt;Harvard Journal of Law and Public Policy&lt;/em&gt; 37 (2): 523–52. &lt;a href=&#34;https://www.researchwithnj.com/en/publications/agency-oversight-as-whac-a-mole-the-challenge-of-restricting-agen&#34;&gt;https://www.researchwithnj.com/en/publications/agency-oversight-as-whac-a-mole-the-challenge-of-restricting-agen&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Stack2016&#34;&gt;
+&lt;p&gt;Stack, Kevin M. 2016. “Preambles as Guidance.” &lt;em&gt;The George Washington Law Review&lt;/em&gt; 84 (5): 1252. &lt;a href=&#34;https://www.gwlr.org/preambles-as-guidance/&#34;&gt;https://www.gwlr.org/preambles-as-guidance/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Truman1951&#34;&gt;
+&lt;p&gt;Truman, David B. 1951. &lt;em&gt;The Governmental Process. Political Interests and Public Opinion&lt;/em&gt;. New York, NY: Alfred A. Knopf. &lt;a href=&#34;https://doi.org/10.1002/ncr.4110400915&#34;&gt;https://doi.org/10.1002/ncr.4110400915&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Warren2011&#34;&gt;
+&lt;p&gt;Warren, Kenneth F. 2011. &lt;em&gt;Administrative Law in the Political System&lt;/em&gt;. 5th ed. Boulder, CO: Westview Press. &lt;a href=&#34;https://www.worldcat.org/title/administrative-law-in-the-political-system/oclc/680620954&#34;&gt;https://www.worldcat.org/title/administrative-law-in-the-political-system/oclc/680620954&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-West1995&#34;&gt;
+&lt;p&gt;West, William F. 1995. &lt;em&gt;Controlling the Bureaucracy: Institutional Constraints in Theory and Practice&lt;/em&gt;. M.E. Sharpe. &lt;a href=&#34;https://books.google.com/books?id=eizlpF7uOQcC%7B\&amp;amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds&#34;&gt;https://books.google.com/books?id=eizlpF7uOQcC{\&amp;amp;}source=gbs{\_}navlinks{\_}s&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-West2004&#34;&gt;
+&lt;p&gt;———. 2004. “Formal Procedures, Informal Processes, Accountability, and Responsiveness in Bureaucratic Policy Making: An Institutional Policy Analysis.” &lt;em&gt;Public Administration Review&lt;/em&gt; 64 (1): 66–80. &lt;a href=&#34;https://doi.org/10.1111/j.1540-6210.2004.00347.x&#34;&gt;https://doi.org/10.1111/j.1540-6210.2004.00347.x&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Yackee2006JOP&#34;&gt;
+&lt;p&gt;Yackee, Jason Webb, and Susan Webb Yackee. 2006. “A Bias Towards Business? Assessing Interest Group Influence on the U.S. Bureaucracy.” &lt;em&gt;Journal of Politics&lt;/em&gt; 68 (1): 128–39.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Yackee2019&#34;&gt;
+&lt;p&gt;Yackee, Susan Webb. 2019. “The Politics of Rulemaking in the United States.” &lt;em&gt;Annual Review of Political Science&lt;/em&gt; 22 (1). &lt;a href=&#34;https://doi.org/10.1146/annurev-polisci-050817-092302&#34;&gt;https://doi.org/10.1146/annurev-polisci-050817-092302&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-Young2017&#34;&gt;
+&lt;p&gt;Young, Kevin L., Tim Marple, and James Heilman. 2017. “Beyond the Revolving Door: Advocacy Behavior and Social Distance to Financial Regulators.” &lt;em&gt;Business and Politics&lt;/em&gt; 19 (02): 327–64. &lt;a href=&#34;https://doi.org/10.1017/bap.2017.10&#34;&gt;https://doi.org/10.1017/bap.2017.10&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

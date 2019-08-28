@@ -2,20 +2,20 @@
 output: 
   pdf_document:
     latex_engine: pdflatex
-    template: ~/judgelord.github.io/cv/svm-latex-cv.tex
+    template: ~/cv/svm-latex-cv.tex
 geometry: margin=1in
 
 title: "CV"
 author: Devin Judge-Lord
 
-jobtitle: no
+jobtitle:
 address: "110 North Hall, 1059 Bascom Mall, Madison, WI 53706"
 fontawesome: yes
 email: "JudgeLord@Wisc.edu"
 github: judgelord
 twitter: judgelord
 phone: "715.204.4287"
-web: no
+web: 
 updated: yes
 
 keywords: no
