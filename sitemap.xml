@@ -3,76 +3,181 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/teaching/tutorials/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/teaching/tutorials/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/teaching/tutorials/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2019/08/04/testpost/</loc>
-    <lastmod>2019-08-04T00:00:00+00:00</lastmod>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>/2016/12/30/a-plain-markdown-post/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+    <loc>/project/correspondence/</loc>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
+    <loc>/project/rulemaking/</loc>
+  </url>
+  
+  <url>
+    <loc>/templates/rmd-templates/djl-letter/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/1/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/ben-cashore/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/cv/judgelord-cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/cv/judgelord-cv2/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/ferc/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2015/07/23/hello-r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/authors/constance-mcdermott/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/teaching/</loc>
+  </url>
+  
+  <url>
+    <loc>/cv/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/fsc-sfi/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/irene-scher/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/budgets/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/boreal/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/ej/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/templates/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/research/correspondence/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/defrence/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/whymail/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/forestry/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2015/01/01/lorem-ipsum/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
+    <loc>/tags/private-governance/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,62 +1,468 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>A Hugo website</title>
+    <title></title>
     <link>/</link>
-    <description>Recent content on A Hugo website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 May 2019 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title></title>
+      <link>/</link>
+    </image>
     
     <item>
-      <title>testpost</title>
-      <link>/2019/08/04/testpost/</link>
-      <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/08/04/testpost/</guid>
+      <title>Example Page 1</title>
+      <link>/teaching/tutorials/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/teaching/tutorials/example1/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/teaching/tutorials/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/teaching/tutorials/example2/</guid>
+      <description>
+
+&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
+      <title></title>
+      <link>/project/rulemaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/rulemaking/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <title></title>
+      <link>/templates/rmd-templates/djl-letter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/templates/rmd-templates/djl-letter/</guid>
+      <description>
+
+
+&lt;p&gt;To whom it may concern:&lt;/p&gt;
+&lt;p&gt;I write to apply for the Kendall Fellowship in Understanding Scientist Activism and Movement Building. As a fourth-year doctoral candidate, the Fellowship would support the final year of my Ph.D. research and a year of post-doctoral research.&lt;/p&gt;
+&lt;div id=&#34;research-concept&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Research concept&lt;/h4&gt;
+&lt;p&gt;Political scientists have long studied how social movements influence elected officials, but we have much to learn about how activists and public pressure may influence bureaucratic policymaking and the role that tactics like mass-comment campaigns play in movement-building. My dissertation examines how advocacy organizations mobilize supporters to amplify more technical lobbying efforts. I focus on agency rulemaking, where most U.S. law is now made, and where organizations like UCS often mobilize thousands of people to engage. To the extent that this tactic aims to influence policy, it presumes that policymakers are more likely to respond to demands amplified by mass mobilization campaigns. While plausible that mass engagement may affect agency decisions both directly, by realizing latent public demands, and indirectly, by influencing elected officials whose opinions matter to agency policymakers, these hypotheses remain untested. We know very little about the conditions under which mass mobilization aimed at bureaucratic policymaking succeeds and the mechanisms by which it may affect policy.&lt;/p&gt;
+&lt;p&gt;My research begins to fill this gap. I develop systematic measures of public engagement in rulemaking over time using text reuse and Bayesian classifiers to link millions of public comments to the advocacy efforts they support.
+I then use my new measures of public engagement to assess the effects of mobilization on policy by linking changes in policy texts and the policymaking process to the demands of each coalition. For example, in preliminary work for a chapter on the influence of environmental justice (EJ) activists in rulemaking, I compare the preambles of draft and final rules and analyze the comments submitted on each rule. I identify 21,544 draft agency rules that plausibly affect EJ issues but do not mention “environmental justice.’’ In comments submitted on 1,496 of these draft rules, commenters raised “environmental justice” as a concern. When they did, agencies were more likely to add EJ language when publishing the final rule. This suggests that advocacy efforts may indeed influence rulemaking. While I have yet to find an effect for the volume of public comments, I am developing more sophisticated methods to better test the hypothesis that agencies are more likely to respond to demands amplified by mass mobilization campaigns.&lt;/p&gt;
+&lt;p&gt;A second part of my dissertation explores how and when Members of Congress are mobilized to engage in agency decisions. Here, I collaborate with Eleanor Powell and Justin Grimmer, leading scholars on legislator behavior. Through hundreds of Freedom of Information Act requests, we created a new dataset of hundreds of thousands of letters, emails, and phone calls from legislators to bureaucrats. I use this dataset to identify how advocacy campaigns mobilize or “scare off’” legislator engagement in agency decisions.&lt;/p&gt;
+&lt;p&gt;The Kendall Fellowship would also allow me to advance a third key part of this research agenda: assessing how different &lt;em&gt;tactics&lt;/em&gt; mobilize individuals and elected officials and ultimately affect policy. Specifically, I hope to collaborate with organizations like UCS in two ways. First, I hope to integrate data on responses to public engagement campaigns, such as click-through rates for action alerts, data on those engaged, and any personalized text they added. I see these as key to measuring the intensity of public demands and the potential for movements to spread. Second, I hope to help design small randomly-assigned variations in future mobilization efforts—for example, messaging with and without an EJ frame—and use the methods I developed in my dissertation to track legislator and agency responses. Eventually, I hope to collect sufficient experimental evidence to causally identify effects of public engagement on policy, but the results of even a few experimental manipulations may reveal mechanisms of influence.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experience&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Experience&lt;/h4&gt;
+&lt;p&gt;I hold master’s degrees in Environmental Science and Political Science and have significant research and policy experience beyond academia.&lt;/p&gt;
+&lt;p&gt;From 2009 to 2011, I developed and led a collaborative initiative for Willamette Partnership, a watershed-based nonprofit. This involved convening groups of experts, advocates, and policymakers to draft agency guidance and state law around Clean Water Act and Endangered Species Act regulations and Farm Bill Conservation Title criteria. I also helped develop strategic plans for Willamette Partnership, and for the Oregon Sierra Club in my role as Vice Chair of the Columbia Chapter, and I would be excited to help plan the Center for Science and Democracy’s future efforts to empower the scientific community and our supporters.&lt;/p&gt;
+&lt;p&gt;From 2013 to 2015, I worked for the Food and Agriculture Organization of the United Nations, analyzing changes in forestry laws. This research emerged from my M.E.Sc. work, where I wrote a book chapter tracing the effects of U.S. NGOs and indigenous activists on forestry laws and a journal article on the evolution of initiatives like the Forest Stewardship Council.&lt;/p&gt;
+&lt;p&gt;Since 2015, I have been working on my Ph.D. at the University of Wisconsin where I currently teach a class on statistical computing for Ph.D. students. I also hold positions in the Association for Environmental Studies and Sciences and the American Political Science Association’s Science, Technology, and Environmental Politics section.&lt;/p&gt;
+&lt;p&gt;As an organization that mobilizes supporters to amplify science and realize latent public demands, UCS, and the Center for Science and Democracy offer an ideal environment to advance my research.&lt;/p&gt;
+&lt;p&gt;Thank you so much for your consideration,&lt;/p&gt;
+
+
+&lt;p&gt;Devin Judge-Lord&lt;/p&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <title>CV</title>
+      <link>/cv/judgelord-cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/cv/judgelord-cv/</guid>
+      <description>
+
+
+&lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;EDUCATION&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison, Ph.D. in Political Science (2015-present, M.A. recieved 2017)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dissertation: &lt;em&gt;Political Information in Bureaucratic Policymaking&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yale University, M.E.Sc. in Environmental Politics and Law (2013)&lt;/p&gt;
+&lt;p&gt;Reed College, B.A. in Political Science (2009)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;peer-reviewed-publications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
+&lt;p&gt;“Do Private Regulations ‘Ratchet Up?’ A comparative classification framework” with Benjamin Cashore and Constance McDermott [&lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating theories of internationalization and pathways of policy change.” with Irene Scher and Benjamin Cashore. [Peer-reviewed book chapter] In &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
+&lt;p&gt;“Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/p&gt;
+&lt;p&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/p&gt;
+&lt;p&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/p&gt;
+&lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking” (AESS 2018)&lt;/p&gt;
+&lt;p&gt;“Measuring Change and Influence in Budget Texts” (PolMeth 2017, APSA 2017)&lt;/p&gt;
+&lt;p&gt;“Why Courts Defer to Administrative Agency Judgement” (MPSA 2016)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-publications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1): 7. with John Robert Cochran&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;TEACHING&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison, Instructor&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2019)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching-assistant-grader-positions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;TEACHING ASSISTANT &amp;amp; GRADER POSITIONS&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yale University&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;research-and-public-policy&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;RESEARCH AND PUBLIC POLICY&lt;/h1&gt;
+&lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–Present)&lt;/p&gt;
+&lt;p&gt;Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)&lt;/p&gt;
+&lt;p&gt;Regulatory Affairs Specialist, Willamette Partnership and Washington County, Oregon (2010–2011)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Convened state and federal agency staff to draft Oregon Department of Environmental Quality Guidance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drafted text for an Oregon State Senate bill&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Conducted a feasibility analysis that led to $10 million in private conservation investment, $1 million in public investment, and praise for the project in a speech by President Barack Obama&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ducey Fellow for Public Policy, Willamette Partnership (2009)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;selected-awards&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
+&lt;p&gt;Finalist, Best Graduate Student Paper, Association of Environmental Studies and Sciences (2015)&lt;/p&gt;
+&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social
+and natural science Masters Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
+&lt;p&gt;Best Student Research Presentation, Association for Environmental Studies and Sciences (2012)&lt;/p&gt;
+&lt;p&gt;Carpenter-Sperry Research Award (2012)&lt;/p&gt;
+&lt;p&gt;Jubitz Family Foundation Research Fellowship (2012)&lt;/p&gt;
+&lt;p&gt;H. Stuart Harrison Scholarship (Yale University 2011–2013)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;service&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;SERVICE&lt;/h1&gt;
+&lt;p&gt;Referee: &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Social Media Editor (2017-present), American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP)&lt;/p&gt;
+&lt;p&gt;Program Committee (2014–2016), Nominations Committee (2016-present), Association of Environmental Studies and Sciences (AESS)&lt;/p&gt;
+&lt;p&gt;Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017)&lt;/p&gt;
+&lt;p&gt;Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law conference at Yale Law School&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;certifications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;CERTIFICATIONS&lt;/h1&gt;
+&lt;p&gt;Teaching in the Social Sciences Certificate (Yale University, 2012)&lt;/p&gt;
+&lt;p&gt;&amp;lt;!–
+- Committee: Susan Yackee (chair), Eleanor Powell, Alex Tahk, Dave Weimer, Miriam Seifter&lt;/p&gt;
+&lt;p&gt;Project Assistant, University of Wisconsin-Madison (2015-Present)&lt;/p&gt;
+&lt;p&gt;“The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public” with Susan Yackee&lt;/p&gt;
+&lt;p&gt;“U.S. Domestic Politics of Climate Engineering” (AESS 2016)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;PRESENTATIONS&lt;/p&gt;
+&lt;p&gt;American Political Science Association (2017, 2018)&lt;/p&gt;
+&lt;p&gt;Midwest Political Science Association (2016)&lt;/p&gt;
+&lt;p&gt;Association of Environmental Studies and Sciences Annual Conference (2012, 2018)&lt;/p&gt;
+&lt;p&gt;New Directions in Environmental Law Conference, Yale Law School (2012, 2013)&lt;/p&gt;
+&lt;p&gt;Travel Grant (Yale University 2011, 2012)&lt;/p&gt;
+&lt;p&gt;President, Yale Environmental Law Association Student Interest Group (2012–2013)&lt;/p&gt;
+&lt;p&gt;SKILLS AND LANGUAGES
+R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
+Conversational Russian; basic Spanish&lt;/p&gt;
+&lt;p&gt;Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Thesis: &lt;em&gt;Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments&lt;/em&gt;
+Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thesis: &lt;em&gt;Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Research Assistant, Governance, Environment, and Markets (GEM) Initiative
+• Analyzed methods employed in 220 journal articles&lt;/p&gt;
+&lt;p&gt;• Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
+on Clean Water Act compliance (now Oregon Department of Environmental Quality Guidance)
+• Drafted legal language for an Oregon State Senate bill
+• Conducted a feasibility analysis that led to $10 million in private investment, $1 million
+in public investment, and praise for the project in a speech by President Barack Obama
+```&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/cv/judgelord-cv2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/cv/judgelord-cv2/</guid>
+      <description>
+
+
+&lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;EDUCATION&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison, Ph.D. in Political Science (2015-present, M.A. received 2017)&lt;/p&gt;
+&lt;p&gt;Yale University, Master of Environmental Science (2013)&lt;/p&gt;
+&lt;p&gt;Reed College, B.A. (2009)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;peer-reviewed-publications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
+&lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating theories of internationalization and pathways of policy change.” with Irene Scher and Benjamin Cashore. [Peer-reviewed book chapter] In &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
+&lt;p&gt;“Do Private Regulations Ratchet Up?: How to distinguish types of regulatory stringency and patterns of change” with Benjamin Cashore and Constance McDermott [R&amp;amp;R at &lt;em&gt;Organization &amp;amp; the Environment&lt;/em&gt;]&lt;/p&gt;
+&lt;p&gt;“Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/p&gt;
+&lt;p&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/p&gt;
+&lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking” (AESS 2018)&lt;/p&gt;
+&lt;p&gt;“Measuring Change and Influence in Budget Texts” (PolMeth 2017, APSA 2017)&lt;/p&gt;
+&lt;p&gt;“How Do Forest Certification Policies Change Over Time?: Comparing Sustainable Forestry Initiative and Forest Stewardship Council Standards in the United States, 2008-2015” (APPAM 2015)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;other-publications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” with John Robert Cochran. &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1): 7.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;consulting&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;CONSULTING&lt;/h1&gt;
+&lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–Present)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed methods to systematically compare forestry certification standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Research Consultant, Arup Group (2015)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed decision tool for timber sourcing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Researched and wrote chapters of the &lt;em&gt;State of the World’s Forest Report&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regulatory Affairs Specialist, Willamette Partnership and Washington County, Oregon (2010–2011)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Convened state and federal agency staff to draft Oregon Department of Environmental Quality Guidance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drafted text for an Oregon State Senate bill&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Conducted a feasibility analysis that led to $10 million in private conservation investment, $1 million in public investment, and praise for the project in a speech by President Barack Obama&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ducey Fellow for Public Policy, Willamette Partnership (2009)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;TEACHING&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison, Instructor&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;teaching-assistant-grader-positions&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;TEACHING ASSISTANT &amp;amp; GRADER POSITIONS&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin-Madison&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yale University&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;selected-awards&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
+&lt;p&gt;Finalist, Best Graduate Student Paper, Association of Environmental Studies and Sciences (2015)&lt;/p&gt;
+&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social and natural science Master’s Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
+&lt;p&gt;Best Student Research Presentation, Association for Environmental Studies and Sciences (2012)&lt;/p&gt;
+&lt;p&gt;Carpenter-Sperry Research Award (2012)&lt;/p&gt;
+&lt;p&gt;Jubitz Family Foundation Research Fellowship (2012)&lt;/p&gt;
+&lt;p&gt;H. Stuart Harrison Scholarship (Yale University 2011–2013)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;service&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;SERVICE&lt;/h1&gt;
+&lt;p&gt;Referee: &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Social Media Editor (2017-present), American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP)&lt;/p&gt;
+&lt;p&gt;Program Committee (2014–2016), Nominations Committee (2016-present), Association of Environmental Studies and Sciences (AESS)&lt;/p&gt;
+&lt;p&gt;Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017)&lt;/p&gt;
+&lt;p&gt;Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law Conference at Yale Law School&lt;/p&gt;
+&lt;p&gt;&amp;lt;!–&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;certifications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;CERTIFICATIONS&lt;/h1&gt;
+&lt;p&gt;Teaching in the Social Sciences Certificate (Yale University, 2012)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Committee: Susan Yackee (chair), Eleanor Powell, Alex Tahk, Dave Weimer, Miriam Seifter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Project Assistant, University of Wisconsin-Madison (2015-Present)&lt;/p&gt;
+&lt;p&gt;“The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public” with Susan Yackee&lt;/p&gt;
+&lt;p&gt;“U.S. Domestic Politics of Climate Engineering” (AESS 2016)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;PRESENTATIONS&lt;/p&gt;
+&lt;p&gt;American Political Science Association (2017, 2018)&lt;/p&gt;
+&lt;p&gt;Midwest Political Science Association (2016)&lt;/p&gt;
+&lt;p&gt;Association of Environmental Studies and Sciences Annual Conference (2012, 2018)&lt;/p&gt;
+&lt;p&gt;New Directions in Environmental Law Conference, Yale Law School (2012, 2013)&lt;/p&gt;
+&lt;p&gt;Travel Grant (Yale University 2011, 2012)&lt;/p&gt;
+&lt;p&gt;President, Yale Environmental Law Association Student Interest Group (2012–2013)&lt;/p&gt;
+&lt;p&gt;SKILLS AND LANGUAGES
+R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
+Conversational Russian; basic Spanish&lt;/p&gt;
+&lt;p&gt;Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Thesis: &lt;em&gt;Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments&lt;/em&gt;
+Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in US Farm and Forest Politics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thesis: &lt;em&gt;Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Research Assistant, Governance, Environment, and Markets (GEM) Initiative
+• Analyzed methods employed in 220 journal articles&lt;/p&gt;
+&lt;p&gt;• Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
+on Clean Water Act compliance (now Oregon Department of Environmental Quality Guidance)
+• Drafted legal language for an Oregon State Senate bill
+• Conducted a feasibility analysis that led to $10 million in private investment, $1 million
+in public investment, and praise for the project in a speech by President Barack Obama
+```&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Campaign Contributions and Bureaucratic Oversight</title>
+      <link>/research/ferc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/ferc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
+      <link>/research/fsc-sfi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/fsc-sfi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Change and Influence in Budget Texts</title>
+      <link>/research/budgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/budgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
+      <link>/research/boreal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/boreal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Movements, Science, Bureaucracy, and Democracy</title>
+      <link>/research/ej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/ej/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unequal Representation: Constituency Service in Today’s Congress</title>
+      <link>/research/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Courts Defer to Administrative Agency Judgement</title>
+      <link>/research/defrence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/defrence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do agencies (sometimes) get so much mail?</title>
+      <link>/research/whymail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/research/whymail/</guid>
+      <description></description>
     </item>
     
   </channel>

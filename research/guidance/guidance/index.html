@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Devin Judge-Lord">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Observational results: Core models:  Expanded models:  Only the Guidance coeficients   Experiment Results (dummy) Core models:  Expanded models:  Interaction In order to add errors to marginal effects, I need the covariance.
+It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
+## # A tibble: 4 x 3 ## group condition estimate ## &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt; ## 1 Lobbied on Guidance Guidance Vignette 0.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://judgelord.github.io/research/guidance/guidance/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.dd629241ea9333c62c071f4a25f829ff.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://judgelord.github.io/research/guidance/guidance/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@judgelord">
+  <meta property="twitter:creator" content="@judgelord">
+  
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="https://judgelord.github.io/research/guidance/guidance/">
+  <meta property="og:title" content=" | ">
+  <meta property="og:description" content="Observational results: Core models:  Expanded models:  Only the Guidance coeficients   Experiment Results (dummy) Core models:  Expanded models:  Interaction In order to add errors to marginal effects, I need the covariance.
+It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.
+## # A tibble: 4 x 3 ## group condition estimate ## &lt;chr&gt; &lt;chr&gt; &lt;dbl&gt; ## 1 Lobbied on Guidance Guidance Vignette 0."><meta property="og:image" content="https://judgelord.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://judgelord.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title> | </title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/research/"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching/"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/cv/judgelord-cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name"></h1>
+
+  
+
+  
+    
+
+
+
+<meta content="" itemprop="datePublished">
+<meta content="" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time></time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://judgelord.github.io/research/guidance/guidance/&amp;text=" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://judgelord.github.io/research/guidance/guidance/&amp;t=" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=&amp;body=https://judgelord.github.io/research/guidance/guidance/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://judgelord.github.io/research/guidance/guidance/&amp;title=" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=%20https://judgelord.github.io/research/guidance/guidance/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://judgelord.github.io/research/guidance/guidance/&amp;title=" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<div id="observational-results" class="section level1">
+<h1>Observational results:</h1>
+<div id="core-models" class="section level2">
+<h2>Core models:</h2>
+<p><img src="Figs/guidance-figure1-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="expanded-models" class="section level2">
+<h2>Expanded models:</h2>
+<p><img src="Figs/guidance-figure2-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="only-the-guidance-coeficients" class="section level2">
+<h2>Only the Guidance coeficients</h2>
+<p><img src="Figs/guidance-figure3-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="experiment-results-dummy" class="section level1">
+<h1>Experiment Results (dummy)</h1>
+<div id="core-models-1" class="section level2">
+<h2>Core models:</h2>
+<p><img src="Figs/guidance-exp-figure1-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="expanded-models-1" class="section level2">
+<h2>Expanded models:</h2>
+<p><img src="Figs/guidance-exp-figure2-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="interaction" class="section level2">
+<h2>Interaction</h2>
+<p>In order to add errors to marginal effects, I need the covariance.</p>
+<p>It might be good to show the underlying data, which would look better (and be more accurate) for the 5pt scale, but could be jittered on 1 and 0.</p>
+<pre><code>## # A tibble: 4 x 3
+##   group               condition         estimate
+##   &lt;chr&gt;               &lt;chr&gt;                &lt;dbl&gt;
+## 1 Lobbied on Guidance Guidance Vignette    0.177
+## 2 Lobbied on Rule     Rule Vignette        0    
+## 3 Lobbied on Rule     Guidance Vignette   -0.612
+## 4 Lobbied on Guidance Rule Vignette       -0.827</code></pre>
+<p><img src="Figs/guidance-exp-interaction-1.png" width="384" style="display: block; margin: auto;" />
+The effect of the <strong>guidance</strong> condition for those that lobbied on <strong>guidance</strong> compared to:</p>
+<p>The <strong>rule</strong> condition for those that lobbied on <strong>guidance</strong>: 1.003293</p>
+<p>The <strong>guidance</strong> condition for those that lobbied on a <strong>rule</strong>: 0.78819</p>
+<p>The <strong>rule</strong> condition for those that lobbied on a <strong>rule</strong>: 0.176623</p>
+</div>
+</div>
+<div id="experiment-results-5-point" class="section level1">
+<h1>Experiment Results (5 point)</h1>
+<div id="core-models-2" class="section level2">
+<h2>Core models:</h2>
+<p><img src="Figs/guidance-exp-figure15-1.png" width="768" style="display: block; margin: auto;" /></p>
+</div>
+<div id="interaction-1" class="section level2">
+<h2>Interaction</h2>
+<pre><code>## # A tibble: 4 x 3
+##   group               condition         estimate
+##   &lt;chr&gt;               &lt;chr&gt;                &lt;dbl&gt;
+## 1 Lobbied on Guidance Guidance Vignette   0.0155
+## 2 Lobbied on Rule     Rule Vignette       0     
+## 3 Lobbied on Rule     Guidance Vignette  -0.494 
+## 4 Lobbied on Guidance Rule Vignette      -0.657</code></pre>
+<p><img src="Figs/guidance-exp-interaction5-1.png" width="384" style="display: block; margin: auto;" /></p>
+<p>The effect of the <strong>guidance</strong> condition for those that lobbied on <strong>guidance</strong> compared to:</p>
+<p>The <strong>rule</strong> condition for those that lobbied on <strong>guidance</strong>: 0.6721448</p>
+<p>The <strong>guidance</strong> condition for those that lobbied on a <strong>rule</strong>: 0.5092595</p>
+<p>The <strong>rule</strong> condition for those that lobbied on a <strong>rule</strong>: 0.0155363</p>
+<p>For refrence:
+For 𝑌=𝑏0+𝑏1𝑋+𝑏2𝑍+𝑏3𝑋𝑍+𝑒
+, the marginal effect is 𝑏1+𝑏3⋅𝑍, a function of 𝑍. The variance of a weighted sum is 𝑉𝑎𝑟(𝑏1)+𝑉𝑎𝑟(𝑏3)⋅𝑍2+2⋅𝑍⋅𝐶𝑜𝑣(𝑏1,𝑏3), and the standard error is just the square root of that. You can get the covariance from the right off-diagonal element of the variance-covariance matrix of the coefficients. The variances will be found on the diagonal.</p>
+</div>
+</div>
+<div id="citations" class="section level1">
+<h1>Citations</h1>
+<p><span class="citation">Anthony (1992)</span></p>
+<p><span class="citation">Baumgartner (2009)</span></p>
+<p><span class="citation">Baumgartner and Jones (1993)</span></p>
+<p><span class="citation">Baumgartner and Leech (2001)</span></p>
+<p><span class="citation">Bentham (1843)</span></p>
+<p><span class="citation">Browne (1990)</span></p>
+<p><span class="citation">Carpenter (2002)</span></p>
+<p><span class="citation">Carpenter and Moss (2014)</span></p>
+<p><span class="citation">Coglianese, Kilmartin, and Mendelson (2009)</span></p>
+<p><span class="citation">Davis (1971)</span></p>
+<p><span class="citation">Dür and De Bièvre (2007)</span></p>
+<p><span class="citation">Epstein and O’Halloran (1995)</span></p>
+<p><span class="citation">Food and Drug Administration (2011)</span></p>
+<p><span class="citation">Franklin (2010)</span></p>
+<p><span class="citation">Funk (2001)</span></p>
+<p><span class="citation">Furlong (1998)</span></p>
+<p><span class="citation">Furlong and Kerwin (2005)</span></p>
+<p><span class="citation">Garrett and Vermeule (2006)</span></p>
+<p><span class="citation">Gluck, Po, and Joseph O’connell (2015)</span></p>
+<p><span class="citation">Golden (1998)</span></p>
+<p><span class="citation">Graham and Broughel (2015)</span></p>
+<p><span class="citation">Greve and Parrish (2014)</span></p>
+<p><span class="citation">Haeder and Yackee (2015)</span></p>
+<p><span class="citation">Hojnacki et al. (2012)</span></p>
+<p><span class="citation">Hickman (2009)</span></p>
+<p><span class="citation">Hrebenar and Scott (1996)</span></p>
+<p><span class="citation">Hwang et al. (2014)</span></p>
+<p><span class="citation">Kaufman (1981)</span></p>
+<p><span class="citation">Kaufman (2001)</span></p>
+<p><span class="citation">Kerwin and Furlong (2018)</span></p>
+<p><span class="citation">Kingdon (1995)</span></p>
+<p><span class="citation">Klüver (2013)</span></p>
+<p><span class="citation">Levin (2018)</span></p>
+<p><span class="citation">Lewis (2011)</span></p>
+<p><span class="citation">Magill (2004)</span></p>
+<p><span class="citation">Mahoney (2007)</span></p>
+<p><span class="citation">Manning (1996)</span></p>
+<p><span class="citation">Mantel (2009)</span></p>
+<!--@Mashaw1997-->
+<p><span class="citation">McCubbins, Noll, and Weingast (1987)</span></p>
+<p><span class="citation">McCubbins, Noll, and Weingast (1987)</span></p>
+<p><span class="citation">Mendelson (2007)</span></p>
+<p><span class="citation">Naughton et al. (2009)</span></p>
+<p><span class="citation">Office of Management and Budget (2007)</span></p>
+<p><span class="citation">Parrillo (2019)</span></p>
+<p><span class="citation">Romano (2014)</span></p>
+<p><span class="citation">Romano (2018)</span></p>
+<p><span class="citation">Raso (2010)</span></p>
+<p><span class="citation">Rourke (1984)</span></p>
+<p><span class="citation">Rosenbloom (2000)</span></p>
+<p><span class="citation">Sabatier (1988)</span></p>
+<p><span class="citation">Schattschneider (1975)</span></p>
+<p><span class="citation">Seidenfeld (2011)</span></p>
+<p><span class="citation">Shapiro (2014)</span></p>
+<p><span class="citation">Stack (2016)</span></p>
+<p><span class="citation">Truman (1951)</span></p>
+<p><span class="citation">Warren (2011)</span></p>
+<p><span class="citation">West (1995)</span></p>
+<p><span class="citation">West (2004)</span></p>
+<p><span class="citation">Yackee (2019)</span></p>
+<p><span class="citation">Yackee and Yackee (2006)</span></p>
+<p><span class="citation">Young, Marple, and Heilman (2017)</span></p>
+</div>
+<div id="bibliography" class="section level1 unnumbered">
+<h1>Bibliography</h1>
+<div id="refs" class="references">
+<div id="ref-Anthony1992">
+<p>Anthony, Robert A. 1992. “Interpretive Rules, Policy Statements, Guidances, Manuals, and the Like-Should Federal Agencies Use them to Bind the Public.” <em>Duke Law Journal</em> 41 (6): 1311–84. <a href="https://heinonline.org/HOL/Page?handle=hein.journals/duklr41%7B\&amp;%7Ddiv=45%7B\&amp;%7Dg%7B\_%7Dsent=1%7B\&amp;%7Dcasa%7B\_%7Dtoken=%7B\&amp;%7Dcollection=journals">https://heinonline.org/HOL/Page?handle=hein.journals/duklr41{\&amp;}div=45{\&amp;}g{\_}sent=1{\&amp;}casa{\_}token={\&amp;}collection=journals</a>.</p>
+</div>
+<div id="ref-Baumgartner2009">
+<p>Baumgartner, Frank R. 2009. <em>Lobbying and Policy Change: Who Wins, Who Loses, and Why</em>. University of Chicago Press.</p>
+</div>
+<div id="ref-Baumgartner1993">
+<p>Baumgartner, Frank R., and Bryan D. Jones. 1993. <em>Agendas and Instability in American Politics</em>. Vol. 56. 4. <a href="https://doi.org/10.2307/2132088">https://doi.org/10.2307/2132088</a>.</p>
+</div>
+<div id="ref-Baumgartner2001">
+<p>Baumgartner, Frank R., and Beth L. Leech. 2001. <em>Basic Interests: The Importance of Groups in Politics and in Political Science.</em> Princeton University Press. <a href="https://books.google.com/books?id=X7tkMfttEjoC%7B\&amp;%7Ddq=baumgartner+and+leech%7B\&amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds">https://books.google.com/books?id=X7tkMfttEjoC{\&amp;}dq=baumgartner+and+leech{\&amp;}source=gbs{\_}navlinks{\_}s</a>.</p>
+</div>
+<div id="ref-Bentham1843">
+<p>Bentham, Jeremy. 1843. <em>The Works of Jeremy Bentham: Volume II Published on the Executor John Bowring.</em> Edited by John Bowring. London, England: Simpkin, Marshall, &amp; Co.</p>
+</div>
+<div id="ref-Browne1990">
+<p>Browne, William P. 1990. “Organized Interests and Their Issue Niches: A Search for Pluralism in a Policy Domain.” <em>The Journal of Politics</em> 52 (2): 477–509. <a href="https://doi.org/10.2307/2131903">https://doi.org/10.2307/2131903</a>.</p>
+</div>
+<div id="ref-Carpenter2002">
+<p>Carpenter, Daniel P. 2002. “Groups, the Media, Agency waiting Costs, and FDA Drug Approval.” <em>American Journal of Political Science</em>, 490–505.</p>
+</div>
+<div id="ref-Carpenter2014a">
+<p>Carpenter, Daniel P, and David A Moss. 2014. <em>Preventing Regulatory Capture: Special Interest Influence and How to Limit It</em>. Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139565875">https://doi.org/10.1017/CBO9781139565875</a>.</p>
+</div>
+<div id="ref-Coglianese2009">
+<p>Coglianese, Cary, Heather Kilmartin, and Evan Mendelson. 2009. “Transparency and Public Participation in the Rulemaking Process.” <em>George Town Law Review</em> 77 (June): 924. <a href="https://scholarship.law.upenn.edu/faculty%7B\_%7Dscholarship/238">https://scholarship.law.upenn.edu/faculty{\_}scholarship/238</a>.</p>
+</div>
+<div id="ref-Davis1971">
+<p>Davis, Kenneth Culp. 1971. “Administrative Law Treatise. 1970 Supplement.” In <em>Administrative Law Treatise. 1970 Supplement</em>, 1st ed. St. Paul, MN: West. <a href="https://trove.nla.gov.au/work/8849172?q%7B\&amp;%7Dsort=holdings+desc%7B\&amp;%7D%7B\_%7D=1553482169452%7B\&amp;%7DversionId=18275053">https://trove.nla.gov.au/work/8849172?q{\&amp;}sort=holdings+desc{\&amp;}{\_}=1553482169452{\&amp;}versionId=18275053</a>.</p>
+</div>
+<div id="ref-Dur2007">
+<p>Dür, Andreas, and Dirk De Bièvre. 2007. “The Question of Interest Group Influence.” <em>Journal of Public Policy</em> 27 (1): 1–12. <a href="https://doi.org/10.1017/S0143814X07000591">https://doi.org/10.1017/S0143814X07000591</a>.</p>
+</div>
+<div id="ref-Epstein1995">
+<p>Epstein, David, and Sharyn O’Halloran. 1995. “A Theory of Strategic Oversight: Congress, Lobbyists, and the Bureaucracy.” <em>The Journal of Law, Economics, and Organization</em> 11 (2): 227–55. <a href="https://doi.org/10.1093/oxfordjournals.jleo.a036871">https://doi.org/10.1093/oxfordjournals.jleo.a036871</a>.</p>
+</div>
+<div id="ref-FoodandDrugAdministration2011">
+<p>Food and Drug Administration. 2011. “Advancing Regulatory Science: Strategic Plan for Regulatory Science.” Food; Drug Administration. <a href="http://www.fda.gov/ScienceResearch/SpecialTopics/RegulatoryScience/ucm267719.htm">http://www.fda.gov/ScienceResearch/SpecialTopics/RegulatoryScience/ucm267719.htm</a>.</p>
+</div>
+<div id="ref-Franklin2010">
+<p>Franklin, David L. 2010. “Legislative Rules, Nonlegislative Rules, and the Perils of the Short Cut.” <em>Yale Law Journal</em> 120 (2): 2010. <a href="http://digitalcommons.law.yale.edu/ylj/vol120/iss2/2">http://digitalcommons.law.yale.edu/ylj/vol120/iss2/2</a>.</p>
+</div>
+<div id="ref-Funk2001">
+<p>Funk, William F. 2001. “A Primer on Nonlegislative Rules.” <em>Administrative Law Review</em> 53 (1321-1352). <a href="https://doi.org/10.2139/ssrn.292269">https://doi.org/10.2139/ssrn.292269</a>.</p>
+</div>
+<div id="ref-Furlong1998">
+<p>Furlong, Scott R. 1998. “Political Influence on the Bureaucracy: The Bureaucracy Speaks.” <em>Journal of Public Administration Research and Theory</em> 8 (1): 39–65. <a href="https://doi.org/10.1093/oxfordjournals.jpart.a024373">https://doi.org/10.1093/oxfordjournals.jpart.a024373</a>.</p>
+</div>
+<div id="ref-Furlong2005">
+<p>Furlong, Scott. R., and Cornelius M. Kerwin. 2005. “Interest Group Participation in Rule Making: A Decade of Change.” <em>Journal of Public Administration Research and Theory</em> 15 (3): 353–70. <a href="https://doi.org/10.1093/jopart/mui022">https://doi.org/10.1093/jopart/mui022</a>.</p>
+</div>
+<div id="ref-Garrett2006">
+<p>Garrett, Elizabeth, and Adrian Vermeule. 2006. “Transparency in the Budget Process.” University of Chicago Law &amp; Economics, Olin Working Paper. <a href="https://doi.org/10.2139/ssrn.877951">https://doi.org/10.2139/ssrn.877951</a>.</p>
+</div>
+<div id="ref-Gluck2015">
+<p>Gluck, Abbe R., Rosa. Po, and Ann Joseph O’connell. 2015. “Yale Law School Yale Law School Legal Scholarship Repository Faculty Scholarship Series Yale Law School Faculty Scholarship.” <em>Columbia Law Review</em> 115: 1789–1865. <a href="http://digitalcommons.law.yale.edu/fss%7B\_%7Dpapers/5179">http://digitalcommons.law.yale.edu/fss{\_}papers/5179</a>.</p>
+</div>
+<div id="ref-Golden1998">
+<p>Golden, Marissa Martino. 1998. “Interest Groups in the Rule-Making Process: Who Participates? Whose Voices Get Heard?” <em>Journal of Public Administration Research and Theory</em> 8 (2): 245–70.</p>
+</div>
+<div id="ref-Graham2015">
+<p>Graham, John D., and James Broughel. 2015. “Confronting the Problem of Stealth Regulation.” Mercatus Center. <a href="https://www.mercatus.org/publication/confronting-problem-stealth-regulation">https://www.mercatus.org/publication/confronting-problem-stealth-regulation</a>.</p>
+</div>
+<div id="ref-Greve2014">
+<p>Greve, Michael, and Ashley Parrish. 2014. “Administrative Law Without Congress.” <em>George Mason Law Review</em> 22 (3). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract%7B\_%7Did=2514484">https://papers.ssrn.com/sol3/papers.cfm?abstract{\_}id=2514484</a>.</p>
+</div>
+<div id="ref-Haeder2015">
+<p>Haeder, Simon F., and Susan Webb Yackee. 2015. “Influence and the Administrative Process: Lobbying the U.S. President’s Office of Management and Budget.” <em>American Political Science Review</em> 109 (03): 507–22. <a href="https://doi.org/10.1017/S0003055415000246">https://doi.org/10.1017/S0003055415000246</a>.</p>
+</div>
+<div id="ref-Hickman2009">
+<p>Hickman, Kristin E. 2009. “IRB Guidance: The No Man’s Land of Tax Code Interpretation.” <em>Michigan State Law Review</em> 239. <a href="http://scholarship.law.umn.edu/faculty%7B\_%7Darticleshttp://scholarship.law.umn.edu/faculty%7B\_%7Darticles/206.">http://scholarship.law.umn.edu/faculty{\_}articleshttp://scholarship.law.umn.edu/faculty{\_}articles/206.</a></p>
+</div>
+<div id="ref-Hojnacki2012">
+<p>Hojnacki, Marie, David C Kimball, Frank R Baumgartner, Jeffrey M Berry, and Beth L Leech. 2012. “Studying Organizational Advocacy and Influence: Reexamining Interest Group Research.” <em>Annual Review of Political Science</em> 15 (1): 379–99. <a href="https://doi.org/10.1146/annurev-polisci-070910-104051">https://doi.org/10.1146/annurev-polisci-070910-104051</a>.</p>
+</div>
+<div id="ref-Hrebenar1996">
+<p>Hrebenar, Ronald J., and Ruth K. Scott. 1996. <em>Interest Group Politics in America</em>. 3rd ed. New York, NY: Routledge. <a href="https://doi.org/10.4324/9781315703381">https://doi.org/10.4324/9781315703381</a>.</p>
+</div>
+<div id="ref-Hwang2014">
+<p>Hwang, Thomas J, Jerry Avorn, Daniel Carpenter, and Aaron S Kesselheim. 2014. “Quantifying The Food And Drug Administration’s Rulemaking Delays Highlights The Need For Transparency.” <em>Health Affairs</em> 33: 309–15. <a href="https://doi.org/10.1377/hlthaff.2013.0564">https://doi.org/10.1377/hlthaff.2013.0564</a>.</p>
+</div>
+<div id="ref-Kaufman1981">
+<p>Kaufman, Herbert. 1981. “The Confines of Leadership.” In <em>The Administrative Behavior of Federal Bureau Chiefs</em>, 91–138. Washington, DC: Brookings Institution.</p>
+</div>
+<div id="ref-Kaufman2001">
+<p>———. 2001. “Major Players: Bureaucracies in American Government.” <em>Public Administration Review</em> 61 (1): 18–42. <a href="https://doi.org/10.1111/0033-3352.00003">https://doi.org/10.1111/0033-3352.00003</a>.</p>
+</div>
+<div id="ref-Kerwin2018">
+<p>Kerwin, Cornelius M., and Scott R. Furlong. 2018. <em>Rulemaking: How Government Agencies Write Law and Make Policy</em>. 5th ed. Washington, DC: CQ Press. <a href="https://books.google.com/books?id=0O1bDwAAQBAJ%7B\&amp;%7Ddq=Kerwin,+Cornelius+M.,+and+Scott+R.+Furlong.+2018.+Rulemaking:+How+Government+Agencies+Write+Law+and+Make+Policy,+5th+ed.+Washington,+DC:+CQ+Press.%7B\&amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds">https://books.google.com/books?id=0O1bDwAAQBAJ{\&amp;}dq=Kerwin,+Cornelius+M.,+and+Scott+R.+Furlong.+2018.+Rulemaking:+How+Government+Agencies+Write+Law+and+Make+Policy,+5th+ed.+Washington,+DC:+CQ+Press.{\&amp;}source=gbs{\_}navlinks{\_}s</a>.</p>
+</div>
+<div id="ref-Kingdon1995">
+<p>Kingdon, John W. 1995. <em>Agendas, Alternatives, and Public Policies</em>. 2nd ed. New York: HarperCollins College Publishers.</p>
+</div>
+<div id="ref-Kluver2013">
+<p>Klüver, Heike. 2013. <em>Lobbying in the European Union: Interest Groups, Lobbying Coalitions, and Policy Change</em>. Oxford, England: Oxford University Press.</p>
+</div>
+<div id="ref-Levin2018">
+<p>Levin, Ronald M. 2018. “Rulemaking and the Guidance Exemption.” <em>Administrative Law Review</em> 70 (2): 263–356. <a href="http://www.administrativelawreview.org/wp-content/uploads/2018/10/ALR-70.2%7B\_%7DLevin.pdf">http://www.administrativelawreview.org/wp-content/uploads/2018/10/ALR-70.2{\_}Levin.pdf</a>.</p>
+</div>
+<div id="ref-Lewis2011">
+<p>Lewis, Kevin Michael. 2011. “Informal Guidance and the FDA.” <em>Food and Drug Law Journal</em> 66 (4): 507–50, i. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24505827">http://www.ncbi.nlm.nih.gov/pubmed/24505827</a>.</p>
+</div>
+<div id="ref-Magill2004">
+<p>Magill, Elizabeth M. 2004. “Agency Choice of Policymaking Form.” <em>University of Chicago Law Review</em> 71 (4). <a href="https://chicagounbound.uchicago.edu/uclrev/vol71/iss4/2">https://chicagounbound.uchicago.edu/uclrev/vol71/iss4/2</a>.</p>
+</div>
+<div id="ref-Mahoney2007JPP">
+<p>Mahoney, Christine. 2007. “Lobbying Success in the United States and the European Union Author.” 1. Vol. 27. <a href="https://www.jstor.org/stable/4007826">https://www.jstor.org/stable/4007826</a>.</p>
+</div>
+<div id="ref-Manning1996">
+<p>Manning, John F. 1996. “Constitutional Structure and Judicial Deference to Agency Interpretations of Agency Rules.” <em>Columbia Law Review</em> 96 (3): 612–96. <a href="https://about.jstor.org/terms">https://about.jstor.org/terms</a>.</p>
+</div>
+<div id="ref-Mantel2009">
+<p>Mantel, Jessica. 2009. “Procedural Safeguards for Agency Guidance.” <em>Administrative Law Review</em>, 343–406. <a href="http://www.administrativelawreview.org/wp-content/uploads/2014/04/Procedural-Safeguards-for-Agency-Guidance-A-Source-of-Legitimacy-for-the-Administrative-State.pdf">http://www.administrativelawreview.org/wp-content/uploads/2014/04/Procedural-Safeguards-for-Agency-Guidance-A-Source-of-Legitimacy-for-the-Administrative-State.pdf</a>.</p>
+</div>
+<div id="ref-McCubbins1987">
+<p>McCubbins, Mathew D., Roger G. Noll, and Barry R. Weingast. 1987. “Administrative Procedures as Instruments of Political Control.” <em>Journal of Law, Economics, &amp; Organization</em> 3 (2): 243–77. <a href="https://doi.org/10.1093">https://doi.org/10.1093</a>.</p>
+</div>
+<div id="ref-Mendelson2007">
+<p>Mendelson, Nina. 2007. “Regulatory Beneficiaries and Informal Agency Policymaking.” <em>Cornell Law Review</em> 92 (3): 397–452. <a href="https://www.researchgate.net/publication/6410686%7B\_%7DRegulatory%7B\_%7Dbeneficiaries%7B\_%7Dand%7B\_%7Dinformal%7B\_%7Dagency%7B\_%7Dpolicymaking">https://www.researchgate.net/publication/6410686{\_}Regulatory{\_}beneficiaries{\_}and{\_}informal{\_}agency{\_}policymaking</a>.</p>
+</div>
+<div id="ref-Naughton2009">
+<p>Naughton, Keith, Celeste Schmid, Susan Webb Yackee, and Xueyong Zhan. 2009. “Understanding Commenter Influence during Agency Rule Development.” WileyAssociation for Public Policy Analysis; Management. <a href="https://doi.org/10.2307/29739013">https://doi.org/10.2307/29739013</a>.</p>
+</div>
+<div id="ref-OfficeofManagementandBudget2007">
+<p>Office of Management and Budget. 2007. “Final Bulletin for Agency Good Guidance Practices, No. 07-02.” <a href="http://www.whitehouse.gov/omb/inforeg/good%7B\_%7Dguid/c-index.html">http://www.whitehouse.gov/omb/inforeg/good{\_}guid/c-index.html</a>.</p>
+</div>
+<div id="ref-Parrillo2019">
+<p>Parrillo, Nicholas R. 2019. “Federal Agency Guidance and the Power to Bind: An Empirical Study of Agencies and Industries.” <em>Yale Journal on Regulation</em> 36: 165–271. <a href="https://www.acus.gov/sites/default/files/documents/parrillo-agency-guidance-final-report.pdf">https://www.acus.gov/sites/default/files/documents/parrillo-agency-guidance-final-report.pdf</a>.</p>
+</div>
+<div id="ref-Raso2010">
+<p>Raso, Connor N. 2010. “Strategic or Sincere? Analyzing Agency Use of Guidance Documents.” <em>Yale Law Journal</em> 119 (4): 648–847. <a href="https://www.yalelawjournal.org/note/agency-use-of-guidance-documents">https://www.yalelawjournal.org/note/agency-use-of-guidance-documents</a>.</p>
+</div>
+<div id="ref-Romano2014">
+<p>Romano, Roberta. 2014. “Regulating in the Dark and a Postscript Assessment of the Iron Law of Financial Regulation.” <em>Hofstra Law Review</em> 43 (1). <a href="https://scholarlycommons.law.hofstra.edu/hlr/vol43/iss1/2">https://scholarlycommons.law.hofstra.edu/hlr/vol43/iss1/2</a>.</p>
+</div>
+<div id="ref-Romano2018">
+<p>———. 2018. “Does Agency Structure Affect Agency Decisionmaking? Implications of the CFPB’s Design for Administrative Governance.” Yale Law &amp; Economics Research Paper. <a href="https://doi.org/10.2139/ssrn.3096356">https://doi.org/10.2139/ssrn.3096356</a>.</p>
+</div>
+<div id="ref-Rosenbloom2000">
+<p>Rosenbloom, David H. 2000. <em>Framing Legislative Centered Public Administration: Congress ’s 1946 Response to the Administrative State.</em> University of Alabama Press. <a href="http://www.uapress.ua.edu/product/Building-a-Legislative-Centered-Public-Administrat,1271.aspx">http://www.uapress.ua.edu/product/Building-a-Legislative-Centered-Public-Administrat,1271.aspx</a>.</p>
+</div>
+<div id="ref-Rourke1984">
+<p>Rourke, Francis E. 1984. <em>Bureaucracy, Politics, and Public Policy.</em> 3nd ed. Boston, MA: Little, Brown. <a href="https://doi.org/10.1177/000271626938500151">https://doi.org/10.1177/000271626938500151</a>.</p>
+</div>
+<div id="ref-Sabatier1988">
+<p>Sabatier, Paul A. 1988. “An Advocacy Coalition Framework of Policy Change and the Role of Policy-Oriented Learning Therein.” Vol. 21. <a href="https://about.jstor.org/terms">https://about.jstor.org/terms</a>.</p>
+</div>
+<div id="ref-Schattschneider1975">
+<p>Schattschneider, Elmer E. 1975. <em>The Semisovereign People: A Realist’s Wiew of Democracy in America</em>. Revised. Dryden Press. <a href="http://wikisum.com/w/Schattschneider:%7B\_%7DThe%7B\_%7Dsemisovereign%7B\_%7Dpeople%20https://books.google.com/books/about/The%7B\_%7Dsemisovereign%7B\_%7Dpeople.html?id=GXdHAAAAMAAJ">http://wikisum.com/w/Schattschneider:{\_}The{\_}semisovereign{\_}people https://books.google.com/books/about/The{\_}semisovereign{\_}people.html?id=GXdHAAAAMAAJ</a>.</p>
+</div>
+<div id="ref-Seidenfeld2011">
+<p>Seidenfeld, Mark B. 2011. “Substituting Substantive for Procedural Review of Guidance Documents.” <em>Texas Law Review</em> 90: 331–94. <a href="https://doi.org/10.2139/ssrn.1748731">https://doi.org/10.2139/ssrn.1748731</a>.</p>
+</div>
+<div id="ref-Shapiro2014">
+<p>Shapiro, Stuart. 2014. “Agency Oversight as Whac-A-Mole: The Challenge of Restricting Agency Use of Nonlegislative Rules.” <em>Harvard Journal of Law and Public Policy</em> 37 (2): 523–52. <a href="https://www.researchwithnj.com/en/publications/agency-oversight-as-whac-a-mole-the-challenge-of-restricting-agen">https://www.researchwithnj.com/en/publications/agency-oversight-as-whac-a-mole-the-challenge-of-restricting-agen</a>.</p>
+</div>
+<div id="ref-Stack2016">
+<p>Stack, Kevin M. 2016. “Preambles as Guidance.” <em>The George Washington Law Review</em> 84 (5): 1252. <a href="https://www.gwlr.org/preambles-as-guidance/">https://www.gwlr.org/preambles-as-guidance/</a>.</p>
+</div>
+<div id="ref-Truman1951">
+<p>Truman, David B. 1951. <em>The Governmental Process. Political Interests and Public Opinion</em>. New York, NY: Alfred A. Knopf. <a href="https://doi.org/10.1002/ncr.4110400915">https://doi.org/10.1002/ncr.4110400915</a>.</p>
+</div>
+<div id="ref-Warren2011">
+<p>Warren, Kenneth F. 2011. <em>Administrative Law in the Political System</em>. 5th ed. Boulder, CO: Westview Press. <a href="https://www.worldcat.org/title/administrative-law-in-the-political-system/oclc/680620954">https://www.worldcat.org/title/administrative-law-in-the-political-system/oclc/680620954</a>.</p>
+</div>
+<div id="ref-West1995">
+<p>West, William F. 1995. <em>Controlling the Bureaucracy: Institutional Constraints in Theory and Practice</em>. M.E. Sharpe. <a href="https://books.google.com/books?id=eizlpF7uOQcC%7B\&amp;%7Dsource=gbs%7B\_%7Dnavlinks%7B\_%7Ds">https://books.google.com/books?id=eizlpF7uOQcC{\&amp;}source=gbs{\_}navlinks{\_}s</a>.</p>
+</div>
+<div id="ref-West2004">
+<p>———. 2004. “Formal Procedures, Informal Processes, Accountability, and Responsiveness in Bureaucratic Policy Making: An Institutional Policy Analysis.” <em>Public Administration Review</em> 64 (1): 66–80. <a href="https://doi.org/10.1111/j.1540-6210.2004.00347.x">https://doi.org/10.1111/j.1540-6210.2004.00347.x</a>.</p>
+</div>
+<div id="ref-Yackee2006JOP">
+<p>Yackee, Jason Webb, and Susan Webb Yackee. 2006. “A Bias Towards Business? Assessing Interest Group Influence on the U.S. Bureaucracy.” <em>Journal of Politics</em> 68 (1): 128–39.</p>
+</div>
+<div id="ref-Yackee2019">
+<p>Yackee, Susan Webb. 2019. “The Politics of Rulemaking in the United States.” <em>Annual Review of Political Science</em> 22 (1). <a href="https://doi.org/10.1146/annurev-polisci-050817-092302">https://doi.org/10.1146/annurev-polisci-050817-092302</a>.</p>
+</div>
+<div id="ref-Young2017">
+<p>Young, Kevin L., Tim Marple, and James Heilman. 2017. “Beyond the Revolving Door: Advocacy Behavior and Social Distance to Financial Regulators.” <em>Business and Politics</em> 19 (02): 327–64. <a href="https://doi.org/10.1017/bap.2017.10">https://doi.org/10.1017/bap.2017.10</a>.</p>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://judgelord.github.io/">Devin Judge-Lord</a></h5>
+      <h6 class="card-subtitle">PhD Candidate and Instructor in Political Science</h6>
+      <p class="card-text" itemprop="description">I study how organizations, politicians, and ordinary people affect policy.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/judgelord" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C50&amp;q=%22devin&#43;judge-lord%22&amp;btnG=" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/judgelord" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
