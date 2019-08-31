@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | </title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/project/</link>
+      <atom:link href="https://judgelord.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://judgelord.github.io/project/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/project/correspondence/</link>
+      <link>https://judgelord.github.io/project/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/correspondence/</guid>
+      <guid>https://judgelord.github.io/project/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/project/rulemaking/</link>
+      <link>https://judgelord.github.io/project/rulemaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/rulemaking/</guid>
+      <guid>https://judgelord.github.io/project/rulemaking/</guid>
       <description></description>
     </item>
     

@@ -2,85 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/authors/admin/</link>
+      <atom:link href="https://judgelord.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://judgelord.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://judgelord.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>https://judgelord.github.io/authors/admin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Campaign Contributions and Bureaucratic Oversight</title>
-      <link>/research/ferc/</link>
+      <link>https://judgelord.github.io/research/ferc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ferc/</guid>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
-      <link>/research/fsc-sfi/</link>
+      <link>https://judgelord.github.io/research/fsc-sfi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/fsc-sfi/</guid>
-      <description></description>
+      <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;fsc-sfi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Measuring Change and Influence in Budget Texts</title>
-      <link>/research/budgets/</link>
+      <link>https://judgelord.github.io/research/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/budgets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
-      <link>/research/boreal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/boreal/</guid>
+      <guid>https://judgelord.github.io/research/budgets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Movements, Science, Bureaucracy, and Democracy</title>
-      <link>/research/ej/</link>
+      <link>https://judgelord.github.io/research/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ej/</guid>
+      <guid>https://judgelord.github.io/research/ej/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unequal Representation: Constituency Service in Today’s Congress</title>
-      <link>/research/correspondence/</link>
+      <link>https://judgelord.github.io/research/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/correspondence/</guid>
+      <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Courts Defer to Administrative Agency Judgement</title>
-      <link>/research/defrence/</link>
+      <link>https://judgelord.github.io/research/defrence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/defrence/</guid>
+      <guid>https://judgelord.github.io/research/defrence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why do agencies (sometimes) get so much mail?</title>
-      <link>/research/whymail/</link>
+      <link>https://judgelord.github.io/research/whymail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/whymail/</guid>
+      <guid>https://judgelord.github.io/research/whymail/</guid>
       <description></description>
     </item>
     
