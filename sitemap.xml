@@ -25,6 +25,10 @@
   </url>
   
   <url>
+    <loc>https://judgelord.github.io/teaching/tutorials/</loc>
+  </url>
+  
+  <url>
     <loc>https://judgelord.github.io/templates/rmd-templates/djl-letter/</loc>
   </url>
   
@@ -140,10 +144,6 @@
   <url>
     <loc>https://judgelord.github.io/templates/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/teaching/tutorials/</loc>
   </url>
   
   <url>
