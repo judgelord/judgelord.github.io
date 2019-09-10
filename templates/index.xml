@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Templates | </title>
+    <link>https://judgelord.github.io/templates/</link>
+      <atom:link href="https://judgelord.github.io/templates/index.xml" rel="self" type="application/rss+xml" />
+    <description>Templates</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Templates</title>
+      <link>https://judgelord.github.io/templates/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://judgelord.github.io/templates/rmd-templates/djl-letter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/templates/rmd-templates/djl-letter/</guid>
+      <description>
+
+
+&lt;p&gt;To whom it may concern:&lt;/p&gt;
+&lt;p&gt;I write to apply for the Kendall Fellowship in Understanding Scientist Activism and Movement Building. As a fourth-year doctoral candidate, the Fellowship would support the final year of my Ph.D. research and a year of post-doctoral research.&lt;/p&gt;
+&lt;div id=&#34;research-concept&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Research concept&lt;/h4&gt;
+&lt;p&gt;Political scientists have long studied how social movements influence elected officials, but we have much to learn about how activists and public pressure may influence bureaucratic policymaking and the role that tactics like mass-comment campaigns play in movement-building. My dissertation examines how advocacy organizations mobilize supporters to amplify more technical lobbying efforts. I focus on agency rulemaking, where most U.S. law is now made, and where organizations like UCS often mobilize thousands of people to engage. To the extent that this tactic aims to influence policy, it presumes that policymakers are more likely to respond to demands amplified by mass mobilization campaigns. While plausible that mass engagement may affect agency decisions both directly, by realizing latent public demands, and indirectly, by influencing elected officials whose opinions matter to agency policymakers, these hypotheses remain untested. We know very little about the conditions under which mass mobilization aimed at bureaucratic policymaking succeeds and the mechanisms by which it may affect policy.&lt;/p&gt;
+&lt;p&gt;My research begins to fill this gap. I develop systematic measures of public engagement in rulemaking over time using text reuse and Bayesian classifiers to link millions of public comments to the advocacy efforts they support.
+I then use my new measures of public engagement to assess the effects of mobilization on policy by linking changes in policy texts and the policymaking process to the demands of each coalition. For example, in preliminary work for a chapter on the influence of environmental justice (EJ) activists in rulemaking, I compare the preambles of draft and final rules and analyze the comments submitted on each rule. I identify 21,544 draft agency rules that plausibly affect EJ issues but do not mention “environmental justice.’’ In comments submitted on 1,496 of these draft rules, commenters raised “environmental justice” as a concern. When they did, agencies were more likely to add EJ language when publishing the final rule. This suggests that advocacy efforts may indeed influence rulemaking. While I have yet to find an effect for the volume of public comments, I am developing more sophisticated methods to better test the hypothesis that agencies are more likely to respond to demands amplified by mass mobilization campaigns.&lt;/p&gt;
+&lt;p&gt;A second part of my dissertation explores how and when Members of Congress are mobilized to engage in agency decisions. Here, I collaborate with Eleanor Powell and Justin Grimmer, leading scholars on legislator behavior. Through hundreds of Freedom of Information Act requests, we created a new dataset of hundreds of thousands of letters, emails, and phone calls from legislators to bureaucrats. I use this dataset to identify how advocacy campaigns mobilize or “scare off’” legislator engagement in agency decisions.&lt;/p&gt;
+&lt;p&gt;The Kendall Fellowship would also allow me to advance a third key part of this research agenda: assessing how different &lt;em&gt;tactics&lt;/em&gt; mobilize individuals and elected officials and ultimately affect policy. Specifically, I hope to collaborate with organizations like UCS in two ways. First, I hope to integrate data on responses to public engagement campaigns, such as click-through rates for action alerts, data on those engaged, and any personalized text they added. I see these as key to measuring the intensity of public demands and the potential for movements to spread. Second, I hope to help design small randomly-assigned variations in future mobilization efforts—for example, messaging with and without an EJ frame—and use the methods I developed in my dissertation to track legislator and agency responses. Eventually, I hope to collect sufficient experimental evidence to causally identify effects of public engagement on policy, but the results of even a few experimental manipulations may reveal mechanisms of influence.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experience&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Experience&lt;/h4&gt;
+&lt;p&gt;I hold master’s degrees in Environmental Science and Political Science and have significant research and policy experience beyond academia.&lt;/p&gt;
+&lt;p&gt;From 2009 to 2011, I developed and led a collaborative initiative for Willamette Partnership, a watershed-based nonprofit. This involved convening groups of experts, advocates, and policymakers to draft agency guidance and state law around Clean Water Act and Endangered Species Act regulations and Farm Bill Conservation Title criteria. I also helped develop strategic plans for Willamette Partnership, and for the Oregon Sierra Club in my role as Vice Chair of the Columbia Chapter, and I would be excited to help plan the Center for Science and Democracy’s future efforts to empower the scientific community and our supporters.&lt;/p&gt;
+&lt;p&gt;From 2013 to 2015, I worked for the Food and Agriculture Organization of the United Nations, analyzing changes in forestry laws. This research emerged from my M.E.Sc. work, where I wrote a book chapter tracing the effects of U.S. NGOs and indigenous activists on forestry laws and a journal article on the evolution of initiatives like the Forest Stewardship Council.&lt;/p&gt;
+&lt;p&gt;Since 2015, I have been working on my Ph.D. at the University of Wisconsin where I currently teach a class on statistical computing for Ph.D. students. I also hold positions in the Association for Environmental Studies and Sciences and the American Political Science Association’s Science, Technology, and Environmental Politics section.&lt;/p&gt;
+&lt;p&gt;As an organization that mobilizes supporters to amplify science and realize latent public demands, UCS, and the Center for Science and Democracy offer an ideal environment to advance my research.&lt;/p&gt;
+&lt;p&gt;Thank you so much for your consideration,&lt;/p&gt;
+
+
+&lt;p&gt;Devin Judge-Lord&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

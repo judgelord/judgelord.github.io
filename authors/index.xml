@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | </title>
+    <link>https://judgelord.github.io/authors/</link>
+      <atom:link href="https://judgelord.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>https://judgelord.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://judgelord.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ben Cashore</title>
+      <link>https://judgelord.github.io/authors/ben-cashore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/ben-cashore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constance McDermott</title>
+      <link>https://judgelord.github.io/authors/constance-mcdermott/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/constance-mcdermott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eleanor Neff Powell</title>
+      <link>https://judgelord.github.io/authors/eleanor-neff-powell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/eleanor-neff-powell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irene Scher</title>
+      <link>https://judgelord.github.io/authors/irene-scher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/irene-scher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justin Grimmer</title>
+      <link>https://judgelord.github.io/authors/justin-grimmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/justin-grimmer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
