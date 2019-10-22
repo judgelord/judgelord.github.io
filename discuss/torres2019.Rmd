@@ -157,7 +157,7 @@ BoVW method (Torres 2018)
 
 >"test the expectation that conservative newspapers are more likely to use nocturnal frames"
 
-**Task:** How to *measure* "night" in images?
+**Simpler Task:** How to *measure* "night" in images?
 
 --
 
@@ -176,6 +176,10 @@ BoVW method (Torres 2018)
 <!-- Given your expertise and the night hypotheses, it may be easy to construct much more direct observational tests. -->
 
 ---
+
+4. Model environmental and mood latent feature structure simultaniously with object features
+
+--
 
 Are image fragments draws from a distribution of "night" or "something else" with a probability that varies by image? 
 
