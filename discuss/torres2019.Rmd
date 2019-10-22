@@ -161,15 +161,17 @@ BoVW method (Torres 2018)
 
 --
 
-1. Inspect topic models with different $k$s, pick one with the most "nocturnal-looking" topic.
+**Suggestions:**
+
+(1) Inspect topic models with different $k$s, pick one with the most "nocturnal-looking" topic.
 
 --
 
-2. Identify the "most nocturnal" topic or topics in many models, average proportions. 
+(2) Identify the "most nocturnal" topic or topics in many models, average proportions. 
 
 --
 
-3. Discover patterns, design more direct tests features of interest (observational or experimental) 
+(3) Discover patterns, design more direct tests features of interest (observational or experimental) 
 - e.g. dark and high contrast images
 
 
@@ -177,7 +179,7 @@ BoVW method (Torres 2018)
 
 ---
 
-4. Model environmental and mood latent feature structure simultaniously with object features
+(4) Model environmental and mood latent feature structure simultaniously with object features
 
 --
 
