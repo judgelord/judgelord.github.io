@@ -1,256 +1,395 @@
----
-title: "Framing a Protest"
-subtitle: "Determinants and Effects of Visual Frames by Michelle Torres"
-author: ""
-date: ""
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Framing a Protest</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
 
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
-    css: xaringan-themer.css
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-editor_options: 
-  chunk_output_type: console
+# Framing a Protest
+## Determinants and Effects of Visual Frames by Michelle Torres
+
 ---
 
 
 
-<div id="clear-argument-and-writing" class="section level2">
-<h2>Clear argument and writing</h2>
-</div>
-<div id="great-leap-in-methods" class="section level2">
-<h2>Great leap in methods</h2>
-</div>
-<div id="combines-cutting-edge-tools-to-discover-patterns-experimental-evidence-about-causal-effects" class="section level2">
-<h2>Combines cutting-edge tools to discover patterns + experimental evidence about causal effects</h2>
-<!--
+
+
+
+## Clear argument and  writing
+## Great leap in methods
+## Combines cutting-edge tools to discover patterns + experimental evidence about causal effects
+
+&lt;!--
 The writing is clear, and I agree with all of your premises and conclusions, and why it is important, so my commments focus on a few small tweeks to the methods and framing, and next steps in this broader project. 
 - on the observational side, I have what I hope is, given your mastery of images, a very doable suggestion for a more direct hypothesis test, given the nature of your hypotheses. 
 - on the experimental side, my suggestions for follow up experiments are likely for the next paper
 
 This paper got me thinking so I have a lot of notes that I will go though quickly and send them to you by email.
--->
-<hr />
-</div>
-<div id="summary" class="section level1">
-<h1>Summary</h1>
-<div id="visual-topic-model" class="section level2">
-<h2>1. Visual topic model</h2>
-<p>Conservative media –&gt; more image features we might call “night” (dark, high-contrast)</p>
-<p>–</p>
-</div>
-<div id="summary-of-thoughts" class="section level2">
-<h2>Summary of thoughts:</h2>
-<ul>
-<li>More from the topic model?</li>
-<li>More direct tests?</li>
-</ul>
-<p>–</p>
-<p>=&gt; <em>Discovering</em> vs. <em>testing</em> for <strong>mood</strong> vs. <strong>environment</strong> vs. <strong>objects</strong></p>
-<hr />
-</div>
-<div id="experimental-findings" class="section level2">
-<h2>2. Experimental findings</h2>
-<ul>
-<li><p>Peaceful image –&gt; no effect on efficacy or support, but more objection to police violence</p></li>
-<li><p>Protestor violence –&gt; less efficacy, less support</p></li>
-<li><p>Police violence –&gt; less efficacy, less support?
-<!-- Especially surprising because police violence is against people, protestor "violence" focuses on property! -->
-–</p></li>
-<li><p>Images &gt; words, except for “the police went too far”</p></li>
-</ul>
-</div>
-<div id="section" class="section level2">
-<h2><!--(because images are more ambiguous than text and thus allow assumptions to hold?)--></h2>
-</div>
-<div id="summary-of-thoughts-1" class="section level2">
-<h2>Summary of thoughts:</h2>
-<ul>
-<li>More integration of computer vision and experiment sections?</li>
-<li>Combine samples for both experiments?</li>
-<li>What are the mechanisms?</li>
-<li>What would we find in other contexts?</li>
-</ul>
-<hr />
-</div>
-</div>
-<div id="visual-topic-model-1" class="section level1">
-<h1>Visual topic model</h1>
-<!-- I use topic models and remember your award-winning polmeth poster, and I went back and read that paper to dig into the method. But if I misundersand anything, I hope that your corrections of my misunderstandings will help others who may not use these models-->
-<p><img src="torrespoints.png" /></p>
-<hr />
-<p><img src="torresfig1.png" /></p>
-<hr />
-<p>BoVW method (Torres 2018)</p>
-<ol style="list-style-type: decimal">
-<li>select <em>key point</em> (edges and corners, sharp changes in color, i.e. not background, sky, street, wall, etc.)</li>
-</ol>
-<p>–</p>
-<ol start="2" style="list-style-type: decimal">
-<li>characterize <em>gradients</em> for pixels around those key points <!--(e.g. transitions from light to dark, or Red to Green or Blue)--how many getting lighter, how many getting darker, weighted by magnitude (how much lighter or darker) --></li>
-</ol>
-<p>–</p>
-<ol start="3" style="list-style-type: decimal">
-<li>assign it to nearest <em>Visual Word</em> (“vocabulary” cluster centroid)</li>
-</ol>
-<p>–</p>
-<p>=&gt; sharp gradients (brightness, contrast), possibly shapes, <strong>objects</strong>?</p>
-<p>–</p>
-<p><strong>Task</strong></p>
-<blockquote>
-<p>“<strong>identify</strong> topics providing information about the <strong>time and place</strong> in which the protests occurred (e.g. night)”</p>
-</blockquote>
-<p>–</p>
-<p><strong>Suggestion:</strong> Keep background (skip the key point step) to retain <strong>environmental</strong> features (e.g. night vs. day sky)?</p>
-<hr />
-<div id="exploring-data-testing-hypotheses" class="section level2">
-<h2>Exploring data, testing hypotheses</h2>
-<!-- I am sure you have recieved a lot of feedback about the method in general, but this paper has some specific and important hypotheses -->
-<blockquote>
-<p>“test the expectation that conservative newspapers are more likely to use nocturnal frames”</p>
-</blockquote>
-<p><strong>Task:</strong> How to <em>measure</em> “night” in images?</p>
-<p>–</p>
-<ol style="list-style-type: decimal">
-<li>Inspect topic models with different <span class="math inline">\(k\)</span>s, pick one with the most “nocturnal-looking” topic.</li>
-</ol>
-<p>–</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Identify the “most nocturnal” topic or topics in many models, average proportions.</li>
-</ol>
-<p>–</p>
-<ol start="3" style="list-style-type: decimal">
-<li>Discover patterns, design more direct tests features of interest (observational or experimental)</li>
-</ol>
-<ul>
-<li>e.g. dark and high contrast images</li>
-</ul>
-<!-- Given your expertise and the night hypotheses, it may be easy to construct much more direct observational tests. -->
-<hr />
-<p>Are image fragments draws from a distribution of “night” or “something else” with a probability that varies by image?</p>
-<p>–</p>
-<p>Or are image fragments draws from a distribution of <strong>objects</strong> that vary (in brightness and contrast) depending on whether they are drawn from a “night” or “day” image?</p>
-<p>–</p>
-<p>Can we model <strong>mood</strong> variation (in global tint, brightness, contrast) alongside <em>object clusters</em> (local variation, edges, corners, etc. at key points)?</p>
-<p>–</p>
-<p>If we can model night/day variation, we could identify variation in <strong>what</strong> is depicted at night and day?</p>
-<hr />
-<!-- Boring PSA, easy for you to do, but I suspect you will cosign that if people are using topic models, I'll want to see the rest of the topics and alterntive models summarized because TOPIC PROPORTIONS are a function of other topic proportions and k --->
-<p><strong>Regardless of exploratory or testing use of topic models</strong>, we all should report in appendicies:</p>
-<ul>
-<li>all topics for models used (e.g. top words via FREX)</li>
-<li>models with different <span class="math inline">\(k\)</span>s</li>
-</ul>
-<p>Topic proportions are conditional on other topics (and thus also <span class="math inline">\(k\)</span>)</p>
-<p><img src="PSA.png" /></p>
-<hr />
-</div>
-<div id="what-else-pops-out" class="section level2">
-<h2>What else pops out?</h2>
-<p>–</p>
-<p>Can topic models recover anything we might label with the concepts tested experimentally?</p>
-<p>For example, can you recover latent dimensions for</p>
-<p><em>peaceful</em> vs. <em>violent</em> features?
-- e.g. crowds (✓) vs. flames (?)</p>
-<p>–</p>
-<p><em>police violence</em> vs. <em>protestor violence</em> features?
-- e.g. riot gear objects vs. broken glass objects</p>
-<p>(perhaps a better task for CNNs or other supervised methods using object libraries)</p>
-<hr />
-</div>
-</div>
-<div id="next-steps" class="section level1">
-<h1>Next steps?</h1>
-<ol style="list-style-type: decimal">
-<li>Mechanisms</li>
-</ol>
-<p>There are a lot of potential mechanisms here. You are clearly thinking about this, but perhaps some of my thoughts about disentangling mechanisms will be useful if you go further down this path.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>Other movements</li>
-</ol>
-<p>Minor tweaks to this paper’s framing could leave the door open for different findings for <strong>reactionary movement</strong> protests.</p>
-<!-- As you note, protests are not conservative because they aim to disrupt the status quo, but there are reactionary movements, like white power and blue lives matter protests, that aim to resist looming changes or reverse ones that have already occurred. -->
-<hr />
-<div id="variables" class="section level2">
-<h2>Variables</h2>
-<p>Viewer:
+--&gt;
+
+---
+
+# Summary
+
+## 1. Visual topic model 
+
+Conservative media --&gt; more image features we might call "night" (dark, high-contrast)
+
+--
+
+## Summary of thoughts:
+
+- More from the topic model?
+- More direct tests?
+
+--
+
+=&gt; *Discovering* vs. *testing* for **mood** vs. **environment** vs. **objects**
+
+
+---
+
+## 2. Experimental findings
+
+- Peaceful image --&gt; no effect on efficacy or support, but more objection to police violence
+- Protestor violence --&gt; less efficacy, less support
+- Police violence --&gt; less efficacy, less support?
+&lt;!-- Especially surprising because police violence is against people, protestor "violence" focuses on property! --&gt;
+--
+
+- Images &gt; words, except for "the police went too far" 
+
+&lt;!--(because images are more ambiguous than text and thus allow assumptions to hold?)--&gt;
+--
+
+## Summary of thoughts:
+- More integration of computer vision and experiment sections?
+- Combine samples for both experiments?
+- What are the mechanisms?
+- What would we find in other contexts? 
+
+---
+
+# Visual topic model 
+
+&lt;!-- I use topic models and remember your award-winning polmeth poster, and I went back and read that paper to dig into the method. But if I misundersand anything, I hope that your corrections of my misunderstandings will help others who may not use these models--&gt; 
+
+![](torrespoints.png)
+
+---
+
+![](torresfig1.png)
+
+---
+
+BoVW method (Torres 2018)
+
+1. select *key point* (edges and corners, sharp changes in color, i.e. not background, sky, street, wall, etc.)
+
+--
+
+2. characterize *gradients* for pixels around those key points &lt;!--(e.g. transitions from light to dark, or Red to Green or Blue)--how many getting lighter, how many getting darker, weighted by magnitude (how much lighter or darker) --&gt;
+
+--
+
+3. assign it to nearest *Visual Word* ("vocabulary" cluster centroid)
+
+--
+
+=&gt; sharp gradients (brightness, contrast), possibly shapes, **objects**? 
+
+--
+
+**Task**
+
+&gt;"**identify** topics providing information about the **time and place** in which the protests occurred (e.g. night)"
+
+--
+
+**Suggestion:** Keep background (skip the key point step) to retain **environmental** features (e.g. night vs. day sky)?
+
+---
+
+## Exploring data, testing hypotheses
+
+&lt;!-- I am sure you have recieved a lot of feedback about the method in general, but this paper has some specific and important hypotheses --&gt;
+
+&gt;"test the expectation that conservative newspapers are more likely to use nocturnal frames"
+
+**Task:** How to *measure* "night" in images?
+
+--
+
+1. Inspect topic models with different `\(k\)`s, pick one with the most "nocturnal-looking" topic.
+
+--
+
+2. Identify the "most nocturnal" topic or topics in many models, average proportions. 
+
+--
+
+3. Discover patterns, design more direct tests features of interest (observational or experimental) 
+- e.g. dark and high contrast images
+
+
+&lt;!-- Given your expertise and the night hypotheses, it may be easy to construct much more direct observational tests. --&gt;
+
+---
+
+Are image fragments draws from a distribution of "night" or "something else" with a probability that varies by image? 
+
+--
+
+Or are image fragments draws from a distribution of **objects** that vary (in brightness and contrast) depending on whether they are drawn from a "night" or "day" image? 
+
+--
+
+Can we model **mood** variation (in global tint, brightness, contrast) alongside *object clusters* (local variation, edges, corners, etc. at key points)? 
+
+--
+
+If we can model night/day variation, we could identify variation in **what** is depicted at night and day?
+
+---
+
+&lt;!-- Boring PSA, easy for you to do, but I suspect you will cosign that if people are using topic models, I'll want to see the rest of the topics and alterntive models summarized because TOPIC PROPORTIONS are a function of other topic proportions and k ---&gt;
+
+**Regardless of exploratory or testing use of topic models**, we all should report in appendicies:
+
+- all topics for models used (e.g. top words via FREX)
+- models with different `\(k\)`s 
+
+Topic proportions are conditional on other topics (and thus also `\(k\)`)
+
+![](PSA.png)
+
+
+
+---
+
+## What else pops out? 
+
+--
+
+Can topic models recover anything we might label with the concepts tested experimentally?
+
+For example, can you recover latent dimensions for 
+
+*peaceful* vs. *violent* features?
+- e.g. crowds (✓) vs. flames (?)
+
+--
+
+*police violence* vs.  *protestor violence* features?
+- e.g. riot gear objects vs. broken glass objects
+
+(perhaps a better task for CNNs or other supervised methods using object libraries)
+
+---
+
+# Next steps?
+
+1. Mechanisms 
+
+There are a lot of potential mechanisms here. You are clearly thinking about this, but perhaps some of my thoughts about disentangling mechanisms will be useful if you go further down this path. 
+
+2. Other movements
+
+Minor tweaks to this paper's framing could leave the door open for different findings for **reactionary movement** protests. 
+
+
+
+&lt;!-- As you note, protests are not conservative because they aim to disrupt the status quo, but there are reactionary movements, like white power and blue lives matter protests, that aim to resist looming changes or reverse ones that have already occurred. --&gt;
+
+---
+
+## Variables
+
+Viewer:
 - disposition (equality, hierarchical structures and need for order)
-- social context?</p>
-<p>What is shown:
+- social context?
+
+What is shown: 
 - violence
-+ intensity
-+ object/direction
-+ against people or property?
-- protest content?</p>
-<p>How it is shown:
-- color tint?</p>
-<hr />
-</div>
-</div>
-<div id="expectations-about-mechanisms" class="section level1">
-<h1>Expectations about mechanisms</h1>
-<p>–</p>
-<div id="expectation-about-night-dark-framing" class="section level2">
-<h2>Expectation about night / dark framing</h2>
-<p>A bunch of related expectations:</p>
-<ul>
-<li>Night</li>
-<li>Image brightness</li>
-<li>High contrast</li>
-<li>Greyscale and redscale?</li>
-</ul>
-<p>“protest paradigm”
-- deviant, threatening, imponent</p>
-<hr />
-</div>
-<div id="expectations-about-violence" class="section level2">
-<h2>Expectations about violence</h2>
-<p>Logics of consequences: risk vs. benefit (?)
-- safety
-- likelihood of success</p>
-<p>–</p>
-<p>Logics of appropriateness: ideological and social distance
-- legitimacy of tactics<!-- (could also explain results, esp. given the power of text to remove ambiguity)-->
-- assumption that police start violence (x)
-- assumption that protestors start violence (?)
+ + intensity
+ + object/direction
+ + against people or property?
+- protest content?
+
+How it is shown:
+- color tint?
+
+---
+
+# Expectations about mechanisms
+
+--
+
+## Expectation about night / dark framing
+
+A bunch of related expectations: 
+
+- Night
+- Image brightness
+- High contrast
+- Greyscale and redscale? 
+
+"protest paradigm"
+- deviant, threatening, imponent 
+
+---
+
+## Expectations about violence
+
+Logics of consequences: risk vs. benefit (?)
+- safety 
+- likelihood of success
+
+--
+
+Logics of appropriateness: ideological and social distance
+- legitimacy of tactics&lt;!-- (could also explain results, esp. given the power of text to remove ambiguity)--&gt;
+  - assumption that police start violence (x)
+  - assumption that protestors start violence (?) 
 - legitimacy of claims/proof of injustice (x)
-- compassion/indignation (x)</p>
-<p>–</p>
-<p>Valence (?) <!-- (could also explain result)-->
+- compassion/indignation (x)
+
+--
+
+Valence (?) &lt;!-- (could also explain result)--&gt;
 - negitivity (discomfort, anxiety, linked with crime)
-- arrousal</p>
-<hr />
-</div>
-<div id="expectations-about-attitudes" class="section level2">
-<h2>Expectations about attitudes</h2>
-<blockquote>
-<p>“higher levels of hierarchy-enhancing attitudes to be less susceptible to visual frames of violence in protests and to overall report negative perceptions”</p>
-</blockquote>
-<p>–</p>
-<p>Police violence? (Riot gear, bodies on the ground)</p>
-<p>–</p>
-<p>Pro-hierarchy protest? (Swasticas, blue line flags)</p>
-<p>–</p>
-<p>Protestor on protestor violence?</p>
-<p>–</p>
-<p>Symbolic violence (Guns, flags, symbols)</p>
-<p>–</p>
-<p>Property damage vs. violence?
-- blood, teargas, or ambulance (bodily injury) vs. fire or broken glass (property damage)</p>
-<hr />
-<p>Other small notes:</p>
-<ul>
-<li>I am not exactly sure what “fairness” means on page 5. Perhaps that a perception that there is a problem implies that the status quo is unfair?</li>
-<li>Minor typo on page 5 “participation at in social movements.”</li>
-<li>On page 10, by “initialized with 12 topics,” you just mean that you set <span class="math inline">\(k=12\)</span> or do you mean that some algorithm chose <span class="math inline">\(k\)</span>, but you initialized it with a prior of <span class="math inline">\(12\)</span>?<br />
-</li>
-<li>Figure 3 is labeled “Topics”–should be “Night activity topic,” right?</li>
-<li>The intro to section 4 starts with a second lit review. This is unconventional, and the paper may be better integrated by combining</li>
-<li>On page 24, I would not say that they trust the text more, just that the text undermined a baseline assumption that protestors start violence, whereas the image was more open to interpretation. This is evidence for blame/identity hypotheses over cost-benefit hypothesis.</li>
-</ul>
-</div>
-</div>
+- arrousal
+
+---
+
+## Expectations about attitudes
+
+&gt; "higher levels of hierarchy-enhancing attitudes to be less susceptible to visual frames of violence in protests and to overall report negative perceptions"
+
+--
+
+Police violence? (Riot gear, bodies on the ground)
+
+--
+
+Pro-hierarchy protest? (Swasticas, blue line flags)
+
+--
+
+Protestor on protestor violence?
+
+--
+
+Symbolic violence (Guns, flags, symbols)
+
+--
+
+Property damage vs. violence?
+- blood, teargas, or ambulance (bodily injury) vs. fire or broken glass (property damage)
+
+---
+
+Other small notes:
+
+- I am not exactly sure what "fairness" means on page 5. Perhaps that a perception that there is a problem implies that the status quo is unfair?
+- Minor typo on page 5 "participation at in social movements."
+- On page 10, by "initialized with 12 topics," you just mean that you set `\(k=12\)` or do you mean that some algorithm chose `\(k\)`, but you initialized it with a prior of `\(12\)`?  
+- Figure 3 is labeled "Topics"--should be "Night activity topic," right? 
+- The intro to section 4 starts with a second lit review. This is unconventional, and the paper may be better integrated by combining
+- On page 24, I would not say that they trust the text more, just that the text undermined a baseline assumption that protestors start violence, whereas the image was more open to interpretation. This is evidence for blame/identity hypotheses over cost-benefit hypothesis.
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

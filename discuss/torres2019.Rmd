@@ -8,7 +8,7 @@ output:
   xaringan::moon_reader:
     lib_dir: libs
     mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
-    css: xaringan-themer.css
+    css: "./xaringan-themer.css"
     nature:
       highlightStyle: github
       highlightLines: true
