@@ -1,0 +1,257 @@
+---
+title: "Do Primaries Work?"
+subtitle: "Nomination Politics and the Representation of Local Partisan Preferences by Michael G. DeCrescenzo"
+author: ""
+date: ""
+
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
+    css: "./xaringan-themer.css"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include = FALSE, cache = TRUE, echo = FALSE}
+# chunks options:
+# hide code and messages by default (warning, message)
+# cache everything 
+knitr::opts_chunk$set(eval = TRUE, 
+                      warning = FALSE, message = FALSE,
+                      cache = TRUE,
+                      fig.retina = 2,
+                      fig.align = "center", dpi = 100)
+# Xaringan: https://slides.yihui.name/xaringan/
+library("xaringan")
+library("xaringanthemer")
+library("here")
+mono_light(base_color = "#003333",
+          link_color = "#000080",
+          #background_color = "#FAF0E6", # linen
+          header_font_google = google_font("PT Sans"), 
+          text_font_google = google_font("Old Standard"), 
+          text_font_size = "25px",
+          padding = "10px",
+          code_font_google = google_font("Inconsolata"), 
+          code_inline_background_color    = "#F5F5F5", 
+          table_row_even_background_color = "#E6F0FA",
+          extra_css = 
+            list(".remark-slide-number" = list("display" = "none")))
+```
+
+```{r, eval = FALSE, include= FALSE}
+# setup
+devtools::install_github("yihui/xaringan")
+devtools::install_github("gadenbuie/xaringanthemer")
+install.packages("webshot")
+webshot::install_phantomjs()
+library(webshot)
+# export to pdf
+file <- here("present/whyMail-APW.html")
+webshot(file, "whyMail-APW.pdf")
+```
+
+
+# Summary 
+- Clearly written
+- Teaches us about stats, as well as primaries
+- Clarifies important concepts that have been used very sloppily
+- Answeres a really big, elusive question
+
+Summary of comments:
+- clarify terminolgy and scope (district partizans, district voting)
+- do I understand the measures, model, & results?
+- am I updating my priors correctly?
+- (possibly nonsense) thoughts on ontology and causality 
+
+---
+
+# Summary
+
+People blame primaries for
+- polarization
+- selecting bad candidates
+- populism
+
+--
+BUT, we have lacked the ability to observe preferences of local partisan groups
+
+---
+
+# Theory
+
+Primaries work if the
+1. local partizan voters'
+1. prefrences/ideologies
+1. are represented in/transmited into government
+
+Implication: If primaries work, a district's partizans' prefrences should correlate with (affect?)
+- Who runs (Chapter 4)
+- Who wins (Chapter 5)
+
+???
+
+Mike has clearly thought about this so carefully, that I sincerly doubt that I can offer anything thing that pushes the thinking in any way. 
+I see my role here as commenting on what is more or less clear as a reader. The thoughts it triggered in my mind and how well that alligns with how you intend me to be updating my prioprs. 
+
+---
+
+## local partizan voters (the median thereof)
+  - (**X**) citizens
+  - (**X**) voters
+  - (**X**) district partisanship
+  - (**?**) partizan citizens
+  - (✓) likely partizan voters (population of the latent concept, $\theta$)
+  - (✓) partizan identifiers (population generating the data, $y$)
+  - (**X**) informed partizan voters (alternative concept). B "high informational demands that voters may not meet"
+
+"bottom-up ideological pressure from voters"
+  
+--
+
+Naming things! 
+
+- "district-party publics" or "district-party groups" or "partisan constituency" 
+- Maybe, "a district's partizans"
+
+---
+
+## in/into government
+
+Does this mean that only competitive races matter? Or maybe we downweight non-compettive races because they are open to odball candidates. 
+
+---
+
+# Measurement
+
+Informal party networks ~ DIME?
+- If so, are we just recovering the correlation between district ideology and networks? 
+
+Stratigic candidate positioning ~ DIME? 
+- If not, can this test the stragic positioning delema claim?  
+
+Is the noise we see in the DIME scores for challengers and open seats a-typical donors? Lots of donors only give to conventional candidates they think can win (esp. incombants), so the higher correlation here may be more a function of time than your measure. 
+
+You may not want to put this in the paper, but I would be intersted in figure 4.1 with uncertianty around your measure--I imagine this would show a lot less separation. 
+
+I am suprised at the level of separation, suggesting that party mean estimates have a strong pull or that the battery is fairly partisan.
+---
+
+## Figure 4.1 
+
+Lots of noise among challengers--are these in long-short districts?
+
+Are cutpoints genderally less than 0? 
+???
+I thought they averaged to 0
+
+---
+
+# Model
+
+Do you really need to estimate incumbants separatly?
+
+> the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties
+
+So you estimate separate models by party.
+
+---
+
+> "we should be concerned that district features that promote conservative voters also promote conservative candidates"
+
+> " it is important to demonstrate that it affects candidate positioning above and beyond its intermediate effect on district voting."
+
+But the role of background features depend on the selection process. Do background features have direct effects? For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partizan voter pool? Primaries work if the draw is centered on the mean of this group ($\bar{DIME}_g$), not more likely to come from the left or right tails of the distributions of partizans in a district? Is this what we mean whe we are estimating the medaited effect of district partizans? 
+
+---
+
+# Interpretation
+
+## Under what conditions do a district's partizans ideologies != mean of candidate slate? 
+
+Is this even the right question? 
+
+
+---
+
+## Under what conditions do a district's partizans ideologies != vote choice? 
+
+1. not all district partizans vote
+1. voters choose candidates for reasons other than policy positions measured on surveyes
+
+---
+
+# Ontology & Causality
+
+> "Ideology *affects* responses"
+
+> "Data *depend on* the construct"
+
+> "Items *reveal* different information about the latent construct"
+
+Our brains are models (true idology exists, *is* a "cause", a "force")
+
+Latent variable: 
+vs.
+
+> "IRT lets us summarize an individual's policy prefrences"
+
+Latent construct: We construct ideology from responses (true ideology *is* responses to an infinate number of questions? )
+
+???
+
+I would not normally go down this path, but I figure that you might actually care, have answers for these such obtuse questions that help me make sense of them.
+
+---
+
+You downweight observations from the same individual. This makes sense, but has no effect in world where everyone is asked 20 questions, correct? So is this the same, as upweighting responses to shorter surveys? I assume the weighting assumes that we learn more from a 20-question survey than a 10-question survey, but not as much as two 10-question sruveyes. Can you test weighting in that range to make sure results are not survey-dependent? (I mean, your results are 100% survey-dependent, but how much do they vary depending on which survey is weighted more heavily within these logical bounds).
+
+----
+
+
+
+---
+
+
+> In a policy choice context, the difficulty parameter is better understood as the “cutpoint” parameter, the midpoint between two policy choices where the respondent is indifferent between the choice of Left or Right on item j.
+
+This phrasing could track the above and below sentences better to stress thas cutpoints, like difficulty, are features of a item, not a respondent. Perhaps this is as simple as saying the "mean respondent is indifferent." I would actually introduce the cutpoint language in the educational paragraph above, so you don't have to intoduce two things at once here, and so you can just use cutpoint going forward.
+
+> "how much to cut capital gains taxes will have a more conservative cutpoint than a question of whether to cut capital gains taxes at all."
+
+This example is confusing because the response scales also seem to differ. Try "whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to raise capital gains tax by 50%" or "whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to cut capital gains tax by 1%"
+
+Figure 2.1 could have shading/color for difficulty and line type for discrimination (solid lines for ι = 1)
+
+Instead of "behave identically," you could say "be as difficult/conservative and as discriminating..."
+
+I like "their ideal point" rather than "her ideal point" for the generic person.
+
+> "standard Normal utility error from εi j above"
+
+nbd but I don't see any equasion with εi j above
+
+Not important, but given how nice you walk through every other step, you could explain the move from individual to population standard deviation in Equasion 2.8
+
+Might as well say "partizan voters in a district" rather than partisan citizens in a district"
+
+The discription of 4.2 uses different notation than the figure.
+
+---
+
+# Typos?
+
+> where groups are define as 
+
+> policy ideology with a partisan constituency
+
+the policy ideology of a partisan constituency?
+
+The strength of these relationships vary
+
+That setup violates likely violates the
