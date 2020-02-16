@@ -1,7 +1,7 @@
 ---
 title: "Do Primaries Work?"
-subtitle: "Nomination Politics and the Representation of Local Partisan Preferences by Michael G. DeCrescenzo"
-author: ""
+subtitle: "Nomination Politics and the Representation of Local Partisan Preferences"
+author: "Michael G. DeCrescenzo"
 date: ""
 
 output:
@@ -35,7 +35,7 @@ mono_light(base_color = "#003333",
           #background_color = "#FAF0E6", # linen
           header_font_google = google_font("PT Sans"), 
           text_font_google = google_font("Old Standard"), 
-          text_font_size = "25px",
+          text_font_size = "30px",
           padding = "10px",
           code_font_google = google_font("Inconsolata"), 
           code_inline_background_color    = "#F5F5F5", 
@@ -57,17 +57,38 @@ webshot(file, "whyMail-APW.pdf")
 ```
 
 
-# Summary 
+# Overall
 - Clearly written
-- Teaches us about stats, as well as primaries
 - Clarifies important concepts that have been used very sloppily
-- Answeres a really big, elusive question
+- Answeres a big, elusive question
+- Teaches us about stats, as well as primaries
+  - propegates measurment uncertianty through model stages
 
-Summary of comments:
-- clarify terminolgy and scope (district partizans, district voting)
-- do I understand the measures, model, & results?
-- am I updating my priors correctly?
-- (possibly nonsense) thoughts on ontology and causality 
+---
+
+>"All ideal point estimates are uncertain, but not many studies confront this uncertainty."
+
+![](pity.jpeg)
+
+---
+
+# Summary of comments:
+- Clarify terminolgy and scope
+- Framing (*stratigic positioning* vs. *representation*|DIME as the DV)
+- Do I understand the measures, model, & results?
+- Robustness checks
+- Am I updating my priors correctly?
+- Thoughts on ontology and causality (possibly nonsense) 
+
+???
+
+Mike has clearly thought about this so carefully, that I sincerly doubt that I can offer anything thing that pushes the thinking in any way. 
+I see my role here as commenting on what is more or less clear as a reader. The thoughts it triggered in my mind and how well that alligns with how you intend me to be updating my prioprs. 
+
+I'll suggest some robustness checks becasue I know you are into that kind of thing
+
+I also just want to re-terate some of the important contributions.
+
 
 ---
 
@@ -75,11 +96,26 @@ Summary of comments:
 
 People blame primaries for
 - polarization
-- selecting bad candidates
+- selecting general-election losers
 - populism
 
 --
-BUT, we have lacked the ability to observe preferences of local partisan groups
+
+BUT, we have yet to observe preferences of local partisans.
+
+--
+
+Mike estimates ideal points for each districts' partizans. 
+
+--
+
+So, do primaries work? 
+
+--
+
+YES
+--
+, MGD scores predict candidate DIME scores (even when blocking effects through past voting signals)
 
 ---
 
@@ -87,78 +123,148 @@ BUT, we have lacked the ability to observe preferences of local partisan groups
 
 Primaries work if the
 1. local partizan voters'
-1. prefrences/ideologies
+1. policy prefrences/ideologies
 1. are represented in/transmited into government
 
-Implication: If primaries work, a district's partizans' prefrences should correlate with (affect?)
-- Who runs (Chapter 4)
-- Who wins (Chapter 5)
+Implication: If primaries work, a district's partizans' prefrences should affect
+- Chapter 4: Who runs (and their positions)
+- Chapter 5: Who wins
 
 ???
 
-Mike has clearly thought about this so carefully, that I sincerly doubt that I can offer anything thing that pushes the thinking in any way. 
-I see my role here as commenting on what is more or less clear as a reader. The thoughts it triggered in my mind and how well that alligns with how you intend me to be updating my prioprs. 
+
+Mike helpfully gives us a clear definition that allow us to contrast theory and findings
 
 ---
 
-## local partizan voters (the median thereof)
-  - (**X**) citizens
-  - (**X**) voters
-  - (**X**) district partisanship
+## 1. "local partizan voters" (the median thereof)
+  - (**×**) citizens
+  - (**×**) voters
+  - (**×**) district partisanship
   - (**?**) partizan citizens
   - (✓) likely partizan voters (population of the latent concept, $\theta$)
   - (✓) partizan identifiers (population generating the data, $y$)
-  - (**X**) informed partizan voters (alternative concept). B "high informational demands that voters may not meet"
-
-"bottom-up ideological pressure from voters"
+  - (**×**) informed partizan voters (alternative concept). "informational demands that voters may not meet"
+  - "bottom-up ideological pressure from voters"
   
 --
 
-Naming things! 
-
-- "district-party publics" or "district-party groups" or "partisan constituency" 
-- Maybe, "a district's partizans"
+**Naming things!** 😬 "district-party publics" vs "district-party groups" vs "partisan constituency" --> "the ideology of a district's partizans" maybe?
 
 ---
 
-## in/into government
+## 2. "policy prefrences"/"ideologies"
 
-Does this mean that only competitive races matter? Or maybe we downweight non-compettive races because they are open to odball candidates. 
+How sensitive are these ideal points to survey item inclusion and weighting? 
+
+--
+
+Policy items <-> *Grey area* <-> Not policy items
 
 ---
 
-# Measurement
+You downweight repeated observations from the same individual. This makes sense. 
+1. It would have no effect in world where everyone is asked 20 questions, correct? 
+1. Is this the same as upweighting responses to shorter surveys? 
+1. Reasonable weight bounds: We learn more from a 20-question survey than a 10-question survey, but not as much as two 10-question suveyes. Can you test or sample weights in that range? 
+--
+(The results are 100% survey-dependent, but how much do they vary depending on which survey is weighted more heavily within these logical bounds).
 
-Informal party networks ~ DIME?
-- If so, are we just recovering the correlation between district ideology and networks? 
+---
 
-Stratigic candidate positioning ~ DIME? 
-- If not, can this test the stragic positioning delema claim?  
 
-Is the noise we see in the DIME scores for challengers and open seats a-typical donors? Lots of donors only give to conventional candidates they think can win (esp. incombants), so the higher correlation here may be more a function of time than your measure. 
+## 3. "into government"
+
+Does this mean that only **competitive** races matter? 
+
+Or might primaries "work" on unchallenged incunbents through the threat of a challenger? 
+
+Maybe downweight challengers in non-compettive races because they are more open to oddball candidates that add noise in places where we don't expect the primary to really "work" anyway. 
+
+---
+
+# When should primaries **not** work? 
+
+1. Unchallenged candidates (?) 
+1. Uncompetitive districts (?)
+1. Uncompetitive candidates (✓)
+
+Are a-typical candidates/donors responsible for the higher varience in DIME scores for challengers and open seats? Are these outliers long-short candidates? What if we drop them? 
+
+???
+
+Lots of donors only give to conventional candidates they think can win (esp. incombants), so the higher correlation here may be more a function of time  than your measure. 
+
+
+---
+
+# Measurement-DIME Scores
+
+(How to frame this chapter)
+
+**DIME ~ Stratigic candidate positioning?** 
+If not, not so informative regarding the stragic positioning delema per se (but this is fine)
+
+**DIME ~ Credible candidate policy comitments?** 
+If so, good for testing the core representation hypotheses (**do primaries work?**)
+
+**DIME ~ Informal party networks?**
+If so, are we recovering the correlation between district ideology and party networks? 
+
+---
+
+background-image: url(mgd-scores.png)
+background-size: contain
+
+---
+
+# Measurement-DeCrescenzo Scores
+
+I would be intersted in Figure 4.1 with uncertianty around your measure.
+
+That level of separation! (Much more than DIME scores). Do the party mean estimates have a strong pull or that the battery is fairly partisan? The most conservative local dems are way more liberal then the most liberal local Republicans. 
+
+
+Are cutpoints generally less than 0? 
+
+???
 
 You may not want to put this in the paper, but I would be intersted in figure 4.1 with uncertianty around your measure--I imagine this would show a lot less separation. 
 
-I am suprised at the level of separation, suggesting that party mean estimates have a strong pull or that the battery is fairly partisan.
----
-
-## Figure 4.1 
-
-Lots of noise among challengers--are these in long-short districts?
-
-Are cutpoints genderally less than 0? 
-???
 I thought they averaged to 0
 
 ---
 
+
+
 # Model
 
-Do you really need to estimate incumbants separatly?
+The unit of observation is $DIME_i$ (4.4-4.7), but only $\overline{DIME}_g$ is identified (4.2.1), correct?
+
+--
 
 > the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties
 
-So you estimate separate models by party.
+Thus separate models by party ✓
+
+> incumbency status appears to be a substantial modifier of the relationship between citizen and candidate ideology
+
+By this logic, must we estimate incumbants separatly? (Say more about why this is not just a candidate trait.)
+
+
+---
+
+# Mediation
+
+A districts past vote share likely influences candidate positioning (and decisions to run). However, it may do so primarily *because* primaries exist, Thus,
+1. If the effect of ideology is 100% mediated, primaries might still "work" and thus total effect may be more relevent.
+1. What we really want to block is the portion of the effect of past presidential vote share that is *not* due to its signal of district ideology (i.e., the mediated effect). The way you calculated average total effect does this, right?  It is just a matters of emphasis about what is blocked and why. 
+
+---
+
+> $z_i$ currently contains an order-3 polynomial function of candidate i’s total campaign receipts. Why? 
+
+Is this an intermediate confound between past presidential vote share and candidate DIME score? 
 
 ---
 
@@ -166,13 +272,27 @@ So you estimate separate models by party.
 
 > " it is important to demonstrate that it affects candidate positioning above and beyond its intermediate effect on district voting."
 
-But the role of background features depend on the selection process. Do background features have direct effects? For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partizan voter pool? Primaries work if the draw is centered on the mean of this group ($\bar{DIME}_g$), not more likely to come from the left or right tails of the distributions of partizans in a district? Is this what we mean whe we are estimating the medaited effect of district partizans? 
+But the role of background features depend on the selection process. Do background features have direct effects? For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partizan voter pool? Primaries work if the draw is centered on the mean of this group, not more likely to come from the left or right tails of the distribution of partizans in a district? (Approximated by estimating the relationship between $\bar{\theta}_g$ and $\over{DIME}_g$.) Is this what we mean whe we are estimating the medaited effect of district partizans? 
+
+---
+
+# Vote choices (vote share) varies, but voters' policy prefrences do not? 
+- 4.3.1 Does this over-estimate the effect of previous vote share on donor patters (DIME scores vary over time as candidates come and go)? 
+
+
+---
+
+# Updating 
+
+Figure 4.4: Past vote share is only an informative for Dem Challengers. The more Republican the district, the more conservative a Democrat challenger's donors are, right? 
 
 ---
 
 # Interpretation
 
-## Under what conditions do a district's partizans ideologies != mean of candidate slate? 
+## Under what conditions do a district's partizans policy prefrences diverge from the policy prefrences* of candidate slate? 
+
+*donation patterns
 
 Is this even the right question? 
 
@@ -209,7 +329,7 @@ I would not normally go down this path, but I figure that you might actually car
 
 ---
 
-You downweight observations from the same individual. This makes sense, but has no effect in world where everyone is asked 20 questions, correct? So is this the same, as upweighting responses to shorter surveys? I assume the weighting assumes that we learn more from a 20-question survey than a 10-question survey, but not as much as two 10-question sruveyes. Can you test weighting in that range to make sure results are not survey-dependent? (I mean, your results are 100% survey-dependent, but how much do they vary depending on which survey is weighted more heavily within these logical bounds).
+
 
 ----
 
@@ -242,6 +362,8 @@ Might as well say "partizan voters in a district" rather than partisan citizens 
 
 The discription of 4.2 uses different notation than the figure.
 
+Figure 4.4 is pretty, but could be a little clearer if there were boxes around the facets (it takes a second to realize that there are 3 x axes). Also the 0 line from 4.5 is nice (this might actually be all you need). 
+
 ---
 
 # Typos?
@@ -255,3 +377,11 @@ the policy ideology of a partisan constituency?
 The strength of these relationships vary
 
 That setup violates likely violates the
+
+whereas most Dime scores
+
+Figures 4.4 and 4.5, DIME not Dime, meh
+
+simulation-based statistics they are more stable estimators
+
+All ideal point estimates are uncertainty
