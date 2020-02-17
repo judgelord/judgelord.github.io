@@ -1,60 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Do Primaries Work?</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Michael G. DeCrescenzo" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Do Primaries Work?
+## Nomination Politics and the Representation of Local Partisan Preferences
+### Michael G. DeCrescenzo
 
 ---
-title: "Do Primaries Work?"
-subtitle: "Nomination Politics and the Representation of Local Partisan Preferences"
-author: "Michael G. DeCrescenzo"
-date: ""
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"
-    css: "./xaringan-themer.css"
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-editor_options: 
-  chunk_output_type: console
----
 
-```{r setup, include = FALSE, cache = TRUE, echo = FALSE}
-# chunks options:
-# hide code and messages by default (warning, message)
-# cache everything 
-knitr::opts_chunk$set(eval = TRUE, 
-                      warning = FALSE, message = FALSE,
-                      cache = TRUE,
-                      fig.retina = 2,
-                      fig.align = "center", dpi = 100)
-# Xaringan: https://slides.yihui.name/xaringan/
-library("xaringan")
-library("xaringanthemer")
-library("here")
-mono_light(base_color = "#003333",
-          link_color = "#000080",
-          #background_color = "#FAF0E6", # linen
-          header_font_google = google_font("PT Sans"), 
-          text_font_google = google_font("Old Standard"), 
-          text_font_size = "30px",
-          padding = "10px",
-          code_font_google = google_font("Inconsolata"), 
-          code_inline_background_color    = "#F5F5F5", 
-          table_row_even_background_color = "#E6F0FA",
-          extra_css = 
-            list(".remark-slide-number" = list("display" = "none")))
-```
 
-```{r, eval = FALSE, include= FALSE}
-# setup
-devtools::install_github("yihui/xaringan")
-devtools::install_github("gadenbuie/xaringanthemer")
-install.packages("webshot")
-webshot::install_phantomjs()
-library(webshot)
-# export to pdf
-file <- here("present/whyMail-APW.html")
-webshot(file, "whyMail-APW.pdf")
-```
+
+
+
 
 
 # Overall
@@ -66,7 +31,7 @@ webshot(file, "whyMail-APW.pdf")
 
 ---
 
->"All ideal point estimates are uncertain, but not many studies confront this uncertainty."
+&gt;"All ideal point estimates are uncertain, but not many studies confront this uncertainty."
 
 ![](pity.jpeg)
 
@@ -75,7 +40,7 @@ webshot(file, "whyMail-APW.pdf")
 # Summary of comments:
 - Clarify terminology and scope
 - Framing (*strategic positioning* vs. *representation*|DIME as the DV)
-- Do I understand the measures, model, & results?
+- Do I understand the measures, model, &amp; results?
 - Robustness checks
 - Am I updating my priors correctly?
 - Thoughts on ontology and causality (possibly nonsense) 
@@ -144,13 +109,13 @@ Mike helpfully gives us a clear definition that allows us to contrast theory and
   - (**×**) voters
   - (**×**) district partisanship
   - (**?**) partizan citizens
-  - (✓) likely partizan voters (population of the latent concept, $\theta$)  "bottom-up ideological pressure from voters"
-  - (✓) partizan identifiers (population generating the data, $y$)
+  - (✓) likely partizan voters (population of the latent concept, `\(\theta\)`)  "bottom-up ideological pressure from voters"
+  - (✓) partizan identifiers (population generating the data, `\(y\)`)
   - (**×**) informed partizan voters (alternative concept). "informational demands that voters may not meet"
   
 --
 
-**Naming things!** 🤔"district-party publics" vs "district-party groups" vs "partisan constituency" --> "the ideology of a district's partizans" 🤷 
+**Naming things!** 🤔"district-party publics" vs "district-party groups" vs "partisan constituency" --&gt; "the ideology of a district's partizans" 🤷 
 
 ---
 
@@ -160,7 +125,7 @@ How sensitive are these ideal points to survey item inclusion and weighting?
 
 --
 
-A) Policy items <-> *Grey area* <-> Not policy items
+A) Policy items &lt;-&gt; *Grey area* &lt;-&gt; Not policy items
 
 --
 
@@ -240,15 +205,15 @@ I thought they averaged to 0
 
 # Model
 
-The unit of observation is $DIME_i$ (4.4-4.7), but only $\overline{DIME}_g$ is identified (4.2.1), correct?
+The unit of observation is `\(DIME_i\)` (4.4-4.7), but only `\(\overline{DIME}_g\)` is identified (4.2.1), correct?
 
 --
 
-> the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties
+&gt; the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties
 
 Thus separate models by party. ✓
 
-> incumbency status appears to be a substantial modifier of the relationship between citizen and candidate ideology
+&gt; incumbency status appears to be a substantial modifier of the relationship between citizen and candidate ideology
 
 By this logic, must we estimate incumbents separately? (Say more about why this is not just a candidate trait.)
 
@@ -257,7 +222,7 @@ By this logic, must we estimate incumbents separately? (Say more about why this 
 
 # Mediation
 
-> " it is important to demonstrate that it affects candidate positioning above and beyond its intermediate effect on district voting."
+&gt; " it is important to demonstrate that it affects candidate positioning above and beyond its intermediate effect on district voting."
 
 A district's past vote share likely influences candidate positions (and decisions to run). However, it may do so primarily *because* primaries exist. Thus,
 1. If the effect of ideology is 100% mediated, primaries might still "work," and thus, the total effect may be more relevant.
@@ -265,7 +230,7 @@ A district's past vote share likely influences candidate positions (and decision
 
 ---
 
-> "$z_i$ currently contains an order-3 polynomial function of candidate i’s total campaign receipts."
+&gt; "$z_i$ currently contains an order-3 polynomial function of candidate i’s total campaign receipts."
 
 Why? 
 
@@ -275,9 +240,9 @@ Is this an intermediate confound between past presidential vote share and candid
 
 # Background features 
 
-> "we should be concerned that district features that promote conservative voters also promote conservative candidates."
+&gt; "we should be concerned that district features that promote conservative voters also promote conservative candidates."
 
-But the role of background features depends on the candidate selection process. For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partisan voter pool? Primaries work if the draw is centered on the mean of this group--not more likely to come from the left or right tails. (Approximated by estimating the relationship between $\bar{\theta}_g$ and $\overline{DIME}_g$, because we can't scale DIME and MGD scores.) Is this what we mean when we are estimating the mediated effect of district partizans? 
+But the role of background features depends on the candidate selection process. For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partisan voter pool? Primaries work if the draw is centered on the mean of this group--not more likely to come from the left or right tails. (Approximated by estimating the relationship between `\(\bar{\theta}_g\)` and `\(\overline{DIME}_g\)`, because we can't scale DIME and MGD scores.) Is this what we mean when we are estimating the mediated effect of district partizans? 
 
 ---
 
@@ -316,19 +281,19 @@ class: center inverse
 
 ---
 
-# Ontology & Causality
+# Ontology &amp; Causality
 
-> "Ideology *affects* responses"
+&gt; "Ideology *affects* responses"
 
-> "Items *reveal* different information about the latent construct."
+&gt; "Items *reveal* different information about the latent construct."
 
 Latent *variable*: Brains can be parameterized (true idology exists, *is* a "cause", a "force")
 
 vs.
 
-> "Data *depend on* the construct."
+&gt; "Data *depend on* the construct."
 
-> "IRT lets us *summarize* an individual's policy preferences."
+&gt; "IRT lets us *summarize* an individual's policy preferences."
 
 Latent *construct*: We construct ideology from responses (true ideology *is* responses to an infinite number of questions? )
 
@@ -354,11 +319,11 @@ Maybe we can align these, may it is nonsense?
 
 # Clarifications
 
-> In a policy choice context, the difficulty parameter is better understood as the “cutpoint” parameter, the midpoint between two policy choices where the respondent is indifferent between the choice of Left or Right on item j.
+&gt; In a policy choice context, the difficulty parameter is better understood as the “cutpoint” parameter, the midpoint between two policy choices where the respondent is indifferent between the choice of Left or Right on item j.
 
 This phrasing could track the above and below sentences better to stress thas cutpoints, like difficulty, are features of a item, not a respondent. Perhaps this is as simple as saying the "mean respondent is indifferent." I would actually introduce the cutpoint language in the educational paragraph above, so you don't have to intoduce two things at once here, and so you can just use cutpoint going forward.
 
-> "how much to cut capital gains taxes will have a more conservative cutpoint than a question of whether to cut capital gains taxes at all."
+&gt; "how much to cut capital gains taxes will have a more conservative cutpoint than a question of whether to cut capital gains taxes at all."
 
 This example is confusing because the response scales also seem to differ. Try "whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to raise capital gains tax by 50%" or "whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to cut capital gains tax by 1%"
 
@@ -368,7 +333,7 @@ Instead of "behave identically," you could say "be as difficult/conservative and
 
 I like "their ideal point" rather than "her ideal point" for the generic person.
 
-> "standard Normal utility error from εi j above"
+&gt; "standard Normal utility error from εi j above"
 
 nbd but I don't see any equasion with εi j above
 
@@ -384,9 +349,9 @@ Figure 4.4 is pretty, but could be a little clearer if there were boxes around t
 
 # Possible typos
 
-> where groups are define as 
+&gt; where groups are define as 
 
-> policy ideology with a partisan constituency
+&gt; policy ideology with a partisan constituency
 
 the policy ideology of a partisan constituency?
 
@@ -401,3 +366,111 @@ Figures 4.4 and 4.5, DIME not Dime, meh
 simulation-based statistics they are more stable estimators
 
 All ideal point estimates are uncertainty
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
