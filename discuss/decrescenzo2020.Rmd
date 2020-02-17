@@ -246,7 +246,7 @@ The unit of observation is $DIME_i$ (4.4-4.7), but only $\overline{DIME}_g$ is i
 
 > the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties
 
-Thus separate models by party. ✓
+Thus separate models (latent space?) by party. ✓
 
 > incumbency status appears to be a substantial modifier of the relationship between citizen and candidate ideology
 
@@ -357,6 +357,8 @@ Maybe we can align these, may it is nonsense?
 > In a policy choice context, the difficulty parameter is better understood as the “cutpoint” parameter, the midpoint between two policy choices where the respondent is indifferent between the choice of Left or Right on item j.
 
 This phrasing could track the above and below sentences better to stress thas cutpoints, like difficulty, are features of a item, not a respondent. Perhaps this is as simple as saying the "mean respondent is indifferent." I would actually introduce the cutpoint language in the educational paragraph above, so you don't have to intoduce two things at once here, and so you can just use cutpoint going forward.
+
+I like "midpoint" better than "cutpoint" or "difficulty"
 
 > "how much to cut capital gains taxes will have a more conservative cutpoint than a question of whether to cut capital gains taxes at all."
 
