@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -8,17 +8,15 @@
   </url>
   
   <url>
-    <loc>https://judgelord.github.io/publication_types/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://judgelord.github.io/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/home/</loc>
   </url>
   
   <url>
@@ -30,27 +28,44 @@
   </url>
   
   <url>
+    <loc>https://judgelord.github.io/research/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://judgelord.github.io/templates/rmd-templates/djl-letter/</loc>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/publication_types/1/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/publication_types/2/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/authors/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/authors/ben-cashore/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/research/ferc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/authors/constance-mcdermott/</loc>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/teaching/</loc>
   </url>
   
   <url>
@@ -62,26 +77,7 @@
   </url>
   
   <url>
-    <loc>https://judgelord.github.io/research/ferc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/constance-mcdermott/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/teaching/</loc>
-  </url>
-  
-  <url>
     <loc>https://judgelord.github.io/cv/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -90,17 +86,22 @@
   
   <url>
     <loc>https://judgelord.github.io/authors/eleanor-neff-powell/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/tags/forestry/</loc>
+  </url>
+  
+  <url>
+    <loc>https://judgelord.github.io/talk/torres2019/</loc>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/authors/irene-scher/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/authors/justin-grimmer/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -116,21 +117,19 @@
   </url>
   
   <url>
+    <loc>https://judgelord.github.io/tags/private-governance/</loc>
+  </url>
+  
+  <url>
     <loc>https://judgelord.github.io/project/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/publication_types/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/</loc>
   </url>
   
   <url>
@@ -139,12 +138,10 @@
   
   <url>
     <loc>https://judgelord.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://judgelord.github.io/templates/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -157,16 +154,6 @@
   
   <url>
     <loc>https://judgelord.github.io/research/whymail/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/tags/forestry/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/tags/private-governance/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

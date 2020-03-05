@@ -12,5 +12,29 @@
       <link>https://judgelord.github.io/teaching/</link>
     </image>
     
+    <item>
+      <title>Tutorials</title>
+      <link>https://judgelord.github.io/teaching/tutorials/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/teaching/tutorials/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE3.html&#34; target=&#34;_blank&#34;&gt;Hypothesis testing&amp;ndash;tidy regression output and interaction effects in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;broom&lt;/code&gt; and &lt;code&gt;margins&lt;/code&gt;&amp;ndash;Gender pay gap example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE4.html&#34; target=&#34;_blank&#34;&gt;Interpreting Logit&amp;ndash;Sentencing decisions example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-company-scraper.html&#34; target=&#34;_blank&#34;&gt;Web scraping company names in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-scraper.html&#34; target=&#34;_blank&#34;&gt;Web scraping documents and tables in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/pdf_to_dataframe.html&#34; target=&#34;_blank&#34;&gt;Convert pdfs to a dataframes in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;pdftools&lt;/code&gt;, &lt;code&gt;stringr&lt;/code&gt;, and &lt;code&gt;purrr&lt;/code&gt;. &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/DOT/mstate&#34; target=&#34;_blank&#34;&gt;Multi-state duration models in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;mstate&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/example_map_canada&#34; target=&#34;_blank&#34;&gt;Maps from GIS data in &lt;strong&gt;R&lt;/strong&gt; - Canada example&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- [Tidy text analysis for beginners--Legislator letters example](https://judgelord.github.io/PS811/text-legislator-letters.html)
+--&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
