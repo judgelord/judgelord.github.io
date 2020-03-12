@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs | </title>
-    <link>https://judgelord.github.io/cv/</link>
-      <atom:link href="https://judgelord.github.io/cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>/cv/</link>
+      <atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>Cvs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Cvs</title>
-      <link>https://judgelord.github.io/cv/</link>
+      <link>/cv/</link>
     </image>
     
     <item>
       <title>CV</title>
-      <link>https://judgelord.github.io/cv/judgelord-cv/</link>
+      <link>/cv/judgelord-cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/cv/judgelord-cv/</guid>
+      <guid>/cv/judgelord-cv/</guid>
       <description>
 
 
@@ -115,9 +115,9 @@ and natural science Masters Thesis Colloquia presentations (Yale University, 201
     
     <item>
       <title>CV</title>
-      <link>https://judgelord.github.io/cv/judgelord-cv2/</link>
+      <link>/cv/judgelord-cv2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/cv/judgelord-cv2/</guid>
+      <guid>/cv/judgelord-cv2/</guid>
       <description>
 
 
