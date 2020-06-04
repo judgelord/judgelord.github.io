@@ -1,16 +1,263 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks | </title>
-    <link>https://judgelord.github.io/talk/</link>
-      <atom:link href="https://judgelord.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
-    <description>Recent &amp; Upcoming Talks</description>
+    <title></title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://judgelord.github.io/img/icon-192.png</url>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://judgelord.github.io/talk/</link>
+      <url>/img/icon-192.png</url>
+      <title></title>
+      <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Framing a Protest</title>
+      <link>/talk/torres2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talk/torres2019/</guid>
+      <description>
+
+
+&lt;div id=&#34;clear-argument-and-writing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Clear argument and writing&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;great-leap-in-methods&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Great leap in methods&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;combines-cutting-edge-tools-to-discover-patterns-experimental-evidence-about-causal-effects&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Combines cutting-edge tools to discover patterns + experimental evidence about causal effects&lt;/h2&gt;
+&lt;!--
+The writing is clear, and the argument is flawless 
+Therefore, I will focus on next steps
+- on the observational side, I have what I hope is, given your mastery of images, a very doable suggestion for a more direct hypothesis test
+- on the experimental side, my suggestions for follow up experiments are likely for the next paper
+
+This paper got me thinking so I have a lot
+--&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;div id=&#34;visual-topic-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Visual topic model&lt;/h2&gt;
+&lt;p&gt;Conservative media –&amp;gt; more image features we might call “night” (dark, high-contrast)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-thoughts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary of thoughts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More from the topic model?&lt;/li&gt;
+&lt;li&gt;More direct tests?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;=&amp;gt; &lt;em&gt;Discovering&lt;/em&gt; vs. &lt;em&gt;testing&lt;/em&gt; for &lt;strong&gt;mood&lt;/strong&gt; vs. &lt;strong&gt;environment&lt;/strong&gt; vs. &lt;strong&gt;objects&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experimental-findings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Experimental findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Peaceful image –&amp;gt; no effect on efficacy or support, but more objection to police violence&lt;/li&gt;
+&lt;li&gt;Protestor violence –&amp;gt; less efficacy, less support&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Police violence –&amp;gt; less efficacy, less support?
+&lt;!-- Especially surprising because police violence is against people, protestor &#34;violence&#34; focuses on property! --&gt;
+–&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Images &amp;gt; words, except for “the police went too far”&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;!--(because images are more ambiguous than text and thus allow assumptions to hold?)--&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-thoughts-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary of thoughts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More integration of computer vision and experiment sections?&lt;/li&gt;
+&lt;li&gt;Combine samples for both experiments?&lt;/li&gt;
+&lt;li&gt;What are the mechanisms?&lt;/li&gt;
+&lt;li&gt;What would we find in other contexts?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visual-topic-model-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Visual topic model&lt;/h1&gt;
+&lt;!-- I use topic models and remember your award-winning polmeth poster, and I went back and read that paper to dig into the method. However, the real test of comprehension is being able to explain it, so I&#39;ll try, and I hope that your corrections of my misunderstandings will help others who may not use these models--&gt;
+&lt;p&gt;&lt;img src=&#34;torrespoints.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;torresfig1.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;BoVW method (Torres 2018)&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;select &lt;em&gt;key point&lt;/em&gt; (edges and corners, sharp changes in color, i.e. not background, sky, street, wall, etc.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;characterize &lt;em&gt;gradients&lt;/em&gt; for pixels around those key points &lt;!--(e.g. transitions from light to dark, or Red to Green or Blue)--how many getting lighter, how many getting darker, weighted by magnitude (how much lighter or darker) --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;assign it to nearest &lt;em&gt;Visual Word&lt;/em&gt; (“vocabulary” cluster centroid)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;=&amp;gt; sharp gradients (brightness, contrast), possibly shapes, &lt;strong&gt;objects&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“&lt;strong&gt;identify&lt;/strong&gt; topics providing information about the &lt;strong&gt;time and place&lt;/strong&gt; in which the protests occurred (e.g. night)”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Suggestion:&lt;/strong&gt; Keep background (skip the key point step) to retain &lt;strong&gt;environmental&lt;/strong&gt; features (e.g. night vs. day sky)?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;exploring-data-testing-hypotheses&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploring data, testing hypotheses&lt;/h2&gt;
+&lt;!-- I am sure you have recieved a lot of feedback about the method, but this paper has some specific and important hypotheses --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“test the expectation that conservative newspapers are more likely to use nocturnal frames”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Task:&lt;/strong&gt; How to &lt;em&gt;measure&lt;/em&gt; “night” in images?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Inspect topic models with different &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;s, pick one with the most “nocturnal-looking” topic.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Identify the “most nocturnal” topic or topics in many models, average proportions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Discover patterns, design more direct tests features of interest (observational or experimental)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. dark + high contrast images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Given your expertise and the night hypotheses, it may be easy to construct much more direct observational tests. --&gt;
+&lt;hr /&gt;
+&lt;p&gt;Are image fragments draws from a distribution of “night” or “something else” with a probability that varies by image?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Or are image fragments draws from a distribution of &lt;strong&gt;objects&lt;/strong&gt; that vary (in brightness and contrast) depending on whether they are drawn from a “night” or “day” image?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Can we model &lt;strong&gt;mood&lt;/strong&gt; variation (in global tint, brightness, contrast) alongside &lt;em&gt;object clusters&lt;/em&gt; (local variation, edges, corners, etc. at key points)?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;If we can model night/day variation, we could identify variation in &lt;strong&gt;what&lt;/strong&gt; is depicted at night and day?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;!-- Boring PSA, easy for you to do, but I suspect you will cosign that if people are using topic models, I&#39;ll want to see the rest of the topics and alterntive models summarized because TOPIC PROPORTIONS are a function of other topic proportions and k ---&gt;
+&lt;p&gt;&lt;strong&gt;Regardless of exploratory or testing use of topic models&lt;/strong&gt;, we all should report in appendicies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;all topics for models used (e.g. top words via FREX)&lt;/li&gt;
+&lt;li&gt;models with different &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Topic proportions are conditional on other topics (and thus also &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;PSA.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-else-pops-out&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What else pops out?&lt;/h2&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Can topic models recover anything we might label with the concepts tested experimentally?&lt;/p&gt;
+&lt;p&gt;For example, can you recover latent dimensions for&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;peaceful&lt;/em&gt; vs. &lt;em&gt;violent&lt;/em&gt; features?
+- e.g. crowds (✓) vs. flames (?)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;police violence&lt;/em&gt; vs. &lt;em&gt;protestor violence&lt;/em&gt; features?
+- e.g. riot gear objects vs. broken glass objects&lt;/p&gt;
+&lt;p&gt;(perhaps a better task for CNNs or other supervised methods using object libraries)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;next-steps&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Next steps?&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Mechanisms&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are a lot of potential mechanisms here. You are clearly thinking about this, but perhaps some of my thoughts about disentangling mechanisms will be useful if you go further down this path.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Other movements&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Minor tweaks to this paper’s framing could leave the door open for different findings for &lt;strong&gt;reactionary movement&lt;/strong&gt; protests.&lt;/p&gt;
+&lt;!-- As you note, protests are not conservative because they aim to disrupt the status quo, but there are reactionary movements, like white power and blue lives matter protests, that aim to resist looming changes or reverse ones that have already occurred. --&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;variables&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;p&gt;Viewer:
+- disposition (equality, hierarchical structures and need for order)
+- social context?&lt;/p&gt;
+&lt;p&gt;What is shown:
+- violence
++ intensity
++ object/direction
++ against people or property?
+- protest content?&lt;/p&gt;
+&lt;p&gt;How it is shown:
+- color tint?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-mechanisms&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Expectations about mechanisms&lt;/h1&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;div id=&#34;expectation-about-night-dark-framing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectation about night / dark framing&lt;/h2&gt;
+&lt;p&gt;A bunch of related expectations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Night&lt;/li&gt;
+&lt;li&gt;Image brightness&lt;/li&gt;
+&lt;li&gt;&lt;h2 id=&#34;high-contrast&#34;&gt;High contrast&lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;Greyscale and redscale?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“protest paradigm”
+- deviant, threatening, imponent&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-violence&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectations about violence&lt;/h2&gt;
+&lt;p&gt;Logics of consequences: risk vs. benefit (?)
+- safety
+- likelihood of success&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Logics of appropriateness: ideological and social distance
+- legitimacy of tactics&lt;!-- (could also explain results, esp. given the power of text to remove ambiguity)--&gt;
+- assumption that police start violence (x)
+- assumption that protestors start violence (?)
+- legitimacy of claims/proof of injustice (x)
+- compassion/indignation (x)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Valence (?) &lt;!-- (could also explain result)--&gt;
+- negitivity (discomfort, anxiety, linked with crime)
+- arrousal&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-attitudes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectations about attitudes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“higher levels of hierarchy-enhancing attitudes to be less susceptible to visual frames of violence in protests and to overall report negative perceptions”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Police violence? (Riot gear, bodies on the ground)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Pro-hierarchy protest? (Swasticas, blue line flags)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Protestor on protestor violence?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Symbolic violence (Guns, flags, symbols)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Property damage vs. violence?
+- blood, teargas, or ambulance (bodily injury) vs. fire or broken glass (property damage)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Other small notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I am not exactly sure what “fairness” means on page 5. Perhaps that a perception that there is a problem implies that the status quo is unfair?&lt;/li&gt;
+&lt;li&gt;Minor typo on page 5 “participation at in social movements.”&lt;/li&gt;
+&lt;li&gt;On page 10, by “initialized with 12 topics,” you just mean that you set &lt;span class=&#34;math inline&#34;&gt;\(k=12\)&lt;/span&gt; or do you mean that some algorithm chose &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, but you initialized it with a prior of &lt;span class=&#34;math inline&#34;&gt;\(12\)&lt;/span&gt;?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Figure 3 is labeled “Topics”–should be “Night activity topic,” right?&lt;/li&gt;
+&lt;li&gt;The intro to section 4 starts with a second lit review. This is unconventional, and the paper may be better integrated by combining&lt;/li&gt;
+&lt;li&gt;On page 24, I would not say that they trust the text more, just that the text undermined a baseline assumption that protestors start violence, whereas the image was more open to interpretation. This is evidence for blame/identity hypotheses over cost-benefit hypothesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
