@@ -41,12 +41,11 @@
   </url>
   
   <url>
-    <loc>/research/</loc>
-    <priority>0</priority>
+    <loc>/talk/</loc>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>/templates/rmd-templates/abstract/</loc>
   </url>
   
   <url>
@@ -143,6 +142,10 @@
   <url>
     <loc>/publication_types/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/</loc>
   </url>
   
   <url>
