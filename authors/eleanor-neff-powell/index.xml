@@ -2,21 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eleanor Neff Powell | </title>
-    <link>/authors/eleanor-neff-powell/</link>
-      <atom:link href="/authors/eleanor-neff-powell/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/authors/eleanor-neff-powell/</link>
+      <atom:link href="https://judgelord.github.io/authors/eleanor-neff-powell/index.xml" rel="self" type="application/rss+xml" />
     <description>Eleanor Neff Powell</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Eleanor Neff Powell</title>
-      <link>/authors/eleanor-neff-powell/</link>
+      <link>https://judgelord.github.io/authors/eleanor-neff-powell/</link>
     </image>
     
     <item>
       <title>Campaign Contributions and Bureaucratic Oversight</title>
-      <link>/research/ferc/</link>
+      <link>https://judgelord.github.io/publications/ferc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ferc/</guid>
+      <guid>https://judgelord.github.io/publications/ferc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign Contributions and Bureaucratic Oversight</title>
+      <link>https://judgelord.github.io/research/ferc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unequal Representation: Constituency Service in Today’s Congress</title>
+      <link>https://judgelord.github.io/research/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description></description>
     </item>
     

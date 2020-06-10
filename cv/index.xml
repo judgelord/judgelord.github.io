@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs | </title>
-    <link>/cv/</link>
-      <atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/cv/</link>
+      <atom:link href="https://judgelord.github.io/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>Cvs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Cvs</title>
-      <link>/cv/</link>
+      <link>https://judgelord.github.io/cv/</link>
     </image>
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv/</guid>
       <description>
 
 
@@ -40,14 +40,14 @@
 &lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt; &lt;em&gt;R&amp;amp;R&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking” (AESS 2018)&lt;/p&gt;
 &lt;p&gt;“Measuring Change and Influence in Budget Texts” (PolMeth 2017, APSA 2017)&lt;/p&gt;
 &lt;p&gt;“Why Courts Defer to Administrative Agency Judgement” (MPSA 2016)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1): 7. with John Robert Cochran&lt;/p&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” with John Robert Cochran, &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1):7 (2011)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;teaching&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;TEACHING&lt;/h1&gt;
@@ -56,15 +56,12 @@
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2019, 2020)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;teaching-assistant-grader-positions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;TEACHING ASSISTANT &amp;amp; GRADER POSITIONS&lt;/h1&gt;
-&lt;p&gt;University of Wisconsin-Madison&lt;/p&gt;
+&lt;p&gt;University of Wisconsin-Madison, Teaching Assistant/Grader&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Yale University&lt;/p&gt;
+&lt;p&gt;Yale University, Teaching Fellow&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
@@ -123,9 +120,9 @@
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv2/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv2/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv2/</guid>
       <description>
 
 

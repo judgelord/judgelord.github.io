@@ -2,55 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/</link>
+      <atom:link href="https://judgelord.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title></title>
-      <link>/</link>
+      <link>https://judgelord.github.io/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/project/correspondence/</link>
+      <link>https://judgelord.github.io/project/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/correspondence/</guid>
+      <guid>https://judgelord.github.io/project/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/project/rulemaking/</link>
+      <link>https://judgelord.github.io/project/rulemaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/project/rulemaking/</guid>
+      <guid>https://judgelord.github.io/project/rulemaking/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/templates/rmd-templates/abstract/</link>
+      <link>https://judgelord.github.io/templates/rmd-templates/abstract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/templates/rmd-templates/abstract/</guid>
+      <guid>https://judgelord.github.io/templates/rmd-templates/abstract/</guid>
       <description>
 
 
@@ -67,9 +49,9 @@
     
     <item>
       <title></title>
-      <link>/templates/rmd-templates/djl-letter/</link>
+      <link>https://judgelord.github.io/templates/rmd-templates/djl-letter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/templates/rmd-templates/djl-letter/</guid>
+      <guid>https://judgelord.github.io/templates/rmd-templates/djl-letter/</guid>
       <description>
 
 
@@ -100,9 +82,9 @@ I then use my new measures of public engagement to assess the effects of mobiliz
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv/</guid>
       <description>
 
 
@@ -126,14 +108,14 @@ I then use my new measures of public engagement to assess the effects of mobiliz
 &lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt; &lt;em&gt;R&amp;amp;R&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking” (AESS 2018)&lt;/p&gt;
 &lt;p&gt;“Measuring Change and Influence in Budget Texts” (PolMeth 2017, APSA 2017)&lt;/p&gt;
 &lt;p&gt;“Why Courts Defer to Administrative Agency Judgement” (MPSA 2016)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1): 7. with John Robert Cochran&lt;/p&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” with John Robert Cochran, &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1):7 (2011)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;teaching&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;TEACHING&lt;/h1&gt;
@@ -142,15 +124,12 @@ I then use my new measures of public engagement to assess the effects of mobiliz
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2019, 2020)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;teaching-assistant-grader-positions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;TEACHING ASSISTANT &amp;amp; GRADER POSITIONS&lt;/h1&gt;
-&lt;p&gt;University of Wisconsin-Madison&lt;/p&gt;
+&lt;p&gt;University of Wisconsin-Madison, Teaching Assistant/Grader&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Yale University&lt;/p&gt;
+&lt;p&gt;Yale University, Teaching Fellow&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
@@ -209,9 +188,9 @@ I then use my new measures of public engagement to assess the effects of mobiliz
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv2/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv2/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv2/</guid>
       <description>
 
 
@@ -338,26 +317,43 @@ in public investment, and praise for the project in a speech by President Barack
     
     <item>
       <title>Campaign Contributions and Bureaucratic Oversight</title>
-      <link>/research/ferc/</link>
+      <link>https://judgelord.github.io/publications/ferc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ferc/</guid>
+      <guid>https://judgelord.github.io/publications/ferc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Campaign Contributions and Bureaucratic Oversight</title>
+      <link>https://judgelord.github.io/research/ferc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
-      <link>/research/fsc-sfi/</link>
+      <link>https://judgelord.github.io/publications/fsc-sfi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/fsc-sfi/</guid>
+      <guid>https://judgelord.github.io/publications/fsc-sfi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;fsc-sfi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
+      <link>https://judgelord.github.io/research/fsc-sfi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;fsc-sfi.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Framing a Protest</title>
-      <link>/talk/torres2019/</link>
+      <link>https://judgelord.github.io/talk/torres2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/talk/torres2019/</guid>
+      <guid>https://judgelord.github.io/talk/torres2019/</guid>
       <description>
 
 
@@ -602,49 +598,97 @@ This paper got me thinking so I have a lot
     
     <item>
       <title>Measuring Change and Influence in Budget Texts</title>
-      <link>/research/budgets/</link>
+      <link>https://judgelord.github.io/publications/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/budgets/</guid>
+      <guid>https://judgelord.github.io/publications/budgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Change and Influence in Budget Texts</title>
+      <link>https://judgelord.github.io/research/budgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/budgets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
-      <link>/research/boreal/</link>
+      <link>https://judgelord.github.io/publications/boreal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/boreal/</guid>
+      <guid>https://judgelord.github.io/publications/boreal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
+      <link>https://judgelord.github.io/research/boreal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/boreal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Movements, Science, Bureaucracy, and Democracy</title>
-      <link>/research/ej/</link>
+      <link>https://judgelord.github.io/publications/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ej/</guid>
+      <guid>https://judgelord.github.io/publications/ej/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Movements, Science, Bureaucracy, and Democracy</title>
+      <link>https://judgelord.github.io/research/ej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ej/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unequal Representation: Constituency Service in Today’s Congress</title>
-      <link>/research/correspondence/</link>
+      <link>https://judgelord.github.io/publications/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/correspondence/</guid>
+      <guid>https://judgelord.github.io/publications/correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unequal Representation: Constituency Service in Today’s Congress</title>
+      <link>https://judgelord.github.io/research/correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Courts Defer to Administrative Agency Judgement</title>
-      <link>/research/defrence/</link>
+      <link>https://judgelord.github.io/publications/defrence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/defrence/</guid>
+      <guid>https://judgelord.github.io/publications/defrence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Courts Defer to Administrative Agency Judgement</title>
+      <link>https://judgelord.github.io/research/defrence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/defrence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Do Agencies (Sometimes) Get So Much Mail?</title>
+      <link>https://judgelord.github.io/research/whymail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/whymail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why do agencies (sometimes) get so much mail?</title>
-      <link>/research/whymail/</link>
+      <link>https://judgelord.github.io/publications/whymail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/whymail/</guid>
+      <guid>https://judgelord.github.io/publications/whymail/</guid>
       <description></description>
     </item>
     
