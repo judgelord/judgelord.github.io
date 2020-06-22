@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.6)  10 JUN 2020 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.12)  19 JUN 2020 22:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -510,20 +510,20 @@ File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 ] [2] 
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
 (./judgelord-cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
 Package rerunfilecheck Info: File `judgelord-cv.out' has not changed.
-(rerunfilecheck)             Checksum: 89D582F38F7778375904B08A004FDF14;1340.
+(rerunfilecheck)             Checksum: 3236914A951DFE27D70125DC79C27795;1347.
  ) 
 Here is how much of TeX's memory you used:
- 13826 strings out of 482426
- 202411 string characters out of 5947015
- 482256 words of memory out of 5000000
+ 13859 strings out of 482426
+ 202710 string characters out of 5947014
+ 482266 words of memory out of 5000000
  29291 multiletter control sequences out of 15000+600000
- 566725 words of font info for 128 fonts, out of 8000000 for 9000
+ 568616 words of font info for 155 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  45i,12n,52p,1201b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/judgelord/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Us
@@ -536,7 +536,7 @@ onts/type1/public/fontawesome/FontAwesome.pfb></Users/judgelord/Library/TinyTeX
 X/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/judgelord/Library/Tiny
 TeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/judgelord/Library/Ti
 nyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on judgelord-cv.pdf (3 pages, 87637 bytes).
+Output written on judgelord-cv.pdf (3 pages, 89409 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams

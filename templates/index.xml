@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Templates | </title>
-    <link>https://judgelord.github.io/templates/</link>
-      <atom:link href="https://judgelord.github.io/templates/index.xml" rel="self" type="application/rss+xml" />
+    <link>/templates/</link>
+      <atom:link href="/templates/index.xml" rel="self" type="application/rss+xml" />
     <description>Templates</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Templates</title>
-      <link>https://judgelord.github.io/templates/</link>
+      <link>/templates/</link>
     </image>
     
     <item>
       <title></title>
-      <link>https://judgelord.github.io/templates/rmd-templates/abstract/</link>
+      <link>/templates/rmd-templates/abstract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/templates/rmd-templates/abstract/</guid>
+      <guid>/templates/rmd-templates/abstract/</guid>
       <description>
 
 
@@ -33,9 +33,9 @@
     
     <item>
       <title></title>
-      <link>https://judgelord.github.io/templates/rmd-templates/djl-letter/</link>
+      <link>/templates/rmd-templates/djl-letter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/templates/rmd-templates/djl-letter/</guid>
+      <guid>/templates/rmd-templates/djl-letter/</guid>
       <description>
 
 

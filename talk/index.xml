@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://judgelord.github.io/talk/</link>
-      <atom:link href="https://judgelord.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title></title>
-      <link>https://judgelord.github.io/talk/</link>
+      <link>/talk/</link>
     </image>
     
     <item>
       <title>Framing a Protest</title>
-      <link>https://judgelord.github.io/talk/torres2019/</link>
+      <link>/talk/torres2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/talk/torres2019/</guid>
+      <guid>/talk/torres2019/</guid>
       <description>
 
 
