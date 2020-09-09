@@ -79,10 +79,6 @@
   </url>
   
   <url>
-    <loc>/teaching/</loc>
-  </url>
-  
-  <url>
     <loc>/cv/judgelord-cv/</loc>
   </url>
   
@@ -148,6 +144,10 @@
   
   <url>
     <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/teaching/</loc>
   </url>
   
   <url>

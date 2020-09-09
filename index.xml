@@ -47,17 +47,6 @@
     </item>
     
     <item>
-      <title>Courses</title>
-      <link>/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/teaching/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/&#34; target=&#34;_blank&#34;&gt;PS 811: Statistical Computing in Political Science&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS272/syllabus-PS272-2020.html&#34; target=&#34;_blank&#34;&gt;PS 272: Public Policy&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Cvs</title>
       <link>/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -158,6 +147,17 @@ For this project, I measure sub-agency rule-writing capacity and politicization 
 
 
 --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/teaching/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/&#34; target=&#34;_blank&#34;&gt;PS 811: Statistical Computing in Political Science&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS272/syllabus-PS272-2020.html&#34; target=&#34;_blank&#34;&gt;PS 272: Public Policy&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
