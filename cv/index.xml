@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cvs | </title>
-    <link>/cv/</link>
-      <atom:link href="/cv/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/cv/</link>
+      <atom:link href="https://judgelord.github.io/cv/index.xml" rel="self" type="application/rss+xml" />
     <description>Cvs</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Cvs</title>
-      <link>/cv/</link>
+      <link>https://judgelord.github.io/cv/</link>
     </image>
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://judgelord.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;
@@ -34,13 +34,13 @@
 &lt;/div&gt;
 &lt;div id=&#34;peer-reviewed-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking”&lt;/a&gt; with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt;*&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking” with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt; (2020)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1086026619858874&#34;&gt;“Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 (2020)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change” with Irene Scher and Benjamin Cashore [Peer-reviewed book chapter] in &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt; (2015)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt; &lt;em&gt;R&amp;amp;R&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (Sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“Unequal Representation” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How Environmental Justice Campaigns Affect Technocratic Policymaking” (AESS 2018)&lt;/p&gt;
@@ -183,11 +183,11 @@ in public investment, and praise for the project in a speech by President Barack
     
     <item>
       <title>CV</title>
-      <link>/cv/judgelord-cv2/</link>
+      <link>https://judgelord.github.io/cv/judgelord-cv2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/cv/judgelord-cv2/</guid>
+      <guid>https://judgelord.github.io/cv/judgelord-cv2/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://judgelord.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;

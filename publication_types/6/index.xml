@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 | </title>
-    <link>/publication_types/6/</link>
-      <atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/publication_types/6/</link>
+      <atom:link href="https://judgelord.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>6</title>
-      <link>/publication_types/6/</link>
+      <link>https://judgelord.github.io/publication_types/6/</link>
     </image>
     
     <item>
       <title>Campaign Contributions and Bureaucratic Oversight</title>
-      <link>/research/ferc/</link>
+      <link>https://judgelord.github.io/research/ferc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ferc/</guid>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
-      <link>/research/boreal/</link>
+      <link>https://judgelord.github.io/research/boreal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/boreal/</guid>
+      <guid>https://judgelord.github.io/research/boreal/</guid>
       <description></description>
     </item>
     

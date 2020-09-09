@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | </title>
-    <link>/publication_types/1/</link>
-      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://judgelord.github.io/publication_types/1/</link>
+      <atom:link href="https://judgelord.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>1</title>
-      <link>/publication_types/1/</link>
+      <link>https://judgelord.github.io/publication_types/1/</link>
     </image>
     
     <item>
       <title>Measuring Change and Influence in Budget Texts</title>
-      <link>/research/budgets/</link>
+      <link>https://judgelord.github.io/research/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/budgets/</guid>
+      <guid>https://judgelord.github.io/research/budgets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social Movements, Science, Bureaucracy, and Democracy</title>
-      <link>/research/ej/</link>
+      <link>https://judgelord.github.io/research/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/ej/</guid>
+      <guid>https://judgelord.github.io/research/ej/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unequal Representation: Constituency Service in Today’s Congress</title>
-      <link>/research/correspondence/</link>
+      <link>https://judgelord.github.io/research/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/correspondence/</guid>
+      <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Courts Defer to Administrative Agency Judgement</title>
-      <link>/research/defrence/</link>
+      <link>https://judgelord.github.io/research/defrence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/defrence/</guid>
+      <guid>https://judgelord.github.io/research/defrence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Do Agencies (Sometimes) Get So Much Mail?</title>
-      <link>/research/whymail/</link>
+      <link>https://judgelord.github.io/research/whymail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/research/whymail/</guid>
+      <guid>https://judgelord.github.io/research/whymail/</guid>
       <description></description>
     </item>
     
