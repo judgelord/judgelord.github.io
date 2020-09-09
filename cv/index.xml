@@ -18,52 +18,52 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/cv/judgelord-cv/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;EDUCATION&lt;/h1&gt;
 &lt;p&gt;University of Wisconsin-Madison, Ph.D. Candidate in Political Science (M.A. 2017)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dissertation: &lt;em&gt;Political Information in Bureaucratic Policymaking&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Dissertation: &lt;em&gt;Public Pressure Campaigns and Bureaucratic Policymaking&lt;/em&gt;
+&lt;!-- - Committee: Susan Yackee (chair), Eleanor Powell, Alex Tahk, David Weimer, Miriam Seifter --&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Yale University, M.E.Sc. in Environmental Law and Policy (2013)&lt;/p&gt;
+&lt;!-- Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interactions Among Property Rights, Regulation, and Public Investments_ --&gt;
 &lt;p&gt;Reed College, B.A. in Political Science (2009)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;peer-reviewed-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking” with Daniel Carpenter, Brian Libgober, Steven Rashin. Accepted for publication at &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1086026619858874&#34;&gt;“Do Private Regulations ‘Ratchet Up?’: How to distinguish types of regulatory stringency and patterns of change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 (2020)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating theories of internationalization and pathways of policy change” with Irene Scher and Benjamin Cashore [Peer-reviewed book chapter] in &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt; (2015)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking”&lt;/a&gt; with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt;*&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1086026619858874&#34;&gt;“Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 (2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change” with Irene Scher and Benjamin Cashore [Peer-reviewed book chapter] in &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues.&lt;/em&gt; (2015)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer&lt;/a&gt; &lt;em&gt;R&amp;amp;R&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;“How Legislators Actually Spend Their Time: Constituents, donors, or policy” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/p&gt;
-&lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How mobilizing for environmental justice influences technocratic policymaking” (AESS 2018)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (Sometimes) Get So Much Mail? Lobbying coalitions, mass comments, and political information in bureaucratic policymaking” (SPSA 2019)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“Unequal Representation” with Justin Grimmer and Eleanor Powell (APSA 2018)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;“Social Movements, Science, Bureaucracy, and Democracy: How Environmental Justice Campaigns Affect Technocratic Policymaking” (AESS 2018)&lt;/p&gt;
 &lt;p&gt;“Measuring Change and Influence in Budget Texts” (PolMeth 2017, APSA 2017)&lt;/p&gt;
 &lt;p&gt;“Why Courts Defer to Administrative Agency Judgement” (MPSA 2016)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-publications&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
-&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1): 7. with John Robert Cochran&lt;/p&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans.” with John Robert Cochran, &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1):7 (2011)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;teaching&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;TEACHING&lt;/h1&gt;
-&lt;p&gt;University of Wisconsin-Madison, Instructor&lt;/p&gt;
+&lt;p&gt;University of Wisconsin-Madison, Lecturer&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2019, 2020)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;teaching-assistant-grader-positions&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;TEACHING ASSISTANT &amp;amp; GRADER POSITIONS&lt;/h1&gt;
-&lt;p&gt;University of Wisconsin-Madison&lt;/p&gt;
+&lt;p&gt;University of Wisconsin-Madison, Teaching Assistant/Grader&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Yale University&lt;/p&gt;
+&lt;p&gt;Yale University, Teaching Fellow&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
@@ -71,9 +71,13 @@
 &lt;/div&gt;
 &lt;div id=&#34;public-policy-and-research-positions&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;PUBLIC POLICY AND RESEARCH POSITIONS&lt;/h1&gt;
-&lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–2019)&lt;/p&gt;
+&lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–2020)&lt;/p&gt;
 &lt;p&gt;Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)&lt;/p&gt;
-&lt;p&gt;Regulatory Affairs Specialist, Willamette Partnership and Washington County, Oregon (2010–2011)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Compared forestry laws across countries with quantitative and qualitative text analysis&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wrote policy-focused portions of the State of the World’s Forests Report&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regulatory Affairs Specialist, Washington County, Oregon (2010–2011)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Convened state and federal agency staff to draft Oregon Department of Environmental Quality Guidance&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Drafted text for an Oregon State Senate bill&lt;/p&gt;&lt;/li&gt;
@@ -83,19 +87,23 @@
 &lt;/div&gt;
 &lt;div id=&#34;selected-awards&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
-&lt;p&gt;La Follette Fellowship, University of Wisconsin (2016)&lt;/p&gt;
+&lt;p&gt;National Science Foundation (NSF)-American Political Science Association (APSA) Dissertation Research Improvement Grant (2020)&lt;/p&gt;
+&lt;p&gt;Exceptional Mentorship Award, Undergraduate Research Scholars Program (2020)&lt;/p&gt;
+&lt;p&gt;Summer Initiative Research Award (2018, 2019, 2020)&lt;/p&gt;
+&lt;p&gt;La Follette Fellowship, University of Wisconsin La Follette School of Public Affairs (2016)&lt;/p&gt;
 &lt;p&gt;Finalist, Best Graduate Student Paper, Association of Environmental Studies and Sciences (2015)&lt;/p&gt;
-&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social
-and natural science Masters Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
+&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social and natural science Masters Thesis Colloquia presentations (Yale University, 2013)&lt;/p&gt;
 &lt;p&gt;Best Student Research Presentation, Association for Environmental Studies and Sciences (2012)&lt;/p&gt;
 &lt;p&gt;Carpenter-Sperry Research Award (2012)&lt;/p&gt;
 &lt;p&gt;Jubitz Family Foundation Research Fellowship (2012)&lt;/p&gt;
-&lt;p&gt;H. Stuart Harrison Scholarship (Yale University 2011–2013)&lt;/p&gt;
+&lt;p&gt;H. Stuart Harrison Scholarship to attend Yale University (2011–2013)&lt;/p&gt;
+&lt;p&gt;Morton O’Stafford Scholarship to attend Reed College (2006–2009)&lt;/p&gt;
+&lt;p&gt;Pell Grant (2005-2009)&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;service&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SERVICE&lt;/h1&gt;
-&lt;p&gt;Reviewer for: &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Diversity and Inclusion Committee (2019-present)&lt;/p&gt;
+&lt;p&gt;Reviewer, &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Diversity and Inclusion Committee, UW-Madison Department of Political Science (2019-present)&lt;/p&gt;
 &lt;p&gt;Social Media Editor (2017-present), American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP)&lt;/p&gt;
 &lt;p&gt;Program Committee (2014–2016), Nominations Committee (2016-present), Association of Environmental Studies and Sciences (AESS)&lt;/p&gt;
 &lt;p&gt;Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017, 2019-2020)&lt;/p&gt;
@@ -108,7 +116,67 @@ and natural science Masters Thesis Colloquia presentations (Yale University, 201
 &lt;/div&gt;
 &lt;div id=&#34;selected-coursework-in-law&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SELECTED COURSEWORK IN LAW&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Yale Law School&lt;/em&gt;: Environmental Law; Energy Law; Property Law; Property, Social Justice, and the Environment; Land Use and Community Development Law; Administrative Law&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Yale Law School&lt;/em&gt;: Administrative Law; Energy Law; Property Law; Environmental Law; Land Use Law; Property, Social Justice, and the Environment&lt;/p&gt;
+&lt;!--
+# SELECTED GRADUATE COURSEWORK
+
+*Yale School of Forestry and Environmental Studies*: Political Economy (an independent study structured around the Political Economy Workshop in the Department of Political Science); Research and Writing in the Social Sciences; Corporate Environmental Strategy and Management; International Environmental Policy &amp; Governance
+
+*Yale University, Department of Political Science*: Qualitative Field Research; The People
+
+*University of Wisconsin-Madison, Department of Political Science*: Economic Inequality in Modern Political Thought; Race and Politics in the U.S.; Empirical Methods of Political Inquiry, Statistics in Political Science, Macro-theories of American Politics; The Legislative Process: Classics in American Politics; Maximum Likelihood Estimation; Game Theory &amp; Political Analysis; Statistical Computing; Statistical Inference; Experimental Methods; Bayesian Statistics
+
+
+
+Project Assistant, University of Wisconsin-Madison (2015-Present)
+
+
+&#34;The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public&#34; with Susan Yackee
+
+&#34;U.S. Domestic Politics of Climate Engineering&#34; (AESS 2016)
+
+---
+PRESENTATIONS
+
+American Political Science Association (2017, 2018)
+
+Midwest Political Science Association (2016, 2020)
+
+Association of Environmental Studies and Sciences Annual Conference (2012, 2018, 2019, 2020)
+
+New Directions in Environmental Law Conference, Yale Law School (2012, 2013)
+
+
+Travel Grant (Yale University 2011, 2012)
+
+
+President, Yale Environmental Law Association Student Interest Group (2012–2013)
+
+
+
+SKILLS AND LANGUAGES
+R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
+Conversational Russian; basic Spanish
+
+
+Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)
+
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in U.S. Farm and Forest Politics
+
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+
+Research Assistant, Governance, Environment, and Markets (GEM) Initiative
+• Analyzed methods employed in 220 journal articles
+
+
+• Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
+on Clean Water Act compliance (now Oregon Department of Environmental Quality Guidance)
+• Drafted legal language for an Oregon State Senate bill
+• Conducted a feasibility analysis that led to \$10 million in private investment, $1 million
+in public investment, and praise for the project in a speech by President Barack Obama
+
+--&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -119,6 +187,7 @@ and natural science Masters Thesis Colloquia presentations (Yale University, 201
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/cv/judgelord-cv2/</guid>
       <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;education&#34; class=&#34;section level1&#34;&gt;

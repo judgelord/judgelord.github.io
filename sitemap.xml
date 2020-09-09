@@ -27,15 +27,19 @@
   </url>
   
   <url>
-    <loc>/home/</loc>
-  </url>
-  
-  <url>
     <loc>/project/correspondence/</loc>
   </url>
   
   <url>
     <loc>/project/rulemaking/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/templates/rmd-templates/abstract/</loc>
   </url>
   
   <url>
@@ -48,6 +52,10 @@
   
   <url>
     <loc>/publication_types/2/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/6/</loc>
   </url>
   
   <url>
@@ -119,10 +127,6 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-  </url>
-  
-  <url>
     <loc>/tags/private-governance/</loc>
   </url>
   
@@ -132,10 +136,6 @@
   
   <url>
     <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
   </url>
   
   <url>
