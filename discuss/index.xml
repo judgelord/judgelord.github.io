@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discusses | </title>
+    <link>https://judgelord.github.io/discuss/</link>
+      <atom:link href="https://judgelord.github.io/discuss/index.xml" rel="self" type="application/rss+xml" />
+    <description>Discusses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Discusses</title>
+      <link>https://judgelord.github.io/discuss/</link>
+    </image>
+    
+    <item>
+      <title>Do Primaries Work?</title>
+      <link>https://judgelord.github.io/discuss/decrescenzo2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/discuss/decrescenzo2020/</guid>
+      <description>
+&lt;script src=&#34;https://judgelord.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;overall&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Overall&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Clearly written&lt;/li&gt;
+&lt;li&gt;Clarifies important concepts that have been used very sloppily&lt;/li&gt;
+&lt;li&gt;Answeres a big, elusive question&lt;/li&gt;
+&lt;li&gt;Teaches us about stats, as well as primaries
+&lt;ul&gt;
+&lt;li&gt;propagates measurement uncertainty through model stages&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“All ideal point estimates are uncertain, but not many studies confront this uncertainty.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;pity.jpeg&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-comments&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Summary of comments:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Clarify terminology and scope&lt;/li&gt;
+&lt;li&gt;Framing (&lt;em&gt;strategic positioning&lt;/em&gt; vs. &lt;em&gt;representation&lt;/em&gt;|DIME as the DV)&lt;/li&gt;
+&lt;li&gt;Do I understand the measures, model, &amp;amp; results?&lt;/li&gt;
+&lt;li&gt;Robustness checks&lt;/li&gt;
+&lt;li&gt;Am I updating my priors correctly?&lt;/li&gt;
+&lt;li&gt;Thoughts on ontology and causality (possibly nonsense)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;Mike has clearly thought about this so carefully that I sincerely doubt that I can offer anything thing that pushes the thinking in any way.
+My comments are really about framing.&lt;/p&gt;
+&lt;p&gt;I see my role here as commenting on what is more or less clear as a reader. The thoughts it triggered in my mind and how well that aligns with how you intend me to be updating my priors.&lt;/p&gt;
+&lt;p&gt;I’ll suggest some robustness checks because I know you are into that kind of thing.&lt;/p&gt;
+&lt;p&gt;I also just want to reiterate some of the important contributions.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;p&gt;People blame primaries for
+- polarization
+- selecting general-election losers
+- populism&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;BUT, we have yet to observe the preferences of local partisans.&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Mike estimates ideal points for each districts’ partizans.&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;So, do primaries work?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;div id=&#34;yes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;YES&lt;/h2&gt;
+&lt;p&gt;, MGD scores predict candidate DIME scores (even when blocking effects through past voting signals)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;theory&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Theory&lt;/h1&gt;
+&lt;p&gt;Primaries work if the
+1. local partisan voters’
+1. policy preferences/ideologies
+1. are represented in/transmitted into government&lt;/p&gt;
+&lt;p&gt;Implication: If primaries work, a district’s partizans’ preferences should affect
+- Chapter 4: Who runs (and their positions)
+- Chapter 5: Who wins&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;Mike helpfully gives us a clear definition that allows us to contrast theory and findings.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;local-partizan-voters-the-median-thereof&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. “local partizan voters” (the median thereof)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;(&lt;strong&gt;×&lt;/strong&gt;) citizens&lt;/li&gt;
+&lt;li&gt;(&lt;strong&gt;×&lt;/strong&gt;) voters&lt;/li&gt;
+&lt;li&gt;(&lt;strong&gt;×&lt;/strong&gt;) district partisanship&lt;/li&gt;
+&lt;li&gt;(&lt;strong&gt;?&lt;/strong&gt;) partizan citizens&lt;/li&gt;
+&lt;li&gt;(✓) likely partizan voters (population of the latent concept, &lt;span class=&#34;math inline&#34;&gt;\(\theta\)&lt;/span&gt;) “bottom-up ideological pressure from voters”&lt;/li&gt;
+&lt;li&gt;(✓) partizan identifiers (population generating the data, &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;(&lt;strong&gt;×&lt;/strong&gt;) informed partizan voters (alternative concept). “informational demands that voters may not meet”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Naming things!&lt;/strong&gt; 🤔“district-party publics” vs “district-party groups” vs “partisan constituency” –&amp;gt; “the ideology of a district’s partizans” 🤷&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;policy-prefrencesideologies&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. “policy prefrences”/“ideologies”&lt;/h2&gt;
+&lt;p&gt;How sensitive are these ideal points to survey item inclusion and weighting?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;Policy items &amp;lt;-&amp;gt; &lt;em&gt;Grey area&lt;/em&gt; &amp;lt;-&amp;gt; Not policy items&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: upper-alpha&#34;&gt;
+&lt;li&gt;You down-weight repeated observations from an individual ✓&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Would have no effect if everyone is asked 20 questions, correct?&lt;/li&gt;
+&lt;li&gt;Same as up-weighting responses to shorter surveys?&lt;/li&gt;
+&lt;li&gt;&lt;h2 id=&#34;reasonable-weight-bounds-we-learn-more-from-a-20-question-survey-than-a-10-question-survey-but-not-as-much-as-two-10-question-surveys.-can-you-test-or-sample-weights-in-that-range&#34;&gt;Reasonable weight bounds: We learn more from a 20-question survey than a 10-question survey, but not as much as two 10-question surveys. Can you test or sample weights in that range?&lt;/h2&gt;
+(The results are 100% survey-dependent, but how much do they vary depending on which survey is weighted more heavily within these logical bounds).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;into-government.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3. “into government.”&lt;/h2&gt;
+&lt;p&gt;Does this mean that only &lt;strong&gt;competitive&lt;/strong&gt; races matter?&lt;/p&gt;
+&lt;p&gt;Or might primaries “work” on unchallenged incumbents through the threat of a challenger?&lt;/p&gt;
+&lt;p&gt;Maybe drop or down-weight challengers in non-competitive races because they are more open to oddball candidates that add noise in places where we don’t expect the primary to really “work” anyway.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;when-should-primaries-not-work&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;When should primaries &lt;strong&gt;not&lt;/strong&gt; work?&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Unchallenged candidates (?)&lt;/li&gt;
+&lt;li&gt;Uncompetitive districts (?)&lt;/li&gt;
+&lt;li&gt;Uncompetitive candidates (✓)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Are a-typical candidates/donors responsible for the higher variance in DIME scores for challengers and open seats? Are these outliers long-short candidates?&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;Lots of donors only give to conventional candidates they think can win (esp. incumbents), so the higher correlation here may be more a function of time than your measurement.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measurement-dime-scores&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Measurement-DIME Scores&lt;/h1&gt;
+&lt;p&gt;(How to frame this chapter)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DIME ~ Strategic candidate positioning?&lt;/strong&gt;
+If not, not so informative regarding the strategic positioning dilemma per se (but this is fine)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DIME ~ Credible candidate policy commitments?&lt;/strong&gt;
+If so, good for testing the core representation hypotheses (&lt;strong&gt;do primaries work?&lt;/strong&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DIME ~ Informal party networks?&lt;/strong&gt;
+If so, are we recovering the correlation between district ideology and party networks?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;background-image: url(mgd-scores.png)
+background-size: contain&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;measurement-decrescenzo-scores&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Measurement-DeCrescenzo Scores&lt;/h1&gt;
+&lt;p&gt;I would be interested in Figure 4.1 with uncertainty around your measure.&lt;/p&gt;
+&lt;p&gt;That level of separation! (Much more than DIME scores). Do the party mean estimates have a strong pull or that the battery is fairly partisan? The most conservative local Democrats are &lt;em&gt;way&lt;/em&gt; more liberal than the most liberal local Republicans.&lt;/p&gt;
+&lt;p&gt;Are cutpoints generally less than 0?&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;You may not want to put this in the paper, but I would be interested in figure 4.1 with uncertainty around your measure–I imagine this would show a lot less separation.&lt;/p&gt;
+&lt;p&gt;I thought they averaged to 0&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;model&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Model&lt;/h1&gt;
+&lt;p&gt;The unit of observation is &lt;span class=&#34;math inline&#34;&gt;\(DIME_i\)&lt;/span&gt; (4.4-4.7), but only &lt;span class=&#34;math inline&#34;&gt;\(\overline{DIME}_g\)&lt;/span&gt; is identified (4.2.1), correct?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the variables that could confound the relationship between citizen and candidate ideology could differ dramatically across parties&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Thus separate models (latent space?) by party. ✓&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;incumbency status appears to be a substantial modifier of the relationship between citizen and candidate ideology&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;By this logic, must we estimate incumbents separately? (Say more about why this is not just a candidate trait.)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mediation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Mediation&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&#34; it is important to demonstrate that it affects candidate positioning above and beyond its intermediate effect on district voting.&#34;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A district’s past vote share likely influences candidate positions (and decisions to run). However, it may do so primarily &lt;em&gt;because&lt;/em&gt; primaries exist. Thus,
+1. If the effect of ideology is 100% mediated, primaries might still “work,” and thus, the total effect may be more relevant.
+1. What we really want to block is the portion of the effect of past presidential vote share that is &lt;em&gt;not&lt;/em&gt; due to its signal of district ideology (i.e., the mediated effect). The way you calculated the average total effect does this, right? It is just a matter of emphasis on what is blocked and why.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“&lt;span class=&#34;math inline&#34;&gt;\(z_i\)&lt;/span&gt; currently contains an order-3 polynomial function of candidate i’s total campaign receipts.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;Is this an intermediate confound between past presidential vote share and candidate DIME score?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;background-features&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Background features&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“we should be concerned that district features that promote conservative voters also promote conservative candidates.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But the role of background features depends on the candidate selection process. For example, does this mean we want to exclude the effect of the fact that the candidate is a draw from the partisan voter pool? Primaries work if the draw is centered on the mean of this group–not more likely to come from the left or right tails. (Approximated by estimating the relationship between &lt;span class=&#34;math inline&#34;&gt;\(\bar{\theta}_g\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\overline{DIME}_g\)&lt;/span&gt;, because we can’t scale DIME and MGD scores.) Is this what we mean when we are estimating the mediated effect of district partizans?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Vote choice (vote share) varies, but voters’ policy preferences do not?&lt;/p&gt;
+&lt;p&gt;4.3.1 Does this over-estimate the effect of previous vote share on donor patters (DIME scores vary over time as candidates come and go)?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interpretation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Interpretation&lt;/h1&gt;
+&lt;p&gt;Figure 4.4: Past vote share is only an informative for Dem Challengers. The more Republican the district, the more conservative a Democrat challenger’s donors are, right?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;related-questions-about-representation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Related questions about representation&lt;/h1&gt;
+&lt;p&gt;Under what conditions do a district’s partizans policy preferences diverge from the policy preferences (donation patterns) of candidate slate?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;div id=&#34;mediation-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Mediation&lt;/h2&gt;
+&lt;p&gt;Under what conditions do the ideologies of a district’s partizans &lt;em&gt;not&lt;/em&gt; determine their vote choice?&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;not all district partizans vote&lt;/li&gt;
+&lt;li&gt;voters choose candidates for reasons other than policy positions measured on surveys&lt;/li&gt;
+&lt;li&gt;?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;background-image: url(metaphysics.gif)
+class: center inverse
+# Metaphysics&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ontology-causality&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Ontology &amp;amp; Causality&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Ideology &lt;em&gt;affects&lt;/em&gt; responses”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Items &lt;em&gt;reveal&lt;/em&gt; different information about the latent construct.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Latent &lt;em&gt;variable&lt;/em&gt;: Brains can be parameterized (true idology exists, &lt;em&gt;is&lt;/em&gt; a “cause”, a “force”)&lt;/p&gt;
+&lt;p&gt;vs.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Data &lt;em&gt;depend on&lt;/em&gt; the construct.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“IRT lets us &lt;em&gt;summarize&lt;/em&gt; an individual’s policy preferences.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Latent &lt;em&gt;construct&lt;/em&gt;: We construct ideology from responses (true ideology &lt;em&gt;is&lt;/em&gt; responses to an infinite number of questions? )&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;I would not normally go down this path, but I figure that you might actually care, have answers for these such obtuse questions that help me make sense of them.&lt;/p&gt;
+&lt;p&gt;The first aligns with how we model things&lt;/p&gt;
+&lt;p&gt;The later alings with how we measure things&lt;/p&gt;
+&lt;p&gt;Maybe we can align these, may it is nonsense?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;clarifications&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Clarifications&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In a policy choice context, the difficulty parameter is better understood as the “cutpoint” parameter, the midpoint between two policy choices where the respondent is indifferent between the choice of Left or Right on item j.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This phrasing could track the above and below sentences better to stress thas cutpoints, like difficulty, are features of a item, not a respondent. Perhaps this is as simple as saying the “mean respondent is indifferent.” I would actually introduce the cutpoint language in the educational paragraph above, so you don’t have to intoduce two things at once here, and so you can just use cutpoint going forward.&lt;/p&gt;
+&lt;p&gt;I like “midpoint” better than “cutpoint” or “difficulty”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“how much to cut capital gains taxes will have a more conservative cutpoint than a question of whether to cut capital gains taxes at all.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This example is confusing because the response scales also seem to differ. Try “whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to raise capital gains tax by 50%” or “whether to cut capital gains tax by 50% will have a more conservative cutpoint than whether to cut capital gains tax by 1%”&lt;/p&gt;
+&lt;p&gt;Figure 2.1 could have shading/color for difficulty and line type for discrimination (solid lines for ι = 1)&lt;/p&gt;
+&lt;p&gt;Instead of “behave identically,” you could say “be as difficult/conservative and as discriminating…”&lt;/p&gt;
+&lt;p&gt;I like “their ideal point” rather than “her ideal point” for the generic person.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“standard Normal utility error from εi j above”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;nbd but I don’t see any equasion with εi j above&lt;/p&gt;
+&lt;p&gt;Not important, but given how nice you walk through every other step, you could explain the move from individual to population standard deviation in Equasion 2.8&lt;/p&gt;
+&lt;p&gt;Might as well say “partizan voters in a district” rather than partisan citizens in a district&#34;&lt;/p&gt;
+&lt;p&gt;The discription of 4.2 uses different notation than the figure.&lt;/p&gt;
+&lt;p&gt;Figure 4.4 is pretty, but could be a little clearer if there were boxes around the facets (it takes a second to realize that there are 3 x axes). Also the 0 line from 4.5 is nice (this might actually be all you need).&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;possible-typos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Possible typos&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;where groups are define as&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;policy ideology with a partisan constituency&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;the policy ideology of a partisan constituency?&lt;/p&gt;
+&lt;p&gt;The strength of these relationships vary&lt;/p&gt;
+&lt;p&gt;That setup violates likely violates the&lt;/p&gt;
+&lt;p&gt;whereas most Dime scores&lt;/p&gt;
+&lt;p&gt;Figures 4.4 and 4.5, DIME not Dime, meh&lt;/p&gt;
+&lt;p&gt;simulation-based statistics they are more stable estimators&lt;/p&gt;
+&lt;p&gt;All ideal point estimates are uncertainty&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Framing a Protest</title>
+      <link>https://judgelord.github.io/discuss/torres2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/discuss/torres2019/</guid>
+      <description>
+&lt;script src=&#34;https://judgelord.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;clear-argument-and-writing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Clear argument and writing&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;great-leap-in-methods&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Great leap in methods&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;combines-cutting-edge-tools-to-discover-patterns-experimental-evidence-about-causal-effects&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Combines cutting-edge tools to discover patterns + experimental evidence about causal effects&lt;/h2&gt;
+&lt;!--
+The writing is clear, and I agree with all of your premises and conclusions, and why it is important, so my commments focus on a few small tweeks to the methods and framing, and next steps in this broader project. 
+- on the observational side, I have what I hope is, given your mastery of images, a very doable suggestion for a more direct hypothesis test, given the nature of your hypotheses. 
+- on the experimental side, my suggestions for follow up experiments are likely for the next paper
+
+This paper got me thinking so I have a lot of notes that I will go though quickly and send them to you by email.
+--&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Summary&lt;/h1&gt;
+&lt;div id=&#34;visual-topic-model&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Visual topic model&lt;/h2&gt;
+&lt;p&gt;Conservative media –&amp;gt; more image features we might call “night” (dark, high-contrast)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-thoughts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary of thoughts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More from the topic model?&lt;/li&gt;
+&lt;li&gt;More direct tests?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;=&amp;gt; &lt;em&gt;Discovering&lt;/em&gt; vs. &lt;em&gt;testing&lt;/em&gt; for &lt;strong&gt;mood&lt;/strong&gt; vs. &lt;strong&gt;environment&lt;/strong&gt; vs. &lt;strong&gt;objects&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;experimental-findings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Experimental findings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Peaceful image –&amp;gt; no effect on efficacy or support, but more objection to police violence&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Protestor violence –&amp;gt; less efficacy, less support&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Police violence –&amp;gt; less efficacy, less support?
+&lt;!-- Especially surprising because police violence is against people, protestor &#34;violence&#34; focuses on property! --&gt;
+–&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Images &amp;gt; words, except for “the police went too far”&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;!--(because images are more ambiguous than text and thus allow assumptions to hold?)--&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-of-thoughts-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary of thoughts:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;More integration of computer vision and experiment sections?&lt;/li&gt;
+&lt;li&gt;Combine samples for both experiments?&lt;/li&gt;
+&lt;li&gt;What are the mechanisms?&lt;/li&gt;
+&lt;li&gt;What would we find in other contexts?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visual-topic-model-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Visual topic model&lt;/h1&gt;
+&lt;!-- I use topic models and remember your award-winning polmeth poster, and I went back and read that paper to dig into the method. But if I misundersand anything, I hope that your corrections of my misunderstandings will help others who may not use these models--&gt;
+&lt;p&gt;&lt;img src=&#34;torrespoints.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&#34;torresfig1.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;BoVW method (Torres 2018)&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;select &lt;em&gt;key point&lt;/em&gt; (edges and corners, sharp changes in color, i.e. not background, sky, street, wall, etc.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;characterize &lt;em&gt;gradients&lt;/em&gt; for pixels around those key points &lt;!--(e.g. transitions from light to dark, or Red to Green or Blue)--how many getting lighter, how many getting darker, weighted by magnitude (how much lighter or darker) --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;assign it to nearest &lt;em&gt;Visual Word&lt;/em&gt; (“vocabulary” cluster centroid)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;=&amp;gt; sharp gradients (brightness, contrast), possibly shapes, &lt;strong&gt;objects&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“&lt;strong&gt;identify&lt;/strong&gt; topics providing information about the &lt;strong&gt;time and place&lt;/strong&gt; in which the protests occurred (e.g. night)”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Suggestion:&lt;/strong&gt; Keep background (skip the key point step) to retain &lt;strong&gt;environmental&lt;/strong&gt; features (e.g. night vs. day sky)?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;exploring-data-testing-hypotheses&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Exploring data, testing hypotheses&lt;/h2&gt;
+&lt;!-- I am sure you have recieved a lot of feedback about the method in general, but this paper has some specific and important hypotheses --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“test the expectation that conservative newspapers are more likely to use nocturnal frames”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Simpler Task:&lt;/strong&gt; How to &lt;em&gt;measure&lt;/em&gt; “night” in images?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Suggestions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Inspect topic models with different &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;s, pick one with the most “nocturnal-looking” topic.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Identify the “most nocturnal” topic or topics in many models, average proportions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Discover patterns, design more direct tests features of interest (observational or experimental)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. dark and high contrast images&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Given your expertise and the night hypotheses, it may be easy to construct much more direct observational tests. --&gt;
+&lt;hr /&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Model environmental and mood latent feature structure simultaniously with object features&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Are image fragments draws from a distribution of “night” or “something else” with a probability that varies by image?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Or are image fragments draws from a distribution of &lt;strong&gt;objects&lt;/strong&gt; that vary (in brightness and contrast) depending on whether they are drawn from a “night” or “day” image?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Can we model &lt;strong&gt;mood&lt;/strong&gt; variation (in global tint, brightness, contrast) alongside &lt;em&gt;object clusters&lt;/em&gt; (local variation, edges, corners, etc. at key points)?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;If we can model night/day variation, we could identify variation in &lt;strong&gt;what&lt;/strong&gt; is depicted at night and day?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;!-- Boring PSA, easy for you to do, but I suspect you will cosign that if people are using topic models, I&#39;ll want to see the rest of the topics and alterntive models summarized because TOPIC PROPORTIONS are a function of other topic proportions and k ---&gt;
+&lt;p&gt;&lt;strong&gt;Regardless of exploratory or testing use of topic models&lt;/strong&gt;, we all should report in appendicies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;all topics for models used (e.g. top words via FREX)&lt;/li&gt;
+&lt;li&gt;models with different &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Topic proportions are conditional on other topics (and thus also &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;PSA.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-else-pops-out&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What else pops out?&lt;/h2&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Can topic models recover anything we might label with the concepts tested experimentally?&lt;/p&gt;
+&lt;p&gt;For example, can you recover latent dimensions for&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;peaceful&lt;/em&gt; vs. &lt;em&gt;violent&lt;/em&gt; features?
+- e.g. crowds (✓) vs. flames (?)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;police violence&lt;/em&gt; vs. &lt;em&gt;protestor violence&lt;/em&gt; features?
+- e.g. riot gear objects vs. broken glass objects&lt;/p&gt;
+&lt;p&gt;(perhaps a better task for CNNs or other supervised methods using object libraries)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;next-steps&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Next steps?&lt;/h1&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Mechanisms&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are a lot of potential mechanisms here. You are clearly thinking about this, but perhaps some of my thoughts about disentangling mechanisms will be useful if you go further down this path.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Other movements&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Minor tweaks to this paper’s framing could leave the door open for different findings for &lt;strong&gt;reactionary movement&lt;/strong&gt; protests.&lt;/p&gt;
+&lt;!-- As you note, protests are not conservative because they aim to disrupt the status quo, but there are reactionary movements, like white power and blue lives matter protests, that aim to resist looming changes or reverse ones that have already occurred. --&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;variables&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variables&lt;/h2&gt;
+&lt;p&gt;Viewer:
+- disposition (equality, hierarchical structures and need for order)
+- social context?&lt;/p&gt;
+&lt;p&gt;What is shown:
+- violence
++ intensity
++ object/direction
++ against people or property?
+- protest content?&lt;/p&gt;
+&lt;p&gt;How it is shown:
+- color tint?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-mechanisms&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Expectations about mechanisms&lt;/h1&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;div id=&#34;expectation-about-night-dark-framing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectation about night / dark framing&lt;/h2&gt;
+&lt;p&gt;A bunch of related expectations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Night&lt;/li&gt;
+&lt;li&gt;Image brightness&lt;/li&gt;
+&lt;li&gt;High contrast&lt;/li&gt;
+&lt;li&gt;Greyscale and redscale?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“protest paradigm”
+- deviant, threatening, imponent&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-violence&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectations about violence&lt;/h2&gt;
+&lt;p&gt;Logics of consequences: risk vs. benefit (?)
+- safety
+- likelihood of success&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Logics of appropriateness: ideological and social distance
+- legitimacy of tactics&lt;!-- (could also explain results, esp. given the power of text to remove ambiguity)--&gt;
+- assumption that police start violence (x)
+- assumption that protestors start violence (?)
+- legitimacy of claims/proof of injustice (x)
+- compassion/indignation (x)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Valence (?) &lt;!-- (could also explain result)--&gt;
+- negitivity (discomfort, anxiety, linked with crime)
+- arrousal&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;expectations-about-attitudes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Expectations about attitudes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“higher levels of hierarchy-enhancing attitudes to be less susceptible to visual frames of violence in protests and to overall report negative perceptions”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Police violence? (Riot gear, bodies on the ground)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Pro-hierarchy protest? (Swasticas, blue line flags)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Protestor on protestor violence?&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Symbolic violence (Guns, flags, symbols)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Property damage vs. violence?
+- blood, teargas, or ambulance (bodily injury) vs. fire or broken glass (property damage)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Other small notes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I am not exactly sure what “fairness” means on page 5. Perhaps that a perception that there is a problem implies that the status quo is unfair?&lt;/li&gt;
+&lt;li&gt;Minor typo on page 5 “participation at in social movements.”&lt;/li&gt;
+&lt;li&gt;On page 10, by “initialized with 12 topics,” you just mean that you set &lt;span class=&#34;math inline&#34;&gt;\(k=12\)&lt;/span&gt; or do you mean that some algorithm chose &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, but you initialized it with a prior of &lt;span class=&#34;math inline&#34;&gt;\(12\)&lt;/span&gt;?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Figure 3 is labeled “Topics”–should be “Night activity topic,” right?&lt;/li&gt;
+&lt;li&gt;The intro to section 4 starts with a second lit review. This is unconventional, and the paper may be better integrated by combining&lt;/li&gt;
+&lt;li&gt;On page 24, I would not say that they trust the text more, just that the text undermined a baseline assumption that protestors start violence, whereas the image was more open to interpretation. This is evidence for blame/identity hypotheses over cost-benefit hypothesis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Political Economy of Coal</title>
+      <link>https://judgelord.github.io/discuss/apw-lu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/discuss/apw-lu/</guid>
+      <description>
+&lt;script src=&#34;https://judgelord.github.io/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;to-applaud&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;To applaud&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;interdisciplinary&lt;/li&gt;
+&lt;li&gt;in-depth focus on a policy domain&lt;/li&gt;
+&lt;li&gt;impressive elite interviews (make more of these!)&lt;/li&gt;
+&lt;li&gt;highlights interest groups&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;murray.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interesting-findings&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Interesting findings&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As coal got expensive, lobbyists switched their messaging from “coal is cheap” to “coal is reliable and secure.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“affordability was highlighted by interviewees as the most important objective that shapes energy &lt;strong&gt;policies&lt;/strong&gt;.” But “reliability and security…are a dominant focus in &lt;strong&gt;politics&lt;/strong&gt;.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;thus-the-coal-industry-succeeded-in-influencing-national-political-rhetoric-but-failed-to-translate-political-support-into-policies-needed-to-maintain-profits.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thus, the coal industry succeeded in influencing national political rhetoric but failed to translate political support into policies needed to maintain profits.&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-new-puzzle&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;A new puzzle!&lt;/h1&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;I will say what I took to be the main argument, and you can tell me if that was your intent.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-argument-part-1&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The argument, part 1&lt;/h1&gt;
+&lt;p&gt;Q1a. Why has the coal industry persisted?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A: It blocks regulation (extending its profitable horizon)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Q1b. Why has it declined?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A: It is less and less profitable&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&#34;The decline of coal in the United States is mainly driven by&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;inexpensive alternative energy sources and&lt;/li&gt;
+&lt;li&gt;a regulatory system that prioritizes minimizing electricity cost.&#34;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-argument-part-2&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The argument, part 2&lt;/h1&gt;
+&lt;div id=&#34;q2.-why-is-coal-so-prominent-in-national-political-debates&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Q2. Why is coal so prominent in (national) political debates?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;**Compared to what?*&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A: The industry faces existential threats, so it funds PR campaigns and bribes politicians&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A: Desperate coal-dependent communities invite national electoral appeals, even though they know coal is over&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;(symbolic appeals, not deciding votes, right?)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Methods&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;20 elite interviews&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;But also a good deal of secondary-source review&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Could more systematically exploit and cite both.&lt;/p&gt;
+&lt;p&gt;Where do they disagree, and why?&lt;/p&gt;
+&lt;p&gt;What evidence yields Table 1?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;div id=&#34;be-clear-about-your-argument-vs.-your-subjects-rhetoric&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Be clear about your argument vs. your subjects’ rhetoric:&lt;/h2&gt;
+&lt;p&gt;“Changes in these competing technologies are more important than policies and the efforts of interest groups.” (p. 2)&lt;/p&gt;
+&lt;p&gt;“unfair wholesale market design in favor of natural gas” (p. 9)&lt;/p&gt;
+&lt;p&gt;“coal interest groups across the country were mobilized to prevent further state legislation; thus, all mandated RPS were written into law before 2008. Since then, utilities and the coal mining industry have successfully blocked RPS” (p. 11)&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;“The abolishment of the Clean Power Plan has no tangible effect on the trajectory of future US carbon emissions” (p. 10)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;!?!?&lt;/em&gt; Then why such a big fight?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;What &lt;strong&gt;assumptions&lt;/strong&gt; about technology and the political allocation of resources, regulation, property rights, etc. go into EIA and DOE forecasts?&lt;/p&gt;
+&lt;p&gt;How do experts’ assumptions differ?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;coal-projections.png&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;international-political-economy-of-trade&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;International Political Economy of Trade&lt;/h1&gt;
+&lt;p&gt;How would a political scientist explain shifts in exports?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comparative-political-economy&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Comparative Political Economy&lt;/h1&gt;
+&lt;p&gt;What assumptions about domestic political economies of importers yield these forecasts?&lt;/p&gt;
+&lt;p&gt;Do US coal companies have the power to affect the volume or source of imports?&lt;/p&gt;
+&lt;p&gt;Are they shaping energy/climate policy in potential importing countries?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;goals&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;#Goals&lt;/h1&gt;
+&lt;p&gt;Did interviewees emphasize different “objectives of energy policy”? Was there a consensus on their place in the 2x2 (policy vs. rhetoric X local vs. federal)?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;affordability&lt;/li&gt;
+&lt;li&gt;reliability &amp;amp; security&lt;/li&gt;
+&lt;li&gt;cleanness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;equity? (super interesting if elites didn’t mention policy debates over “fair” prices, “fair” profits, “fair” access, or environmental justice)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ej-cpp2.jpeg&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;contextual-factors&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Contextual factors&lt;/h1&gt;
+&lt;div id=&#34;inexpensive-cleaner-technological-advanced-alternatives&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;1. Inexpensive, cleaner, technological advanced alternatives&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;why are alternatives inexpensive?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;does “cleaner” matter to this story?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“technologically advanced”–is this why they are cheaper?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;polarized-political-environment&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Polarized political environment?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“In political systems where organized labor was allied with the largest left-wing party and emissions-intensive businesses were allied with the largest right-wing party, a ‘double representation’ of emissions-intensive economic interests resulted. In these cases, parties on both sides of the ideological spectrum had factions representing the interests of carbon-intensive constituencies” (Mildenberger 2020)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;EPA_protest_kills_jobs.jpg&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;polarized-political-environment-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. Polarized political environment?&lt;/h2&gt;
+&lt;p&gt;Some “environmental” issues are polarized, and some are not
+- coal is moderately polarized
+- conservation ag subsidies are not at all
+- “climate” is polarized (even though coal and agriculture can both be framed as climate policy)&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;These are all related but have been parsed differently into coalitions.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;organized-interest-groups&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3. Organized interest groups&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“[The United States’] institutional terrain advantages political actors with the capacity to work across multiple venues, over extended periods, and in a political environment where coordinated government action is difficult, and strategies of evasion and exit from regulatory constraints are often successful. These capacities are characteristic of organized groups, not individual voters.”- Hacker, Hertel-Fernandez, Pierson, and Thelen (Forthcoming)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;organized-interest-groups-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3. Organized interest groups&lt;/h2&gt;
+&lt;p&gt;“Minimizing the electricity rate for local consumers is the most important regulatory objective for the PUCs.” Do PUCs have goals, or are they venues of political conflict?&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Conflict rages in legislatures and public utility commissions…Just because a coal plant is uneconomic does not mean it will close; if utilities have debt and equity in that plant, they will work hard to keep it open.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Private electric utilities have long held a privileged position in energy policy, controlling state regulate bodies for most of the twentieth century” (Stokes 2020)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Come to CPC on October 15th!&lt;/p&gt;
+&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;Bring Stokes’ insights into the PUC section, since this is what she is writing about.&lt;/p&gt;
+&lt;p&gt;“Electricity market deregulation has also contributed to this objective.”&lt;/p&gt;
+&lt;p&gt;“heavily regulated” compared to what?
+“deregulated” natural monopolies =&amp;gt; “lower prices and improve services.”
+Deregulation just shifted power from PUCs to RSOs and FERC (and somewhat to companies to charge higher rates)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;electoral-college-system&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;4. Electoral college system&lt;/h2&gt;
+&lt;p&gt;[not yet discussed]&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;I’m not sure this belongs.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lack-of-government-supports-for-job-creation-in-coal-communities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;5. Lack of government supports for job creation in coal communities&lt;/h2&gt;
+&lt;p&gt;[not yet discussed]&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;Compared to other communities?&lt;/p&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;so-why-did-coal-die&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;So, why did coal die?&lt;/h1&gt;
+&lt;div id=&#34;changing-technology-i.e.-the-labor-required-per-kwh&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Changing technology? i.e., the labor required per KWH?&lt;/h3&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;changing-politics-of-capital-costs&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Changing politics of capital costs?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;forced transfers of property (mineral rights, easements for pipelines)?&lt;/li&gt;
+&lt;li&gt;extraction or transportation on public lands?&lt;/li&gt;
+&lt;li&gt;public financing or infrastructure?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;changing-politics-of-market-structure&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Changing politics of market structure?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;trade rules?&lt;/li&gt;
+&lt;li&gt;market entrance regulations? (e.g., grid access)&lt;/li&gt;
+&lt;li&gt;price regulations or guarantees?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;political-economy&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Political economy:&lt;/h1&gt;
+&lt;p&gt;Electricity markets are policy tools used to distribute resources, created and contested through politics.&lt;/p&gt;
+&lt;p&gt;–&lt;/p&gt;
+&lt;p&gt;So are land use and bankruptcy laws&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“the federal Surface Mining Control and Reclamation Act was structured initially and then became amplified through policy feedback processes, to support coal production over other values” (Bozzi 2013)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;What &lt;strong&gt;fights&lt;/strong&gt; between what &lt;strong&gt;groups&lt;/strong&gt; constrained by what &lt;strong&gt;institutions&lt;/strong&gt; kept us burning coal for so long? Why are KWH from coal so cheap and profitable when the costs for so many are so high?&lt;/li&gt;
+&lt;li&gt;What &lt;strong&gt;fights&lt;/strong&gt; between what &lt;strong&gt;groups&lt;/strong&gt; constrained by what &lt;strong&gt;institutions&lt;/strong&gt; made us stop burning coal? Why, despite the industry’s incumbency advantage and double representation, is coal no longer profitable?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
+&lt;div id=&#34;smaller-issues&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Smaller issues:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;missing citations for facts throughout&lt;/li&gt;
+&lt;li&gt;organizationally, the sections are fairly disconnected&lt;/li&gt;
+&lt;li&gt;page 3, “From 2016 to 2019, the annual retired capacity has nearly tripled” does not appear to be true in Figure 3, where the net change was greatest in 2016&lt;/li&gt;
+&lt;li&gt;the old DOE predictions could vary in color or shade to indicate when they were made&lt;/li&gt;
+&lt;li&gt;fairly uncritical about the assumptions in the EIA and other estimates&lt;/li&gt;
+&lt;li&gt;Not clear why table one is formatted the way it is. Are the actors aligned with the objectives? If so, maybe split out the contextual factors.&lt;/li&gt;
+&lt;li&gt;“The US government has been devoted to lower energy prices and has branded cheap energy as
+one of the competitive advantages for business” – statements like this need citations&lt;/li&gt;
+&lt;li&gt;“Under the price pressure from either regulators or market competition, utilities, which consume more than 90% of US coal, would always choose to build the most inexpensive power plants in order to minimize the electricity bill for customers”–really? That is not how companies typically work, especially natural monopolies.&lt;/li&gt;
+&lt;li&gt;Clarify types of impacts. “environmental or climate impact” is not clear.&lt;/li&gt;
+&lt;li&gt;I don’t know what you mean “energy policies have become regulatory, and thus the prominence of partisanship on the issue increased over time.”&lt;/li&gt;
+&lt;li&gt;Statements like “In the past 13 elections cycles, the coal mining industry has been the biggest source of campaign dollars within the mining industry, with 88% of those going to Republican candidates” need citations&lt;/li&gt;
+&lt;li&gt;BOX 1. The coal industry did participate in the rule-making process. It helped fund protests and lobbied, in part, to set up litigation because they knew they would sue for whatever they did not get through lobbying.&lt;/li&gt;
+&lt;li&gt;“politicization of coal, on the other hand, is shaped by a group of industrial, social and political actors with different objectives” Different objectives than whom?&lt;/li&gt;
+&lt;li&gt;I’m not sure what role CSS plays in your story&lt;/li&gt;
+&lt;li&gt;I would read Stokes (2020) much more carefully. There is a lot in there for this chapter, and it is worth citing her work correctly.&lt;/li&gt;
+&lt;li&gt;Oreskes and Conway’s Merchants of Doubt (2010) may also be worth citing in the climate policy section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
