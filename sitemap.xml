@@ -1,198 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://judgelord.github.io/teaching/tutorials/</loc>
     <lastmod>2019-09-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/project/correspondence/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/project/rulemaking/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/templates/rmd-templates/abstract/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/templates/rmd-templates/djl-letter/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/publication_types/1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/publication_types/2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/publication_types/6/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/ben-cashore/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/brian-libgober/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/ferc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/constance-mcdermott/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/cosust-review/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/cv/judgelord-cv/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/cv/judgelord-cv2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/cv/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/daniel-carpenter/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/regdata/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/decrescenzo2020/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/fsc-sfi/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/eleanor-neff-powell/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/tags/forestry/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/torres2019/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/irene-scher/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/justin-grimmer/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/budgets/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/boreal/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/unger/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/tags/private-governance/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/project/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/research/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/discuss/apw-stokes/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/authors/steven-rashin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://judgelord.github.io/tags/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://judgelord.github.io/teaching/</loc>
-  </url>
-  
-  <url>
+    <lastmod>2019-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/admin/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/project/correspondence/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/project/rulemaking/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/talk/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/templates/rmd-templates/djl-letter/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/publication_types/1/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/publication_types/2/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/publication_types/6/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/ben-cashore/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/brian-libgober/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/ferc/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/categories/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/constance-mcdermott/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/cv/judgelord-cv/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/cv/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/daniel-carpenter/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/regdata/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/discuss/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/discuss/decrescenzo2020/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/fsc-sfi/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/eleanor-neff-powell/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/tags/forestry/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/discuss/torres2019/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/irene-scher/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/justin-grimmer/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/budgets/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/boreal/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/tags/private-governance/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/project/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/publication_types/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/research/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/discuss/apw-stokes/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/authors/steven-rashin/</loc>
+  </url><url>
+    <loc>https://judgelord.github.io/tags/</loc>
+  </url><url>
     <loc>https://judgelord.github.io/templates/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/research/ej/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/discuss/apw-lu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/research/correspondence/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/research/defrence/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://judgelord.github.io/research/whymail/</loc>
   </url>
-  
 </urlset>

@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/teaching/</link>
       <atom:link href="https://judgelord.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Teaching</title>
@@ -17,52 +17,29 @@
       <link>https://judgelord.github.io/teaching/tutorials/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/teaching/tutorials/</guid>
-      <description>
-
-&lt;h1 id=&#34;statistics&#34;&gt;Statistics&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE3.html&#34; target=&#34;_blank&#34;&gt;Hypothesis testing&amp;ndash;tidy regression output and interaction effects in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;broom&lt;/code&gt; and &lt;code&gt;margins&lt;/code&gt;&amp;ndash;Gender pay gap example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE4.html&#34; target=&#34;_blank&#34;&gt;Interpreting logit&amp;ndash;sentencing decisions example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/DOT/mstate&#34; target=&#34;_blank&#34;&gt;Multi-state duration models in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;mstate&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-
+      <description>&lt;h1 id=&#34;statistics&#34;&gt;Statistics&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE3.html&#34;&gt;Hypothesis testing&amp;ndash;tidy regression output and interaction effects in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;broom&lt;/code&gt; and &lt;code&gt;margins&lt;/code&gt;&amp;ndash;Gender pay gap example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE4.html&#34;&gt;Interpreting logit&amp;ndash;sentencing decisions example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/DOT/mstate&#34;&gt;Multi-state duration models in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;mstate&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;data-science&#34;&gt;Data Science&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/payday_comments.html&#34; target=&#34;_blank&#34;&gt;Detetecting text-reuse with ngrams in &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;public comments on CFPB&amp;rsquo;s Payday Loan Rule example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/volcker.html&#34; target=&#34;_blank&#34;&gt;Detetecting change in policy texts with ngrams &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;the Volcker Rule example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/textrank_summary&#34; target=&#34;_blank&#34;&gt;Summarizing texts with &lt;code&gt;textrank&lt;/code&gt;&amp;ndash;CFPB&amp;rsquo;s Payday Loan Rule example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/text/APSA/program.html&#34; target=&#34;_blank&#34;&gt;Web scraping in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&amp;ndash;sampling words from the American Political Science Association&amp;rsquo;s Conference Program&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/cr/scraper.html&#34; target=&#34;_blank&#34;&gt;Scraping the Congressional Record in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I made scraper for the Congressional Record using &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/tidyverse?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tidyverse&lt;/a&gt;&amp;#39;s &lt;a href=&#34;https://twitter.com/hashtag/rvest?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rvest&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/purrr?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#purrr&lt;/a&gt; etc. Not exactly a tutorial, but close. Try it out! &lt;a href=&#34;https://t.co/MaCjMrwbeM&#34;&gt;https://t.co/MaCjMrwbeM&lt;/a&gt;&lt;br&gt;The CR is full of rich text data, including floor debate.&lt;br&gt;&lt;br&gt;How often is COVID19 addressed on the House or Senate floor? &lt;a href=&#34;https://t.co/r8JJJrk9cO&#34;&gt;pic.twitter.com/r8JJJrk9cO&lt;/a&gt;&lt;/p&gt;&amp;mdash; Devin Judge-Lord (@JudgeLord) &lt;a href=&#34;https://twitter.com/JudgeLord/status/1318974169737035776?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-company-scraper.html&#34; target=&#34;_blank&#34;&gt;Scraping company names from Federal Energy Regulatory Commission&amp;rsquo;s website in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-scraper.html&#34; target=&#34;_blank&#34;&gt;Scraping documents and tables from the Federal Energy Regulatory Commission&amp;rsquo;s eLibrary in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/pdf_to_dataframe.html&#34; target=&#34;_blank&#34;&gt;Convert pdfs to a dataframes in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;pdftools&lt;/code&gt;, &lt;code&gt;stringr&lt;/code&gt;, and &lt;code&gt;purrr&lt;/code&gt;. &lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/payday_comments.html&#34;&gt;Detetecting text-reuse with ngrams in &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;public comments on CFPB&amp;rsquo;s Payday Loan Rule example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/volcker.html&#34;&gt;Detetecting change in policy texts with ngrams &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;the Volcker Rule example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/rulemaking/textrank_summary&#34;&gt;Summarizing texts with &lt;code&gt;textrank&lt;/code&gt;&amp;ndash;CFPB&amp;rsquo;s Payday Loan Rule example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/text/APSA/program.html&#34;&gt;Web scraping in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&amp;ndash;sampling words from the American Political Science Association&amp;rsquo;s Conference Program&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/cr/scraper.html&#34;&gt;Scraping the Congressional Record in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-company-scraper.html&#34;&gt;Scraping company names from Federal Energy Regulatory Commission&amp;rsquo;s website in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/DOE_FERC-scraper.html&#34;&gt;Scraping documents and tables from the Federal Energy Regulatory Commission&amp;rsquo;s eLibrary in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;purrr&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/correspondence/functions/pdf_to_dataframe.html&#34;&gt;Convert pdfs to a dataframes in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;pdftools&lt;/code&gt;, &lt;code&gt;stringr&lt;/code&gt;, and &lt;code&gt;purrr&lt;/code&gt;. &lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;data-viz&#34;&gt;Data Viz&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/example_map_canada&#34; target=&#34;_blank&#34;&gt;Maps from GIS data in &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;Canada example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/vote/wi&#34; target=&#34;_blank&#34;&gt;Simple &lt;code&gt;map_data&lt;/code&gt; in &lt;code&gt;ggplot&lt;/code&gt;&amp;ndash;tracking changes in polling locations and ballot drop boxes with data from the Wisconsin Elections Commission&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;What can we do in 240 characters of R code? &lt;a href=&#34;https://twitter.com/hashtag/Rstats240?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rstats240&lt;/a&gt;&lt;br&gt;&lt;br&gt;I&amp;#39;ll start.&lt;br&gt;5 tweet-sized tutorials 🧵:&lt;br&gt;&lt;br&gt;1. scrape a website with &lt;a href=&#34;https://twitter.com/hashtag/rvest?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rvest&lt;/a&gt;&lt;br&gt;2. make a map with &lt;a href=&#34;https://twitter.com/hashtag/ggplot?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ggplot&lt;/a&gt;&lt;br&gt;3. edit data with &lt;a href=&#34;https://twitter.com/hashtag/dplyr?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dplyr&lt;/a&gt;&lt;br&gt;4. join data &amp;amp; make functions&lt;br&gt;5. apply functions with &lt;a href=&#34;https://twitter.com/hashtag/purrr?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#purrr&lt;/a&gt;&lt;br&gt;= all the tools for tasks like this 👇 &lt;a href=&#34;https://t.co/UFc0YAWAZF&#34;&gt;https://t.co/UFc0YAWAZF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Devin Judge-Lord (@JudgeLord) &lt;a href=&#34;https://twitter.com/JudgeLord/status/1319338957478547458?ref_src=twsrc%5Etfw&#34;&gt;October 22, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;!-- [Tidy text analysis for beginners--Legislator letters example](https://judgelord.github.io/PS811/text-legislator-letters.html)
---&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/example_map_canada&#34;&gt;Maps from GIS data in &lt;strong&gt;R&lt;/strong&gt;&amp;ndash;Canada example&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/vote/wi&#34;&gt;Simple &lt;code&gt;map_data&lt;/code&gt; in &lt;code&gt;ggplot&lt;/code&gt;&amp;ndash;tracking changes in polling locations and ballot drop boxes with data from the Wisconsin Elections Commission&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;h1 id=&#34;ps-811&#34;&gt;PS 811&lt;/h1&gt;
-
-&lt;p&gt;There are more tutorials, slides, and links to other resources in my &lt;a href=&#34;https://judgelord.github.io/PS811/&#34; target=&#34;_blank&#34;&gt;Statistical Computing for Political Science repo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Thanks!&lt;br&gt;Shout out to folks whose teaching resources I used:&lt;br&gt;- &lt;a href=&#34;https://twitter.com/RochelleTerman?ref_src=twsrc%5Etfw&#34;&gt;@RochelleTerman&lt;/a&gt;&amp;#39;s course is the gold standard: &lt;a href=&#34;https://t.co/J3wE7UrvDJ&#34;&gt;https://t.co/J3wE7UrvDJ&lt;/a&gt;&lt;br&gt;- &lt;a href=&#34;https://twitter.com/JennyBryan?ref_src=twsrc%5Etfw&#34;&gt;@JennyBryan&lt;/a&gt; does so so much for &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;&lt;br&gt;- &lt;a href=&#34;https://twitter.com/andrewheiss?ref_src=twsrc%5Etfw&#34;&gt;@andrewheiss&lt;/a&gt; has a phenomenal &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt; class: &lt;a href=&#34;https://t.co/sYsKzCxccq&#34;&gt;https://t.co/sYsKzCxccq&lt;/a&gt;&lt;br&gt;- books by &lt;a href=&#34;https://twitter.com/kjhealy?ref_src=twsrc%5Etfw&#34;&gt;@kjhealy&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://twitter.com/ClausWilke?ref_src=twsrc%5Etfw&#34;&gt;@ClausWilke&lt;/a&gt; &lt;a href=&#34;https://t.co/rv0WTTTqGZ&#34;&gt;https://t.co/rv0WTTTqGZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Devin Judge-Lord (@JudgeLord) &lt;a href=&#34;https://twitter.com/JudgeLord/status/1145744674642112512?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;There are more tutorials, slides, and links to other resources in my &lt;a href=&#34;https://judgelord.github.io/PS811/&#34;&gt;Statistical Computing for Political Science repo&lt;/a&gt;&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 </description>
     </item>
     
