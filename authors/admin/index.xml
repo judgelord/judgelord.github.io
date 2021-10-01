@@ -5,12 +5,20 @@
     <link>https://judgelord.github.io/authors/admin/</link>
       <atom:link href="https://judgelord.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:41 -0500</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title></title>
       <link>https://judgelord.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Public Pressure and Congressional Oversight</title>
+      <link>https://judgelord.github.io/research/oversight/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
+      <guid>https://judgelord.github.io/research/oversight/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Campaign Contributions and Bureaucratic Oversight</title>
@@ -35,6 +43,14 @@
       <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;fsc-sfi.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Inequality in Administrative Democracy</title>
+      <link>https://judgelord.github.io/research/finreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/finreg/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -66,6 +82,14 @@
       <link>https://judgelord.github.io/research/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/ej/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who Gets Constituent Service?</title>
+      <link>https://judgelord.github.io/research/correp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/correp/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Susan Webb Yackee | </title>
+    <link>https://judgelord.github.io/authors/susan-webb-yackee/</link>
+      <atom:link href="https://judgelord.github.io/authors/susan-webb-yackee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Susan Webb Yackee</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Susan Webb Yackee</title>
+      <link>https://judgelord.github.io/authors/susan-webb-yackee/</link>
+    </image>
+    
+    <item>
+      <title>Inequality in Administrative Democracy</title>
+      <link>https://judgelord.github.io/research/finreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/finreg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

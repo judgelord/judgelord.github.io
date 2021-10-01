@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/authors/</link>
       <atom:link href="https://judgelord.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:41 -0500</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,8 +15,16 @@
     <item>
       <title></title>
       <link>https://judgelord.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
       <guid>https://judgelord.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angelo Dagonel</title>
+      <link>https://judgelord.github.io/authors/angelo-dagonel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/angelo-dagonel/</guid>
       <description></description>
     </item>
     
@@ -33,6 +41,14 @@
       <link>https://judgelord.github.io/authors/brian-libgober/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/authors/brian-libgober/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christopher T. Kenny</title>
+      <link>https://judgelord.github.io/authors/christopher-t.-kenny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/christopher-t.-kenny/</guid>
       <description></description>
     </item>
     
@@ -69,6 +85,14 @@
     </item>
     
     <item>
+      <title>Jacob Waggoner</title>
+      <link>https://judgelord.github.io/authors/jacob-waggoner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/jacob-waggoner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Justin Grimmer</title>
       <link>https://judgelord.github.io/authors/justin-grimmer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -77,10 +101,26 @@
     </item>
     
     <item>
+      <title>Rochelle Snyder</title>
+      <link>https://judgelord.github.io/authors/rochelle-snyder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/rochelle-snyder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Steven Rashin</title>
       <link>https://judgelord.github.io/authors/steven-rashin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/authors/steven-rashin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Susan Webb Yackee</title>
+      <link>https://judgelord.github.io/authors/susan-webb-yackee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/authors/susan-webb-yackee/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rochelle Snyder | </title>
+    <link>https://judgelord.github.io/authors/rochelle-snyder/</link>
+      <atom:link href="https://judgelord.github.io/authors/rochelle-snyder/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rochelle Snyder</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Rochelle Snyder</title>
+      <link>https://judgelord.github.io/authors/rochelle-snyder/</link>
+    </image>
+    
+    <item>
+      <title>Who Gets Constituent Service?</title>
+      <link>https://judgelord.github.io/research/correp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/correp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
