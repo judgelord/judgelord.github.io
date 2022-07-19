@@ -48,11 +48,11 @@ Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interacti
 &lt;/div&gt;
 &lt;div id=&#34;working-papers&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/cj/&#34;&gt;“Making Policy About Climate Change: The Climate Movement’s Impact on Agency Rulemaking”&lt;/a&gt; (Climate Pipeline Conference 2021)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/finreg/&#34;&gt;“Inequality in Administrative Democracy: Methods and Evidence from Financial Rulemaking” with Steven Rashin, Brian Libgober, Jacob Waggoner, Angelo Dagonel, Christopher T. Kenny, Susan Webb Yackee, and Daniel Carpenter&lt;/a&gt; (APSA 2021)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Herbert Kaufman Award for best paper in Public Administration presented at APSA 2021&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/cj/&#34;&gt;“Making Policy About Climate Change: The Climate Movement’s Impact on Agency Rulemaking”&lt;/a&gt; (Climate Pipeline Conference 2021)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correp/&#34;&gt;“Who Gets Constituent Service?” with Rochelle Snyder, Justin Grimmer, and Eleanor Powell&lt;/a&gt; (APSA 2020)&lt;/p&gt;
 &lt;p&gt;“Iterative Hand-Coding and Computational Text Analysis: Application to Assessing the Effects of Public Pressure on Policy” (PolMeth 2022)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (Sometimes) Get So Much Mail? Lobbying Coalitions, Mass Comments, and Political Information in Bureaucratic Policymaking”&lt;/a&gt; (SPSA 2019)&lt;/p&gt;
@@ -69,7 +69,8 @@ Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interacti
 &lt;div id=&#34;software&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SOFTWARE&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/netlit/&#34;&gt;&lt;code&gt;netlit&lt;/code&gt;: A package to aid literature reviews with network analysis in R&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/judgelord/augmentCongress&#34;&gt;&lt;code&gt;augmentCongress&lt;/code&gt;: A package to extract named members of the U.S. Congress in messy text with typos and inconsistent name formats&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/legislators/&#34;&gt;&lt;code&gt;legislators&lt;/code&gt;: A package to find legislator names in messy text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/congressionalrecord/&#34;&gt;&lt;code&gt;congressionalrecord&lt;/code&gt;: A package to scrape, parse, and analyze the Congressional Record&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;selected-awards&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
@@ -108,7 +109,10 @@ Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interacti
 &lt;/div&gt;
 &lt;div id=&#34;public-policy-and-research-positions&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;PUBLIC POLICY AND RESEARCH POSITIONS&lt;/h1&gt;
-&lt;!--Researcher, Harvard University (2020)--&gt;
+&lt;!--
+Visiting Scholar, New York University (2021-2022)
+
+Researcher, Harvard University (2020)--&gt;
 &lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–2020)&lt;/p&gt;
 &lt;p&gt;Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)&lt;/p&gt;
 &lt;ul&gt;
@@ -127,9 +131,9 @@ Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interacti
 &lt;div id=&#34;service&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SERVICE&lt;/h1&gt;
 &lt;p&gt;Reviewer, &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Current Opinion in Sustainability&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Diversity and Inclusion Committee, UW-Madison Department of Political Science (2019-2021)&lt;/p&gt;
 &lt;p&gt;Social Media Editor (2017-present), American Political Science Association Science, Technology, and Environmental Politics section (APSA STEP)&lt;/p&gt;
 &lt;p&gt;Program Committee (2014–2016), Nominations Committee (2016-present, Chair as of 2022), Association of Environmental Studies and Sciences (AESS)&lt;/p&gt;
+&lt;p&gt;Diversity and Inclusion Committee, UW-Madison Department of Political Science (2019-2021)&lt;/p&gt;
 &lt;p&gt;Mentor, Undergraduate Research Scholars Program, UW-Madison (2015–2017, 2019-2021)&lt;/p&gt;
 &lt;p&gt;Mentor, Sophmore Research Fellows Program, UW-Madison (2021)&lt;/p&gt;
 &lt;p&gt;Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law conference at Yale Law School&lt;/p&gt;
@@ -147,6 +151,10 @@ Thesis: _Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interacti
 &lt;div id=&#34;selected-coursework-in-law&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;SELECTED COURSEWORK IN LAW&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Yale Law School&lt;/em&gt;: Administrative Law; Energy Law; Property Law; Environmental Law; Land Use Law; Property, Social Justice, and the Environment&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;selected-coursework-in-management&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;SELECTED COURSEWORK IN MANAGEMENT&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Yale School of Management&lt;/em&gt;: Corporate Environmental Management and Strategy&lt;/p&gt;
 &lt;!--
 # REFRENCES 
 
