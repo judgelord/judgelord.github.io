@@ -17,7 +17,8 @@
       <link>https://judgelord.github.io/research/regdata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/regdata/</guid>
-      <description></description>
+      <description>&lt;p&gt;The US government creates astonishingly complete records of policy creation in executive agencies. In this article, we describe the major kinds of data that have proven useful to scholars studying interest group behavior and influence in bureaucratic politics, how to obtain them, and challenges that we as users have encountered in working with these data. We discuss established databases such as regulations.gov, which contains comments on draft agency rules, and newer sources of data, such as ex-parte meeting logs, which describe the interest groups and individual lobbyists that bureaucrats are meeting face-to-face about proposed policies. One challenge is that much of these data are not machine-readable. We argue that scholars should invest in several projects to make these datasets machine-readable and to link them to each other as well as to other databases.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +26,8 @@
       <link>https://judgelord.github.io/research/finreg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/finreg/</guid>
-      <description></description>
+      <description>&lt;p&gt;Research on inequality in American democracy typically focuses on legislative processes, largely overlooking administrative policymaking, where most U.S. law is now made under pressure from vast amounts of money, lobbying, and political mobilization. Leveraging a broad suite of measurements for organizational wealth, participation, and lobbying success during rulemaking, we provide the first large-scale assessment of wealth inequality in agency rulemaking. Drawing upon an original database of almost 30,000 organizational comments on agency rules implementing the Dodd-Frank Act, we document several patterns: (a) wealthier organizations are more likely to participate in the rulemaking process, (b) wealthier organizations generally advance more sophisticated comments, and (c) wealthier organizations enjoy more success in shifting the content of federal agency rules. Our findings show how organizational wealth translates into political power in a country that is increasingly governed by agency regulations.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

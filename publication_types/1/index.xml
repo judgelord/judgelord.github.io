@@ -33,7 +33,8 @@
       <link>https://judgelord.github.io/research/regdata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/regdata/</guid>
-      <description></description>
+      <description>&lt;p&gt;The US government creates astonishingly complete records of policy creation in executive agencies. In this article, we describe the major kinds of data that have proven useful to scholars studying interest group behavior and influence in bureaucratic politics, how to obtain them, and challenges that we as users have encountered in working with these data. We discuss established databases such as regulations.gov, which contains comments on draft agency rules, and newer sources of data, such as ex-parte meeting logs, which describe the interest groups and individual lobbyists that bureaucrats are meeting face-to-face about proposed policies. One challenge is that much of these data are not machine-readable. We argue that scholars should invest in several projects to make these datasets machine-readable and to link them to each other as well as to other databases.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +42,8 @@
       <link>https://judgelord.github.io/research/finreg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/finreg/</guid>
-      <description></description>
+      <description>&lt;p&gt;Research on inequality in American democracy typically focuses on legislative processes, largely overlooking administrative policymaking, where most U.S. law is now made under pressure from vast amounts of money, lobbying, and political mobilization. Leveraging a broad suite of measurements for organizational wealth, participation, and lobbying success during rulemaking, we provide the first large-scale assessment of wealth inequality in agency rulemaking. Drawing upon an original database of almost 30,000 organizational comments on agency rules implementing the Dodd-Frank Act, we document several patterns: (a) wealthier organizations are more likely to participate in the rulemaking process, (b) wealthier organizations generally advance more sophisticated comments, and (c) wealthier organizations enjoy more success in shifting the content of federal agency rules. Our findings show how organizational wealth translates into political power in a country that is increasingly governed by agency regulations.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,7 +59,22 @@
       <link>https://judgelord.github.io/research/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/correspondence/</guid>
-      <description></description>
+      <description>&lt;p&gt;When elected officials gain power, do they use it to provide more constituent service or to affect broad public policies? Answering this question informs debates over
+how legislator capacity, term limits, and institutional power affect political representation. We distinguish two countervailing effects of increased institutional power. First,
+as elected officials gain power, they allocate relatively more effort to policy over constituency service. Second, institutional power provides additional resources and therefore increases their overall capacity. To assess the extent to which these countervailing
+effects of institutional power affect behavior, we assemble a massive new database of
+487,890 Congressional requests to federal agencies between 2007 and 2018 obtained
+through 429 FOIA requests, a near census of departments, agencies, and sub-agencies.
+We find that most legislator contacts with the bureaucracy are constituency service,
+regardless of institutional position and tenure. Leveraging variation within legislatoragency pairs, we show that legislators prioritize policy work as they gain power and
+experience, but increasing overall capacity enables them to maintain levels of constituency service. Consistent with our theory that service depends on capacity, we
+show that new legislators do less policy work and constituency service than their more
+senior colleagues. In a series of robustness checks, we show that our findings are not
+the result of exogenous variation in constituent demand. Rather than long-serving and
+powerful elected officials diverting attention from their district, their increased capacity
+enables them to maintain levels of constituency service, even as they prioritize policy
+work.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -65,7 +82,22 @@
       <link>https://judgelord.github.io/research/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/ej/</guid>
-      <description></description>
+      <description>&lt;p&gt;Political movements advance new rights and social values by shaping policy agendas
+and reframing policy debates. Likewise, lack of movement pressure is a leading explanation for the failure of policy efforts. To examine how movements affect policymaking,
+I assess the aggregate impact of environmental justice advocacy on federal policy from
+1993-2020 using a new dataset 13,179 draft and final rule pairs from 40 U.S. federal
+agencies and 42 million public comments on these draft policies, I find that when
+public comments and petition campaigns raise distributive justice concerns, these concerns are more likely to be addressed in the final policy document. Supporting theories
+about how institutions shape receptivity to issue frames, I find that agencies with institutional processes for addressing environmental justice concerns are more responsive
+to movement pressure. The scale of mobilization also matters. When more groups
+and individuals raise environmental justice concerns, policy texts are more likely to
+change. However, within the movement, some organizations are much more successful
+than others. Furthermore, baseline rates of addressing environmental justice are so low
+that, even when groups raise environmental justice concerns, most policy documents
+pay no explicit attention to them—a pattern that persists across agencies and throughout the G.W. Bush, Obama, and Trump administrations. These findings suggest that
+who makes distributive justice claims, their alignment with institutional cultures, and
+levels of public pressure all systematically affect policymaking.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -89,7 +121,24 @@
       <link>https://judgelord.github.io/research/whymail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/whymail/</guid>
-      <description></description>
+      <description>&lt;p&gt;I examine who participates in public pressure campaigns and why. Scholars of bureaucratic policymaking have focused on the sophisticated lobbying efforts of powerful interest groups. Yet agencies occasionally receive thousands, even millions, of comments
+from ordinary people. How, if at all, should scholars incorporate mass participation
+into models of bureaucratic policymaking? Are public pressure campaigns, like other
+lobbying tactics, primarily used by well-resourced groups to create an impression of
+public support? Or are they better understood as conflict expansion tactics used by
+less-resourced groups? To answer these questions, I collect and analyze millions of public comments on draft agency rules. Using text analysis methods underlying plagiarism
+detection, I match individual public comments to pressure-group campaigns. Contrary
+to other forms of lobbying, I find that mass comment campaigns are almost always a
+conflict expansion tactic rather than well-resourced groups creating an impression of
+public support. Most public comments are mobilized by public interest organizations,
+not by narrow private interests or astroturf campaigns. However, the resources and
+capacities required to launch a campaign cause a few larger policy advocacy organizations to dominate. Over 80 percent of public comments were mobilized by just 100
+organizations, most of which lobby in the same public interest coalitions. As a result,
+the public attention that pressure campaigns generate is concentrated on a small portion of policies on which these organizations focus. I also find no evidence of negativity
+bias in public comments. Instead, most commenters supported draft policies during
+the Obama administration but opposed those of the Trump administration, reflecting
+the partisan biases of mobilizing groups.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
