@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/authors/admin/</link>
       <atom:link href="https://judgelord.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:42 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:42 -0500</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title></title>
@@ -15,7 +15,7 @@
     <item>
       <title>Public Pressure and Congressional Oversight</title>
       <link>https://judgelord.github.io/research/oversight/</link>
-      <pubDate>Wed, 31 Dec 1969 18:33:42 -0600</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
       <guid>https://judgelord.github.io/research/oversight/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
       <link>https://judgelord.github.io/research/cj/</link>
-      <pubDate>Wed, 31 Dec 1969 18:33:41 -0600</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
       <guid>https://judgelord.github.io/research/cj/</guid>
       <description></description>
     </item>
@@ -64,6 +64,15 @@
     </item>
     
     <item>
+      <title>Making Policy About Distributive Justice</title>
+      <link>https://judgelord.github.io/research/ej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ej/</guid>
+      <description>&lt;p&gt;Political movements advance new rights and social values by shaping policy agendas and reframing policy debates. Likewise, lack of movement pressure is a leading explanation for the failure of policy efforts. To examine how movements affect policymaking, I assess the aggregate impact of environmental justice advocacy on federal policy from 1993-2020 using a new dataset of 13,179 draft and final rule pairs from 40 U.S. federal agencies and 42 million public comments on these draft policies, I find that when public comments and petition campaigns raise distributive justice concerns, these concerns are more likely to be addressed in the final policy document. Supporting theories about how institutions shape receptivity to issue frames, I find that agencies with institutional processes for addressing environmental justice concerns are more responsive to movement pressure. The scale of mobilization also matters. When more groups and individuals raise environmental justice concerns, policy texts are more likely to change. However, within the movement, some organizations are much more successful than others. Furthermore, baseline rates of addressing environmental justice are so low that, even when groups raise environmental justice concerns, most policy documents pay no explicit attention to them&amp;mdash;a pattern that persists across agencies and throughout the G.W. Bush, Obama, and Trump administrations. These findings suggest that who makes distributive justice claims, their alignment with institutional cultures, and levels of public pressure all systematically affect policymaking.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Measuring Change and Influence in Budget Texts</title>
       <link>https://judgelord.github.io/research/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -80,7 +89,7 @@
     </item>
     
     <item>
-      <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies</title>
+      <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service</title>
       <link>https://judgelord.github.io/research/correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/correspondence/</guid>
@@ -99,29 +108,6 @@ the result of exogenous variation in constituent demand. Rather than long-servin
 powerful elected officials diverting attention from their district, their increased capacity
 enables them to maintain levels of constituency service, even as they prioritize policy
 work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>The Environmental Justice Movement’s Impact on Technocratic Policymaking</title>
-      <link>https://judgelord.github.io/research/ej/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/ej/</guid>
-      <description>&lt;p&gt;Political movements advance new rights and social values by shaping policy agendas
-and reframing policy debates. Likewise, lack of movement pressure is a leading explanation for the failure of policy efforts. To examine how movements affect policymaking,
-I assess the aggregate impact of environmental justice advocacy on federal policy from
-1993-2020 using a new dataset 13,179 draft and final rule pairs from 40 U.S. federal
-agencies and 42 million public comments on these draft policies, I find that when
-public comments and petition campaigns raise distributive justice concerns, these concerns are more likely to be addressed in the final policy document. Supporting theories
-about how institutions shape receptivity to issue frames, I find that agencies with institutional processes for addressing environmental justice concerns are more responsive
-to movement pressure. The scale of mobilization also matters. When more groups
-and individuals raise environmental justice concerns, policy texts are more likely to
-change. However, within the movement, some organizations are much more successful
-than others. Furthermore, baseline rates of addressing environmental justice are so low
-that, even when groups raise environmental justice concerns, most policy documents
-pay no explicit attention to them—a pattern that persists across agencies and throughout the G.W. Bush, Obama, and Trump administrations. These findings suggest that
-who makes distributive justice claims, their alignment with institutional cultures, and
-levels of public pressure all systematically affect policymaking.&lt;/p&gt;
 </description>
     </item>
     
