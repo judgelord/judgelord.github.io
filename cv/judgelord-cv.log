@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.7)  8 AUG 2022 11:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.8.7)  9 AUG 2022 21:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -467,21 +467,21 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 AED: lastpage setting LastPage
 [4] (./judgelord-cv.aux)
 Package rerunfilecheck Info: File `judgelord-cv.out' has not changed.
-(rerunfilecheck)             Checksum: 6B180D7B6A3CB411F7F680C7A390F0C1;1869.
+(rerunfilecheck)             Checksum: F3C41C673C8A2208E265EB31FC19D2DF;2008.
  ) 
 Here is how much of TeX's memory you used:
- 14304 strings out of 479638
- 224709 string characters out of 5878013
- 562630 words of memory out of 5000000
- 32457 multiletter control sequences out of 15000+600000
+ 14308 strings out of 479638
+ 224771 string characters out of 5878013
+ 563672 words of memory out of 5000000
+ 32459 multiletter control sequences out of 15000+600000
  506471 words of font info for 176 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,12n,67p,1201b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/devin/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc} </Users/devin/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{/Users/devin/Library/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</Users/devin/Library/TinyTeX/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></Users/devin/Library/TinyTeX/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></Users/devin/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/devin/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/devin/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on judgelord-cv.pdf (4 pages, 100804 bytes).
+Output written on judgelord-cv.pdf (4 pages, 101605 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 49265 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 49273 words of extra memory for PDF output out of 51595 (max. 10000000)
 
