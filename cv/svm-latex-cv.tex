@@ -199,9 +199,12 @@ $if(fontawesome)$\usepackage{fontawesome}$endif$
 \lhead{}
 \chead{}
 \rhead{}
-\lfoot{
-\cfoot{\scriptsize  $author-meta$ - $title$ }}
-\rfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+\lfoot{}
+%\cfoot{\scriptsize  $author-meta$ - $title$ }}
+\cfoot{\scriptsize \thepage/{\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+%\usepackage{nopageno}
+
 
 % Always load hyperref last.
 \usepackage{hyperref}
