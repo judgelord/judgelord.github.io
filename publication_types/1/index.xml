@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/publication_types/1/</link>
       <atom:link href="https://judgelord.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:42 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:45 -0600</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>1</title>
@@ -13,19 +13,60 @@
     </image>
     
     <item>
+      <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service</title>
+      <link>https://judgelord.github.io/research/correspondence/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
+      <guid>https://judgelord.github.io/research/correspondence/</guid>
+      <description>&lt;p&gt;When elected officials gain power, do they use it to provide more constituent service or to affect broad public policies? Answering this question informs debates over
+how legislator capacity, term limits, and institutional power affect political representation. We distinguish two countervailing effects of increased institutional power. First,
+as elected officials gain power, they allocate relatively more effort to policy over constituency service. Second, institutional power provides additional resources and therefore increases their overall capacity. To assess the extent to which these countervailing
+effects of institutional power affect behavior, we assemble a massive new database of
+487,890 Congressional requests to federal agencies between 2007 and 2018 obtained
+through 429 FOIA requests, a near census of departments, agencies, and sub-agencies.
+We find that most legislator contacts with the bureaucracy are constituency service,
+regardless of institutional position and tenure. Leveraging variation within legislatoragency pairs, we show that legislators prioritize policy work as they gain power and
+experience, but increasing overall capacity enables them to maintain levels of constituency service. Consistent with our theory that service depends on capacity, we
+show that new legislators do less policy work and constituency service than their more
+senior colleagues. In a series of robustness checks, we show that our findings are not
+the result of exogenous variation in constituent demand. Rather than long-serving and
+powerful elected officials diverting attention from their district, their increased capacity
+enables them to maintain levels of constituency service, even as they prioritize policy
+work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public Pressure and Congressional Oversight</title>
       <link>https://judgelord.github.io/research/oversight/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:33:42 -0600</pubDate>
       <guid>https://judgelord.github.io/research/oversight/</guid>
-      <description></description>
+      <description>&lt;p&gt;I assess whether legislators are more likely to engage in rulemaking when advocacy groups mobilize public pressure. This involves collecting and coding thousands of comments from members of Congress on proposed rules with and without public pressure campaigns. These data also allow me to assess congressional oversight as a mediator in policy influence, i.e., the extent to which public pressure campaigns affect agency decisionmakers directly or indirectly through their effects on elected officials’ oversight behaviors.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
       <link>https://judgelord.github.io/research/cj/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:33:41 -0600</pubDate>
       <guid>https://judgelord.github.io/research/cj/</guid>
-      <description></description>
+      <description>&lt;p&gt;Social movements play a critical role in advancing landmark statutes. Likewise, lack
+of movement pressure is a leading explanation for the failure of policy efforts. Yet, we
+have little systematic evidence about the impact of social movements on policy. To
+what extent do movements shape the thousands of policies that governments make
+every year? I examine how social movements affect policymaking by assessing the
+climate movement’s impact on 20 thousand policy documents from 24 U.S. federal
+agencies. Leveraging a new dataset of 40 million public comments on these policies,
+I find that when public comments raise climate or climate justice concerns, these
+concerns are more likely to be addressed in the final rule. Effect sizes vary across
+agencies, possibly due to the alignment of climate and climate justice issue frames with
+agency missions. The magnitude of public pressure also matters. When more groups
+and individuals raise climate and climate justice concerns, policy texts are more likely
+to change, even when controlling for overall levels of public attention. These findings
+suggest that public pressure for recognizing both scientific and distributive justice
+claims systematically affects policymaking. Finally, public comments offer a new lens
+to assess the rise, institutionalization, and impact of the climate justice movement
+within the broader climate and environmental justice movements.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -51,7 +92,8 @@
       <link>https://judgelord.github.io/research/iterative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/iterative/</guid>
-      <description></description>
+      <description>&lt;p&gt;Human coding and computational text analysis are more powerful when combined in an iterative workflow. Text analysis tools can strategically select texts for human coders—texts representing larger samples and outlier texts of high inferential value. Preprocessing can speed up hand-coding by extracting features like names and key sentences. Humans and computers can iteratively tag entities using regex tables and group texts by key features (e.g., identify lobbying coalitions by common policy demands) Applying simple search and text-reuse methods to public comments on all U.S. federal agency rules, a sample of 10,894 hand-coded comments yields 41 million as-good-as-hand-coded comments regarding both the organizations that mobilized them and the extent to which policy changed in the direction they sought.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -68,7 +110,21 @@
       <link>https://judgelord.github.io/research/netlit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/netlit/</guid>
-      <description></description>
+      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in
+scientific research. Systematically reviewing scholarship is especially challenging for researchers who may
+lack domain expertise, including junior scholars or those exploring new substantive territory. Conversely,
+senior scholars may rely on long-standing assumptions and social networks that exclude new research. In
+both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in
+selecting relevant prior work or then identifying patterns across their sample. To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework
+for reviewing scholarship. In our method, we consider a literature as a network of recurring concepts (nodes)
+and theorized relationships among them (edges). Network statistics and visualization allow researchers
+to see patterns and offer reproducible characterizations of assertions about the major themes in existing
+literature. Critically, our approach is systematic and powerful but also low cost; it requires researchers
+to enter relationships they observe in prior studies into a simple spreadsheet—a task accessible to new
+and experienced researchers alike. Our open-source R package enables researchers to leverage powerful
+network analysis while minimizing software-specific knowledge. We demonstrate this approach by reviewing
+redistricting literature&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -76,29 +132,17 @@
       <link>https://judgelord.github.io/research/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/budgets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service</title>
-      <link>https://judgelord.github.io/research/correspondence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/correspondence/</guid>
-      <description>&lt;p&gt;When elected officials gain power, do they use it to provide more constituent service or to affect broad public policies? Answering this question informs debates over
-how legislator capacity, term limits, and institutional power affect political representation. We distinguish two countervailing effects of increased institutional power. First,
-as elected officials gain power, they allocate relatively more effort to policy over constituency service. Second, institutional power provides additional resources and therefore increases their overall capacity. To assess the extent to which these countervailing
-effects of institutional power affect behavior, we assemble a massive new database of
-487,890 Congressional requests to federal agencies between 2007 and 2018 obtained
-through 429 FOIA requests, a near census of departments, agencies, and sub-agencies.
-We find that most legislator contacts with the bureaucracy are constituency service,
-regardless of institutional position and tenure. Leveraging variation within legislatoragency pairs, we show that legislators prioritize policy work as they gain power and
-experience, but increasing overall capacity enables them to maintain levels of constituency service. Consistent with our theory that service depends on capacity, we
-show that new legislators do less policy work and constituency service than their more
-senior colleagues. In a series of robustness checks, we show that our findings are not
-the result of exogenous variation in constituent demand. Rather than long-serving and
-powerful elected officials diverting attention from their district, their increased capacity
-enables them to maintain levels of constituency service, even as they prioritize policy
-work.&lt;/p&gt;
+      <description>&lt;p&gt;This paper introduces a dataset of over 100,000 pages of discussion about how U.S. federal budget line
+items ought to be used and explores how well a variety of methods commonly used to identify similarity,
+difference, and influence among texts travel to this new context.  Ultimately, it aims to test theories about
+the role of the executive branch in influencing the policy agenda for congressional appropriations and the
+role of Congress in influencing the policy agenda of executive agencies.  This involves two methodological
+exercises.  First I contrast several approaches to measure similarity and differences in policy texts were we
+have strong intuitions about their relationships.  For example, we expect presidential transitions to affect
+the content of the president’s annual budget. Different text analysis methods give us different perspectives
+on the magnitude and substance of change.  Second, it outlines an approach for estimating the relative
+influence of texts on a change in a policy document, for example, the influence of the president’s budget
+on congressional appropriations committee reports and vice versa.&lt;/p&gt;
 </description>
     </item>
     
@@ -107,7 +151,8 @@ work.&lt;/p&gt;
       <link>https://judgelord.github.io/research/correp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/correp/</guid>
-      <description></description>
+      <description>&lt;p&gt;We leverage a massive new comprehensive database of constituent service requests from Members of Congress to examine which types of constituents receive help from Members of Congress and how electing a Republican or Democrat affects who gets served. We find that the amount of help that legislators provide veterans and seniors aligns with the number of veterans and seniors in their district. However, the share of low-income constituents does not predict the amount of help that legislators provide to constituents seeking help during hardship. Using a difference-in-differences design, we show that Republicans provide less constituency service than Democrats overall. We fail to detect partisan differences in the amount of service to businesses, veterans, or seniors, but we find that Republicans provide much less service to low-income individuals. We offer potential explanations for this disparity, including demand from constituents and elected officials&#39; willingness to supply it.  Our results show that elections have consequences for the provision of service to constituents.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -115,7 +160,8 @@ work.&lt;/p&gt;
       <link>https://judgelord.github.io/research/deference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/deference/</guid>
-      <description></description>
+      <description>&lt;p&gt;I investigate the conventional wisdom that courts are more likely to uphold federal agency policies made through notice-and-comment rulemaking. I find that Supreme Court Justices have different preferences for deference, but overall, are actually less likely to show deference in rulemaking cases. However, the evidence does not suggest that this is due to justices voting more ideologically due to the greater stakes in rulemaking cases as implied by previous research. I then investigate potential selection effects at the circuit court and certiorari stages that could cause rulemaking cases to lose at the Supreme Court. The results offer no evidence that deference differs between circuit courts and the Supreme Court. While the Supreme Court may disproportionately opt to review rulemaking cases, it does not appear to do this in order to systematically discipline lower courts. Finally, I examine elements of the rulemaking process itself that may affect judicial review. Greater participation in rulemaking correlates with deference, as does an agency’s choice to regulate less rather than more. The puzzling negative relationship between rulemaking and deference remains unresolved, but, contrary to previous research, preliminary results suggest that justices may defer more to agency rulemaking on more salient issues where stakes are highest.&lt;/p&gt;
+</description>
     </item>
     
     <item>

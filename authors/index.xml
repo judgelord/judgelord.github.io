@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/authors/</link>
       <atom:link href="https://judgelord.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:42 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:45 -0600</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,10 +15,26 @@
     <item>
       <title></title>
       <link>https://judgelord.github.io/authors/admin/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
       <guid>https://judgelord.github.io/authors/admin/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/&#34;&gt;Devin Judge-Lord&lt;/a&gt; is an Assistant Professor at the University of Michigan&amp;rsquo;s Ford School of Public Policy working at the intersection of social movements and technocratic policymaking. He studies interactions among interest groups, legislators, and bureaucracies. His current work focuses on how public pressure campaigns affect agency rulemaking, especially climate and environmental justice campaigns. His other research projects address legislator behavior and capacity, money in politics, lobbying, and private governance. Devin holds a B.A. in Political Science from Reed College, a Master&amp;rsquo;s in Environmental Science from Yale University, and a Ph.D. in Political Science from the University of Wisconsin&amp;ndash;Madison. Before joining the University of Michigan&amp;rsquo;s faculty, he was a postdoctoral fellow at Harvard University. Prior to his academic career, Devin worked in local government and for the Food and Agriculture Organization of the United Nations.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Eleanor Neff Powell</title>
+      <link>https://judgelord.github.io/authors/eleanor-neff-powell/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
+      <guid>https://judgelord.github.io/authors/eleanor-neff-powell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Justin Grimmer</title>
+      <link>https://judgelord.github.io/authors/justin-grimmer/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
+      <guid>https://judgelord.github.io/authors/justin-grimmer/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -78,14 +94,6 @@
     </item>
     
     <item>
-      <title>Eleanor Neff Powell</title>
-      <link>https://judgelord.github.io/authors/eleanor-neff-powell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/authors/eleanor-neff-powell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Irene Scher</title>
       <link>https://judgelord.github.io/authors/irene-scher/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,14 +106,6 @@
       <link>https://judgelord.github.io/authors/jacob-waggoner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/authors/jacob-waggoner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Justin Grimmer</title>
-      <link>https://judgelord.github.io/authors/justin-grimmer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/authors/justin-grimmer/</guid>
       <description></description>
     </item>
     
