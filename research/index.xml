@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/research/</link>
       <atom:link href="https://judgelord.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Research</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:42 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:45 -0600</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Research</title>
@@ -13,101 +13,9 @@
     </image>
     
     <item>
-      <title>Public Pressure and Congressional Oversight</title>
-      <link>https://judgelord.github.io/research/oversight/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
-      <guid>https://judgelord.github.io/research/oversight/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
-      <link>https://judgelord.github.io/research/cj/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
-      <guid>https://judgelord.github.io/research/cj/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data and Methods for Analyzing Special Interest Influence in Rulemaking</title>
-      <link>https://judgelord.github.io/research/regdata/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/regdata/</guid>
-      <description>&lt;p&gt;The US government creates astonishingly complete records of policy creation in executive agencies. In this article, we describe the major kinds of data that have proven useful to scholars studying interest group behavior and influence in bureaucratic politics, how to obtain them, and challenges that we as users have encountered in working with these data. We discuss established databases such as regulations.gov, which contains comments on draft agency rules, and newer sources of data, such as ex-parte meeting logs, which describe the interest groups and individual lobbyists that bureaucrats are meeting face-to-face about proposed policies. One challenge is that much of these data are not machine-readable. We argue that scholars should invest in several projects to make these datasets machine-readable and to link them to each other as well as to other databases.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
-      <link>https://judgelord.github.io/research/fsc-sfi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://judgelord.github.io/research/fsc-sfi/fsc-sfi.png&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Inequality in Administrative Democracy</title>
-      <link>https://judgelord.github.io/research/finreg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/finreg/</guid>
-      <description>&lt;p&gt;Research on inequality overlooks administrative policymaking, where most U.S. law is currently made, under pressure from vast flows of money, lobbying, and political mobilization. Analyzing a new database of over 260,000 comments on agency rules implementing the Dodd-Frank Act, we identify the lobbying activities of over 6,000 organizations. Leveraging measures of organizations’ wealth, participation in administrative politics, sophistication, and lobbying success, we provide the first large-scale assessment of wealth-based inequality in agency rulemaking. We find that wealthier organizations are more likely to participate in rulemaking and enjoy more success in shifting the content of federal agency rules. These patterns are not explained by membership differentials. More profit-driven organizations are also more likely to participate and enjoy more success in shifting the content of federal agency rules. Wealthier organizations’ ability to marshal legal and technical expertise appears to be a key mechanism by which wealth leads to lobbying success.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Iterative Human Coding and Computational Text Analysis: Assessing the Effects of Public Pressure on Policy</title>
-      <link>https://judgelord.github.io/research/iterative/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/iterative/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Legislator Advocacy on Behalf of Constituents and Corporate Donors</title>
-      <link>https://judgelord.github.io/research/ferc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/ferc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Making Policy About Distributive Justice</title>
-      <link>https://judgelord.github.io/research/ej/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/ej/</guid>
-      <description>&lt;p&gt;Political movements shape policy agendas, often reframing policy debates in distributive justice terms.  To examine how this affects policymaking, I assess the aggregate impact of environmental justice advocacy on U.S. federal policy from 1993 to 2020 using a new dataset of 13,179 draft and final rule pairs from 40 agencies and 42 million public comments on these rules. I find that when groups raise distributive justice concerns, final rules more often change to address these concerns. Supporting theories about how institutions affect receptivity to issue frames, agencies with processes for addressing environmental justice are more responsive. The scale of mobilization also matters; when larger coalitions raise environmental justice concerns, policy texts are more likely to change. However, within the movement, elite organizations have more lobbying success. These findings suggest that policymaking is systematically affected by which groups make distributive justice claims, their alignment with institutional biases, and the levels of public pressure they mobilize.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mapping Literature with Networks: An Application to Redistricting</title>
-      <link>https://judgelord.github.io/research/netlit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/netlit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Measuring Change and Influence in Budget Texts</title>
-      <link>https://judgelord.github.io/research/budgets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/budgets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
-      <link>https://judgelord.github.io/research/boreal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/boreal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service</title>
       <link>https://judgelord.github.io/research/correspondence/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
       <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description>&lt;p&gt;When elected officials gain power, do they use it to provide more constituent service or to affect broad public policies? Answering this question informs debates over
 how legislator capacity, term limits, and institutional power affect political representation. We distinguish two countervailing effects of increased institutional power. First,
@@ -128,11 +36,165 @@ work.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Public Pressure and Congressional Oversight</title>
+      <link>https://judgelord.github.io/research/oversight/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:42 -0600</pubDate>
+      <guid>https://judgelord.github.io/research/oversight/</guid>
+      <description>&lt;p&gt;I assess whether legislators are more likely to engage in rulemaking when advocacy groups mobilize public pressure. This involves collecting and coding thousands of comments from members of Congress on proposed rules with and without public pressure campaigns. These data also allow me to assess congressional oversight as a mediator in policy influence, i.e., the extent to which public pressure campaigns affect agency decisionmakers directly or indirectly through their effects on elected officials’ oversight behaviors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
+      <link>https://judgelord.github.io/research/cj/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:41 -0600</pubDate>
+      <guid>https://judgelord.github.io/research/cj/</guid>
+      <description>&lt;p&gt;Social movements play a critical role in advancing landmark statutes. Likewise, lack
+of movement pressure is a leading explanation for the failure of policy efforts. Yet, we
+have little systematic evidence about the impact of social movements on policy. To
+what extent do movements shape the thousands of policies that governments make
+every year? I examine how social movements affect policymaking by assessing the
+climate movement’s impact on 20 thousand policy documents from 24 U.S. federal
+agencies. Leveraging a new dataset of 40 million public comments on these policies,
+I find that when public comments raise climate or climate justice concerns, these
+concerns are more likely to be addressed in the final rule. Effect sizes vary across
+agencies, possibly due to the alignment of climate and climate justice issue frames with
+agency missions. The magnitude of public pressure also matters. When more groups
+and individuals raise climate and climate justice concerns, policy texts are more likely
+to change, even when controlling for overall levels of public attention. These findings
+suggest that public pressure for recognizing both scientific and distributive justice
+claims systematically affects policymaking. Finally, public comments offer a new lens
+to assess the rise, institutionalization, and impact of the climate justice movement
+within the broader climate and environmental justice movements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data and Methods for Analyzing Special Interest Influence in Rulemaking</title>
+      <link>https://judgelord.github.io/research/regdata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/regdata/</guid>
+      <description>&lt;p&gt;The US government creates astonishingly complete records of policy creation in executive agencies. In this article, we describe the major kinds of data that have proven useful to scholars studying interest group behavior and influence in bureaucratic politics, how to obtain them, and challenges that we as users have encountered in working with these data. We discuss established databases such as regulations.gov, which contains comments on draft agency rules, and newer sources of data, such as ex-parte meeting logs, which describe the interest groups and individual lobbyists that bureaucrats are meeting face-to-face about proposed policies. One challenge is that much of these data are not machine-readable. We argue that scholars should invest in several projects to make these datasets machine-readable and to link them to each other as well as to other databases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do Private Regulations &#39;Ratchet Up?&#39;</title>
+      <link>https://judgelord.github.io/research/fsc-sfi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
+      <description>&lt;p&gt;Due to inconsistent concepts of regulatory stringency, scholars offer conflicting accounts about whether competing private governance initiatives “race to the bottom,” “ratchet up,” “converge,” or “diverge.” To remedy this, we offer a framework for more systematic comparisons across programs and over time. We distinguish three often-conflated measures of stringency: regulatory scope, prescriptiveness, and performance levels. Applying this framework, we compare competing U.S. forestry certification programs, one founded by environmental activists and their allies, the other by the national industry association, the American Forest &amp;amp; Paper Association. We find ‘upwardly divergent’ policy prescriptiveness: both programs increased in prescriptiveness but this increase was greater for the activist-backed program. Furthermore, requirements added by the activist-backed program were more likely to impose costs on firms than requirements added by the industry-backed program, many of which may even benefit firms. These results are consistent with the hypothesis that industry-backed programs emphasize less costly types of stringency than activist-backed programs. They also reveal patterns of change that previous scholarship failed to anticipate, illustrating how disentangling types of stringency can improve theory building and testing.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;fsc-sfi.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inequality in Administrative Democracy</title>
+      <link>https://judgelord.github.io/research/finreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/finreg/</guid>
+      <description>&lt;p&gt;Research on inequality overlooks administrative policymaking, where most U.S. law is currently made, under pressure from vast flows of money, lobbying, and political mobilization. Analyzing a new database of over 260,000 comments on agency rules implementing the Dodd-Frank Act, we identify the lobbying activities of over 6,000 organizations. Leveraging measures of organizations’ wealth, participation in administrative politics, sophistication, and lobbying success, we provide the first large-scale assessment of wealth-based inequality in agency rulemaking. We find that wealthier organizations are more likely to participate in rulemaking and enjoy more success in shifting the content of federal agency rules. These patterns are not explained by membership differentials. More profit-driven organizations are also more likely to participate and enjoy more success in shifting the content of federal agency rules. Wealthier organizations’ ability to marshal legal and technical expertise appears to be a key mechanism by which wealth leads to lobbying success.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Iterative Human Coding and Computational Text Analysis: Assessing the Effects of Public Pressure on Policy</title>
+      <link>https://judgelord.github.io/research/iterative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/iterative/</guid>
+      <description>&lt;p&gt;Human coding and computational text analysis are more powerful when combined in an iterative workflow. Text analysis tools can strategically select texts for human coders—texts representing larger samples and outlier texts of high inferential value. Preprocessing can speed up hand-coding by extracting features like names and key sentences. Humans and computers can iteratively tag entities using regex tables and group texts by key features (e.g., identify lobbying coalitions by common policy demands) Applying simple search and text-reuse methods to public comments on all U.S. federal agency rules, a sample of 10,894 hand-coded comments yields 41 million as-good-as-hand-coded comments regarding both the organizations that mobilized them and the extent to which policy changed in the direction they sought.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Legislator Advocacy on Behalf of Constituents and Corporate Donors</title>
+      <link>https://judgelord.github.io/research/ferc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
+      <description>&lt;p&gt;We use letters that legislators write to the Federal Energy Regulatory Commission to study congressional attempts to influence bureaucratic decisions. Analyzing thousands of letters that legislators sent
+to the agency over nearly two decades, we find that these letters are filled with specific references to
+companies that legislators seek to assist or about which the legislator’s constituents have complaints. We
+explore which legislators seek to influence the agency, on whose behalf legislators advocate, and the kinds
+of outcomes they attempt to influence. We find that most individual constituent letters oppose proposed
+energy projects, but most non-constituent letters advocate in favor of named businesses. Finally, we
+assess whether legislators’ advocacy behavior is related to the campaign contributions they receive from
+the energy industry. We find that Republicans and those who receive money from the energy sector
+write to advocate for energy companies, but not their constituents, while Democrats write comparatively
+more letters in opposition to energy companies. Campaign contributions are much stronger predictors of
+pro-business advocacy than other kinds of attention to energy issues, such as energy-related constituency
+service or advocacy against energy projects. For example, a legislator who receives $200,000 from the
+energy sector is twice as likely to write advocating on behalf of an energy company than a legislator
+who received no energy-sector money but no more likely to write on behalf of their constituents or in
+opposition to an energy project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Making Policy About Distributive Justice</title>
+      <link>https://judgelord.github.io/research/ej/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/ej/</guid>
+      <description>&lt;p&gt;Political movements shape policy agendas, often reframing policy debates in distributive justice terms.  To examine how this affects policymaking, I assess the aggregate impact of environmental justice advocacy on U.S. federal policy from 1993 to 2020 using a new dataset of 13,179 draft and final rule pairs from 40 agencies and 42 million public comments on these rules. I find that when groups raise distributive justice concerns, final rules more often change to address these concerns. Supporting theories about how institutions affect receptivity to issue frames, agencies with processes for addressing environmental justice are more responsive. The scale of mobilization also matters; when larger coalitions raise environmental justice concerns, policy texts are more likely to change. However, within the movement, elite organizations have more lobbying success. These findings suggest that policymaking is systematically affected by which groups make distributive justice claims, their alignment with institutional biases, and the levels of public pressure they mobilize.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mapping Literature with Networks: An Application to Redistricting</title>
+      <link>https://judgelord.github.io/research/netlit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/netlit/</guid>
+      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in
+scientific research. Systematically reviewing scholarship is especially challenging for researchers who may
+lack domain expertise, including junior scholars or those exploring new substantive territory. Conversely,
+senior scholars may rely on long-standing assumptions and social networks that exclude new research. In
+both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in
+selecting relevant prior work or then identifying patterns across their sample. To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework
+for reviewing scholarship. In our method, we consider a literature as a network of recurring concepts (nodes)
+and theorized relationships among them (edges). Network statistics and visualization allow researchers
+to see patterns and offer reproducible characterizations of assertions about the major themes in existing
+literature. Critically, our approach is systematic and powerful but also low cost; it requires researchers
+to enter relationships they observe in prior studies into a simple spreadsheet—a task accessible to new
+and experienced researchers alike. Our open-source R package enables researchers to leverage powerful
+network analysis while minimizing software-specific knowledge. We demonstrate this approach by reviewing
+redistricting literature&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Measuring Change and Influence in Budget Texts</title>
+      <link>https://judgelord.github.io/research/budgets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/budgets/</guid>
+      <description>&lt;p&gt;This paper introduces a dataset of over 100,000 pages of discussion about how U.S. federal budget line
+items ought to be used and explores how well a variety of methods commonly used to identify similarity,
+difference, and influence among texts travel to this new context.  Ultimately, it aims to test theories about
+the role of the executive branch in influencing the policy agenda for congressional appropriations and the
+role of Congress in influencing the policy agenda of executive agencies.  This involves two methodological
+exercises.  First I contrast several approaches to measure similarity and differences in policy texts were we
+have strong intuitions about their relationships.  For example, we expect presidential transitions to affect
+the content of the president’s annual budget. Different text analysis methods give us different perspectives
+on the magnitude and substance of change.  Second, it outlines an approach for estimating the relative
+influence of texts on a change in a policy document, for example, the influence of the president’s budget
+on congressional appropriations committee reports and vice versa.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Non-domestic Sources of Canadian Boreal Forest Policy</title>
+      <link>https://judgelord.github.io/research/boreal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/boreal/</guid>
+      <description>&lt;p&gt;Environmental groups’ interest in, and attention to, Canadian boreal forest protection and management is a relatively new phenomenon vis-à-vis the longstanding focus on Canadian temperate forests. Nevertheless, policy development affecting the Canadian boreal forest has, in the past decade, been punctuated towards a new equilibrium in which both protection and forest management policies have increased dramatically. What explains this punctuation? This chapter addresses this question by exploring the role of non-domestic forces in shaping Canadian boreal forest policies. We examine the International Boreal Conservation Campaign (IBCC) initiated by the Philadelphia-based Pew Charitable Trusts and the Canadian Boreal Forest Agreement, using Bernstein and Cashore’s pathways framework (2002, updated 2012), which identifes four distinct pathways through which non-domestic factors can infuence domestic policy change. Through inductive historical-process tracing, we develop two related arguments. First, non-domestic factors do not explain policy change itself, which arguably would have occurred even in the absence of international pressures, but they help explain both the pace and scale of change. In other words, the changes would have likely taken longer and been of lesser scale if not for the infuence of non-domestic factors in general and the IBCC in particular. Second, we argue that while much attention has focused on the markets pathway, a signifcant amount of effort along the direct-access pathway helps account for much of the noted policy changes. As a result, we call for more study of direct access of international groups in domestic policy and interaction among the pathways. We conclude by reviewing the implications of these fndings both for theories of internationalisation and policy change as well as implications for environmental and business strategy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Who Gets Constituent Service?</title>
       <link>https://judgelord.github.io/research/correp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/correp/</guid>
-      <description></description>
+      <description>&lt;p&gt;We leverage a massive new comprehensive database of constituent service requests from Members of Congress to examine which types of constituents receive help from Members of Congress and how electing a Republican or Democrat affects who gets served. We find that the amount of help that legislators provide veterans and seniors aligns with the number of veterans and seniors in their district. However, the share of low-income constituents does not predict the amount of help that legislators provide to constituents seeking help during hardship. Using a difference-in-differences design, we show that Republicans provide less constituency service than Democrats overall. We fail to detect partisan differences in the amount of service to businesses, veterans, or seniors, but we find that Republicans provide much less service to low-income individuals. We offer potential explanations for this disparity, including demand from constituents and elected officials&#39; willingness to supply it.  Our results show that elections have consequences for the provision of service to constituents.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -140,7 +202,8 @@ work.&lt;/p&gt;
       <link>https://judgelord.github.io/research/deference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/deference/</guid>
-      <description></description>
+      <description>&lt;p&gt;I investigate the conventional wisdom that courts are more likely to uphold federal agency policies made through notice-and-comment rulemaking. I find that Supreme Court Justices have different preferences for deference, but overall, are actually less likely to show deference in rulemaking cases. However, the evidence does not suggest that this is due to justices voting more ideologically due to the greater stakes in rulemaking cases as implied by previous research. I then investigate potential selection effects at the circuit court and certiorari stages that could cause rulemaking cases to lose at the Supreme Court. The results offer no evidence that deference differs between circuit courts and the Supreme Court. While the Supreme Court may disproportionately opt to review rulemaking cases, it does not appear to do this in order to systematically discipline lower courts. Finally, I examine elements of the rulemaking process itself that may affect judicial review. Greater participation in rulemaking correlates with deference, as does an agency’s choice to regulate less rather than more. The puzzling negative relationship between rulemaking and deference remains unresolved, but, contrary to previous research, preliminary results suggest that justices may defer more to agency rulemaking on more salient issues where stakes are highest.&lt;/p&gt;
+</description>
     </item>
     
     <item>
