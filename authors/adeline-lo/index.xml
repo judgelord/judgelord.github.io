@@ -17,21 +17,7 @@
       <link>https://judgelord.github.io/research/netlit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/netlit/</guid>
-      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in
-scientific research. Systematically reviewing scholarship is especially challenging for researchers who may
-lack domain expertise, including junior scholars or those exploring new substantive territory. Conversely,
-senior scholars may rely on long-standing assumptions and social networks that exclude new research. In
-both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in
-selecting relevant prior work or then identifying patterns across their sample. To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework
-for reviewing scholarship. In our method, we consider a literature as a network of recurring concepts (nodes)
-and theorized relationships among them (edges). Network statistics and visualization allow researchers
-to see patterns and offer reproducible characterizations of assertions about the major themes in existing
-literature. Critically, our approach is systematic and powerful but also low cost; it requires researchers
-to enter relationships they observe in prior studies into a simple spreadsheet—a task accessible to new
-and experienced researchers alike. Our open-source R package enables researchers to leverage powerful
-network analysis while minimizing software-specific knowledge. We demonstrate this approach by reviewing
-redistricting literature&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

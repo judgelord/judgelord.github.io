@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/</link>
       <atom:link href="https://judgelord.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:45 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title></title>
@@ -15,13 +15,13 @@
     <item>
       <title>Research</title>
       <link>https://judgelord.github.io/research/</link>
-      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:33:45 -0500</pubDate>
       <guid>https://judgelord.github.io/research/</guid>
       <description>&lt;p&gt;Democratic ideals of public participation and equal voice in government extend beyond elections. Yet the role of the public in crafting policy agendas, drafting policy text, and overseeing implementation is complex. Policymaking processes include some people and ideas while excluding others in different ways at different stages. I study how organized groups and public pressure affect multiple stages of policymaking&amp;mdash;from how advocacy campaigns frame policy debates to how congressional oversight and judicial review shape implementation. I am especially interested in climate and environmental justice campaigns. I also lead large collaborative projects examining legislator behavior, lobbying, and private environmental governance.&lt;/p&gt;
 &lt;p&gt;My work employs a range of quantitative and qualitative methods, with particular contributions in the field of text analysis. By building large open-source datasets and methods to analyze large volumes of political texts, I aim to expand the aspects of policymaking that are open to systematic study.&lt;/p&gt;
 &lt;h1 id=&#34;public-pressure-and-policymaking&#34;&gt;Public pressure and policymaking&lt;/h1&gt;
 &lt;p&gt;My book project, &lt;em&gt;Public Pressure&lt;/em&gt;, shows how civic engagement through public pressure campaigns affects policymaking, with special attention to climate and environmental justice campaigns. Its five parts address (1) why groups mobilize public pressure, (2) how public pressure affects congressional oversight, (3) how it influences policy, (4) how it reframes policy debates, and (5) how it affects judicial review. Answering these questions clarifies the role of interest group lobbying, organizing, and mobilizing in policymaking. I show that some groups enjoy advantages in policymaking based on wealth, access, and expertise. And yet, I also show that disadvantaged groups are not powerless; movements and advocacy campaigns can reframe policy debates and systematically counter business influence in politics&amp;mdash;even in technocratic processes like agency rulemaking.&lt;/p&gt;
-&lt;p&gt;With 90 percent of U.S. law now made by federal agencies through rulemaking, understanding the politics of bureaucratic policymaking is critical to understanding our democracy. &lt;!-- raw HTML omitted --&gt;Agency rulemaking is a technocratic policy process in which participation is usually limited to a few policy insiders. Occasionally, however, public pressure campaigns make agency rules some of the most hotly contested policies of our time. Yet, leading theories of bureaucratic policymaking neither explain nor account for these fitful bursts of civic engagement. To remedy this, I develop and test theories about the roles of individuals, elected officials, organizations, and coalitions in bureaucratic policymaking. I show that pressure campaigns build movements, attract policymakers&#39; attention, and systematically counter corporate power. At the same time, I find that the impact of pressure campaigns is contingent on the capacity of interest groups to mobilize and of policymakers to process political information. Policy moves when high-capacity groups target receptive policymakers.&lt;/p&gt;
+&lt;p&gt;With 90 percent of U.S. law now made by federal agencies through rulemaking, understanding the politics of bureaucratic policymaking is critical to understanding our democracy. &lt;!-- raw HTML omitted --&gt;Agency rulemaking is a technocratic policy process in which participation is usually limited to a few policy insiders. Occasionally, however, public pressure campaigns make agency rules some of the most hotly contested policies of our time. Yet, leading theories of bureaucratic policymaking neither explain nor account for these fitful bursts of civic engagement. To remedy this, I develop and test theories about the roles of individuals, elected officials, organizations, and coalitions in bureaucratic policymaking. I show that pressure campaigns build movements, attract policymakers&amp;rsquo; attention, and systematically counter corporate power. At the same time, I find that the impact of pressure campaigns is contingent on the capacity of interest groups to mobilize and of policymakers to process political information. Policy moves when high-capacity groups target receptive policymakers.&lt;/p&gt;
 &lt;p&gt;First, I draw on theories about social movements and interest groups to explain why different organizations mobilize public pressure. I argue that pressure campaigns are a form of conflict expansion that advantages coalitions with broader public support, not the narrow private interests that typically dominate policymaking. I analyze millions of public comments on thousands of agency rules to develop the first systematic measures of public engagement in policymaking for 161 federal agencies. I find that &lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;most public comments are mobilized by public interest coalitions&lt;/a&gt;. However, because expanding the scope of conflict requires organizational capacity, campaigns are dominated by large advocacy organizations.&lt;/p&gt;
 &lt;p&gt;Second, I advance a theory of political oversight, with mass engagement in bureaucratic policymaking alerting elected officials to political risks and opportunities. I test this theory by analyzing correspondence between members of Congress and agency officials on proposed rules with and proposed rules without mass engagement. I find that public pressure campaigns are correlated with congressional attention and that &lt;a href=&#34;https://judgelord.github.io/research/oversight/&#34;&gt;coalitions with more active congressional support are more likely to achieve their policy goals&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Third, I integrate theories of outside lobbying and oversight into a broader theory of how public pressure may affect policy. I test causal mechanisms by which public pressure may influence policymakers. Using &lt;a href=&#34;https://judgelord.github.io/research/iterative/&#34;&gt;an iterative mix of hand-coding and computational text analysis methods&lt;/a&gt;, I measure lobbying success&amp;mdash;the extent to which each group got their desired changes between the draft and final rule&amp;mdash;for over 40 million commenters. I find evidence that pressure campaigns indirectly affect policy by mobilizing political oversight. &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
@@ -49,7 +49,7 @@ The book concludes with policy recommendations for increasing the capacity of go
 &lt;p&gt;The methods I developed for integrating human coding of texts with computational text analysis increase the inferential power of hand coding by several orders of magnitude. Computational text analysis tools can strategically select texts for human coders, including texts that represent larger samples and outlier texts of high inferential value. Preprocessing documents can speed hand-coding by extracting key features like named entities. For example, my R package &lt;a href=&#34;https://judgelord.github.io/legislators/&#34;&gt;&lt;code&gt;legislators&lt;/code&gt;&lt;/a&gt; helps users extract U.S. legislator names in messy text.&lt;/p&gt;
 &lt;p&gt;I show that hand-coding and text analysis tools are each more powerful when combined in an interactive workflow. Using this &lt;a href=&#34;https://judgelord.github.io/research/iterative/&#34;&gt;iterative mix of hand-coding and computational text analysis methods&lt;/a&gt;, a hand-coded sample of 10,894 hand-coded comments yields equally valid inferences for over 40 million comments regarding the extent to which policy changed in the direction they sought. I thus measure lobbying success&amp;mdash;the extent to which each group got their desired changes between the draft and final policy&amp;mdash;for millions of people and thousands of organizations. This large sample enables new analyses of the relationships between lobbying coalitions, social movements, and policy change.&lt;/p&gt;
 &lt;p&gt;In addition to making text analysis tools more accessible, my R package &lt;a href=&#34;https://judgelord.github.io/netlit/&#34;&gt;&lt;code&gt;netlit&lt;/code&gt;&lt;/a&gt; and coauthored work with an R&amp;amp;R at &lt;em&gt;Political Analysis&lt;/em&gt; make powerful network analysis tools more accessible for scholars conducting literature reviews. Understanding the gaps and connections across existing theories and findings is a perennial challenge in scientific research. Systematically reviewing scholarship is especially challenging for researchers who may lack domain expertise, including junior scholars or those exploring new substantive territory. Conversely, senior scholars may rely on longstanding assumptions and social networks that exclude new research. In both cases, ad hoc literature reviews hinder the accumulation of knowledge. Scholars are rarely systematic in selecting relevant prior work or then identifying patterns across their sample. To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible &lt;a href=&#34;https://judgelord.github.io/research/netlit/&#34;&gt;network-based framework for reviewing scholarship&lt;/a&gt;. In our method, we consider a literature as a network of recurring concepts (nodes) and theorized relationships among them (edges). Network statistics and visualization allow researchers to see patterns and offer reproducible characterizations of assertions about the major themes in the existing literature.&lt;/p&gt;
-&lt;h1 id=&#34;publications-and-working-papers&#34;&gt;Publications and working papers&lt;/h1&gt;
+&lt;h1 id=&#34;working-papers&#34;&gt;Working papers&lt;/h1&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -61,14 +61,6 @@ The book concludes with policy recommendations for increasing the capacity of go
       <link>https://judgelord.github.io/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cvs</title>
-      <link>https://judgelord.github.io/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/cv/</guid>
       <description></description>
     </item>
     
@@ -94,23 +86,21 @@ The book concludes with policy recommendations for increasing the capacity of go
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/teaching/</guid>
       <description>&lt;h2 id=&#34;university-of-michgian&#34;&gt;University of Michgian&lt;/h2&gt;
-&lt;h3 id=&#34;instructor-of-record&#34;&gt;Instructor of Record&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP510&#34;&gt;PubPol 510: The Politics of Public Policy - Energy&lt;/a&gt; (Graduate, 2024)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP475/&#34;&gt;PubPol 475: Politics for the Anthropocene&lt;/a&gt; (Undergraduate, 2024, 2025)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP495&#34;&gt;PubPol 495: Climate Change and Democracy&lt;/a&gt; (Undergraduate, 2024, 2025)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP510&#34;&gt;PubPol 510: The Politics of Public Policy - Water&lt;/a&gt; (Graduate, 2023)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP495&#34;&gt;PubPol 495: Climate Change and Democracy&lt;/a&gt; (Undergraduate, 2024)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP475&#34;&gt;PubPol 275: Politics for the Anthropocene&lt;/a&gt; (Undergraduate, 2024, 2025)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PP510&#34;&gt;PubPol 510: The Politics of Public Policy - Energy&lt;/a&gt; (Graduate, 2024, 2025)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;university-of-wisconsin-madison&#34;&gt;University of Wisconsin-Madison&lt;/h2&gt;
-&lt;h3 id=&#34;instructor-of-record-1&#34;&gt;Instructor of Record&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS272/syllabus-PS272-2020.html&#34;&gt;PS 272: Public Policy&lt;/a&gt; (Undergraduate, 2019, 2020)&lt;/p&gt;
@@ -119,7 +109,7 @@ The book concludes with policy recommendations for increasing the capacity of go
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/PS811/&#34;&gt;PS 811: Statistical Computing for Political Science&lt;/a&gt;  (Graduate, 2019)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;teaching-assistantgrader&#34;&gt;Teaching Assistant/Grader&lt;/h3&gt;
+&lt;p&gt;Teaching Assistant/Grader&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;
@@ -129,7 +119,7 @@ The book concludes with policy recommendations for increasing the capacity of go
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;yale-university&#34;&gt;Yale University&lt;/h2&gt;
-&lt;h3 id=&#34;teaching-fellow&#34;&gt;Teaching Fellow&lt;/h3&gt;
+&lt;p&gt;Teaching Fellow&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;

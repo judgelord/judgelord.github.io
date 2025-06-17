@@ -5,7 +5,7 @@
     <link>https://judgelord.github.io/authors/justin-grimmer/</link>
       <atom:link href="https://judgelord.github.io/authors/justin-grimmer/index.xml" rel="self" type="application/rss+xml" />
     <description>Justin Grimmer</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:45 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:33:45 -0500</lastBuildDate>
     <image>
       <url>https://judgelord.github.io/img/icon-192.png</url>
       <title>Justin Grimmer</title>
@@ -15,7 +15,7 @@
     <item>
       <title>The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service</title>
       <link>https://judgelord.github.io/research/correspondence/</link>
-      <pubDate>Wed, 31 Dec 1969 18:33:45 -0600</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:33:45 -0500</pubDate>
       <guid>https://judgelord.github.io/research/correspondence/</guid>
       <description>&lt;p&gt;When elected officials gain power, do they use it to provide more constituent service or to affect broad public policies? Answering this question informs debates over
 how legislator capacity, term limits, and institutional power affect political representation. We distinguish two countervailing effects of increased institutional power. First,
@@ -40,22 +40,7 @@ work.&lt;/p&gt;
       <link>https://judgelord.github.io/research/ferc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/ferc/</guid>
-      <description>&lt;p&gt;We use letters that legislators write to the Federal Energy Regulatory Commission to study congressional attempts to influence bureaucratic decisions. Analyzing thousands of letters that legislators sent
-to the agency over nearly two decades, we find that these letters are filled with specific references to
-companies that legislators seek to assist or about which the legislator’s constituents have complaints. We
-explore which legislators seek to influence the agency, on whose behalf legislators advocate, and the kinds
-of outcomes they attempt to influence. We find that most individual constituent letters oppose proposed
-energy projects, but most non-constituent letters advocate in favor of named businesses. Finally, we
-assess whether legislators’ advocacy behavior is related to the campaign contributions they receive from
-the energy industry. We find that Republicans and those who receive money from the energy sector
-write to advocate for energy companies, but not their constituents, while Democrats write comparatively
-more letters in opposition to energy companies. Campaign contributions are much stronger predictors of
-pro-business advocacy than other kinds of attention to energy issues, such as energy-related constituency
-service or advocacy against energy projects. For example, a legislator who receives $200,000 from the
-energy sector is twice as likely to write advocating on behalf of an energy company than a legislator
-who received no energy-sector money but no more likely to write on behalf of their constituents or in
-opposition to an energy project.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -63,8 +48,7 @@ opposition to an energy project.&lt;/p&gt;
       <link>https://judgelord.github.io/research/correp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/correp/</guid>
-      <description>&lt;p&gt;We leverage a massive new comprehensive database of constituent service requests from Members of Congress to examine which types of constituents receive help from Members of Congress and how electing a Republican or Democrat affects who gets served. We find that the amount of help that legislators provide veterans and seniors aligns with the number of veterans and seniors in their district. However, the share of low-income constituents does not predict the amount of help that legislators provide to constituents seeking help during hardship. Using a difference-in-differences design, we show that Republicans provide less constituency service than Democrats overall. We fail to detect partisan differences in the amount of service to businesses, veterans, or seniors, but we find that Republicans provide much less service to low-income individuals. We offer potential explanations for this disparity, including demand from constituents and elected officials&#39; willingness to supply it.  Our results show that elections have consequences for the provision of service to constituents.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
