@@ -22,6 +22,7 @@
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/813/DE4.html&#34;&gt;Interpreting logit&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/DOT/mstate&#34;&gt;Multi-state duration models in &lt;strong&gt;R&lt;/strong&gt; with &lt;code&gt;mstate&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/regulationsdotgov/&#34;&gt;&lt;code&gt;regulationsdotgov&lt;/code&gt;: A package to build datasets of US federal policy documents and their metadata in R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/netlit/&#34;&gt;&lt;code&gt;netlit&lt;/code&gt;: A package to aid literature reviews with network analysis in R&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/legislators/&#34;&gt;&lt;code&gt;legislators&lt;/code&gt;: A package to find legislator names in messy text &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/congressionalrecord/&#34;&gt;&lt;code&gt;congressionalrecord&lt;/code&gt;: A package to scrape, parse, and analyze the Congressional Record&lt;/a&gt;&lt;/p&gt;
