@@ -65,6 +65,47 @@ The book concludes with policy recommendations for increasing the capacity of go
     </item>
     
     <item>
+      <title>Cvs</title>
+      <link>https://judgelord.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://judgelord.github.io/data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/data/</guid>
+      <description>&lt;h2 id=&#34;us-federal-agency-policymaking&#34;&gt;U.S. Federal Agency Policymaking&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/judgelord/regulationsdotgov-DATA&#34;&gt;&lt;code&gt;github.com/judgelord/regulationsdotgov-DATA&lt;/code&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Files and metadata for all documents (proposed rules, rules, public comments) on regulations.gov collected with the &lt;a href=&#34;https://github.com/judgelord/regulationsdotgov&#34;&gt;&lt;code&gt;regulationsdotgov&lt;/code&gt;&lt;/a&gt; R package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/judgelord/rulemaking&#34;&gt;&lt;code&gt;github.com/judgelord/rulemaking&lt;/code&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/judgelord/rulemaking?tab=readme-ov-file#unified-agenda-of-regulatory-and-deregulatory-actions&#34;&gt;Unified Agenda of Regulatory and Deregulatory Actions&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;for a SQL version of the Unified Agenda, bulk Federal Register metadata, and other data sources discussed in &lt;a href=&#34;https://judgelord.github.io/research/regdata/&#34;&gt;&amp;ldquo;Data and Methods Analyzing Special Interests Influence in Rulemaking,&amp;rdquo;&lt;/a&gt; see &lt;a href=&#34;https://github.com/libgober/regdata&#34;&gt;this collaborative repository&lt;/a&gt; ]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/judgelord/rulemaking?tab=readme-ov-file#office-of-information-and-regulatory-affairs-oria-reports&#34;&gt;Office of Information and Regulatory Affairs (ORIA) Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This repository also includes the older versions of SQL and Rdata files for regulations.gov metadata through 2020 that I used for my dissertation. The new architecture in &lt;code&gt;regulationsdotgov-DATA&lt;/code&gt; is more complete and easier to work with.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;requests-from-members-of-congress-to-us-federal-agencies&#34;&gt;Requests from Members of Congress to U.S. Federal Agencies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.7910/DVN/LWOCWO&#34;&gt;&lt;code&gt;Harvard Dataverse AJPS Replication Data&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Additional documentation for the replication data &lt;a href=&#34;https://github.com/judgelord/corr&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updates from this ongoing project on &lt;a href=&#34;https://judgelord.github.io/correspondence/&#34;&gt;github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Discusses</title>
       <link>https://judgelord.github.io/discuss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
