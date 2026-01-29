@@ -58,17 +58,863 @@ The book concludes with policy recommendations for increasing the capacity of go
     
     <item>
       <title></title>
-      <link>https://judgelord.github.io/talk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cvs</title>
       <link>https://judgelord.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/cv/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&#34;http://www.w3.org/1999/xhtml&#34; lang=&#34;en&#34; xml:lang=&#34;en&#34;&gt;&lt;head&gt;
+
+&lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta name=&#34;generator&#34; content=&#34;quarto-1.8.26&#34;&gt;
+
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, user-scalable=yes&#34;&gt;
+
+&lt;meta name=&#34;author&#34; content=&#34;Devin Judge-Lord&#34;&gt;
+&lt;meta name=&#34;dcterms.date&#34; content=&#34;2026-01-29&#34;&gt;
+
+&lt;title&gt;index&lt;/title&gt;
+&lt;style&gt;
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type=&#34;checkbox&#34;] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+&lt;/style&gt;
+
+
+&lt;script src=&#34;index_files/libs/clipboard/clipboard.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/quarto.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/tabsets/tabsets.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/axe/axe-check.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/popper.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/tippy.umd.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/libs/quarto-html/anchor.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;index_files/libs/quarto-html/tippy.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;link href=&#34;index_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css&#34; rel=&#34;stylesheet&#34; id=&#34;quarto-text-highlighting-styles&#34;&gt;
+&lt;script src=&#34;index_files/libs/bootstrap/bootstrap.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;index_files/libs/bootstrap/bootstrap-icons.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;link href=&#34;index_files/libs/bootstrap/bootstrap-772c80b1430f8ee4cbac18a9e3589be2.min.css&#34; rel=&#34;stylesheet&#34; append-hash=&#34;true&#34; id=&#34;quarto-bootstrap&#34; data-mode=&#34;light&#34;&gt;
+
+
+&lt;/head&gt;
+
+&lt;body class=&#34;quarto-light&#34;&gt;
+
+&lt;div id=&#34;quarto-content&#34; class=&#34;page-columns page-rows-contents page-layout-article&#34;&gt;
+&lt;div id=&#34;quarto-margin-sidebar&#34; class=&#34;sidebar margin-sidebar&#34;&gt;
+&lt;div class=&#34;quarto-alternate-formats&#34;&gt;&lt;h2&gt;Other Formats&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;index.pdf&#34;&gt;&lt;i class=&#34;bi bi-file-pdf&#34;&gt;&lt;/i&gt;PDF&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;main class=&#34;content&#34; id=&#34;quarto-document-content&#34;&gt;
+
+&lt;header id=&#34;title-block-header&#34; class=&#34;quarto-title-block default&#34;&gt;
+&lt;div class=&#34;quarto-title&#34;&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&#34;quarto-title-meta&#34;&gt;
+
+    
+    &lt;div&gt;
+    &lt;div class=&#34;quarto-title-meta-heading&#34;&gt;Published&lt;/div&gt;
+    &lt;div class=&#34;quarto-title-meta-contents&#34;&gt;
+      &lt;p class=&#34;date&#34;&gt;January 29, 2026&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+    
+  &lt;/div&gt;
+  
+
+
+&lt;/header&gt;
+
+
+&lt;div class=&#34;center&#34;&gt;
+&lt;p&gt;Assistant Professor, University of Michigan&lt;/p&gt;
+&lt;p&gt;3215 Weill Hall, 735 S State St, Ann Arbor, MI 48109&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;bi bi-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;mailto:judgelor@umich.edu&#34;&gt;judgelor@umich.edu&lt;/a&gt; | &lt;i class=&#34;bi bi-globe&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://judgelord.github.io/&#34;&gt;judgelord.github.io&lt;/a&gt; | &lt;em&gt;Updated&lt;/em&gt; Jan.&amp;nbsp;29, 2026&lt;/p&gt;
+&lt;/div&gt;
+&lt;section id=&#34;academic-positions&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;ACADEMIC POSITIONS&lt;/h1&gt;
+&lt;p&gt;University of Michigan, Ford School of Public Policy, Assistant Professor (2023-present)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Michigan Institute for Data and AI in Society (MIDAS) Faculty Affiliate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Harvard University, Department of Government, Postdoctoral Fellow (2021-2023)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Harvard Center for the Environment (HUCE)&lt;/li&gt;
+&lt;li&gt;Center for American Political Studies (CAPS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;education&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;EDUCATION&lt;/h1&gt;
+&lt;p&gt;University of Wisconsin–Madison, M.A.&amp;nbsp;(2017) and Ph.D.&amp;nbsp;(2021) in Political Science&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dissertation: &lt;em&gt;Public Pressure Campaigns and Bureaucratic Policymaking&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Committee: Susan Webb Yackee (Chair), Eleanor Powell, Alex Tahk, David Weimer, Miriam Seifter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yale University, M.E.Sc. in Environmental Policy and Law (2013) &lt;!--Master of Environmental Science  (2013)--&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thesis: &lt;em&gt;Mechanisms of Policy Feedback in U.S. Farm and Forest Policy: Interactions Among Property Rights, Regulation, and Public Investments&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reed College, B.A. in Political Science (2009)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;peer-reviewed-publications&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
+&lt;div class=&#34;hanging-indent&#34;&gt;
+&lt;p&gt;&lt;code&gt;6.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies” with Justin Grimmer and Eleanor Powell. &lt;em&gt;American Journal of Political Science&lt;/em&gt; (Forthcoming)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Replication Data: &lt;a href=&#34;https://doi.org/10.7910/DVN/LWOCWO&#34; class=&#34;uri&#34;&gt;https://doi.org/10.7910/DVN/LWOCWO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;5.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1017/pan.2023.4&#34;&gt;“Mapping Literature with Networks: An Application to Redistricting” with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. &lt;em&gt;Political Analysis&lt;/em&gt; (2023)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;4.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer in &lt;em&gt;Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking&lt;/em&gt;, ed.&amp;nbsp;Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2022)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3.&lt;/code&gt; &lt;a href=&#34;https://link.springer.com/article/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking” with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt; 9:425–435 (2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2.&lt;/code&gt; &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1086026619858874&#34;&gt;“Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 96–125 (2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/boreal&#34;&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change” with Irene Scher and Benjamin Cashore in &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues&lt;/em&gt; (2015)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id=&#34;working-papers&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;WORKING PAPERS&lt;/h1&gt;
+&lt;!--
+&#34;The Two Faces of Bureaucratic Policymaking: Before and after draft rules go public&#34; with Susan Yackee
+--&gt;
+&lt;p&gt;&lt;a href=&#34;&#34;&gt;“Words and Deeds: Evaluating How Legislators’ Constituent-Facing Communication about Federal Agencies Compares to Their Behind-the-Scenes Work with Federal Agencies” with Jessie Munson, Rochelle Snyder, Eleanor Neff Powell&lt;/a&gt; (MPSA 2025, under review)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/finreg/&#34;&gt;“Inequality in Administrative Democracy: Methods and Evidence from Financial Rulemaking” with Steven Rashin, Brian Libgober, Jacob Waggoner, Angelo Dagonel, Christopher T. Kenny, Susan Webb Yackee, and Daniel Carpenter&lt;/a&gt; (APSA 2021, submitted)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Herbert Kaufman Award for best paper in Public Administration presented at APSA 2022&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/racialization/mpsa-presentation.html&#34;&gt;“Racialization and Perceived Institutional Ideology” with Karla Magana&lt;/a&gt; (MPSA 2025)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/ej/APSA2024.html&#34;&gt;“Adoption and Cooption of the Environmental Justice Issue Frame”&lt;/a&gt; (APSA 2024)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/iterative&#34;&gt;“Iterative Hand-Coding and Computational Text Analysis”&lt;/a&gt; (PolMeth 2022) &lt;!--: Application to Assessing the Effects of Public Pressure on Policy--&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/ej/&#34;&gt;“Making Policy About Distributive Justice: The Environmental Justice Movement’s Impact on Agency Rulemaking”&lt;/a&gt; (APSA 2021)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/cj/&#34;&gt;“Making Policy About Climate Change: The Climate Movement’s Impact on Agency Rulemaking”&lt;/a&gt; (Climate Pipeline Conference 2021)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/correp/&#34;&gt;“Who Gets Constituent Service?” with Rochelle Snyder, Justin Grimmer, and Eleanor Powell&lt;/a&gt; (APSA 2020)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/whymail/&#34;&gt;“Why Do Agencies (Sometimes) Get So Much Mail? Lobbying Coalitions, Mass Comments, and Political Information in Bureaucratic Policymaking”&lt;/a&gt; (SPSA 2019)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/budgets&#34;&gt;“Measuring Change and Influence in Budget Texts”&lt;/a&gt; (PolMeth 2017, APSA 2017)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/research/defrence/&#34;&gt;“Why Courts Defer to Administrative Agency Judgement”&lt;/a&gt; (MPSA 2016)&lt;/p&gt;
+&lt;!-- &#34;U.S. Domestic Politics of Climate Engineering&#34; (AESS 2016)
+---&gt;
+&lt;p&gt;“Revisiting the Democratic Case for Carbon and Environmental Offset Markets” (Governance, Environment, and Markets Workshop at Yale University, 2013)&lt;/p&gt;
+&lt;!--&#34;Mechanisms of Policy Feedback: Interactions Among Regulations and Public Investments in U.S. Farm and Forest Politics&#34; (MESc Thesis, Yale University 2013)--&gt;
+&lt;/section&gt;
+&lt;section id=&#34;other-publications&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;OTHER PUBLICATIONS&lt;/h1&gt;
+&lt;p&gt;“Institutional Changes Needed to Implement Ecosystem-based Plans” with John Robert Cochran, &lt;em&gt;Oregon Planners Journal&lt;/em&gt; 28(1):7 (2011)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;software&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;SOFTWARE&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/regulationsdotgov/&#34;&gt;&lt;code&gt;regulationsdotgov&lt;/code&gt;: A package to build datasets of US federal policy documents and their metadata in R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/netlit/&#34;&gt;&lt;code&gt;netlit&lt;/code&gt;: A package to aid literature reviews with network analysis in R&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/legislators/&#34;&gt;&lt;code&gt;legislators&lt;/code&gt;: A package to find legislator names in messy text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/congressionalrecord/&#34;&gt;&lt;code&gt;congressionalrecord&lt;/code&gt;: A package to scrape, parse, and analyze the Congressional Record&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://judgelord.github.io/regextable&#34;&gt;&lt;code&gt;regextable&lt;/code&gt;: Faster, easier, string matching for data science&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;teaching&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;TEACHING&lt;/h1&gt;
+&lt;p&gt;University of Michigan, Assistant Professor&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Protest, Social Movements, Art, and Policy Change (Graduate, 2026)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Climate Change and Democracy (Undergraduate, 2024, 2025)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Politics for the Anthropocene (Undergraduate, 2024, 2025)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Politics of Public Policy (Graduate, 2023, 2024, 2025)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Independent Study - Political Science (Undergraduate, 2024-2026)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;University of Wisconsin–Madison, Lecturer&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2019, 2020)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Statistical Computing in Political Science (Graduate, 2019)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;University of Wisconsin–Madison, Teaching Assistant/Grader&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Public Policy (Undergraduate, 2016, 2017, 2018)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Policing in the United States (Undergraduate, 2015)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yale University, Teaching Fellow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Politics and Practice of Environmental Policy (Graduate, 2012)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The Economics of Ecosystems and Biodiversity (Graduate, 2011)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id=&#34;selected-awards&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;SELECTED AWARDS&lt;/h1&gt;
+&lt;p&gt;Teaching Honor Roll, University of Michigan (2024, 2025, 2026)&lt;/p&gt;
+&lt;p&gt;Best Paper in Public Administration, American Political Science Association conference: &lt;a href=&#34;https://judgelord.github.io/research/finreg/&#34;&gt;“Inequality in Administrative Democracy”&lt;/a&gt; (2022)&lt;/p&gt;
+&lt;p&gt;Best Dissertation in American Politics, University of Wisconsin–Madison (2021)&lt;/p&gt;
+&lt;p&gt;Levin Center Congressional Oversight Fellow (2021-2022)&lt;/p&gt;
+&lt;p&gt;National Science Foundation (NSF) Doctoral Dissertation Research Improvement Grant (2020) &lt;!--, awarded by the American Political Science Association (APSA) --&gt;&lt;/p&gt;
+&lt;p&gt;Exceptional Mentorship Award, Undergraduate Research Scholars Program, UW–Madison (2020)&lt;/p&gt;
+&lt;p&gt;Summer Research Initiative Research Award, UW–Madison (2018, 2019, 2020, 2021)&lt;/p&gt;
+&lt;p&gt;La Follette Fellowship, University of Wisconsin La Follette School of Public Affairs (2016)&lt;/p&gt;
+&lt;p&gt;Finalist, Best Student Paper, Association of Environmental Studies and Sciences (2015)&lt;/p&gt;
+&lt;p&gt;Best Master’s Thesis Research Award (runner-up), selected by faculty among all social and natural science Masters Theses (Yale School of the Environment, 2013)&lt;/p&gt;
+&lt;p&gt;Best Student Paper Award, Association for Environmental Studies and Sciences (2012)&lt;/p&gt;
+&lt;p&gt;Carpenter-Sperry Research Award (2012)&lt;/p&gt;
+&lt;p&gt;Jubitz Family Foundation Research Fellowship (2012)&lt;/p&gt;
+&lt;p&gt;H. Stuart Harrison Scholarship to attend Yale University (2011–2013)&lt;/p&gt;
+&lt;p&gt;Morton O’Stafford Scholarship to attend Reed College (2006–2009)&lt;/p&gt;
+&lt;p&gt;Pell Grant (2005-2009)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;public-policy-and-research-positions&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;PUBLIC POLICY AND RESEARCH POSITIONS&lt;/h1&gt;
+&lt;p&gt;Visiting Scholar, New York University, Department of Politics (2021-2022)&lt;/p&gt;
+&lt;p&gt;Affiliated Researcher, Yale Governance, Environment, and Markets (GEM) Initiative (2013–2020)&lt;/p&gt;
+&lt;p&gt;Research Consultant, Food and Agriculture Organization of the United Nations (2013–2014)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Compared forestry laws across countries with quantitative and qualitative text analysis&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Wrote policy-focused portions of the State of the World’s Forests Report&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regulatory Affairs Specialist, Washington County, Oregon (2010–2011)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Convened state and federal agency staff to draft Oregon Department of Environmental Quality Guidance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Drafted text for an Oregon State Senate bill&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Conducted a feasibility analysis that led to $10 million in private conservation investment, $1 million in public investment, and praise for the project in a speech by President Barack Obama&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ducey Fellow for Public Policy, Willamette Partnership (2009)&lt;/p&gt;
+&lt;p&gt;Research Intern, Center for Transboundary Cooperation, Saint-Petersburg State University, Russia (2008)&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id=&#34;service&#34; class=&#34;level1&#34;&gt;
+&lt;h1&gt;SERVICE&lt;/h1&gt;
+&lt;p&gt;PhD Program Committee, Ford School of Public Policy (2024-2026)&lt;/p&gt;
+&lt;p&gt;Water@Michigan Faculty Steering Committee&lt;/p&gt;
+&lt;p&gt;U.S. State Department/Weiser Diplomacy Center Diplomacy Lab, with the Department of the Treasury. (2024-2025)&lt;/p&gt;
+&lt;p&gt;Masters Program Committee, Ford School of Public Policy (2023-2024)&lt;/p&gt;
+&lt;p&gt;Reviewer: &lt;em&gt;American Political Science Review&lt;/em&gt;, &lt;em&gt;Journal of Public Administration Research and Theory&lt;/em&gt;, &lt;em&gt;Journal of Politics&lt;/em&gt;, &lt;em&gt;Journal of Public Policy&lt;/em&gt;, &lt;em&gt;Perspectives on Politics&lt;/em&gt;, &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Current Opinion in Sustainability&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Social Media Editor (2017-2024), American Political Science Association section on Science, Technology, and Environmental Politics (APSA STEP)&lt;/p&gt;
+&lt;p&gt;Program Committee (2014–2016), Nominations Committee (Elected, 2016-2022), Association of Environmental Studies and Sciences (AESS)&lt;/p&gt;
+&lt;!--
+PhD Advisor
+
+- Branden Bohrnsen
+--&gt;
+&lt;p&gt;Dissertation Committees&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Karla Magana (University of Michigan, Political Science and Public Policy)&lt;/li&gt;
+&lt;li&gt;Maya Khuzam (University of Michigan, Political Science)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mentor, Undergraduate Research Opportunity Program (UROP), University of Michigan (2023-present)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentees: Antonio Isho, Lily Bourgeois, Jesse Duby, Niyatee Jain, Grace Lee, Scotten Maderal, Arvin Pandiyan, Ava Malin, Farah Kavarana, Genevieve Fettig, Meiting Xu, Mia Alderman, Samantha Lay, Shakuntala Balusu, Scotten Maderal, Summit Shaw, Jessica Rehberg, Zayn Merrick, Emma Weiss, Aya Soweidan, Naya Ramaswami, Brody Amthor, Stephanie Bouserhal, Justin Chen, Lyndon Dibble, Aamir Kapasi, Madison Knowlton, Ashanti Mirelez, Kaito Patterson, Olivia Savord, Audrey Stocker, Gia Verma, Evan Weinraub, Anna Childs, Shirlyn Dong, Isabella Gentry, Steven Kang, Anna Kendzior, Ryan Rincones, Aaron Zhao, Kaito Patterson&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Other Lab Members 
+Karla Magana &lt;kmagana@umich.edu&gt;,
+Gavriella Solomon &lt;gavriell@umich.edu&gt;,
+Emily Laffey &lt;emlaffey@umich.edu&gt;,
+Amant Grewal
+Luke Dillingham ,
+Deven Parikh
+Julian 
+Saman de Silva
+Maya Khuzam
+Will Cooper
+--&gt;
+&lt;p&gt;Supervisor, Honors Thesis (University of Michigan)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jessica Rehberg (2025-2026)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supervisor, Directed Study (University of Michigan)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gavriella Solomon, Emily Laffey (2024-2025)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Co-supervisor, Undergraduate Thesis (Harvard College)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Robin Greene (2023-2024)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mentor, Harvard University Center for the Environment (HUCE) Undergraduate Research Scholars Program (2022-2023)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentees: Davit Antonyan, Robin Greene, Tomoki Matsuno&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mentor, Undergraduate Research Scholars Program, UW–Madison (2015-2021)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentees: Kendl Kobbervig, Kyra Fox, Mikayla Sandin, Daniel Nesslein, Hope Karnopp, Julia Derzay, Samiha Bhushan, Max Linse, Hailey Patel&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mentor, Sophomore Research Fellows Program, UW–Madison (2021)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentee: Samiha Bhushan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Supervisor, Honors Theses and Directed Studies, UW–Madison (2020-2021)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Students: Maggie Nead, Fatima Ali, Samiha Bhushan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Diversity and Inclusion Committee, UW–Madison Department of Political Science (2019-2021)&lt;/p&gt;
+&lt;p&gt;Reading Room Committee, UW–Madison Department of Political Science (2016-2019)&lt;/p&gt;
+&lt;p&gt;Graduate School Representative, Associated Students of Madison Student Council (2016-2017)&lt;/p&gt;
+&lt;p&gt;Vice-Chair (2012–2013), Workshops Chair (2011–2012), New Directions in Environmental Law conference at Yale Law School&lt;/p&gt;
+&lt;p&gt;President, Yale Environmental Law Association Student Interest Group (2012–2013)&lt;/p&gt;
+&lt;!--
+# INVITED TALKS
+
+Yale Conference on Politics and Law in the Administrative State - &#34;Agencies and Stakeholders&#34; (2025)
+
+University of Mississippi &#34;The Environmental Justice Movement&#39;s Impact on Technocratic Policymaking&#34; (2021)
+
+
+# CERTIFICATIONS
+
+Inclusive Teaching (4-day workshop, University of Wisconsin--Madison, 2020)
+
+Teaching in the Social Sciences Certificate (Yale University, 2012)
+
+&lt;!--River Restoration Professional Certificate (Portland State University, 2011)--&gt;
+&lt;!--
+# LANGUAGES
+
+English (native), Spanish (conversational), Russian (basic), R, Python,  Stata, SQL, SPSS, Mathematica, Markdown, \LaTeX, HTML
+
+# SELECTED COURSEWORK IN LAW
+
+*Yale Law School*: Administrative Law; Energy Law; Property Law; Environmental Law; Land Use Law; Property, Social Justice, and the Environment
+
+# SELECTED COURSEWORK BUSINESS ADMINISTRATION
+
+*Yale School of Management*: Corporate Environmental Management and Strategy
+
+
+&lt;!--
+# REFRENCES 
+
+Susan Webb Yackee  
+Director, La Follette School of Public Affairs  
+Professor of Public Affairs and Political Science  
+University of Wisconsin--Madison  
+yackee@wisc.edu  
+(608) 886-5215  
+
+
+Eleanor Neff Powell  
+Booth Fowler Associate Professor of Political Science  
+University of Wisconsin--Madison  
+eleanor.powell@wisc.edu  
+(857) 991-9536  
+
+
+&lt;!--
+# SELECTED GRADUATE COURSEWORK
+
+*Yale School of Forestry and Environmental Studies*: Political Economy (an independent study structured around the Political Economy Workshop in the Department of Political Science); Research and Writing in the Social Sciences; Corporate Environmental Strategy and Management; International Environmental Policy &amp; Governance
+
+*Yale University, Department of Political Science*: Qualitative Field Research; The People
+
+*University of Wisconsin--Madison, Department of Political Science*: Economic Inequality in Modern Political Thought; Race and Politics in the U.S.; Empirical Methods of Political Inquiry, Statistics in Political Science, Macro-theories of American Politics; The Legislative Process: Classics in American Politics; Maximum Likelihood Estimation; Game Theory &amp; Political Analysis; Statistical Computing; Statistical Inference; Experimental Methods; Bayesian Statistics
+
+
+
+Project Assistant, University of Wisconsin--Madison (2015-Present)
+
+
+
+
+---
+
+PRESENTATIONS
+
+American Political Science Association (2017, 2018)
+
+Midwest Political Science Association (2016, 2020)
+
+Association of Environmental Studies and Sciences Annual Conference (2012, 2018, 2019, 2020)
+
+New Directions in Environmental Law Conference, Yale Law School (2012, 2013)
+
+What if Plans Were the Law? with Professor Christopher Serkin. New Directions in Environmental Law Conference.
+New Haven, CT. Mar. 2, 2013
+Politics in Market Design: Stakeholder participation in U.S. water quality trading programs. Association of Environmental
+Studies and Sciences 2012 Annual Conference. Santa Clara, CA. Jul. 21, 2012.
+Old Laws, New Problems: Evolving strategies for water quality with Professor Ann Powers and Attorney Tom Lindley,
+New Directions in Environmental Law conference. New Haven, CT. Feb. 25, 2012.
+Ecosystem Markets 101 with Tracy Stanton and How Do Ecosystem Services Stack Up? panel presentation with Professor
+Richard Woodward and Jimmy Duakas, moderated by Lydia Olander. The American Forest Foundation and World
+Resources Institute&#39;s 4th annual Ecosystem Markets Conference. Madison, WI. Jun. 29, 2011.
+Standards of Ecosystem Credit Accounting (and points of negotiation). California Roundtable on Agriculture and the
+Environment. San Francisco, CA. Nov. 1, 2010.
+Building Unique Local Markets With Shared Regional Infrastructure. Northwest Environmental Forum. University of
+Washington, Seattle. Oct. 18, 2010.
+Counting on the Environment: Salmonid, Wetland, and Prairie Habitat metrics. The American Forest Foundation and
+World Resources Institute&#39;s 3rd Annual Environmental Markets Conference. Raleigh, NC. Jul. 22, 2010.
+
+Travel Grant (Yale University 2011, 2012)
+
+
+
+
+
+
+SKILLS AND LANGUAGES
+R; Python; SPSS; Stata; Mathematica; basic ArcGIS; NVivo; Atlas.TI
+Conversational Russian; basic Spanish
+
+
+Discussant, Midwest Political Science Association (MPSA) annual conference (2015, 2016)
+
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments in U.S. Farm and Forest Politics
+
+- Thesis: _Mechanisms of Policy Feedback: Interactions among Regulations and Public Investments_
+
+Research Assistant, Governance, Environment, and Markets (GEM) Initiative
+• Analyzed methods employed in 220 journal articles
+
+
+• Developed regulatory compliance strategies, convening state and federal agencies to secure a memorandum of understanding
+on Clean Water Act compliance (now Oregon Department of Environmental Quality Guidance)
+• Drafted legal language for an Oregon State Senate bill
+• Conducted a feasibility analysis that led to \$10 million in private investment, $1 million
+in public investment, and praise for the project in a speech by President Barack Obama
+
+
+
+# REFERENCES
+
+Daniel Carpenter    
+Allie S. Freed Professor of Government  
+Harvard University  
+dcarpenter@gov.harvard.edu
+ 
+Susan Webb Yackee  
+Director, Robert M. La Follette School of Public Affairs  
+Professor of Public Affairs  
+University of Wisconsin--Madison  
+yackee@wisc.edu
+
+Eleanor Powell  
+Booth Fowler Associate Professor of Political Science  
+University of Wisconsin--Madison  
+eleanor.powell@wisc.edu
+
+David Weimer  
+Edwin E. Witte Professor of Political Economy  
+Robert M. La Follette School of Public Affairs  
+University of Wisconsin--Madison  
+weimer@lafollette.wisc.edu
+
+Benjamin Cashore  
+Li Ka Shing Professor in Public Management  
+Director, Institute for Environment and Sustainability  
+Lee Kuan Yew School of Public Policy  
+sppbwc@nus.edu.sg
+--&gt;
+&lt;/section&gt;
+
+&lt;/main&gt;
+&lt;!-- /main column --&gt;
+&lt;script id=&#34;quarto-html-after-body&#34; type=&#34;application/javascript&#34;&gt;
+  window.document.addEventListener(&#34;DOMContentLoaded&#34;, function (event) {
+    const icon = &#34;&#34;;
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: &#39;right&#39;,
+      icon: icon
+    };
+    anchorJS.add(&#39;.anchored&#39;);
+    const isCodeAnnotation = (el) =&gt; {
+      for (const clz of el.classList) {
+        if (clz.startsWith(&#39;code-annotation-&#39;)) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don&#39;t keep focus
+      button.blur();
+      // flash &#34;checked&#34;
+      button.classList.add(&#39;code-copy-button-checked&#39;);
+      var currentTitle = button.getAttribute(&#34;title&#34;);
+      button.setAttribute(&#34;title&#34;, &#34;Copied!&#34;);
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute(&#34;data-bs-toggle&#34;, &#34;tooltip&#34;);
+        button.setAttribute(&#34;data-bs-placement&#34;, &#34;left&#34;);
+        button.setAttribute(&#34;data-bs-title&#34;, &#34;Copied!&#34;);
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: &#34;manual&#34;, 
+            customClass: &#34;code-copy-button-tooltip&#34;,
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute(&#34;data-bs-title&#34;);
+          button.removeAttribute(&#34;data-bs-toggle&#34;);
+          button.removeAttribute(&#34;data-bs-placement&#34;);
+        }
+        button.setAttribute(&#34;title&#34;, currentTitle);
+        button.classList.remove(&#39;code-copy-button-checked&#39;);
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector(&#39;code&#39;);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS(&#39;.code-copy-button:not([data-in-quarto-modal])&#39;, {
+      text: getTextToCopy
+    });
+    clipboard.on(&#39;success&#39;, onCopySuccess);
+    if (window.document.getElementById(&#39;quarto-embedded-source-code-modal&#39;)) {
+      const clipboardModal = new window.ClipboardJS(&#39;.code-copy-button[data-in-quarto-modal]&#39;, {
+        text: getTextToCopy,
+        container: window.document.getElementById(&#39;quarto-embedded-source-code-modal&#39;)
+      });
+      clipboardModal.on(&#39;success&#39;, onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp(&#39;/&#39; + window.location.host + &#39;/&#39;);
+      var isInternal = (href) =&gt; {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll(&#39;a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)&#39;);
+      for (var i=0; i&lt;links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: &#39;quarto&#39;,
+        placement: &#39;bottom-start&#39;,
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll(&#39;a[role=&#34;doc-noteref&#34;]&#39;);
+    for (var i=0; i&lt;noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute(&#39;data-footnote-href&#39;) || ref.getAttribute(&#39;href&#39;);
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, &#34;&#34;);
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return &#34;&#34;;
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll(&#39;a.quarto-xref&#39;);
+    const processXRef = (id, note) =&gt; {
+      // Strip column container classes
+      const stripColumnClz = (el) =&gt; {
+        el.classList.remove(&#34;page-full&#34;, &#34;page-columns&#34;);
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith(&#39;sec-&#39;)) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement(&#34;div&#34;);
+        if (note.children &amp;&amp; note.children.length &gt; 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i &lt; note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === &#34;P&#34; &amp;&amp; child.innerText === &#34;&#34;) {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector(&#39;a.anchorjs-link&#39;);
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains(&#34;callout&#34;)) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i&lt;xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute(&#39;href&#39;);
+        let hash = undefined; 
+        if (url.startsWith(&#39;#&#39;)) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, &#34;&#34;);
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split(&#39;#&#39;)[0])
+            .then(res =&gt; res.text())
+            .then(html =&gt; {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, &#34;text/html&#34;);
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() =&gt; {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res =&gt; res.text())
+          .then(html =&gt; {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, &#34;text/html&#34;);
+            const note = htmlDoc.querySelector(&#39;main.content&#39;);
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length &gt; 0 &amp;&amp; note.children[0].tagName === &#34;HEADER&#34;) {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() =&gt; {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) =&gt; {
+          let cellAttr = &#39;data-code-cell=&#34;&#39; + cell + &#39;&#34;&#39;;
+          let lineAttr = &#39;data-code-annotation=&#34;&#39; +  annotation + &#39;&#34;&#39;;
+          const selector = &#39;span[&#39; + cellAttr + &#39;][&#39; + lineAttr + &#39;]&#39;;
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) =&gt; {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute(&#34;data-target-cell&#34;);
+          const targetAnnotation = annoteEl.getAttribute(&#34;data-target-annotation&#34;);
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute(&#34;data-code-lines&#34;).split(&#34;,&#34;);
+          const lineIds = lines.map((line) =&gt; {
+            return targetCell + &#34;-&#34; + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length &gt; 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length &gt; 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null &amp;&amp; height !== null &amp;&amp; parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById(&#34;code-annotation-line-highlight&#34;);
+              if (div === null) {
+                div = window.document.createElement(&#34;div&#34;);
+                div.setAttribute(&#34;id&#34;, &#34;code-annotation-line-highlight&#34;);
+                div.style.position = &#39;absolute&#39;;
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + &#34;px&#34;;
+              div.style.height = height + 4 + &#34;px&#34;;
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById(&#34;code-annotation-line-highlight-gutter&#34;);
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement(&#34;div&#34;);
+                gutterDiv.setAttribute(&#34;id&#34;, &#34;code-annotation-line-highlight-gutter&#34;);
+                gutterDiv.style.position = &#39;absolute&#39;;
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector(&#39;.code-annotation-gutter&#39;);
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + &#34;px&#34;;
+              gutterDiv.style.height = height + 4 + &#34;px&#34;;
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () =&gt; {
+          const elementsIds = [&#34;code-annotation-line-highlight&#34;, &#34;code-annotation-line-highlight-gutter&#34;];
+          elementsIds.forEach((elId) =&gt; {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        &#34;resize&#34;,
+        throttle(() =&gt; {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) =&gt; {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() =&gt; {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll(&#39;dt[data-target-cell]&#39;);
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener(&#39;click&#39;, (event) =&gt; {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector(&#39;dt[data-target-cell].code-annotation-active&#39;);
+              if (activeEl) {
+                activeEl.classList.remove(&#39;code-annotation-active&#39;);
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add(&#39;code-annotation-active&#39;);
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove(&#39;code-annotation-active&#39;);
+            }
+          });
+        }
+    const findCites = (el) =&gt; {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(&#39; &#39;)
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll(&#39;a[role=&#34;doc-biblioref&#34;]&#39;);
+    for (var i=0; i&lt;bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement(&#39;div&#39;);
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement(&#39;div&#39;);
+            citeDiv.classList.add(&#39;hanging-indent&#39;);
+            citeDiv.classList.add(&#39;csl-entry&#39;);
+            var biblioDiv = window.document.getElementById(&#39;ref-&#39; + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  &lt;/script&gt;
+&lt;/div&gt; &lt;!-- /content --&gt;
+
+
+
+
+&lt;/body&gt;&lt;/html&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://judgelord.github.io/talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/talk/</guid>
       <description></description>
     </item>
     
