@@ -1,7 +1,4 @@
 ---
-# quarto::quarto_render("content/cv/index.qmd", output-file = "judgelord-cv.pdf")
-# file.copy("judgelord-cv.pdf", "content/cv/judgelord-cv.pdf")
-quarto render content/cv/index.qmd --output-dir content/cv
 date: last-modified
 sansfont: Times New Roman
 fontsize: 12pt
@@ -9,8 +6,10 @@ linkcolor: black
 urlcolor: black
 author-meta: Devin Judge-Lord
 format:
+  html: default
   pdf:
     subparagraph: yes
+    output-file: judgelord-cv.pdf
     include-in-header:
       text: |
         \usepackage{fontawesome5}
@@ -35,10 +34,17 @@ format:
       - bottom=1in
       - right=1in
 engine: knitr
+# format-links:
+#   - text: PDF
+#     href: judgelord-cv.pdf
+#     icon: file-pdf
+#   - pdf: NULL
+format-links: false
 ---
 
 
 ::: {.center data-latex=""}
+
 
  \begin{huge} \textbf{Devin Judge-Lord} \end{huge} 
 
@@ -66,7 +72,8 @@ Assistant Professor, University of Michigan
 
 University of Michigan, Ford School of Public Policy, Assistant Professor (2023-present)
 
-- Michigan Institute for Data and AI in Society (MIDAS) Faculty Affiliate
+- Faculty Affiliate, Michigan Institute for Data and AI in Society (MIDAS)
+- Faculty Affiliate, Science, Technology, and Public Policy program (STPP)
 
 Harvard University, Department of Government, Postdoctoral Fellow (2021-2023)
 
@@ -91,18 +98,20 @@ Reed College, B.A. in Political Science (2009)
 
 ::: {.hanging-indent}
 
-`6.` ["The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies" with Justin Grimmer and Eleanor Powell. *American Journal of Political Science* (Forthcoming)](https://judgelord.github.io/research/correspondence/)
+
+`6.` ["The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies" with Justin Grimmer and Eleanor Powell. *American Journal of Political Science* (2026)](https://doi.org/10.1111/ajps.70031)
 
 - Replication Data: <https://doi.org/10.7910/DVN/LWOCWO>
 
+`5.` ["Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission" with Eleanor Powell and Justin Grimmer in *Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking*, ed. Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2023)](https://judgelord.github.io/research/ferc/)
 
-`5.` ["Mapping Literature with Networks: An Application to Redistricting" with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. *Political Analysis* (2023)](https://doi.org/10.1017/pan.2023.4)
 
-`4.` ["Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission" with Eleanor Powell and Justin Grimmer in *Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking*, ed. Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2022)](https://judgelord.github.io/research/ferc/)
+`4.` ["Mapping Literature with Networks: An Application to Redistricting" with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. *Political Analysis* (2023)](https://doi.org/10.1017/pan.2023.4)
 
-`3.` ["Data and Methods for Analyzing Interest Group Influence in Rulemaking" with Daniel Carpenter, Brian Libgober, Steven Rashin. *Interest Groups & Advocacy* 9:425–435 (2020)](https://link.springer.com/article/10.1057/s41309-020-00094-w)
 
-`2.` ["Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change" with Benjamin  Cashore and Constance McDermott in *Organization \& Environment* 33:1 96–125 (2020)](https://journals.sagepub.com/doi/full/10.1177/1086026619858874)
+`3.` ["Data and Methods for Analyzing Interest Group Influence in Rulemaking" with Daniel Carpenter, Brian Libgober, Steven Rashin. *Interest Groups & Advocacy* 9:425–435 (2020)](https://doi.org/10.1057/s41309-020-00094-w)
+
+`2.` ["Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change" with Benjamin  Cashore and Constance McDermott in *Organization \& Environment* 33:1 96–125 (2020)](https://doi.org/10.1177/1086026619858874)
 
 `1.` ["Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change" with Irene Scher and Benjamin Cashore in *Forests Under Pressure: Local Responses to Global Issues* (2015)](https://judgelord.github.io/research/boreal)
 
@@ -201,7 +210,7 @@ Yale University, Teaching Fellow
 
 Teaching Honor Roll, University of Michigan (2024, 2025, 2026)
 
-Best Paper in Public Administration, American Political Science Association conference: ["Inequality in Administrative Democracy"](https://judgelord.github.io/research/finreg/) (2022)
+Best Paper in Public Administration, American Political Science Association conference: "Inequality in Administrative Democracy" (2022)
 
 Best Dissertation in American Politics, University of Wisconsin--Madison (2021)
 
@@ -268,7 +277,7 @@ PhD Program Committee, Ford School of Public Policy (2024-2026)
 
 Water@Michigan Faculty Steering Committee 
 
-U.S. State Department/Weiser Diplomacy Center Diplomacy Lab, with the Department of the Treasury. (2024-2025)
+Faculty Supervisor, U.S. State Department/Weiser Diplomacy Center Diplomacy Lab project assisting the Department of the Treasury adoption of Office of Management and Budget (OMB) circulars A-4 2003 and 2023 (2024-2025)
 
 Masters Program Committee, Ford School of Public Policy (2023-2024)
 

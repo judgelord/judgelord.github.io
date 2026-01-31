@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karla Magaña | </title>
+    <link>https://judgelord.github.io/authors/karla-magana/</link>
+      <atom:link href="https://judgelord.github.io/authors/karla-magana/index.xml" rel="self" type="application/rss+xml" />
+    <description>Karla Magaña</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://judgelord.github.io/img/icon-192.png</url>
+      <title>Karla Magaña</title>
+      <link>https://judgelord.github.io/authors/karla-magana/</link>
+    </image>
+    
+    <item>
+      <title>Racialization and Perceived Institutional Ideology</title>
+      <link>https://judgelord.github.io/research/racialization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/racialization/</guid>
+      <description>&lt;p&gt;While traditional measures of liberal-conservative ideology have long shaped our understanding of public institutions, they often miss a critical dimension: racialization.
+Racialization, as we define it, refers to the extent to which institutions are framed and discussed in relation to race.
+Racialization reflects an institution&amp;rsquo;s perceived role in shaping racial inequality and political conflicts.
+Yet, we lack systematic measures of institutional racialization.
+Using text analysis of policy documents, media coverage, and advocacy reports, we develop new measures for the racialization of federal agencies.
+We find that racialization is not correlated with perceived liberal or conservative ideology.
+However, agencies perceived as more ideologically extreme&amp;mdash;whether liberal or conservative&amp;mdash;tend to be more racialized.
+Agencies involved in immigration enforcement are highly racialized and perceived as conservative, while others, like the Departments of Labor, Education, and Health and Human Services, are also racialized but perceived as liberal.
+We also find significant variation in racialization over time, suggesting that efforts to frame or reform agencies affect racialization, even when the agency&amp;rsquo;s mission and work remain the same.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

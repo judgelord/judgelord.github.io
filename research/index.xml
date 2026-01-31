@@ -22,19 +22,21 @@
     </item>
     
     <item>
+      <title>Legislator Advocacy on Behalf of Constituents and Corporate Donors</title>
+      <link>https://judgelord.github.io/research/ferc/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <guid>https://judgelord.github.io/research/ferc/</guid>
+      <description>&lt;p&gt;We use letters that legislators write to the Federal Energy Regulatory Commission to study congressional attempts to influence bureaucratic decisions. Analyzing thousands of letters that legislators sent to the agency over nearly two decades, we find that these letters are filled with specific references to companies that legislators seek to assist or about which the legislator’s constituents have complaints. We explore which legislators seek to influence the agency, on whose behalf legislators advocate, and the kinds of outcomes they attempt to influence. We find that most individual constituent letters oppose proposed energy projects, but most non-constituent letters advocate in favor of named businesses. Finally, we assess whether legislators’ advocacy behavior is related to the campaign contributions they receive from the energy industry. We find that Republicans and those who receive money from the energy sector write to advocate for energy companies, but not their constituents, while Democrats write comparatively more letters in opposition to energy companies. Campaign contributions are much stronger predictors of pro-business advocacy than other kinds of attention to energy issues, such as energy-related constituency service or advocacy against energy projects. For example, a legislator who receives $200,000 from the energy sector is twice as likely to write advocating on behalf of an energy company than a legislator who received no energy-sector money but no more likely to write on behalf of their constituents or in opposition to an energy project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public Pressure and Congressional Oversight</title>
       <link>https://judgelord.github.io/research/oversight/</link>
       <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
       <guid>https://judgelord.github.io/research/oversight/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
-      <link>https://judgelord.github.io/research/cj/</link>
-      <pubDate>Wed, 31 Dec 1969 19:33:41 -0500</pubDate>
-      <guid>https://judgelord.github.io/research/cj/</guid>
-      <description></description>
+      <description>&lt;p&gt;How, if at all, should scholars incorporate mass public engagement into models of congressional oversight and bureaucratic policymaking? This paper develops and tests theories about the roles of individuals, organizations, legislators, and lobbying coalitions in bureaucratic policymaking. I argue that congressional oversight is often mobilized by broader lobbying campaigns. Pressure campaigns mobilize individuals to pressure executive-branch policymakers, both directly and indirectly by mobilizing members of Congress.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -52,6 +54,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/fsc-sfi/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://judgelord.github.io/research/fsc-sfi/fsc-sfi.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Due to inconsistent concepts of regulatory stringency, scholars offer conflicting accounts about whether competing private governance initiatives “race to the bottom,” “ratchet up,” “converge,” or “diverge.” To remedy this, we offer a framework for more systematic comparisons across programs and over time. We distinguish three often-conflated measures of stringency: regulatory scope, prescriptiveness, and performance levels. Applying this framework, we compare competing U.S. forestry certification programs, one founded by environmental activists and their allies, the other by the national industry association. We find ‘upwardly divergent’ policy prescriptiveness: both programs increased in prescriptiveness, but this increase was greater for the activist-backed program. Furthermore, requirements added by the activist-backed program were more likely to impose costs on firms than requirements added by the industry-backed program, many of which may even benefit firms. These results are consistent with the hypothesis that industry-backed programs emphasize less costly types of stringency than activist-backed programs. They also reveal patterns of change that previous scholarship failed to anticipate, illustrating how disentangling types of stringency can improve theory building and testing.&lt;/p&gt;
 </description>
     </item>
     
@@ -73,14 +76,6 @@
     </item>
     
     <item>
-      <title>Legislator Advocacy on Behalf of Constituents and Corporate Donors</title>
-      <link>https://judgelord.github.io/research/ferc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/ferc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Making Policy About Distributive Justice</title>
       <link>https://judgelord.github.io/research/ej/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -94,7 +89,17 @@
       <link>https://judgelord.github.io/research/netlit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/netlit/</guid>
-      <description></description>
+      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in scientific research.
+Systematically reviewing scholarship is especially challenging for researchers who may lack domain expertise, including junior scholars or those exploring new substantive territory.
+Conversely, senior scholars may rely on longstanding assumptions and social networks that exclude new research.
+In both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in selecting relevant prior work or then identifying patterns across their sample.
+To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework for reviewing scholarship.
+In our method, we consider a literature as a network of recurring concepts (nodes) and theorized relationships among them (edges).
+Network statistics and visualization allow researchers to see patterns and offer reproducible characterizations of assertions about the major themes in existing literature.
+Critically, our approach is systematic and powerful but also low-cost; it requires researchers to enter relationships they observe in prior studies into a simple spreadsheet — a task accessible to new and experienced researchers alike.
+Our &lt;a href=&#34;https://github.com/judgelord/netlit&#34;&gt;open-source R package, &lt;code&gt;netlit&lt;/code&gt;&lt;/a&gt; enables researchers to leverage powerful network analysis while minimizing software-specific knowledge.
+We demonstrate this approach by reviewing redistricting literature.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -102,7 +107,18 @@
       <link>https://judgelord.github.io/research/budgets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/budgets/</guid>
-      <description></description>
+      <description>&lt;p&gt;This paper introduces a dataset of over 100,000 pages of discussion about how U.S. federal budget line
+items ought to be used and explores how well a variety of methods commonly used to identify similarity,
+difference, and influence among texts travel to this new context.  Ultimately, it aims to test theories about
+the role of the executive branch in influencing the policy agenda for congressional appropriations and the
+role of Congress in influencing the policy agenda of executive agencies.  This involves two methodological
+exercises.  First I contrast several approaches to measure similarity and differences in policy texts were we
+have strong intuitions about their relationships.  For example, we expect presidential transitions to affect
+the content of the president’s annual budget. Different text analysis methods give us different perspectives
+on the magnitude and substance of change.  Second, it outlines an approach for estimating the relative
+influence of texts on a change in a policy document, for example, the influence of the president’s budget
+on congressional appropriations committee reports and vice versa.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -110,7 +126,50 @@
       <link>https://judgelord.github.io/research/boreal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/boreal/</guid>
-      <description></description>
+      <description>&lt;p&gt;Environmental groups’ interest in, and attention to, Canadian boreal forest protection and management is a relatively new phenomenon vis-à-vis the longstanding focus on Canadian temperate forests. Nevertheless, policy development affecting the Canadian boreal forest has, in the past decade, been punctuated towards a new equilibrium in which both protection and forest management policies have increased dramatically. What explains this punctuation? This chapter addresses this question by exploring the role of non-domestic forces in shaping Canadian boreal forest policies. We examine the International Boreal Conservation Campaign (IBCC) initiated by the Philadelphia-based Pew Charitable Trusts and the Canadian Boreal Forest Agreement, using Bernstein and Cashore’s pathways framework (2002, updated 2012), which identifes four distinct pathways through which non-domestic factors can infuence domestic policy change. Through inductive historical-process tracing, we develop two related arguments. First, non-domestic factors do not explain policy change itself, which arguably would have occurred even in the absence of international pressures, but they help explain both the pace and scale of change. In other words, the changes would have likely taken longer and been of lesser scale if not for the infuence of non-domestic factors in general and the IBCC in particular. Second, we argue that while much attention has focused on the markets pathway, a signifcant amount of effort along the direct-access pathway helps account for much of the noted policy changes. As a result, we call for more study of direct access of international groups in domestic policy and interaction among the pathways. We conclude by reviewing the implications of these fndings both for theories of internationalisation and policy change as well as implications for environmental and business strategy.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Racialization and Perceived Institutional Ideology</title>
+      <link>https://judgelord.github.io/research/racialization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/racialization/</guid>
+      <description>&lt;p&gt;While traditional measures of liberal-conservative ideology have long shaped our understanding of public institutions, they often miss a critical dimension: racialization.
+Racialization, as we define it, refers to the extent to which institutions are framed and discussed in relation to race.
+Racialization reflects an institution&amp;rsquo;s perceived role in shaping racial inequality and political conflicts.
+Yet, we lack systematic measures of institutional racialization.
+Using text analysis of policy documents, media coverage, and advocacy reports, we develop new measures for the racialization of federal agencies.
+We find that racialization is not correlated with perceived liberal or conservative ideology.
+However, agencies perceived as more ideologically extreme&amp;mdash;whether liberal or conservative&amp;mdash;tend to be more racialized.
+Agencies involved in immigration enforcement are highly racialized and perceived as conservative, while others, like the Departments of Labor, Education, and Health and Human Services, are also racialized but perceived as liberal.
+We also find significant variation in racialization over time, suggesting that efforts to frame or reform agencies affect racialization, even when the agency&amp;rsquo;s mission and work remain the same.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Climate Movement&#39;s Impact on Technocratic Policymaking</title>
+      <link>https://judgelord.github.io/research/cj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/cj/</guid>
+      <description>&lt;p&gt;Social movements play a critical role in advancing landmark statutes. Likewise, lack
+of movement pressure is a leading explanation for the failure of policy eﬀorts. Yet, we
+have little systematic evidence about the impact of social movements on policy. To
+what extent do movements shape the thousands of policies that governments make
+every year? I examine how social movements aﬀect policymaking by assessing the
+climate movement’s impact on 20 thousand policy documents from 24 U.S. federal
+agencies. Leveraging a new dataset of 40 million public comments on these policies,
+I find that when public comments raise climate or climate justice concerns, these
+concerns are more likely to be addressed in the final rule. Eﬀect sizes vary across
+agencies, possibly due to the alignment of climate and climate justice issue frames with
+agency missions. The magnitude of public pressure also matters. When more groups
+and individuals raise climate and climate justice concerns, policy texts are more likely
+to change, even when controlling for overall levels of public attention. These findings
+suggest that public pressure for recognizing both scientific and distributive justice
+claims systematically aﬀects policymaking. Finally, public comments oﬀer a new lens
+to assess the rise, institutionalization, and impact of the climate justice movement
+within the broader climate and environmental justice movements.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -151,6 +210,22 @@ the public attention that pressure campaigns generate is concentrated on a small
 bias in public comments. Instead, most commenters supported draft policies during
 the Obama administration but opposed those of the Trump administration, reflecting
 the partisan biases of mobilizing groups.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Words and Deeds: Do Legislators&#39; Public Messages Reflect Their Behind-the-Scenes Work with Federal Agencies?</title>
+      <link>https://judgelord.github.io/research/corinbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://judgelord.github.io/research/corinbox/</guid>
+      <description>&lt;p&gt;Do legislators’ words match their deeds?
+We contribute to the promise-keeping literature by introducing “attention consistency” as a measure of representation, theorizing conditions that should produce more consistency between public messaging and behavior in office, and testing whether legislators’ public attention to federal agencies in constituent newsletters corresponds to their private engagement with those agencies.
+We find strong evidence of attention consistency in cross-sectional and within-member analyses in the volume of legislators&amp;rsquo; attention.
+Robustness checks evaluating the distribution of legislator attention yield similar results.
+Legislators who publicly emphasize an agency engage more with that agency behind the scenes.
+We find no evidence that ideological distance from an agency conditions the consistency of legislators&amp;rsquo; public and private attention to it.
+Similarly, while members of relevant oversight committees make more requests of agencies they oversee, we find no evidence that oversight membership conditions the consistency of legislators&amp;rsquo; public and private attention to it.
+Our analyses show that legislators&amp;rsquo; interests, as expressed in their attention to that agency in their newsletters, matter as much as institutional roles in shaping legislators&amp;rsquo; behind-the-scenes interactions with federal agencies.&lt;/p&gt;
 </description>
     </item>
     

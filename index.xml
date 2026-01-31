@@ -70,7 +70,7 @@ The book concludes with policy recommendations for increasing the capacity of go
 &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0, user-scalable=yes&#34;&gt;
 
 &lt;meta name=&#34;author&#34; content=&#34;Devin Judge-Lord&#34;&gt;
-&lt;meta name=&#34;dcterms.date&#34; content=&#34;2026-01-29&#34;&gt;
+&lt;meta name=&#34;dcterms.date&#34; content=&#34;2026-01-31&#34;&gt;
 
 &lt;title&gt;index&lt;/title&gt;
 &lt;style&gt;
@@ -104,11 +104,10 @@ ul.task-list li input[type=&#34;checkbox&#34;] {
 
 &lt;/head&gt;
 
-&lt;body class=&#34;quarto-light&#34;&gt;
+&lt;body class=&#34;fullcontent quarto-light&#34;&gt;
 
 &lt;div id=&#34;quarto-content&#34; class=&#34;page-columns page-rows-contents page-layout-article&#34;&gt;
-&lt;div id=&#34;quarto-margin-sidebar&#34; class=&#34;sidebar margin-sidebar&#34;&gt;
-&lt;div class=&#34;quarto-alternate-formats&#34;&gt;&lt;h2&gt;Other Formats&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;index.pdf&#34;&gt;&lt;i class=&#34;bi bi-file-pdf&#34;&gt;&lt;/i&gt;PDF&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;main class=&#34;content&#34; id=&#34;quarto-document-content&#34;&gt;
 
 &lt;header id=&#34;title-block-header&#34; class=&#34;quarto-title-block default&#34;&gt;
@@ -123,7 +122,7 @@ ul.task-list li input[type=&#34;checkbox&#34;] {
     &lt;div&gt;
     &lt;div class=&#34;quarto-title-meta-heading&#34;&gt;Published&lt;/div&gt;
     &lt;div class=&#34;quarto-title-meta-contents&#34;&gt;
-      &lt;p class=&#34;date&#34;&gt;January 29, 2026&lt;/p&gt;
+      &lt;p class=&#34;date&#34;&gt;January 31, 2026&lt;/p&gt;
     &lt;/div&gt;
   &lt;/div&gt;
   
@@ -138,13 +137,14 @@ ul.task-list li input[type=&#34;checkbox&#34;] {
 &lt;div class=&#34;center&#34;&gt;
 &lt;p&gt;Assistant Professor, University of Michigan&lt;/p&gt;
 &lt;p&gt;3215 Weill Hall, 735 S State St, Ann Arbor, MI 48109&lt;/p&gt;
-&lt;p&gt;&lt;i class=&#34;bi bi-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;mailto:judgelor@umich.edu&#34;&gt;judgelor@umich.edu&lt;/a&gt; | &lt;i class=&#34;bi bi-globe&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://judgelord.github.io/&#34;&gt;judgelord.github.io&lt;/a&gt; | &lt;em&gt;Updated&lt;/em&gt; Jan.&amp;nbsp;29, 2026&lt;/p&gt;
+&lt;p&gt;&lt;i class=&#34;bi bi-envelope&#34;&gt;&lt;/i&gt; &lt;a href=&#34;mailto:judgelor@umich.edu&#34;&gt;judgelor@umich.edu&lt;/a&gt; | &lt;i class=&#34;bi bi-globe&#34;&gt;&lt;/i&gt; &lt;a href=&#34;https://judgelord.github.io/&#34;&gt;judgelord.github.io&lt;/a&gt; | &lt;em&gt;Updated&lt;/em&gt; Jan.&amp;nbsp;31, 2026&lt;/p&gt;
 &lt;/div&gt;
 &lt;section id=&#34;academic-positions&#34; class=&#34;level1&#34;&gt;
 &lt;h1&gt;ACADEMIC POSITIONS&lt;/h1&gt;
 &lt;p&gt;University of Michigan, Ford School of Public Policy, Assistant Professor (2023-present)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Michigan Institute for Data and AI in Society (MIDAS) Faculty Affiliate&lt;/li&gt;
+&lt;li&gt;Faculty Affiliate, Michigan Institute for Data and AI in Society (MIDAS)&lt;/li&gt;
+&lt;li&gt;Faculty Affiliate, Science, Technology, and Public Policy program (STPP)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Harvard University, Department of Government, Postdoctoral Fellow (2021-2023)&lt;/p&gt;
 &lt;ul&gt;
@@ -168,14 +168,14 @@ ul.task-list li input[type=&#34;checkbox&#34;] {
 &lt;section id=&#34;peer-reviewed-publications&#34; class=&#34;level1&#34;&gt;
 &lt;h1&gt;PEER-REVIEWED PUBLICATIONS&lt;/h1&gt;
 &lt;div class=&#34;hanging-indent&#34;&gt;
-&lt;p&gt;&lt;code&gt;6.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/correspondence/&#34;&gt;“The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies” with Justin Grimmer and Eleanor Powell. &lt;em&gt;American Journal of Political Science&lt;/em&gt; (Forthcoming)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;6.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1111/ajps.70031&#34;&gt;“The Effects of Shifting Priorities and Capacity on Policy Work and Constituency Service: Evidence from a Census of Legislator Requests to U.S. Federal Agencies” with Justin Grimmer and Eleanor Powell. &lt;em&gt;American Journal of Political Science&lt;/em&gt; (2026)&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Replication Data: &lt;a href=&#34;https://doi.org/10.7910/DVN/LWOCWO&#34; class=&#34;uri&#34;&gt;https://doi.org/10.7910/DVN/LWOCWO&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;5.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1017/pan.2023.4&#34;&gt;“Mapping Literature with Networks: An Application to Redistricting” with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. &lt;em&gt;Political Analysis&lt;/em&gt; (2023)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;4.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer in &lt;em&gt;Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking&lt;/em&gt;, ed.&amp;nbsp;Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2022)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;3.&lt;/code&gt; &lt;a href=&#34;https://link.springer.com/article/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking” with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt; 9:425–435 (2020)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2.&lt;/code&gt; &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/1086026619858874&#34;&gt;“Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 96–125 (2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;5.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/ferc/&#34;&gt;“Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission” with Eleanor Powell and Justin Grimmer in &lt;em&gt;Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking&lt;/em&gt;, ed.&amp;nbsp;Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2023)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;4.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1017/pan.2023.4&#34;&gt;“Mapping Literature with Networks: An Application to Redistricting” with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. &lt;em&gt;Political Analysis&lt;/em&gt; (2023)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;3.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1057/s41309-020-00094-w&#34;&gt;“Data and Methods for Analyzing Interest Group Influence in Rulemaking” with Daniel Carpenter, Brian Libgober, Steven Rashin. &lt;em&gt;Interest Groups &amp;amp; Advocacy&lt;/em&gt; 9:425–435 (2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2.&lt;/code&gt; &lt;a href=&#34;https://doi.org/10.1177/1086026619858874&#34;&gt;“Do Private Regulations Ratchet Up? How to Distinguish Types of Regulatory Stringency and Patterns of Change” with Benjamin Cashore and Constance McDermott in &lt;em&gt;Organization &amp;amp; Environment&lt;/em&gt; 33:1 96–125 (2020)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;1.&lt;/code&gt; &lt;a href=&#34;https://judgelord.github.io/research/boreal&#34;&gt;“Non-domestic Sources of Canadian Boreal Forest Policy: Integrating Theories of Internationalization and Pathways of Policy Change” with Irene Scher and Benjamin Cashore in &lt;em&gt;Forests Under Pressure: Local Responses to Global Issues&lt;/em&gt; (2015)&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/section&gt;
@@ -282,7 +282,7 @@ ul.task-list li input[type=&#34;checkbox&#34;] {
 &lt;h1&gt;SERVICE&lt;/h1&gt;
 &lt;p&gt;PhD Program Committee, Ford School of Public Policy (2024-2026)&lt;/p&gt;
 &lt;p&gt;Water@Michigan Faculty Steering Committee&lt;/p&gt;
-&lt;p&gt;U.S. State Department/Weiser Diplomacy Center Diplomacy Lab, with the Department of the Treasury. (2024-2025)&lt;/p&gt;
+&lt;p&gt;Faculty Supervisor, U.S. State Department/Weiser Diplomacy Center Diplomacy Lab project assisting the Department of the Treasury adoption of Office of Management and Budget (OMB) circulars A-4 2003 and 2023 (2024-2025)&lt;/p&gt;
 &lt;p&gt;Masters Program Committee, Ford School of Public Policy (2023-2024)&lt;/p&gt;
 &lt;p&gt;Reviewer: &lt;em&gt;American Political Science Review&lt;/em&gt;, &lt;em&gt;Journal of Public Administration Research and Theory&lt;/em&gt;, &lt;em&gt;Journal of Politics&lt;/em&gt;, &lt;em&gt;Journal of Public Policy&lt;/em&gt;, &lt;em&gt;Perspectives on Politics&lt;/em&gt;, &lt;em&gt;Regulation &amp;amp; Governance&lt;/em&gt;, &lt;em&gt;Current Opinion in Sustainability&lt;/em&gt;, &lt;em&gt;Journal of Forest Policy and Economics&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Social Media Editor (2017-2024), American Political Science Association section on Science, Technology, and Environmental Politics (APSA STEP)&lt;/p&gt;
