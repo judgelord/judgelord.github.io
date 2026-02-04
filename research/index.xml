@@ -31,6 +31,24 @@
     </item>
     
     <item>
+      <title>Mapping Literature with Networks: An Application to Redistricting</title>
+      <link>https://judgelord.github.io/research/netlit/</link>
+      <pubDate>Wed, 31 Dec 1969 19:33:43 -0500</pubDate>
+      <guid>https://judgelord.github.io/research/netlit/</guid>
+      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in scientific research.
+Systematically reviewing scholarship is especially challenging for researchers who may lack domain expertise, including junior scholars or those exploring new substantive territory.
+Conversely, senior scholars may rely on longstanding assumptions and social networks that exclude new research.
+In both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in selecting relevant prior work or then identifying patterns across their sample.
+To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework for reviewing scholarship.
+In our method, we consider a literature as a network of recurring concepts (nodes) and theorized relationships among them (edges).
+Network statistics and visualization allow researchers to see patterns and offer reproducible characterizations of assertions about the major themes in existing literature.
+Critically, our approach is systematic and powerful but also low-cost; it requires researchers to enter relationships they observe in prior studies into a simple spreadsheet — a task accessible to new and experienced researchers alike.
+Our &lt;a href=&#34;https://github.com/judgelord/netlit&#34;&gt;open-source R package, &lt;code&gt;netlit&lt;/code&gt;&lt;/a&gt; enables researchers to leverage powerful network analysis while minimizing software-specific knowledge.
+We demonstrate this approach by reviewing redistricting literature.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public Pressure and Congressional Oversight</title>
       <link>https://judgelord.github.io/research/oversight/</link>
       <pubDate>Wed, 31 Dec 1969 19:33:42 -0500</pubDate>
@@ -81,24 +99,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://judgelord.github.io/research/ej/</guid>
       <description>&lt;p&gt;Political movements shape policy agendas, often reframing policy debates in distributive justice terms.  To examine how this affects policymaking, I assess the aggregate impact of environmental justice advocacy on U.S. federal policy from 1993 to 2020 using a new dataset of 13,179 draft and final rule pairs from 40 agencies and 42 million public comments on these rules. I find that when groups raise distributive justice concerns, final rules more often change to address these concerns. Supporting theories about how institutions affect receptivity to issue frames, agencies with processes for addressing environmental justice are more responsive. The scale of mobilization also matters; when larger coalitions raise environmental justice concerns, policy texts are more likely to change. However, within the movement, elite organizations have more lobbying success. These findings suggest that policymaking is systematically affected by which groups make distributive justice claims, their alignment with institutional biases, and the levels of public pressure they mobilize.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mapping Literature with Networks: An Application to Redistricting</title>
-      <link>https://judgelord.github.io/research/netlit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://judgelord.github.io/research/netlit/</guid>
-      <description>&lt;p&gt;Understanding the gaps and connections across existing theories and findings is a perennial challenge in scientific research.
-Systematically reviewing scholarship is especially challenging for researchers who may lack domain expertise, including junior scholars or those exploring new substantive territory.
-Conversely, senior scholars may rely on longstanding assumptions and social networks that exclude new research.
-In both cases, ad hoc literature reviews hinder accumulation of knowledge. Scholars are rarely systematic in selecting relevant prior work or then identifying patterns across their sample.
-To encourage systematic, replicable, and transparent methods for assessing literature, we propose an accessible network-based framework for reviewing scholarship.
-In our method, we consider a literature as a network of recurring concepts (nodes) and theorized relationships among them (edges).
-Network statistics and visualization allow researchers to see patterns and offer reproducible characterizations of assertions about the major themes in existing literature.
-Critically, our approach is systematic and powerful but also low-cost; it requires researchers to enter relationships they observe in prior studies into a simple spreadsheet — a task accessible to new and experienced researchers alike.
-Our &lt;a href=&#34;https://github.com/judgelord/netlit&#34;&gt;open-source R package, &lt;code&gt;netlit&lt;/code&gt;&lt;/a&gt; enables researchers to leverage powerful network analysis while minimizing software-specific knowledge.
-We demonstrate this approach by reviewing redistricting literature.&lt;/p&gt;
 </description>
     </item>
     

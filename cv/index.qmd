@@ -103,10 +103,10 @@ Reed College, B.A. in Political Science (2009)
 
 - Replication Data: <https://doi.org/10.7910/DVN/LWOCWO>
 
-`5.` ["Campaign Contributions and Bureaucratic Oversight: A Case Study of the Federal Energy Regulatory Commission" with Eleanor Powell and Justin Grimmer in *Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking*, ed. Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2023)](https://judgelord.github.io/research/ferc/)
+`5.` ["Legislator Advocacy on Behalf of Constituents and Corporate Donors: A Case Study of the Federal Energy Regulatory Commission" with Eleanor Powell and Justin Grimmer in *Accountability Reconsidered: Voters, Interests, and Information in U.S. Policymaking*, ed. Charles M. Cameron, Brandice Canes-Wrone, Sanford C. Gordon, Gregory A. Huber, Cambridge University Press (2023)](https://judgelord.github.io/research/ferc/)
 
 
-`4.` ["Mapping Literature with Networks: An Application to Redistricting" with Adeline Lo, Kyler Hudson, Kenneth R. Mayer. *Political Analysis* (2023)](https://doi.org/10.1017/pan.2023.4)
+`4.` ["Mapping Literature with Networks: An Application to Redistricting" with Adeline Lo, Kyler Hudson, Kenneth R. Mayer (2023)](https://doi.org/10.1017/pan.2023.4) *Political Analysis*.  319(4): 669-678.
 
 
 `3.` ["Data and Methods for Analyzing Interest Group Influence in Rulemaking" with Daniel Carpenter, Brian Libgober, Steven Rashin. *Interest Groups & Advocacy* 9:425–435 (2020)](https://doi.org/10.1057/s41309-020-00094-w)
@@ -126,7 +126,7 @@ Reed College, B.A. in Political Science (2009)
 
 ["Words and Deeds: Evaluating How Legislators’ Constituent-Facing Communication about Federal Agencies Compares to Their Behind-the-Scenes Work with Federal Agencies" with Jessie Munson, Rochelle Snyder, Eleanor Neff Powell]() (MPSA 2025, under review)
 
-["Inequality in Administrative Democracy: Methods and Evidence from Financial Rulemaking" with  Steven Rashin,  Brian Libgober, Jacob Waggoner,  Angelo Dagonel, Christopher T. Kenny, Susan Webb Yackee, and Daniel Carpenter ](https://judgelord.github.io/research/finreg/) (APSA 2021, submitted) 
+["Inequality in Administrative Democracy: Methods and Evidence from Financial Rulemaking" with  Steven Rashin,  Brian Libgober, Jacob Waggoner,  Angelo Dagonel, Christopher T. Kenny, Susan Webb Yackee, and Daniel Carpenter ](https://judgelord.github.io/research/finreg/) (APSA 2022, submitted) 
 
 - *Herbert Kaufman Award for best paper in Public Administration presented at APSA 2022* 
 
